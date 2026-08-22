@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-23",
+  "asOfIct": "2026-08-23 weekend reprint (Fri 21 Aug)",
+  "fearGreed": {
+    "value": 55.17,
+    "label": "Neutral",
+    "source": "CNN Fear & Greed (reprint of Fri 21 Aug; CNN page had no live weekend number)",
+    "read": "Reprint of Friday 21 August. CNN page had no live number."
+  },
+  "nbis": [],
+  "aiInfra": [],
+  "macro": [],
+  "soWhat": []
+}

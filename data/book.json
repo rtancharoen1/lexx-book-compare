@@ -1,0 +1,94 @@
+{
+  "names": [
+    {
+      "id": "googl",
+      "displayName": "GOOGL",
+      "legalName": "Alphabet",
+      "ticker": "GOOGL",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "amzn",
+      "displayName": "AMZN",
+      "legalName": "Amazon",
+      "ticker": "AMZN",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "meta",
+      "displayName": "META",
+      "legalName": "Meta",
+      "ticker": "META",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "nbis",
+      "displayName": "NBIS",
+      "legalName": "Nebius",
+      "ticker": "NBIS",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "nvda",
+      "displayName": "NVDA",
+      "legalName": "NVIDIA",
+      "ticker": "NVDA",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "mu",
+      "displayName": "MU",
+      "legalName": "Micron",
+      "ticker": "MU",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "sk-hynix",
+      "displayName": "SK Hynix",
+      "legalName": "SK hynix Inc.",
+      "ticker": "000660.KS",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "spacex",
+      "displayName": "SpaceX",
+      "legalName": "Space Exploration Technologies",
+      "ticker": "SPCX",
+      "kind": "public",
+      "thesis": "",
+      "whatChanged": "",
+      "context": ""
+    },
+    {
+      "id": "k3",
+      "displayName": "K3 — ticker TBD",
+      "legalName": "K3",
+      "ticker": null,
+      "kind": "tbd",
+      "thesis": "",
+      "whatChanged": "",
+      "context": "Placeholder. A public ticker has not been assigned, so there is no symbol and no price."
+    }
+  ]
+}
