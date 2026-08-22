@@ -1,14 +1,36 @@
 {
   "date": "2026-08-23",
-  "asOfIct": "2026-08-23 weekend reprint (Fri 21 Aug)",
+  "asOfIct": "2026-08-23T02:10:17+07:00",
   "fearGreed": {
     "value": 55.17,
     "label": "Neutral",
-    "source": "CNN Fear & Greed (reprint of Fri 21 Aug; CNN page had no live weekend number)",
-    "read": "Reprint of Friday 21 August. CNN page had no live number."
+    "source": "https://www.ideal-investisseur.fr/marches/macro/cnn-fear-greed-index.html",
+    "read": "CNN page had no score. Idéal Investisseur (SENTIMENT cnn_fg_stocks) prints 55.17 as of Fri 21 Aug 17:35 close — Neutral on the usual 45–55 band. Adanos reprints CNN as 55 and tags it Greed; Benzinga had Thu 20 Aug at 52.5 Neutral."
   },
-  "nbis": [],
-  "aiInfra": [],
-  "macro": [],
-  "soWhat": []
+  "nbis": [
+    {"headline":"NBIS last US cash print Fri 21 Aug $219.13 (−0.45% / −$0.98 vs Thu $220.11)","why":"New tape vs the Thu $220.11 already sent: session range $217.85–$230.81, volume ~20.1–20.2M. Google Finance market cap $59.57B; Yahoo Finance $55.637B. After-hours $219.00.","source":"Google Finance","url":"https://www.google.com/finance/quote/NBIS:NASDAQ"},
+    {"headline":"Yahoo still shows $55.637B cap and Fri close $219.13 after the convert week","why":"Same Friday close as Google Finance, different cap convention than GF’s $59.57B — useful because Lexx already has Yahoo $55.9B / GF $59.8B from Thu.","source":"Yahoo Finance","url":"https://finance.yahoo.com/quote/NBIS/"},
+    {"headline":"Griffin Friday letter: Citadel unwound >80% of Situational Awareness risk via 100+ blocks >$4B","why":"CNBC confirmed the letter. A Stocktwits recap on TradingView lists NBIS among SA’s top five disclosed names (with SNDK, MU, BE, TSM) and says most of those, except TSM, finished Friday lower. Citadel did not name which stocks were in the blocks — do not treat NBIS as a confirmed Citadel print.","source":"CNBC","url":"https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html"},
+    {"headline":"Company still expects $5.0B converts and the old-note exchange to settle Mon 24 Aug","why":"Not a new pricing story — the next hard calendar date. IR/SEC exhibit: $3.0B 0.50% 2030 + $2.0B 4.50% 2034, greenshoe up to $450M / $300M; exchange on or about 24 Aug, not contingent on the new notes.","source":"Nebius IR / SEC exhibit","url":"https://nebius.com/newsroom/nebius-group-announces-pricing-of-upsized-private-offering-of-5-0-billion-of-convertible-senior-notes"}
+  ],
+  "aiInfra": [
+    {"headline":"NVDA Fri close $214.72 (−0.98%); Google Finance flags Q2 FY27 call Wed 26 Aug 5:00 p.m. ET","why":"GF consensus on the quote page: revenue $92.07B, EPS $2.09. Motley Fool (19 Aug, page still current into the weekend) cites company May guide $91.0B ±2% and Yahoo Street ~$91.9B / $2.08, guide assumes no China data-center compute and ~75% gross margin. GF also lists Jefferies $300 and Benchmark $335 maintained 21 Aug.","source":"Google Finance / Motley Fool","url":"https://www.google.com/finance/quote/NVDA:NASDAQ","ticker":"NVDA"},
+    {"headline":"Fri 21 Aug: NVIDIA takes minority stake in Cloverleaf Infrastructure (terms undisclosed)","why":"Company PR: Cloverleaf will use NVIDIA DSX for site, power, cooling and compute decisions on GW-scale US sites. Reuters (via Yahoo) said WSJ had earlier put the check at several hundred million dollars — that figure is attributed, not in the PR. Capex/power bottleneck story into Wednesday’s print.","source":"Cloverleaf / PR Newswire","url":"https://www.prnewswire.com/news-releases/cloverleaf-infrastructure-forms-strategic-partnership-with-nvidia-to-accelerate-data-center-infrastructure-development-302857329.html","ticker":"NVDA"},
+    {"headline":"MU Fri close $966.78 (−0.77% / −$7.55 vs Thu $974.33); GF cap $1.09T","why":"Gave back part of Thu’s $974.33 bounce. Range $958.26–$989.96. Memory tape into SK hynix’s Korea bid and NVDA week.","source":"Google Finance","url":"https://www.google.com/finance/quote/MU:NASDAQ","ticker":"MU"},
+    {"headline":"SK hynix Fri close ₩1,730,000 (+2.31% / +₩39,000); KOSPI 6,912.95 (+0.88%)","why":"New vs Thu ₩1,691,000 and Fri-morning live ₩1,756,000. Yonhap: Samsung +3.87% to ₩281,500 on return-plan hopes; won 1,386.5 per USD, up 6.1 won. Buyback was 19 Aug — Friday is the follow-through close.","source":"Yonhap / Google Finance","url":"https://en.yna.co.kr/view/AEN20260821006951320","ticker":"000660"},
+    {"headline":"SPCX Fri close $136.97 (+2.22% / +$2.97); GF cap $1.86T","why":"Friday print is back above the $135 IPO after Thursday’s unlock dip. Yahoo week wrap: shares rose Friday but were down over 2% on the week after ~319M shares became eligible Thu 20 Aug. Range $131.22–$137.35.","source":"Google Finance","url":"https://www.google.com/finance/quote/SPCX:NASDAQ","ticker":"SPCX"},
+    {"headline":"Hyperscalers mixed Fri: GOOGL $344.82 (+1.22%), META $549.90 (+0.75%), AMZN $258.63 (−0.57%)","why":"GF caps: GOOGL $4.20T, META $1.40T, AMZN $2.79T. No verified company-specific Friday catalyst on these three that beats the tape — treat as risk-appetite read vs NVDA/memory.","source":"Google Finance","url":"https://www.google.com/finance/quote/GOOGL:NASDAQ","ticker":"GOOGL"}
+  ],
+  "macro": [
+    {"headline":"CNN Fear & Greed: no number on CNN’s page; Fri 21 Aug reprint 55.17 Neutral","why":"Fetched cnn.com/markets/fear-and-greed — no live score. Idéal Investisseur 55.17 (21/08/2026 17h35). Adanos lists 55 and tags Greed; standard CNN bands put 55 in Neutral. Weekend has no new official print.","source":"Idéal Investisseur / CNN / Adanos","url":"https://www.cnn.com/markets/fear-and-greed"},
+    {"headline":"US stocks rebound Friday; 10-year yield still up at 4.73%","why":"AP via BNN Bloomberg: S&P 500 7,674.37 (+33.21 / +0.4%), Dow 53,277.01 (+517.80), Nasdaq 26,180.45 (+113.29 / +0.4%). 10-year 4.73% from 4.69% Thu; 30-year near highest since 2007 as Treasury’s larger coupon buybacks faded. Brent $92.67 (+0.8%). Growth/AI duration still fighting the long end.","source":"Associated Press / BNN Bloomberg","url":"https://www.bnnbloomberg.ca/markets/2026/08/21/us-stocks-rise-as-the-bond-markets-big-swings-ease-a-bit/"},
+    {"headline":"Kansas City Fed: Jackson Hole is 27–29 Aug, theme “Financial Innovation: Implications for Payments and Policy”","why":"Official KC Fed page — dates only, no speech text yet. Next week’s rate/USD event after this weekend’s wrap; markets are already trading yields into it.","source":"Federal Reserve Bank of Kansas City","url":"https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"},
+    {"headline":"Seoul Friday: chips lift KOSPI; won firmer vs USD","why":"Yonhap: KOSPI +0.88% to 6,912.95; SK hynix +2.31%, Samsung +3.87% on shareholder-return hopes; foreign+retail net sellers ₩1.34T combined. Won 1,386.5, +6.1. Korea semis still bid while US memory/NBIS digested supply.","source":"Yonhap News Agency","url":"https://en.yna.co.kr/view/AEN20260821006951320"}
+  ],
+  "soWhat": [
+    "NBIS Fri $219.13 (−0.45%) is a quiet session after the convert week; Yahoo cap $55.637B / GF $59.57B. Next hard date is Mon 24 Aug settle for the $5.0B notes and the old-note share exchange — not a new deal, just the cash/share print.",
+    "Citadel’s Friday letter is real (CNBC: >80% SA risk off, 100+ blocks, >$4B). Recaps list NBIS among SA’s old top names; Griffin did not disclose the block list. Treat any “Citadel sold NBIS Friday” line as unverified.",
+    "AI-infra week is NVDA-centric: Fri $214.72, Cloverleaf minority stake (terms not in the PR), print Wed 26 Aug after the close. Street on GF is $92.07B / $2.09 vs company $91.0B ±2% guide (Fool).",
+    "Memory split: SK hynix Fri ₩1,730,000 (+2.31%) and KOSPI +0.88% vs MU $966.78 (−0.77%). Macro ceiling is still the long end (10y 4.73%, 30y near a 2007 high). Fear & Greed last reprint 55.17 Neutral Friday. Jackson Hole 27–29 Aug."
+  ]
 }

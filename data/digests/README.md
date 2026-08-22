@@ -51,4 +51,4 @@ Do not change `value`, headlines, or URLs while copying.
 
 ## 2026-08-23
 
-Weekend reprint. Fear & Greed is **55.17 Neutral** from Friday 21 August; the CNN page had no live weekend number. Story arrays in this tree are empty because the full Deki JSON was not available to copy here — do not invent the 4 / 6 / 4 items. Replace this file with Deki’s original when you have it.
+Weekend reprint. Fear & Greed is **55.17 Neutral** from Friday 21 August; the CNN page had no live weekend number. The file in this tree is Deki’s original: 4 NBIS, 6 AI-infra, 4 macro, 4 soWhat. Do not rewrite numbers or headlines.
