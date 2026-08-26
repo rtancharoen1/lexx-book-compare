@@ -1,0 +1,254 @@
+{
+  "date": "2026-08-26",
+  "asOfIct": "2026-08-26T07:15:00+07:00",
+  "fearGreed": {
+    "value": 54.63,
+    "label": "Neutral",
+    "source": "https://www.ideal-investisseur.fr/marches/macro/cnn-fear-greed-index.html",
+    "read": "CNN page fetched this morning still has no live numeric score. Idéal Investisseur (SENTIMENT cnn_fg_stocks) reprints 54.63 as of Tue 25 Aug 17:35 close — Neutral, variation 0.00% vs prior on that page. Tuesday file used Mon 24 reprint 55.17 Neutral. This is the first dated Tue 25 print."
+  },
+  "nbis": [
+    {
+      "headline": "First full post-close cash session: Tue 25 Aug $221.97 (+5.24% / +$11.06); AH $220.11 (−0.84%); GF cap $60.34B",
+      "why": "Google Finance Closed Aug 25, 4:00:00 PM GMT-4 (ET). Open $217.96, range $213.55–$223.44, volume 13.54M, shares outstanding 238.40M. Monday settle-day cash was $210.91 (−3.75%) / cap $57.34B. This is the first full US cash print after the 24 Aug close 6-K, not a Monday reprint. AH stamp 7:59 PM ET.",
+      "source": "Google Finance",
+      "url": "https://www.google.com/finance/quote/NBIS:NASDAQ"
+    },
+    {
+      "headline": "No NEW NBIS 6-K after the 24 Aug close filing; AGM was scheduled Tue 25 3 p.m. CET with no results 6-K fetched",
+      "why": "SEC company search still lists 0001104659-26-100347 (accepted 2026-08-24 17:07:32 ET) as the latest 6-K. Next older is the 20 Aug pricing 6-K 0001104659-26-098924. Nebius newsroom still leads with the Aug 24 close PR. July 27 notice 6-K scheduled the 2026 AGM for Aug 25 3 p.m. CET in Amsterdam — no AGM-results 6-K on EDGAR this morning. Do not re-treat the close 6-K as news.",
+      "source": "SEC EDGAR / Nebius IR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=6-K&dateb=&owner=include&count=10"
+    },
+    {
+      "headline": "Citadel/Griffin SA unwind still not a confirmed NBIS block",
+      "why": "No new CNBC letter or filing since Friday naming NBIS on the >$4B / 100+ block tape. Recaps still point at the Aug 21 Griffin letter. Griffin did not disclose the names. Tuesday bounce is the tape, not a named Griffin print.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Q2 FY27 results are NOT OUT; official IR: written CFO ~1:20 p.m. PT, call 2 p.m. PT / 5 p.m. ET today Wed 26 Aug. Street $92.18B / $2.09 is ESTIMATE only. Tue cash $213.05 (+2.19%)",
+      "why": "NVIDIA Newsroom (dated July 29, 2026) still times the call for Wednesday Aug 26 at 2 p.m. PT (5 p.m. ET); Colette Kress written commentary posts immediately after results are announced at approximately 1:20 p.m. PT. Google Finance: 'Waiting for the earnings call', EPS/Est − / $2.09, revenue − / $92.18B, banner 'Q2 2027 earnings • 5:00 PM tomorrow' as of Tue evening ET. Newsroom latest items are Aug 25 Jetson Orin Nano 2 and Aug 24 Groq/SpaceXAI — no results PR. Do not treat street or company guide as printed results. Tue cash Closed Aug 25 4:00 PM GMT-4, AH $213.70 (+0.31%) at 7:59 PM ET, cap $5.16T, range $210.11–$214.73, volume 122.23M.",
+      "source": "NVIDIA Newsroom / Google Finance",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "SK hynix official Tue 25 close ₩1,678,000 (+0.42% / +₩7,000) at 15:30 KST; recovered from the Tuesday-morning −4.91% live print. Wed pre-market ₩1,699,000 (+1.25%) at 08:20 KST — no verified live Wed cash print",
+      "why": "Google Finance and Yahoo still stamp Aug 25 3:30:29 PM GMT+9; GF this morning shows 0.00% / volume 0.00 on that Tue close. StockAnalysis history: Tue open ₩1,598,000, range ₩1,557,000–₩1,687,000, volume 4,013,752; Mon close ₩1,671,000. Tuesday digest used a live 09:43 KST print of ₩1,589,000 (−4.91%) — the official cash session closed green. Aju Press Wed 08:28 KST: pre-market at 08:20 a.m. SK hynix +₩21,000 / +1.25% to ₩1,699,000. Seoul regular session is open as of 09:14 KST; do not treat the pre-market print as official cash.",
+      "source": "Google Finance / StockAnalysis / Aju Press",
+      "url": "https://www.google.com/finance/quote/000660:KRX",
+      "ticker": "000660"
+    },
+    {
+      "headline": "MU Tue cash $932.97 (+2.48% / +$22.54); AH $930.25 — bounce after Monday’s −5.83%; no new Micron IR fetched",
+      "why": "Google Finance Closed Aug 25 4:00:01 PM GMT-4, cap $1.05T, range $916.30–$946.67, volume 19.14M. Monday cash was $910.43. Barron's/Fool long-term-contract copy points back to the June SCA / $100B take-or-pay book, not a fresh Aug 25 company filing. Skip as recap.",
+      "source": "Google Finance",
+      "url": "https://www.google.com/finance/quote/MU:NASDAQ",
+      "ticker": "MU"
+    },
+    {
+      "headline": "Hyperscalers mixed Tue: GOOGL $346.96 (−0.32%), META $570.05 (+1.97%), AMZN $261.06 (−0.39%)",
+      "why": "Google Finance Closed Aug 25 4:00:01 PM GMT-4. GOOGL −$1.10, AH $346.18, cap $4.23T. META +$11.03, AH $567.76, cap $1.45T. AMZN −$1.01, AH $260.55, cap $2.82T. No verified new company IR/SEC catalyst on these three since Tuesday morning that beats the cash print. Evercore $22B META AI note is analyst copy, not a Meta filing.",
+      "source": "Google Finance",
+      "url": "https://www.google.com/finance/quote/GOOGL:NASDAQ",
+      "ticker": "GOOGL"
+    },
+    {
+      "headline": "SPCX Tue cash $137.95 (+2.19% / +$2.95); company + Louisiana announced $100B Starbase Louisiana on Tue 25 Aug",
+      "why": "Google Finance Closed Aug 25 4:00:00 PM GMT-4, cap $1.87T, range $136.10–$139.75, AH $137.82. AP (The Business Journal, 25 Aug 2:39 PM): SpaceX and state officials announced a $100B spaceport on ~125,000 acres of former Exxon land in Vermilion Parish; fourth and largest launch site; construction 2027, first launch as early as 2029; LED release says thousands of Starship flights/year; Shotwell spoke. Reuters search headline matches. This is a new Tue company/state announcement, not the Aug 4 Starmind recap.",
+      "source": "Google Finance / Associated Press",
+      "url": "https://thebusinessjournal.com/spacex-100-billion-louisiana-spaceport/",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "NVIDIA Newsroom Aug 24: SpaceXAI will deploy Vera CPUs and build Grok infra on Vera Rubin; first-gen Starmind satellite planned on an optimized Vera Rubin NVL72",
+      "why": "Official NVIDIA PR dated Aug 24, 2026 — after Tuesday morning's 08:20 ICT stamp, so it was not in the Tuesday file (that file treated Starmind as an Aug 4 recap). Ian Buck and SpaceXAI president Mike Nicolls quoted. This is a product/customer PR, not Q2 results. Do not mix with today's still-unprinted earnings.",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale",
+      "ticker": "NVDA"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed: no score on CNN’s page; Tuesday official reprint is 54.63 Neutral (was 55.17 Neutral Mon 24)",
+      "why": "Fetched cnn.com/markets/fear-and-greed this morning — indicators copy, no numeric index. Idéal Investisseur last update 25/08/2026 17h35, value 54,63, series cnn_fg_stocks. Tuesday digest still used the Mon 24 55.17 reprint. Do not invent a live Wed morning CNN print.",
+      "source": "Idéal Investisseur / CNN",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "US 10-year: Trading Economics prints 4.64% (Actual 4.6390); eased ~6 bp vs the Tuesday-file 4.71% stamp",
+      "why": "TE page fetched this morning: Actual 4.6390; table US 10Y 4.64 dated Aug/26. Body: yield eased to 4.64% on Aug 25, a 0.06 percentage-point decrease from the previous session, off the 20-month high of 4.75% on Aug 21. Oil down + Treasury buybacks + Warsh/Jackson Hole still on the long end. Tuesday digest used 4.71% / 4.7120 dated Aug/25 — do not mix as the same stamp. Aju Press separately cited 4.623% overnight; that is not the TE print used here.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Jackson Hole confirmed 27–29 Aug (KC Fed); Warsh Friday; July PCE due later today US time — not printed at this stamp",
+      "why": "Kansas City Fed page fetched: 2026 symposium Aug 27–29, topic 'Financial Innovation: Implications for Payments and Policy.' Business Times Reuters reprint (published Wed 05:49): investors will watch Fed Chair Kevin Warsh’s Jackson Hole speech Friday; PCE report on Wednesday could clarify price pressures. Consumer confidence fell in August to a seven-month low (same wrap). No speech text. PCE is not out at 07:15 ICT / 20:14 ET Tuesday evening.",
+      "source": "Kansas City Fed / Business Times (Reuters)",
+      "url": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"
+    },
+    {
+      "headline": "USDTHB: BOT official Tue 25 Aug reference 32.7580; Google Finance live 32.6925 as of 00:11 UTC Wed 26",
+      "why": "Bank of Thailand FM_FX_001_S3 last updated 25 Aug 2026 18:00 (ICT). USD reference 32.7580 vs Mon 24 32.6480 and Fri 21 32.7430; mid rate 32.7277. Google Finance USD/THB 32.6925 (+0.07% / +0.0220) timestamped Aug 26, 12:11:19 AM UTC (= 07:11 ICT / 08:11 UTC+8). Two different stamps — do not blend.",
+      "source": "Bank of Thailand / Google Finance",
+      "url": "https://app.bot.or.th/BTWS_STAT/statistics/BOTWEBSTAT.aspx?language=ENG&reportID=123"
+    },
+    {
+      "headline": "Wall Street Tue 25: Dow +0.30% to 53,577.40, S&P +0.32% to 7,677.24, Nasdaq +0.66% to 26,151.30 — tech rebound into NVDA, yields and oil down",
+      "why": "Business Times reprint of Reuters New York Aug 25 wrap. Most megacaps higher; NVDA +2.2%, META almost +2%, MU +2.5%, chips index +1.4% after Monday’s −2.7%. Consumer confidence seven-month low. LSEG: money markets pricing one 25 bp hike by year-end. Volume 14.32B shares vs 16.4B 20-day average. This is the closed Tue cash tape, not a Wed open.",
+      "source": "Business Times / Reuters",
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-higher-tech-rebounds-nvidia-results"
+    }
+  ],
+  "soWhat": [
+    "NBIS first full post-close cash session Tue 25: $221.97 (+5.24%), GF cap $60.34B. NO new 6-K after 0001104659-26-100347 (accepted 17:07 ET Mon 24). Converts still closed $5.75B greenshoe-on. Griffin still not a named block. AGM was slated Tue 25 15:00 CET — no results 6-K fetched.",
+    "NVDA Q2 FY27 results are NOT OUT. Official IR: written CFO commentary ~1:20 p.m. PT, call 2 p.m. PT / 5 p.m. ET today Wed 26 Aug. Street $92.18B / $2.09 on GF is ESTIMATE only — do not treat as printed. Tue cash $213.05 (+2.19%), AH $213.70.",
+    "Watchlist Tue 25 ET cash: GOOGL $346.96 (−0.32%), META $570.05 (+1.97%), AMZN $261.06 (−0.39%), MU $932.97 (+2.48%), SPCX $137.95 (+2.19%). NEW: SpaceX + Louisiana announced $100B Starbase Louisiana (construction 2027, first launch 2029). SK hynix official Tue close ₩1,678,000 (+0.42%) at 15:30 KST; Wed pre-market ₩1,699,000 at 08:20 KST — no verified live Wed cash print on GF yet.",
+    "Macro: Fear & Greed 54.63 Neutral (Tue 25 17:35 reprint; CNN page still blank). 10y TE 4.64% / 4.6390 (eased vs Tuesday-file 4.71%). USDTHB BOT Tue 18:00 ICT ref 32.7580; GF 32.6925 at 00:11 UTC. Jackson Hole 27–29 Aug (KC Fed), Warsh Friday. July PCE due later today US time — not printed at 07:15 ICT."
+  ],
+  "quotes": {
+    "note": "US cash is official Tue 25 Aug 2026 close (16:00 ET = Wed 04:00 UTC+8 / 03:00 ICT). SK hynix official cash is Tue 25 15:30 KST; Wed pre-market is separately labeled. USDTHB has two stamps (BOT official vs GF live). Every number below was read from the listed page. NVDA street $92.18B / $2.09 is an estimate, not a result.",
+    "asOfIct": "2026-08-26T07:15:00+07:00",
+    "NBIS": {
+      "lastCash": 221.97,
+      "lastCashChgPct": 5.24,
+      "lastCashChgAbs": 11.06,
+      "lastCashDate": "2026-08-25",
+      "lastCashStamp": "2026-08-25T16:00:00-04:00",
+      "afterHours": 220.11,
+      "afterHoursChgPct": -0.84,
+      "afterHoursChgAbs": -1.86,
+      "afterHoursStamp": "2026-08-25T19:59:00-04:00",
+      "gfCap": "60.34B",
+      "sharesOutstanding": "238.40M",
+      "open": 217.96,
+      "high": 223.44,
+      "low": 213.55,
+      "volume": "13.54M",
+      "source": "https://www.google.com/finance/quote/NBIS:NASDAQ"
+    },
+    "NVDA": {
+      "lastCash": 213.05,
+      "lastCashChgPct": 2.19,
+      "lastCashChgAbs": 4.57,
+      "lastCashDate": "2026-08-25",
+      "lastCashStamp": "2026-08-25T16:00:00-04:00",
+      "afterHours": 213.7,
+      "afterHoursChgPct": 0.31,
+      "afterHoursChgAbs": 0.65,
+      "afterHoursStamp": "2026-08-25T19:59:00-04:00",
+      "gfCap": "5.16T",
+      "open": 211.02,
+      "high": 214.73,
+      "low": 210.11,
+      "volume": "122.23M",
+      "resultsStatus": "NOT_YET",
+      "officialCall": "2026-08-26 14:00 PT / 17:00 ET",
+      "officialWrittenCfo": "approximately 13:20 PT after results announced",
+      "streetRevEst": "92.18B",
+      "streetEpsEst": 2.09,
+      "streetNote": "Google Finance estimate only. Not a printed result.",
+      "source": "https://www.google.com/finance/quote/NVDA:NASDAQ",
+      "irSource": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195"
+    },
+    "GOOGL": {
+      "lastCash": 346.96,
+      "lastCashChgPct": -0.32,
+      "lastCashChgAbs": -1.1,
+      "lastCashDate": "2026-08-25",
+      "afterHours": 346.18,
+      "afterHoursChgPct": -0.22,
+      "afterHoursChgAbs": -0.78,
+      "gfCap": "4.23T",
+      "source": "https://www.google.com/finance/quote/GOOGL:NASDAQ"
+    },
+    "AMZN": {
+      "lastCash": 261.06,
+      "lastCashChgPct": -0.39,
+      "lastCashChgAbs": -1.01,
+      "lastCashDate": "2026-08-25",
+      "afterHours": 260.55,
+      "afterHoursChgPct": -0.2,
+      "afterHoursChgAbs": -0.51,
+      "gfCap": "2.82T",
+      "source": "https://www.google.com/finance/quote/AMZN:NASDAQ"
+    },
+    "META": {
+      "lastCash": 570.05,
+      "lastCashChgPct": 1.97,
+      "lastCashChgAbs": 11.03,
+      "lastCashDate": "2026-08-25",
+      "afterHours": 567.76,
+      "afterHoursChgPct": -0.4,
+      "afterHoursChgAbs": -2.29,
+      "gfCap": "1.45T",
+      "source": "https://www.google.com/finance/quote/META:NASDAQ"
+    },
+    "MU": {
+      "lastCash": 932.97,
+      "lastCashChgPct": 2.48,
+      "lastCashChgAbs": 22.54,
+      "lastCashDate": "2026-08-25",
+      "afterHours": 930.25,
+      "afterHoursChgPct": -0.29,
+      "afterHoursChgAbs": -2.72,
+      "gfCap": "1.05T",
+      "source": "https://www.google.com/finance/quote/MU:NASDAQ"
+    },
+    "SPCX": {
+      "lastCash": 137.95,
+      "lastCashChgPct": 2.19,
+      "lastCashChgAbs": 2.95,
+      "lastCashDate": "2026-08-25",
+      "afterHours": 137.82,
+      "afterHoursChgPct": -0.09,
+      "afterHoursChgAbs": -0.13,
+      "gfCap": "1.87T",
+      "source": "https://www.google.com/finance/quote/SPCX:NASDAQ"
+    },
+    "SK_hynix_000660": {
+      "lastOfficialCash": 1678000,
+      "lastOfficialCashChgPct": 0.42,
+      "lastOfficialCashChgAbs": 7000,
+      "lastOfficialCashDate": "2026-08-25",
+      "lastOfficialCashStamp": "2026-08-25T15:30:29+09:00",
+      "open": 1598000,
+      "high": 1687000,
+      "low": 1557000,
+      "volume": 4013752,
+      "monClose": 1671000,
+      "preMarketWed": 1699000,
+      "preMarketWedChgPct": 1.25,
+      "preMarketWedStamp": "2026-08-26T08:20:00+09:00",
+      "preMarketWedNote": "Aju Press pre-market, not official KRX cash. GF/Yahoo this morning still show Tue close (volume 0 on GF).",
+      "liveWedCash": null,
+      "currency": "KRW",
+      "source": "https://www.google.com/finance/quote/000660:KRX",
+      "historySource": "https://stockanalysis.com/quote/krx/000660/history/",
+      "preMarketSource": "https://www.ajupress.com/view/20260826082870389"
+    },
+    "USDTHB": {
+      "botReference": 32.758,
+      "botMid": 32.7277,
+      "botAsOf": "2026-08-25T18:00:00+07:00",
+      "gfLive": 32.6925,
+      "gfLiveChgPct": 0.07,
+      "gfLiveChgAbs": 0.022,
+      "gfLiveStamp": "2026-08-26T00:11:19Z",
+      "note": "BOT official Tue 25 Aug 18:00 ICT ref 32.7580 vs Mon 24 32.6480. GF live is a different Wed 00:11 UTC stamp.",
+      "source": "https://app.bot.or.th/BTWS_STAT/statistics/BOTWEBSTAT.aspx?language=ENG&reportID=123",
+      "gfSource": "https://www.google.com/finance/quote/USD-THB"
+    },
+    "US10Y": {
+      "value": 4.64,
+      "teActual": 4.639,
+      "asOf": "2026-08-25",
+      "tableDate": "Aug/26",
+      "priorSessionChangePp": -0.06,
+      "source": "https://tradingeconomics.com/united-states/government-bond-yield"
+    }
+  }
+}
