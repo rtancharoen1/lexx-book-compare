@@ -1,0 +1,250 @@
+{
+  "date": "2026-09-01",
+  "asOfIct": "2026-09-01T07:10:00+07:00",
+  "producedBy": "Grok desk fill for Deki 08:05 ICT AI-infra morning digest. Tuesday 1 Sep: US last cash Mon 31 Aug (closed overnight); Seoul Mon official cash; no Tue SK LIVE print yet as of asOf.",
+  "fearGreed": {
+    "value": 49.71,
+    "label": "Neutral",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata this run: score 49.7142857142857 rating neutral timestamp 2026-08-31T23:50:21+00:00 (= Tue 06:50 ICT). previous_close 54.4285714285714 (matches Mon file's Fri 54.43 Neutral). previous_1_week 56.086, previous_1_month 45.229, previous_1_year 61.543. Idéal Investisseur reprint still 54,43 as of 31/08/2026 17h35 (dernière clôture) — lag vs CNN Mon session; do not treat Idéal as the live score. Primary = CNN 49.71 Neutral."
+  },
+  "nbis": [
+    {
+      "headline": "Mon 31 cash $206.32 (−1.37% / −$2.86) vs Fri $209.18; Yahoo AH last $206.84 (+0.25% / +$0.52) at ~19:59 ET. No Tue US premarket yet. Convert $5.75B ≈ THB 190.6B at USDTHB 33.14. GF mkt cap $56.09B.",
+      "why": "Yahoo chart v8 daily Mon: open 205.74, high 208.88, low 201.53, close 206.32, vol 10,491,543. 1m includePrePost last post bar 2026-08-31T23:59:44Z = $206.84. Google Finance confirms cash $206.32 (−1.37%) AH $206.80 (+0.23% / +$0.48) mkt cap $56.09B. Convert $5.75B unchanged (0.50% 2030 $3.45B + 4.50% 2034 $2.3B) — localize at Yahoo USDTHB Tue morning 33.14 → ≈ THB 190.6B. Mon cash ≈ THB 6,837/sh. stockanalysis also prints $56.55B (SO 274.10M) — GF $56.09B used; do not mix.",
+      "source": "Yahoo Finance chart v8 / Google Finance",
+      "url": "https://finance.yahoo.com/quote/NBIS/history/"
+    },
+    {
+      "headline": "No new 6-K after 0001104659-26-101076 (AGM Aug 26). Only new EDGAR item Mon: Form 144 (0001973379-26-000316) — CFO Alonso Sanchez Maria del Dado, 450 Class A sell-to-cover, agg $90,900, approx sale 1 Sep; SO 271,855,218. Not thesis-moving.",
+      "why": "data.sec.gov CIK 0001513845 submissions this run: newest filing is Form 144 dated 2026-08-31 (acceptance 10:43:21Z), then 6-K 0001104659-26-101076 dated 2026-08-26, then convert-close 0001104659-26-100347 dated 2026-08-24. Form 144 remarks: vesting/settlement of RSP awards; sell-to-cover via Citigroup. Prior 3m sale 1,509 sh on 2 Jun for $416,786.10. No new Nebius 6-K / newsroom PR Mon–Tue morning.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000197337926000316/primary_doc.xml"
+    },
+    {
+      "headline": "Overhang still live: WSJ/Reuters Aug 27 Nvidia paused some AI-cloud revenue-share deals — neocloud financing-stack risk. Not a new Mon filing. Mon tape: NBIS −1.37% while NVDA +1.48%.",
+      "why": "CNA Reuters reprint still the sourced confirmation: pause of some deals under the new financing initiative; Nvidia spokesperson: July compute-access model still in place and continues to evolve. Not on NVIDIA Newsroom. Do not invent counterparties or terms. Secondary Mon wraps (ET/ScanX) recycle the same story into the Mon session — not a new company event.",
+      "source": "CNA reprint of Reuters/WSJ Aug 27",
+      "url": "https://www.channelnewsasia.com/business/nvidia-pauses-revenue-sharing-deals-ai-cloud-companies-wsj-reports-6346451"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Mon cash $220.78 (+1.48% / +$3.23) vs Fri $217.55; Yahoo AH last $220.27. Q2 FY27 numbers unchanged. NEW Newsroom Aug 31: MediaTek NVLink Fusion + $3.5B MediaTek convertibles.",
+      "why": "Yahoo Fri 217.55 → Mon open 218.86, high 221.30, low 216.21, close 220.78, vol 124,033,835. AH 1m last $220.27. Company Q2 still Aug 26: rev $96,221M, GAAP EPS $2.46, non-GAAP $2.22, Q3 guide $108.0B ±2% no China DC. Goldman Communacopia Sep 10 8:50 a.m. PT still on calendar (Newsroom Aug 27). Localize Mon cash ≈ THB 7,317 at USDTHB 33.14. Newsroom Aug 31: MediaTek adopts NVLink Fusion for custom XPUs; NVIDIA invested $3.5B in MediaTek convertibles — separate from the WSJ revenue-share pause.",
+      "source": "Yahoo Finance chart v8 / NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "Hyperscalers Mon cash: GOOGL $339.35 (−2.09%), AMZN $259.77 (−2.50%), META $572.34 (−0.98%). SPCX $143.69 (+1.55%). MU $958.73 (+2.77%). K3 still no ticker.",
+      "why": "Yahoo daily Mon 31 vs Fri 28. Hyperscalers gave back Fri bounce. Memory/SpaceX bid: MU +2.77% after Fri −0.27%; SPCX +1.55% after Fri +0.45%. No new GOOGL/AMZN/META company IR fetched this run. K3 (Moonshot AI / Kimi) still private — no public ticker.",
+      "source": "Yahoo Finance chart v8",
+      "url": "https://finance.yahoo.com/quote/GOOGL/",
+      "ticker": "GOOGL"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Mon official cash ₩1,674,000 (+1.27% / +₩21,000) vs Fri ₩1,653,000. No Tue LIVE print as of asOf (Yahoo rmt still Mon 15:30 KST; 1d Sep 1 bar null).",
+      "why": "Yahoo 1m Mon: open 1,596,000 high 1,674,000 low 1,577,000 close 1,674,000 vol 2,567,659; last bar 15:30 KST = 1,674,000. Meta regularMarketChangePercent +1.27 vs previousClose 1,653,000 (Fri official). 1d chart still has null OHLCV on the Aug 31 and Sep 1 bars — cash taken from 1m last regular + meta, not the empty 1d bar. Ex-div ₩375 Fri is ~0.02% of price. USDKRW Yahoo Tue morning 1,368.98 — no THB localization of KRW used in headlines. Herald Aug 31: SK considering Intel foundry for HBM4E base die; Yahoo/MT wrap says company said parts of the report were inaccurate — chatter, not IR.",
+      "source": "Yahoo Finance 000660.KS 1m / Herald Business",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "NVDA AI Compute Partnership pause (WSJ Aug 27) remains the main neocloud overhang into Tue US open. Mon Newsroom is MediaTek/NVLink Fusion, not a reversal of the pause.",
+      "why": "Weekend–Mon reprints still active. Spokesperson: model still evolving. Thesis-relevant for neocloud financing (NBIS/CoreWeave stack). Do not treat reprints as a new development. MediaTek $3.5B convertibles is a separate, sourced Newsroom item.",
+      "source": "CNA / WSJ via Reuters / NVIDIA Newsroom",
+      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
+      "ticker": "NVDA"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 49.71 Neutral (graphdata 2026-08-31T23:50:21Z) — down from Fri 54.43 Neutral. S&P Mon cash 7,686.14 (−0.33%). VIX Mon 14.92 (vs Fri 14.43).",
+      "why": "Fetched production.dataviz.cnn.io this run. Idéal Investisseur still 54,43 dated 31/08/2026 17h35 — lag, not the Mon CNN print. Yahoo ^GSPC Mon close 7686.14 vs Fri 7711.76; ^VIX 14.92. Do not use alternative.me (crypto F&G) or CFGI (different index).",
+      "source": "CNN Fear & Greed graphdata / Yahoo / Idéal Investisseur (stale backup)",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "10y Yahoo ^TNX Mon 4.76 (vs Fri 4.72). Warsh Jackson Hole Fri 28 still the last Fed speak. Calendar: JOLTS Jul today 10:00 ET (not out as of asOf); NFP Fri Sep 4 08:30 ET; CPI Fri Sep 11; FOMC Sep 15–16.",
+      "why": "Yahoo ^TNX Mon close 4.758. Fed Board speech warsh20260828a unchanged. BLS jlt homepage blocked this run (403); JOLTS time carried from BLS search snippet + prior desk (Tue Sep 1 10:00 ET) — print not yet released (21:00 ICT). BLS CES page (via search): Employment Situation Aug due Sep 4 08:30 ET. Chicago Fed calendar confirms FOMC Sep 15–16*. Korea Aug full-month export print not sourced this run — last confirmed is customs Aug 1–20 ($55.2B / chips $26.0B).",
+      "source": "Yahoo ^TNX / Chicago Fed calendar / BLS schedule (search + prior)",
+      "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars"
+    },
+    {
+      "headline": "USDTHB Yahoo Tue morning regularMarketPrice 33.14 (day so far 33.11–33.15) at 00:09:01Z. BOT official not fetched.",
+      "why": "Yahoo USDTHB=X chart v8 this run (refresh). Use 33.14 for baht localization of $5.75B convert → ≈ THB 190.6B. NBIS Mon cash $206.32 ≈ THB 6,837/sh at same FX. USDKRW 1,368.98 fetched but not used for SK THB.",
+      "source": "Yahoo Finance USDTHB=X",
+      "url": "https://finance.yahoo.com/quote/USDTHB=X/"
+    }
+  ],
+  "soWhat": [
+    "Tue morning: US CLOSED until 21:30 ICT. Last cash Mon 31 — NBIS $206.32 (−1.37%) AH $206.84; convert $5.75B ≈ THB 190.6B at Yahoo USDTHB 33.14. No new 6-K. Form 144 is 450-sh CFO sell-to-cover. No Tue US premarket.",
+    "NVDA Mon $220.78 (+1.48%) while hyperscalers slipped (AMZN −2.50%, GOOGL −2.09%, META −0.98%). Newsroom Aug 31: MediaTek NVLink Fusion + $3.5B convertibles. WSJ AI-cloud revenue-share pause still the neocloud overhang. Goldman Sep 10.",
+    "SK hynix Mon cash ₩1,674,000 (+1.27%) vs Fri ₩1,653,000 — no Tue LIVE yet. MU +2.77% to $958.73. Herald Intel-foundry HBM4E chatter; company said parts inaccurate. K3 TBD.",
+    "Macro: F&G 49.71 Neutral (was 54.43). 10y 4.76; S&P −0.33%; VIX 14.92. JOLTS today 10:00 ET, NFP Sep 4, CPI Sep 11, FOMC Sep 15–16. Korea Aug full-month exports not sourced. No trades."
+  ],
+  "quotes": {
+    "note": "US cash = Mon 31 Aug 2026 16:00 EDT close. Yahoo chart v8. AH = Yahoo 1m includePrePost last post bar Mon. Tue US premarket: none as of asOfIct. SK hynix = Mon Seoul official cash from Yahoo 1m last regular + meta (1d Aug 31 bar still null). USDTHB = Yahoo Tue morning regularMarketPrice. CNN F&G = official graphdata this run (Mon stamp).",
+    "asOfIct": "2026-09-01T07:10:00+07:00",
+    "lastCashDateUS": "2026-08-31",
+    "NBIS": {
+      "lastCash": 206.32,
+      "lastCashChgPct": -1.37,
+      "lastCashChgAbs": -2.86,
+      "lastCashDate": "2026-08-31",
+      "ah": 206.84,
+      "ahChgPct": 0.25,
+      "ahChgAbs": 0.52,
+      "ahAltGoogle": 206.8,
+      "premarket": null,
+      "premarketNote": "No Tue premarket print as of asOfIct (US still Monday evening ET).",
+      "open": 205.74,
+      "high": 208.88,
+      "low": 201.53,
+      "volumeYahoo": 10491543,
+      "prevClose": 209.18,
+      "convertB": 5.75,
+      "convertThbBApprox": 190.6,
+      "usdthbUsed": 33.14,
+      "lastCashThbApprox": 6837.44,
+      "gfMktCapB": 56.09,
+      "form144SharesOut": 271855218,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?interval=1d&range=10d"
+    },
+    "NVDA": {
+      "lastCash": 220.78,
+      "lastCashChgPct": 1.48,
+      "lastCashChgAbs": 3.23,
+      "lastCashDate": "2026-08-31",
+      "ahApprox": 220.27,
+      "premarket": null,
+      "prevClose": 217.55,
+      "open": 218.86,
+      "high": 221.3,
+      "low": 216.21,
+      "volumeYahoo": 124033835,
+      "lastCashThbApprox": 7316.65,
+      "q2RevB": 96.221,
+      "q2GaapEps": 2.46,
+      "q2NonGaapEps": 2.22,
+      "q3GuideB": 108.0,
+      "q3GuideBandPct": 2
+    },
+    "GOOGL": {
+      "lastCash": 339.35,
+      "lastCashChgPct": -2.09,
+      "prevClose": 346.59,
+      "lastCashDate": "2026-08-31",
+      "premarket": null,
+      "open": 343.7,
+      "high": 344.59,
+      "low": 337.16,
+      "volumeYahoo": 33315062
+    },
+    "AMZN": {
+      "lastCash": 259.77,
+      "lastCashChgPct": -2.5,
+      "prevClose": 266.43,
+      "lastCashDate": "2026-08-31",
+      "premarket": null,
+      "open": 263.83,
+      "high": 264.36,
+      "low": 257.15,
+      "volumeYahoo": 45422317
+    },
+    "META": {
+      "lastCash": 572.34,
+      "lastCashChgPct": -0.98,
+      "prevClose": 578.02,
+      "lastCashDate": "2026-08-31",
+      "premarket": null,
+      "open": 576.77,
+      "high": 578.67,
+      "low": 569.14,
+      "volumeYahoo": 13275274
+    },
+    "MU": {
+      "lastCash": 958.73,
+      "lastCashChgPct": 2.77,
+      "prevClose": 932.86,
+      "lastCashDate": "2026-08-31",
+      "premarket": null,
+      "open": 931.17,
+      "high": 959.97,
+      "low": 930.79,
+      "volumeYahoo": 22344863
+    },
+    "SPCX": {
+      "lastCash": 143.69,
+      "lastCashChgPct": 1.55,
+      "prevClose": 141.5,
+      "lastCashDate": "2026-08-31",
+      "premarket": null,
+      "open": 140.03,
+      "high": 144.13,
+      "low": 139.88,
+      "volumeYahoo": 62883865
+    },
+    "SKHYNIX": {
+      "ticker": "000660.KS",
+      "lastOfficialCashKrw": 1674000,
+      "lastOfficialCashChgPct": 1.27,
+      "lastOfficialCashChgAbs": 21000,
+      "lastOfficialCashDate": "2026-08-31",
+      "prevClose": 1653000,
+      "open": 1596000,
+      "high": 1674000,
+      "low": 1577000,
+      "volumeYahoo1m": 2567659,
+      "exDivKrw": 375,
+      "exDivDate": "2026-08-28",
+      "live": null,
+      "liveNote": "No Tue 1 Sep LIVE print as of asOfIct. Yahoo regularMarketTime still 2026-08-31T15:30:06+09:00; 1d Sep 1 bar null.",
+      "sessionLabel": "Mon official cash (Yahoo 1m last regular); not a Tue live"
+    },
+    "SPX": {
+      "last": 7686.14,
+      "prev": 7711.76,
+      "chgPct": -0.33,
+      "lastCashDate": "2026-08-31"
+    },
+    "USDTHB": {
+      "yahooTueMorning": 33.14,
+      "dayHigh": 33.15,
+      "dayLow": 33.11,
+      "yahooAsOf": "2026-09-01T00:09:01+00:00",
+      "botOfficial": null,
+      "note": "Yahoo USDTHB=X regularMarketPrice this run (refresh)."
+    },
+    "USDKRW": {
+      "yahooTueMorning": 1368.98,
+      "yahooAsOf": "2026-09-01T00:07:56+00:00"
+    },
+    "US10Y": {
+      "yahooTnx": 4.76,
+      "yahooTnxRaw": 4.758,
+      "yahooTnxDate": "2026-08-31"
+    },
+    "VIX": {
+      "last": 14.92,
+      "prev": 14.43,
+      "date": "2026-08-31"
+    }
+  },
+  "gaps": [
+    "Tue US premarket not open yet — no premarket quotes.",
+    "No Tue SK hynix LIVE print as of asOfIct (Yahoo still showing Mon 15:30 KST close).",
+    "BOT official USDTHB not fetched.",
+    "Idéal Investisseur still 54,43 dated 31/08/2026 17h35 — lag vs CNN Mon 49.71; CNN used as primary.",
+    "BLS jlt/empsit pages blocked (403) this run; JOLTS/NFP/CPI times from BLS search snippets + prior desk + Chicago Fed FOMC calendar.",
+    "Korea Aug full-month export print not sourced this run (Aug 1–20 customs still last confirmed). Do not use 2025-vintage 1.3%/$58.4B articles that mixed into search.",
+    "K3 ticker still does not exist (Moonshot/Kimi private).",
+    "NBIS mkt cap: GF $56.09B vs stockanalysis $56.55B (different SO). GF used. Form 144 SO 271,855,218."
+  ],
+  "sendDecision": {
+    "send": true,
+    "reason": "Tuesday daily product. US Mon cash now available: NBIS $206.32 (−1.37%), NVDA $220.78 (+1.48%), F&G 49.71 Neutral (was 54.43). New Newsroom: MediaTek NVLink Fusion + $3.5B convertibles. No new 6-K (Form 144 only). SK Mon cash ₩1,674,000 (+1.27%). JOLTS today."
+  }
+}
