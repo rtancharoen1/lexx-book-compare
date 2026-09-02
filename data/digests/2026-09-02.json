@@ -1,29 +1,29 @@
 {
   "date": "2026-09-02",
-  "asOfIct": "2026-09-02T07:15:00+07:00",
-  "producedBy": "Grok fill for Deki 8:20 ICT AI-infra morning digest (SendToAgent unavailable in automation). Wednesday: US last cash Tue 1 Sep; Seoul Tue official cash complete; Wed LIVE null on Yahoo as of asOf despite Seoul open.",
+  "asOfIct": "2026-09-02T07:30:00+07:00",
+  "producedBy": "Deki 8:20 ICT AI-infra morning digest. Refreshes Grok 07:15 fill: SK Wed LIVE now sourced (Naver + Yahoo); F&G stamp completed to 23:59:41Z (score unchanged 44.57 Fear); GF NBIS cap 54.25B from morning snapshot. US last cash Tue 1 Sep.",
   "fearGreed": {
     "value": 44.57,
     "label": "Fear",
     "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
     "page": "https://www.cnn.com/markets/fear-and-greed",
-    "read": "CNN graphdata this run: score 44.5714285714286 rating fear timestamp 2026-09-01T23:52:29+00:00 (Tue session stamp). previous_close 49.7142857142857 (matches Tue official Mon stamp 49.71 Neutral). Down vs Tue digest 49.71 Neutral and vs Fri 54.43. Do not use alternative.me."
+    "read": "CNN graphdata this run: score 44.5714285714286 rating fear timestamp 2026-09-01T23:59:41+00:00 (Tue session stamp complete vs Grok 07:15's 23:52:29Z). previous_close 49.7142857142857 (matches Tue digest Mon-stamp 49.71 Neutral). Score unchanged vs 07:15 fill; down vs Tue official 49.71 and Fri 54.43. Do not use alternative.me."
   },
   "nbis": [
     {
-      "headline": "Tue 1 cash $199.54 (−3.29% / −$6.78) vs Mon $206.32; Yahoo AH 1m last $197.90 (−0.82% / −$1.64) at 23:59:59Z. No Wed US premarket as of asOf. Convert $5.75B ≈ THB 191.5B at USDTHB 33.31. Tue cash ≈ THB 6,647/sh.",
-      "why": "Yahoo chart v8 daily Tue: open 199.15, high 202.81, low 194.80, close 199.54, vol 10,776,181. 1m includePrePost last post bar 2026-09-01T23:59:59Z = $197.90. Convert $5.75B unchanged (0.50% 2030 $3.45B + 4.50% 2034 $2.3B) — localize at Yahoo USDTHB Wed morning 33.31 → ≈ THB 191.5B (was 190.4B at 33.11 Tue). GF mkt cap not re-read this run.",
-      "source": "Yahoo Finance chart v8",
+      "headline": "Tue 1 cash $199.54 (−3.29% / −$6.78) vs Mon $206.32; Yahoo AH 1m last $197.90 (−0.82% / −$1.64) at 23:59:59Z. No Wed US premarket as of asOf. Convert $5.75B ≈ THB 191.5B at USDTHB 33.31. GF mkt cap $54.25B. Tue cash ≈ THB 6,647/sh.",
+      "why": "Yahoo chart v8 daily Tue: open 199.15, high 202.81, low 194.80, close 199.54, vol 10,776,181. 1m includePrePost last post bar 2026-09-01T23:59:59Z = $197.90. Convert $5.75B unchanged (0.50% 2030 $3.45B + 4.50% 2034 $2.3B) — localize at Yahoo USDTHB Wed morning 33.31 → ≈ THB 191.5B (was 190.4B at 33.11 Tue). GF Mkt. cap $54.25B from morning live-snapshot (shares out 238.40M on GF); Yahoo chart meta marketCap null.",
+      "source": "Yahoo Finance chart v8 / Google Finance",
       "url": "https://finance.yahoo.com/quote/NBIS/history/"
     },
     {
       "headline": "No new 6-K / 8-K after AGM 6-K 0001104659-26-101076 (Aug 26). Newest EDGAR still Form 144 0001973379-26-000316 — CFO Alonso Sanchez Maria del Dado, 450 Class A sell-to-cover (proposed sale date Sep 1). Not thesis-moving.",
-      "why": "data.sec.gov CIK 0001513845 submissions this run: Form 144 dated 2026-08-31 still top, then 6-K Aug 26, convert-close 6-K Aug 24. No Sep 1–2 company IR filing. Nebius newsroom not re-scraped beyond EDGAR check.",
+      "why": "data.sec.gov CIK 0001513845 submissions this run: Form 144 dated 2026-08-31 still top, then 6-K Aug 26, convert-close 6-K Aug 24. No Sep 1–2 company IR filing. Confirmed via submissions JSON this 8:20 run.",
       "source": "SEC EDGAR CIK 0001513845",
       "url": "https://www.sec.gov/Archives/edgar/data/1513845/000197337926000316/primary_doc.xml"
     },
     {
-      "headline": "Overhang still live: WSJ/Reuters Aug 27 Nvidia paused some AI-cloud revenue-share deals — neocloud financing-stack risk. Not a new Tue filing. Tue tape: NBIS −3.29% while NVDA −1.51%.",
+      "headline": "Overhang still live: WSJ/Reuters Aug 27 Nvidia paused some AI-cloud revenue-share deals — neocloud financing-stack risk. Not a new Tue/Wed filing. Tue tape: NBIS −3.29% while NVDA −1.51%.",
       "why": "CNA Reuters reprint still the sourced confirmation; Nvidia spokesperson: July compute-access model still in place and continues to evolve. Not reversed by Tue Newsroom CrowdStrike item (cybersecurity, not compute partnerships). Do not invent counterparties or terms.",
       "source": "CNA reprint of Reuters/WSJ Aug 27",
       "url": "https://www.channelnewsasia.com/business/nvidia-pauses-revenue-sharing-deals-ai-cloud-companies-wsj-reports-6346451"
@@ -31,23 +31,23 @@
   ],
   "aiInfra": [
     {
-      "headline": "NVDA Tue cash $217.44 (−1.51% / −$3.34) vs Mon $220.78; Yahoo AH 1m last $217.48. Q2 FY27 numbers unchanged. NEW Newsroom Sep 1: CrowdStrike Fal.Con agentic cybersecurity (Jensen Huang). Prior Newsroom Aug 31 MediaTek NVLink Fusion + $3.5B MediaTek convertibles still the AI-infra hardware item.",
-      "why": "Yahoo Tue: open 216.61, high 220.41, low 215.10, close 217.44, vol 106,942,626. AH 1m last $217.4798 at 2026-09-01T23:59:58Z. Company Q2 still Aug 26: rev $96,221M, GAAP EPS $2.46, non-GAAP $2.22, Q3 guide $108.0B ±2% no China DC. Goldman Communacopia Sep 10 8:50 a.m. PT still on calendar (Newsroom Aug 27). Localize Tue cash ≈ THB 7,243 at USDTHB 33.31. Newsroom homepage this run leads Sep 1 CrowdStrike then Aug 31 MediaTek.",
+      "headline": "NVDA Tue cash $217.44 (−1.51% / −$3.34) vs Mon $220.78; Yahoo AH 1m last $217.48. Q2 FY27 numbers unchanged. Newsroom Sep 1: CrowdStrike Fal.Con agentic cybersecurity (Jensen Huang). Prior Newsroom Aug 31 MediaTek NVLink Fusion + $3.5B MediaTek convertibles still the AI-infra hardware item.",
+      "why": "Yahoo Tue: open 216.61, high 220.41, low 215.10, close 217.44, vol 106,942,626. AH 1m last $217.4798 at 2026-09-01T23:59:58Z. Company Q2 still Aug 26: rev $96,221M, GAAP EPS $2.46, non-GAAP $2.22, Q3 guide $108.0B ±2% no China DC. Goldman Communacopia Sep 10 8:50 a.m. PT still on calendar (Newsroom Aug 27). Localize Tue cash ≈ THB 7,243 at USDTHB 33.31. Newsroom homepage still leads Sep 1 CrowdStrike then Aug 31 MediaTek.",
       "source": "Yahoo Finance chart v8 / NVIDIA Newsroom",
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-crowdstrike-strengthen-agentic-cybersecurity-frontier",
       "ticker": "NVDA"
     },
     {
       "headline": "Hyperscalers Tue cash: GOOGL $335.02 (−1.28%), AMZN $254.92 (−1.87%), META $578.54 (+1.08%). SPCX $142.23 (−1.02%). MU $933.44 (−2.64%). K3 still no ticker.",
-      "why": "Yahoo daily Tue 1 vs Mon 31. AH 1m last: GOOGL $337.20, AMZN $255.08, META $577.58, MU $929.00, SPCX $142.15. No new GOOGL/AMZN/META company IR fetched this run. K3 (Moonshot AI / Kimi) still private — no public ticker (HKEX IPO prep reports only; Aug 3 TechNode denied near-term filing chatter).",
+      "why": "Yahoo daily Tue 1 vs Mon 31, reconfirmed this 8:20 run. No Wed US bar / no premarket as of asOf. No new GOOGL/AMZN/META company IR fetched this run. K3 (Moonshot AI / Kimi) still private — no public ticker.",
       "source": "Yahoo Finance chart v8",
       "url": "https://finance.yahoo.com/quote/GOOGL/",
       "ticker": "GOOGL"
     },
     {
-      "headline": "SK hynix (000660.KS) Tue 1 Sep official cash ₩1,693,000 (+1.14% / +₩19,000) vs Mon ₩1,674,000. Wed LIVE null on Yahoo as of asOf (Seoul open ~09:12 KST but 1d Wed bar empty / 1m bars 0).",
-      "why": "Yahoo 1d Tue bar: open 1,666,000 high 1,713,000 low 1,652,000 close 1,693,000 vol 2,727,724; regularMarketTime 2026-09-01T06:30:21Z = Tue close. Mon official ₩1,674,000 unchanged. Wed 1d O/H/L/C all null this run; meta still stamped Tue. Ex-div ₩375 Fri still ~immaterial. USDKRW Yahoo Wed morning 1,372.28 — no THB localization of KRW used in headlines.",
-      "source": "Yahoo Finance 000660.KS 1d",
+      "headline": "SK hynix (000660.KS) Tue official ₩1,693,000 (+1.14% / +₩19,000) vs Mon ₩1,674,000. NEW vs 07:15: Wed LIVE Naver ₩1,649,000 (−2.60% / −₩44,000) at 09:30:20 KST OPEN; Yahoo Wed bar last ₩1,648,000 (O ₩1,630,000 / H ₩1,650,000 / L ₩1,626,000, vol 212,176). Not a close.",
+      "why": "Yahoo 1d Tue bar: open 1,666,000 high 1,713,000 low 1,652,000 close 1,693,000 vol 2,727,724. Wed 1d now populated this run (was null at 07:15). Naver m.stock basic: closePrice 1,649,000, compare −44,000, fluctuationsRatio −2.60, marketStatus OPEN, localTradedAt 2026-09-02T09:30:20+09:00. Prefer Naver LIVE for headline; Yahoo Wed bar cross-check. Ex-div ₩375 Fri still ~immaterial. USDKRW not used for SK THB.",
+      "source": "Naver m.stock / Yahoo Finance 000660.KS",
       "url": "https://finance.yahoo.com/quote/000660.KS/",
       "ticker": "000660.KS"
     },
@@ -61,39 +61,39 @@
   ],
   "macro": [
     {
-      "headline": "CNN Fear & Greed 44.57 Fear (graphdata 2026-09-01T23:52:29Z) — down from Mon-stamp 49.71 Neutral and Fri 54.43. S&P Tue cash 7,631.47 (−0.71%). VIX Tue 16.34 (vs Mon 14.92).",
-      "why": "Fetched production.dataviz.cnn.io this run. Score 44.5714285714286 rating fear; previous_close 49.7142857142857. Yahoo ^GSPC Tue close 7631.47 vs Mon 7686.14; ^VIX 16.34. Do not use alternative.me (crypto F&G) or CFGI.",
+      "headline": "CNN Fear & Greed 44.57 Fear (graphdata 2026-09-01T23:59:41Z) — down from Mon-stamp 49.71 Neutral and Fri 54.43. S&P Tue cash 7,631.47 (−0.71%). VIX Tue 16.34 (vs Mon 14.92).",
+      "why": "Fetched production.dataviz.cnn.io this run (Chrome UA + CNN Referer). Score 44.5714285714286 rating fear; previous_close 49.7142857142857. Stamp advanced vs 07:15 fill (23:52:29Z → 23:59:41Z); score unchanged. Yahoo ^GSPC Tue close 7631.47 vs Mon 7686.14; ^VIX 16.34. Do not use alternative.me.",
       "source": "CNN Fear & Greed graphdata / Yahoo",
       "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
     },
     {
-      "headline": "NEW: JOLTS Jul out Tue Sep 1. Openings 7.271M vs ~7.300M est; June revised to 7.182M (+89k m/m). Hires 5.054M (−278k). Openings rate 4.4% (from 4.3%). BLS HTML blocked (403) this run — numbers from outlets citing BLS.",
-      "why": "allwork.space Sep 1 citing BLS JOLTS: openings rose 89,000 to 7.271 million; June revised to 7.182M; hires dropped 278,000 to 5.054 million; openings rate 4.4% from 4.3%; professional/business services hiring −188k. investinglive: 7.271M vs 7.300M estimate. Forex Factory links bls.gov/news.release/archives/jolts_09012026.htm (primary URL; fetch 403 Access Denied). Korea Aug MOTIE print unchanged vs Tue digest.",
-      "source": "allwork.space / investinglive citing BLS (BLS 403 this run)",
+      "headline": "JOLTS Jul out Tue Sep 1. Openings 7.271M vs ~7.300M est; June revised to 7.182M (+89k m/m). Hires 5.054M (−278k). Openings rate 4.4% (from 4.3%). BLS HTML blocked (403) — numbers from outlets citing BLS.",
+      "why": "Carried from Grok 07:15 fill / allwork.space Sep 1 citing BLS JOLTS; investinglive 7.271M vs 7.300M estimate. Forex Factory links bls.gov/news.release/archives/jolts_09012026.htm (primary URL; fetch 403). Korea Aug MOTIE print unchanged vs Tue digest.",
+      "source": "allwork.space / investinglive citing BLS (BLS 403)",
       "url": "https://allwork.space/2026/09/u-s-job-openings-rose-on-manufacturing-surge-in-july-while-overall-hiring-weakens/"
     },
     {
-      "headline": "USDTHB Yahoo Wed morning regularMarketPrice 33.31 (day so far 33.24–33.31) at 00:13:12Z. BOT official not fetched. 10y Yahoo ^TNX Tue 4.80. Korea Aug MOTIE chips $46.65B / total $98.25B unchanged.",
-      "why": "Yahoo USDTHB=X chart v8 this run. Use 33.31 for baht localization of $5.75B convert → ≈ THB 191.5B (Tue digest used 33.11 → 190.4B). NBIS Tue cash $199.54 ≈ THB 6,647/sh. Yahoo ^TNX Tue close 4.796. USDKRW 1,372.28 at same stamp fetched but not used for SK THB. Chips $46.65B ≈ THB 1,554B at 33.31.",
+      "headline": "USDTHB Yahoo Wed morning regularMarketPrice 33.31 (day so far 33.24–33.31) at ~00:30Z. BOT official not fetched. 10y Yahoo ^TNX Tue 4.80. Korea Aug MOTIE chips $46.65B / total $98.25B unchanged (chips ≈ THB 1553.9B at 33.31).",
+      "why": "Yahoo USDTHB=X chart v8 this run (regularMarketTime ~00:30Z). Use 33.31 for baht localization of $5.75B convert → ≈ THB 191.5B. NBIS Tue cash $199.54 ≈ THB 6,647/sh. Yahoo ^TNX Tue close 4.796.",
       "source": "Yahoo Finance USDTHB=X / ^TNX",
       "url": "https://finance.yahoo.com/quote/USDTHB=X/"
     },
     {
       "headline": "Calendar: JOLTS Jul printed Tue; NFP Fri Sep 4 08:30 ET; CPI Fri Sep 11; FOMC Sep 15–16. NVDA Goldman Communacopia Sep 10.",
-      "why": "JOLTS now out (see item above). NFP/CPI/FOMC times from prior desk + Chicago Fed calendar. BLS empsit not fetched.",
+      "why": "JOLTS now out. NFP/CPI/FOMC times from prior desk + Chicago Fed calendar. BLS empsit not fetched.",
       "source": "Prior desk / Chicago Fed calendar",
       "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars"
     }
   ],
   "soWhat": [
-    "Wed morning: US CLOSED until 21:30 ICT. Last cash Tue 1 — NBIS $199.54 (−3.29%) AH $197.90; convert $5.75B ≈ THB 191.5B at Yahoo USDTHB 33.31. No new 6-K. Form 144 still 450-sh CFO sell-to-cover. No Wed US premarket.",
-    "NVDA Tue $217.44 (−1.51%). Newsroom NEW Sep 1 CrowdStrike Fal.Con (cybersecurity agents); MediaTek NVLink Fusion + $3.5B convertibles still Aug 31 AI-infra hardware IR. WSJ AI-cloud revenue-share pause still the neocloud overhang. Goldman Sep 10.",
-    "SK hynix Tue official ₩1,693,000 (+1.14%) vs Mon ₩1,674,000. Wed LIVE not on Yahoo yet. MU −2.64% to $933.44. META +1.08%; GOOGL/AMZN down. K3 TBD.",
-    "Macro: F&G 44.57 Fear (was 49.71 Neutral). S&P −0.71%; VIX 16.34; 10y 4.80. JOLTS Jul 7.271M vs ~7.300M est (hires soft). Korea Aug chips $46.65B (+209%) still in tape. NFP Sep 4, CPI Sep 11, FOMC Sep 15–16. No trades."
+    "Wed morning: US CLOSED until 21:30 ICT. Last cash Tue 1 — NBIS $199.54 (−3.29%) AH $197.90; convert $5.75B ≈ THB 191.5B at Yahoo USDTHB 33.31; GF cap $54.25B. No new 6-K. Form 144 still 450-sh CFO sell-to-cover. No Wed US premarket.",
+    "NVDA Tue $217.44 (−1.51%). Newsroom Sep 1 CrowdStrike Fal.Con (cybersecurity agents); MediaTek NVLink Fusion + $3.5B convertibles still Aug 31 AI-infra hardware IR. WSJ AI-cloud revenue-share pause still the neocloud overhang. Goldman Sep 10.",
+    "NEW vs 07:15: SK hynix Wed LIVE Naver ₩1,649,000 (−2.60% / −₩44,000) vs Tue official ₩1,693,000 as of 09:30 KST — not a close. Yahoo Wed bar ₩1,648,000. MU −2.64% to $933.44. META +1.08%; GOOGL/AMZN down. K3 TBD.",
+    "Macro: F&G 44.57 Fear (was 49.71 Neutral; stamp now 23:59:41Z). S&P −0.71%; VIX 16.34; 10y 4.80. JOLTS Jul 7.271M vs ~7.300M est (hires soft). Korea Aug chips $46.65B (+209%) still in tape. NFP Sep 4, CPI Sep 11, FOMC Sep 15–16. No trades."
   ],
   "quotes": {
-    "note": "US cash = Tue 1 Sep 2026 16:00 EDT close. Yahoo chart v8. AH = Yahoo 1m includePrePost last post bar Tue. Wed US premarket: none as of asOfIct. SK hynix = Tue official cash; Wed LIVE null (Yahoo 1d Wed empty). USDTHB = Yahoo Wed morning regularMarketPrice. CNN F&G = official graphdata this run (Tue stamp).",
-    "asOfIct": "2026-09-02T07:15:00+07:00",
+    "note": "US cash = Tue 1 Sep 2026 16:00 EDT close. Yahoo chart v8. AH = Yahoo 1m includePrePost last post bar Tue. Wed US premarket: none as of asOfIct. SK hynix = Tue official cash + Wed LIVE (Naver m.stock + Yahoo 1d Wed bar). USDTHB = Yahoo Wed morning regularMarketPrice. CNN F&G = official graphdata this run (Tue stamp complete).",
+    "asOfIct": "2026-09-02T07:30:00+07:00",
     "lastCashDateUS": "2026-09-01",
     "NBIS": {
       "lastCash": 199.54,
@@ -114,7 +114,8 @@
       "convertThbBApprox": 191.5,
       "usdthbUsed": 33.31,
       "lastCashThbApprox": 6646.68,
-      "gfMktCapB": null,
+      "gfMktCapB": 54.25,
+      "gfSharesOutM": 238.4,
       "form144SharesOut": 271855218,
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?interval=1d&range=10d"
     },
@@ -142,7 +143,6 @@
       "lastCashChgPct": -1.28,
       "prevClose": 339.35,
       "lastCashDate": "2026-09-01",
-      "ahApprox": 337.2,
       "premarket": null,
       "open": 336.0,
       "high": 337.2,
@@ -154,7 +154,6 @@
       "lastCashChgPct": -1.87,
       "prevClose": 259.77,
       "lastCashDate": "2026-09-01",
-      "ahApprox": 255.08,
       "premarket": null,
       "open": 254.83,
       "high": 255.82,
@@ -166,7 +165,6 @@
       "lastCashChgPct": 1.08,
       "prevClose": 572.34,
       "lastCashDate": "2026-09-01",
-      "ahApprox": 577.58,
       "premarket": null,
       "open": 557.8,
       "high": 584.9,
@@ -178,7 +176,6 @@
       "lastCashChgPct": -2.64,
       "prevClose": 958.73,
       "lastCashDate": "2026-09-01",
-      "ahApprox": 929.0,
       "premarket": null,
       "open": 939.48,
       "high": 969.44,
@@ -190,7 +187,6 @@
       "lastCashChgPct": -1.02,
       "prevClose": 143.69,
       "lastCashDate": "2026-09-01",
-      "ahApprox": 142.15,
       "premarket": null,
       "open": 141.85,
       "high": 145.23,
@@ -210,9 +206,17 @@
       "volumeYahooTue": 2727724,
       "exDivKrw": 375,
       "exDivDate": "2026-08-28",
-      "live": null,
-      "liveNote": "Wed LIVE null as of asOfIct — Yahoo 1d Wed O/H/L/C null; 1m bars 0; meta regularMarketTime still Tue close 06:30:21Z.",
-      "sessionLabel": "Tue official cash; Wed LIVE not sourced"
+      "live": 1649000,
+      "liveChgAbs": -44000,
+      "liveChgPct": -2.6,
+      "liveOpenYahoo": 1630000,
+      "liveHighYahoo": 1650000,
+      "liveLowYahoo": 1626000,
+      "liveCloseYahoo": 1648000,
+      "liveVolYahoo": 212176,
+      "liveTimeKst": "2026-09-02T09:30:20+09:00",
+      "liveSource": "Naver m.stock basic (primary); Yahoo 1d Wed bar cross-check ₩1,648,000",
+      "sessionLabel": "LIVE Seoul; not a close"
     },
     "SPX": {
       "last": 7631.47,
@@ -224,13 +228,14 @@
       "yahooWedMorning": 33.31,
       "dayHigh": 33.31,
       "dayLow": 33.24,
-      "yahooAsOf": "2026-09-02T00:13:12+00:00",
+      "yahooAsOf": "2026-09-02T00:29:59+00:00",
       "botOfficial": null,
-      "note": "Yahoo USDTHB=X regularMarketPrice this run (was 33.11 Tue digest)."
+      "note": "Yahoo USDTHB=X regularMarketPrice this 8:20 run."
     },
     "USDKRW": {
       "yahooWedMorning": 1372.28,
-      "yahooAsOf": "2026-09-02T00:10:48+00:00"
+      "yahooAsOf": "2026-09-02T00:10:48+00:00",
+      "note": "Carried from Grok 07:15 fill; not re-fetched this run."
     },
     "US10Y": {
       "yahooTnx": 4.8,
@@ -243,7 +248,7 @@
       "date": "2026-09-01"
     },
     "JOLTS_JUL": {
-      "source": "allwork.space / investinglive citing BLS; primary BLS HTML 403 this run",
+      "source": "allwork.space / investinglive citing BLS; primary BLS HTML 403",
       "url": "https://allwork.space/2026/09/u-s-job-openings-rose-on-manufacturing-surge-in-july-while-overall-hiring-weakens/",
       "blsArchiveUrl": "https://www.bls.gov/news.release/archives/jolts_09012026.htm",
       "openingsM": 7.271,
@@ -254,7 +259,7 @@
       "hiresChgAbsK": -278,
       "openingsRatePct": 4.4,
       "priorOpeningsRatePct": 4.3,
-      "note": "BLS page Access Denied to bots this run. Numbers attributed to BLS by secondary outlets."
+      "note": "BLS page Access Denied to bots. Numbers attributed to BLS by secondary outlets (carried from 07:15 fill)."
     },
     "KOREA_AUG_EXPORTS": {
       "source": "MOTIE via inews24 2026-09-01 09:14 KST (carried; unchanged)",
@@ -275,16 +280,16 @@
   },
   "gaps": [
     "Wed US premarket not open yet — no premarket quotes.",
-    "SK hynix Wed LIVE not on Yahoo (1d Wed empty; 1m bars 0) despite Seoul open ~09:12 KST as of asOf; last official is Tue close ₩1,693,000.",
+    "SK hynix LIVE is an open-session print (Naver 09:30 KST), not a close. Yahoo Wed bar sticky around same level.",
     "BOT official USDTHB not fetched.",
-    "BLS JOLTS/empsit HTML blocked (403); JOLTS numbers from secondary outlets citing BLS (allwork / investinglive). Primary archive URL noted.",
+    "BLS JOLTS/empsit HTML blocked (403); JOLTS numbers from secondary outlets citing BLS (allwork / investinglive).",
     "K3 ticker still does not exist (Moonshot/Kimi private).",
-    "GF NBIS mkt cap not re-read this run (redirect empty).",
-    "NVIDIA CrowdStrike Sep 1 Newsroom page fetch returned archive teaser only (Fal.Con quote confirmed); full body not needed for desk headline.",
+    "GF NBIS cap from morning live-snapshot ($54.25B); not re-scraped this run (google finance empty).",
+    "USDKRW not re-fetched this 8:20 run (carried 1,372.28 from 07:15).",
     "No new SpaceX/SPCX company IR this window beyond Tue cash print."
   ],
   "sendDecision": {
     "send": true,
-    "reason": "Wednesday daily product (Grok fill for Deki). NEW: US Tue cash — NBIS $199.54 (−3.29%) AH $197.90; NVDA $217.44 (−1.51%); F&G 44.57 Fear (was 49.71); JOLTS Jul 7.271M vs ~7.300M; Newsroom Sep 1 CrowdStrike. SK Tue official ₩1,693,000 (+1.14%); Wed LIVE null on Yahoo."
+    "reason": "Wednesday daily product. Refreshes Grok 07:15. NEW vs 07:15: SK Wed LIVE Naver ₩1,649,000 (−2.60%) / Yahoo ₩1,648,000; F&G stamp 23:59:41Z (score still 44.57 Fear, down vs Tue 49.71); GF cap $54.25B. Material already: NBIS Tue −3.29%, JOLTS Jul, CrowdStrike Newsroom."
   }
 }
