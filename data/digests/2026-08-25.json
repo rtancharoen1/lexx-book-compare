@@ -1,0 +1,210 @@
+{
+  "date": "2026-08-25",
+  "asOfIct": "2026-08-25T08:20:00+07:00",
+  "fearGreed": {
+    "value": 55.17,
+    "label": "Neutral",
+    "source": "https://www.ideal-investisseur.fr/marches/macro/cnn-fear-greed-index.html",
+    "read": "CNN page still has no live score this morning. Idéal Investisseur (SENTIMENT cnn_fg_stocks) reprints 55.17 as of Mon 24 Aug 17:35 close — Neutral, variation 0.00% vs prior. Monday official print now exists and is unchanged from Friday. Not a weekend reprint."
+  },
+  "nbis": [
+    {
+      "headline": "CONFIRMED: converts closed Mon 24 Aug; greenshoe exercised in full — $5.75B ($3.45B 0.50% 2030 + $2.3B 4.50% 2034)",
+      "why": "This is not the 19 Aug pricing 6-K. Nebius IR dated Amsterdam, August 24, 2026 'today announced the closing.' SEC Form 6-K accession 0001104659-26-100347 accepted 2026-08-24 17:07:32 ET; indentures dated Aug 24; Ex 99.1 is the closing PR. Initial purchasers took the extra $450M / $300M. Use of proceeds restated: data-center build-out, full-stack AI cloud, GPUs, general corporate.",
+      "source": "Nebius IR / SEC 6-K",
+      "url": "https://nebius.com/newsroom/nebius-group-announces-closing-of-private-offering-of-convertible-senior-notes-with-aggregate-gross-proceeds-of-approximately-5-75-billion"
+    },
+    {
+      "headline": "Exchange ~15.8M Class A restated in the same close 6-K; company did not write a separate 'exchange settled' sentence",
+      "why": "Ex 99.1 repeats that, concurrently with pricing, the company entered into privately negotiated exchanges of $400M 2029 + $400M 2031 notes for ~15.8M Class A. Same 6-K files Form of Exchange Agreement as Ex 4.5. Hedge-selling / derivative-unwind warning is unchanged. Treat notes as closed; do not invent a second settle notice for the swap.",
+      "source": "SEC exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926100347/tm2623863d1_ex99-1.htm"
+    },
+    {
+      "headline": "Mon 24 US cash $210.91 (−3.75% / −$8.22); AH $210.20 (−0.34%); GF cap $57.34B",
+      "why": "Google Finance Closed Aug 24, 4:00:00 PM GMT-4. Open $211.20, range $201.89–$213.75, volume 16.88M, shares outstanding 238.40M. Friday cash was $219.13 / cap ~$59.57B — this is the first settle-day cash print, not a Friday reprint. Midday 24/7 Wall St. still used 'expected to settle' at 13:43 ET; the close 6-K landed after the cash close.",
+      "source": "Google Finance",
+      "url": "https://www.google.com/finance/quote/NBIS:NASDAQ"
+    },
+    {
+      "headline": "Citadel/Griffin SA unwind still not a confirmed NBIS block",
+      "why": "No new CNBC letter or filing since Friday naming NBIS on the >$4B / 100+ block tape. Monday recaps repeat the Aug 21 Griffin letter. Griffin did not disclose the names.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Mon cash $208.48 (−2.91% / −$6.24); AH $208.90; official Q2 FY27 still after close Wed 26 Aug",
+      "why": "Google Finance Closed Aug 24 4:00 PM GMT-4, cap $5.05T, range $207.25–$215.59, volume 135.19M. Quote page: 'Q2 2027 earnings • in 2 days' and call Wed Aug 26 5:00 PM; street on that page $92.18B / $2.09. Company IR page timed out this morning — schedule unchanged vs Monday file.",
+      "source": "Google Finance",
+      "url": "https://www.google.com/finance/quote/NVDA:NASDAQ",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "SK hynix live Tue ₩1,589,000 (−4.91% / −₩82,000) as of 09:43 KST; Seoul opened hard lower into NVDA week",
+      "why": "Google Finance 000660:KRX timestamped Aug 25 09:43:54 GMT+9 — session is open. Open ₩1,598,000, range so far ₩1,557,000–₩1,610,000. Implied Mon close ₩1,671,000. Yonhap 09:15 KST: KOSPI 6,452.12 (−3.66% / −244.84) after a 2.4% open; SK hynix −6.46% at that stamp, then recovered toward the GF print. Won 1,380.00 (+3.2 vs prior close).",
+      "source": "Google Finance / Yonhap",
+      "url": "https://www.google.com/finance/quote/000660:KRX",
+      "ticker": "000660"
+    },
+    {
+      "headline": "SK hynix production union rejected tentative wage deal; 50.1% voted against 60%-in-shares bonus",
+      "why": "Korea Herald: vote Mon–Tue among ~16,000 eligible members; 50.1% against. Deal would have paid 40% of excess profit-sharing in cash and 60% in company shares. Union expected to resume talks. Labor headline on the same morning the stock is down with the Korea tape — not a new buyback or capex print.",
+      "source": "The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10850898",
+      "ticker": "000660"
+    },
+    {
+      "headline": "MU Mon cash $910.43 (−5.83% / −$56.35); AH $903.09 — Apple-China memory reports + YMTC-parent IPO filing",
+      "why": "Google Finance Closed Aug 24, cap $1.03T, range $887.60–$936.45. Fool (09:56 ET Mon): WCCTech said the Trump administration may let Apple buy CXMT DRAM / YMTC NAND for China-sold products. Caixin (24 Aug 18:31 GMT+8): SSE accepted CCSH Corp. STAR application to raise 33 billion yuan ($4.9 billion); 1.98–2.43 billion shares, up to 12% of enlarged capital. Not a Micron IR print.",
+      "source": "Google Finance / Motley Fool / Caixin",
+      "url": "https://www.google.com/finance/quote/MU:NASDAQ",
+      "ticker": "MU"
+    },
+    {
+      "headline": "Hyperscalers rose Mon while chips sold off: GOOGL $348.06, META $559.02, AMZN $262.07",
+      "why": "Google Finance Closed Aug 24. GOOGL +0.94% / +$3.24, AH $347.95, cap $4.24T. META +1.66% / +$9.12, AH $560.20, cap $1.42T. AMZN +1.33% / +$3.44, AH $262.66, cap $2.83T. No verified new company IR/SEC catalyst on these three since Friday that beats the Monday cash print.",
+      "source": "Google Finance",
+      "url": "https://www.google.com/finance/quote/GOOGL:NASDAQ",
+      "ticker": "GOOGL"
+    },
+    {
+      "headline": "SPCX Mon cash $135.00 (−1.44% / −$1.97); AH $135.04 — no new company IR fetched",
+      "why": "Google Finance Closed Aug 24 4:00 PM GMT-4, cap $1.83T, range $133.10–$138.33. Secondary recaps of Nvidia-powered Starmind satellites point back to the Aug 4 earnings-week partnership, not a fresh Aug 24 company filing. Skip as recap.",
+      "source": "Google Finance",
+      "url": "https://www.google.com/finance/quote/SPCX:NASDAQ",
+      "ticker": "SPCX"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed: no score on CNN’s page; Monday official reprint is 55.17 Neutral, unchanged vs Friday",
+      "why": "Fetched cnn.com/markets/fear-and-greed this morning — indicators copy, no numeric index. Idéal Investisseur last update 24/08/2026 17h35, value 55,17, variation 0,00%, series cnn_fg_stocks. Monday file still had this as a Fri 21 reprint; the dated print is now Mon 24.",
+      "source": "Idéal Investisseur / CNN",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "US 10-year: Trading Economics prints 4.71% on Tue 25 Aug; Monday commentary eased toward 4.7%",
+      "why": "TE page fetched this morning: Actual 4.7120, table US 10Y 4.71 (+0.011) dated Aug/25. Commentary: yield eased to 4.7% Monday, still near a 20-month high of 4.75%; fiscal deficits + AI/corporate issuance on the long end; Treasury said it would double longer-dated buybacks. Monday digest used 4.72% / 4.717 — do not mix as the same stamp.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Jackson Hole still this week; Yonhap: Warsh speaks Friday US time",
+      "why": "Kansas City Fed page timed out this morning. Yonhap Tue open story: investors awaiting Nvidia earnings and Fed Gov. Kevin Warsh at the annual Jackson Hole gathering Friday (US time) for policy clues amid persistent inflation. TE also flags Warsh/Jackson Hole on the long end. Dates 27–29 Aug unchanged vs Monday file; no speech text fetched.",
+      "source": "Yonhap News Agency",
+      "url": "https://en.yna.co.kr/view/AEN20260825001751320"
+    },
+    {
+      "headline": "USDTHB: BOT official Mon 24 Aug reference 32.6480; Google Finance quote page 500ed",
+      "why": "Bank of Thailand FM_FX_001_S3 last updated 24 Aug 2026 18:00. USD reference 32.6480 vs Fri 21 32.7430; mid rate 32.6456. No Tuesday BOT print yet. Google Finance USD-THB returned HTTP 500 — do not invent a live 08:00 ICT cross. Localization print only.",
+      "source": "Bank of Thailand",
+      "url": "https://app.bot.or.th/BTWS_STAT/statistics/BOTWEBSTAT.aspx?language=ENG&reportID=123"
+    }
+  ],
+  "soWhat": [
+    "NBIS converts CONFIRMED closed Mon 24 Aug — greenshoe on, $5.75B. Close 6-K accepted 17:07 ET (not the 19 Aug pricing 6-K). Mon cash $210.91 (−3.75%), GF cap $57.34B. Exchange ~15.8M Class A is restated in the same close package; company did not write a separate 'exchange settled' sentence. Hedge-selling language still live.",
+    "Citadel/Griffin SA unwind still not a confirmed NBIS block — Friday letter recaps only. Settle-day supply is the tape, not a named Griffin print.",
+    "Week is still NVDA-first: Q2 FY27 after close Wed 26 Aug (GF street $92.18B / $2.09). Mon cash: NVDA $208.48 (−2.91%), MU $910.43 (−5.83%) on Apple-China memory reports + YMTC-parent $4.9B IPO filing, GOOGL $348.06, META $559.02, AMZN $262.07, SPCX $135.00.",
+    "Live Korea: SK hynix ₩1,589,000 (−4.91%) at 09:43 KST; Yonhap 09:15 KOSPI 6,452.12 (−3.66%), SK hynix −6.46% then recovered. Union rejected 60%-in-shares bonus deal (50.1%). Fear & Greed Monday official reprint 55.17 Neutral unchanged. 10y TE 4.71%. USDTHB BOT Mon 32.6480. Jackson Hole 27–29 Aug, Warsh Friday."
+  ],
+  "quotes": {
+    "note": "US cash is official Mon 24 Aug 2026 close. SK hynix is a live Korea Tuesday-morning print. USDTHB is BOT Mon 24 official — Google Finance 500ed. Every number below was read from the listed page.",
+    "asOfIct": "2026-08-25T08:20:00+07:00",
+    "NBIS": {
+      "lastCash": 210.91,
+      "lastCashChgPct": -3.75,
+      "lastCashDate": "2026-08-24",
+      "afterHours": 210.2,
+      "afterHoursChgPct": -0.34,
+      "gfCap": "57.34B",
+      "sharesOutstanding": "238.40M",
+      "open": 211.2,
+      "high": 213.75,
+      "low": 201.89,
+      "volume": "16.88M",
+      "source": "https://www.google.com/finance/quote/NBIS:NASDAQ"
+    },
+    "NVDA": {
+      "lastCash": 208.48,
+      "lastCashChgPct": -2.91,
+      "lastCashDate": "2026-08-24",
+      "afterHours": 208.9,
+      "afterHoursChgPct": 0.2,
+      "gfCap": "5.05T",
+      "source": "https://www.google.com/finance/quote/NVDA:NASDAQ"
+    },
+    "GOOGL": {
+      "lastCash": 348.06,
+      "lastCashChgPct": 0.94,
+      "lastCashDate": "2026-08-24",
+      "afterHours": 347.95,
+      "afterHoursChgPct": -0.03,
+      "gfCap": "4.24T",
+      "source": "https://www.google.com/finance/quote/GOOGL:NASDAQ"
+    },
+    "AMZN": {
+      "lastCash": 262.07,
+      "lastCashChgPct": 1.33,
+      "lastCashDate": "2026-08-24",
+      "afterHours": 262.66,
+      "afterHoursChgPct": 0.23,
+      "gfCap": "2.83T",
+      "source": "https://www.google.com/finance/quote/AMZN:NASDAQ"
+    },
+    "META": {
+      "lastCash": 559.02,
+      "lastCashChgPct": 1.66,
+      "lastCashDate": "2026-08-24",
+      "afterHours": 560.2,
+      "afterHoursChgPct": 0.21,
+      "gfCap": "1.42T",
+      "source": "https://www.google.com/finance/quote/META:NASDAQ"
+    },
+    "MU": {
+      "lastCash": 910.43,
+      "lastCashChgPct": -5.83,
+      "lastCashDate": "2026-08-24",
+      "afterHours": 903.09,
+      "afterHoursChgPct": -0.81,
+      "gfCap": "1.03T",
+      "source": "https://www.google.com/finance/quote/MU:NASDAQ"
+    },
+    "SPCX": {
+      "lastCash": 135.0,
+      "lastCashChgPct": -1.44,
+      "lastCashDate": "2026-08-24",
+      "afterHours": 135.04,
+      "afterHoursChgPct": 0.03,
+      "gfCap": "1.83T",
+      "source": "https://www.google.com/finance/quote/SPCX:NASDAQ"
+    },
+    "SK_hynix_000660": {
+      "live": 1589000,
+      "liveChgPct": -4.91,
+      "asOf": "2026-08-25T09:43:54+09:00",
+      "open": 1598000,
+      "high": 1610000,
+      "low": 1557000,
+      "monCloseImplied": 1671000,
+      "currency": "KRW",
+      "source": "https://www.google.com/finance/quote/000660:KRX"
+    },
+    "USDTHB": {
+      "rate": 32.648,
+      "botReference": 32.648,
+      "botMid": 32.6456,
+      "asOf": "2026-08-24T18:00:00+07:00",
+      "note": "BOT official Mon 24 Aug 18:00. Google Finance USD-THB HTTP 500; no Tue live print sourced.",
+      "source": "https://app.bot.or.th/BTWS_STAT/statistics/BOTWEBSTAT.aspx?language=ENG&reportID=123"
+    },
+    "US10Y": {
+      "value": 4.71,
+      "teActual": 4.712,
+      "asOf": "2026-08-25",
+      "mondayCommentaryPct": 4.7,
+      "source": "https://tradingeconomics.com/united-states/government-bond-yield"
+    }
+  }
+}
