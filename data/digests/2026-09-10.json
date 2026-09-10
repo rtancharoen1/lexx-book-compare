@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-10",
+  "asOfIct": "2026-09-10T08:15:00+07:00",
+  "producedBy": "Thu 08:15 ICT AI-infra digest. Sources: Yahoo chart v8 Wed cash + 1m AH; CNN F&G graphdata Wed stamp; open.er-api USDTHB; SEC CIK 0001513845; Nebius IR/Newsroom; NVIDIA IR Aug 27 Communacopia PR; Naver SK LIVE; Seeking Alpha Citi TMT listing (existence only).",
+  "fearGreed": {
+    "value": 39.03,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata after Wed session: score 39.0285714285714 rating fear timestamp 2026-09-09T23:59:55+00:00 (Wed stamp). previous_close 40.6285714285714 (Tue stamp). Softened ~1.6 pts vs Tue after Wed SPX −0.48%."
+  },
+  "nbis": [
+    {
+      "headline": "Wed 9 Sep US cash $240.35 (−1.45% / −$3.53 vs Tue $243.88); Yahoo 1m AH last ~$236.70. High ~$250.27 / low ~$240.01 / vol ~10.1M (1m sum). GF mkt cap not re-fetched this run (Tue was $66.30B). Convert still $5.75B ≈ THB 189.2B at USDTHB 32.90. Cash ≈ THB 7,907/sh.",
+      "why": "Yahoo chart meta regularMarketPrice + regTime 2026-09-09 20:00:00Z; AH from last 1m post-20:00 UTC bar Wed 23:59. OHLC/vol from Wed 1m regular bars. open.er-api USDTHB 32.897773 as of Thu 00:02 UTC.",
+      "source": "Yahoo chart/1m NBIS / open.er-api",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "No NEW EDGAR/IR after Palantir 6-K Sep 8 (0001104659-26-105749). SEC submissions still show that 6-K as latest company print; Form 4s Sep 3 prior. Newsroom top still Palantir Sep 8 + conferences Sep 2 — no new PR this morning.",
+      "why": "data.sec.gov submissions CIK0001513845 fetched this run; Nebius Newsroom scraped — Palantir remains newest headline.",
+      "source": "SEC EDGAR CIK 0001513845 / Nebius Newsroom",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926105749/tm2624958d1_ex99-1.htm"
+    },
+    {
+      "headline": "Citi Global TMT was Wed Sep 9 7:50 a.m. PT — Seeking Alpha lists a conference transcript (existence confirmed); Nebius IR hub still only schedule/webcast register — no Nebius-hosted transcript or slide deck found. Goldman Communacopia Nebius was Sep 8 3:45 p.m. PT. Convert $5.75B unchanged.",
+      "why": "Investor hub still lists both events; Newsroom has no post-Citi package; SA article URL confirms a third-party transcript print exists (not reproduced here).",
+      "source": "Nebius Investor Hub / Seeking Alpha listing",
+      "url": "https://nebius.com/investor-hub"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Wed cash $223.67 (−0.91% / −$2.06 vs Tue $225.73); AH ~$223.67. Hugging Face $12,930,300,000 still latest official (Sep 3 blog). Goldman Communacopia TODAY Sep 10 8:50 a.m. PT CONFIRMED (NVIDIA IR Aug 27 PR) — webcast at investor.nvidia.com; no results/transcript printed yet (pre-event ICT morning).",
+      "why": "Yahoo Wed close + 1m AH; NVIDIA IR event PR reconfirmed; HF blog still newest deal print.",
+      "source": "Yahoo chart/1m / NVIDIA IR Aug 27 / NVIDIA Blog Sep 3",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Upcoming-Event-for-Financial-Community/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "Watchlist Wed cash: GOOGL $330.65 (−2.28%); AMZN $252.40 (−1.78%); META $653.69 (+6.55%); MU $1,027.77 (+2.75%); SPCX $147.55 (−3.86%). AH: GOOGL ~$330.92; AMZN ~$252.43; META ~$650.02; MU ~$1,026.15; SPCX ~$147.05. K3 still no ticker.",
+      "why": "Yahoo regularMarketPrice Wed close + last 1m post bars for AH.",
+      "source": "Yahoo chart/1m",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix: Wed Yahoo close ₩1,856,000 (vs Tue ₩1,793,000). Thu Naver LIVE ₩1,815,000 (−2.21% / −₩41,000) at 10:18 KST OPEN; Yahoo earlier LIVE ~₩1,830,000. Pullback after Wed Asia memory bid.",
+      "why": "Yahoo daily Wed bar finalized; Naver m.stock basic LIVE this run (marketStatus OPEN) at 10:18 KST.",
+      "source": "Yahoo chart v8 000660.KS / Naver finance 000660",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "SPCX unlock-day Wed cash $147.55 (−3.86% / −$5.92 vs Tue $153.47); AH ~$147.05. High ~$153.00 / low ~$145.55 / vol ~118M (1m). ~319M day-90 unlock Wed Sep 9 (+ ~59M affiliate Sep 10 calendar) — eligibility ≠ forced sell; no new company unlock PR found this morning.",
+      "why": "Yahoo Wed close shows unlock-day fade after Tue bounce; prior FinanceFeeds/TechTimes calendar still the sourced tranche size/date.",
+      "source": "Yahoo SPCX / FinanceFeeds",
+      "url": "https://finance.yahoo.com/quote/SPCX/",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "NVDA AI-cloud revenue-share pause (WSJ Aug 27) remains neocloud overhang for NBIS stack financing. Palantir preferred-partner print ≠ pause reversal; HF deal ≠ pause reversal; no newer sourced reversal this window.",
+      "why": "No Thu-morning sourced reversal of the Aug 27 pause.",
+      "source": "WSJ / Reuters",
+      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
+      "ticker": "NVDA"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 39.03 Fear — NEW Wed stamp (was Tue 40.63). S&P Wed 7,636.36 (−0.48% vs Tue 7,673.52). VIX Wed 16.46 (vs Tue 15.72). ES=F ~7,649.5 / NQ=F ~29,416.5 Thu ICT morning.",
+      "why": "Fetched production.dataviz.cnn.io + Yahoo ^GSPC/^VIX/ES=F/NQ=F this run.",
+      "source": "CNN Fear & Greed graphdata / Yahoo",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "USDTHB 32.90 (open.er-api Thu 00:02 UTC = 32.897773); Yahoo USDTHB=X ~32.89. Convert $5.75B ≈ THB 189.2B. 10y ^TNX Wed 4.837 (vs Tue 4.806).",
+      "why": "FX live this run; rates from Yahoo ^TNX Wed session.",
+      "source": "open.er-api / Yahoo USDTHB=X / ^TNX",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    },
+    {
+      "headline": "Calendar: US cash next open Thu 21:30 ICT. CPI Fri Sep 11 → FOMC Sep 15–16. NVDA Goldman Communacopia TODAY 08:50 PT (~22:50 ICT). SPCX unlock was Wed (affiliate tranche calendar Sep 10).",
+      "why": "Standard desk calendar + NVIDIA IR event time; BLS CPI page fetch timed out — date carried from prior sourced calendar.",
+      "source": "BLS calendar / NVIDIA IR / Nebius IR",
+      "url": "https://www.bls.gov/schedule/"
+    }
+  ],
+  "soWhat": [
+    "NBIS Wed $240.35 (−1.45%) AH ~$236.70 after Tue Palantir pop; no NEW EDGAR/IR; convert $5.75B ≈ THB 189.2B @ 32.90; Citi TMT Wed — SA transcript listing exists, no Nebius-hosted slides/transcript found.",
+    "SPCX unlock-day Wed cash $147.55 (−3.86% vs Tue $153.47) — eligibility ≠ forced sell; SK Thu Naver LIVE ₩1,815,000 (−2.21%) after Wed close ₩1,856,000; MU Wed $1,027.77 (+2.75%).",
+    "NVDA Wed $223.67 (−0.91%); HF $12.93B still latest; Goldman Communacopia TODAY 08:50 PT confirmed — no transcript yet; revenue-share pause overhang; K3 TBD.",
+    "F&G NEW Wed stamp 39.03 Fear (was Tue 40.63); SPX Wed 7,636.36 (−0.48%); CPI Sep 11 → FOMC Sep 15–16. No trades."
+  ],
+  "quotes": {
+    "usdthb": 32.897773,
+    "usdthbYahoo": 32.89,
+    "usdthbSource": "open.er-api Thu 2026-09-10 00:02:31 UTC (32.897773); Yahoo USDTHB=X ~32.89",
+    "nbisWed": 240.35,
+    "nbisAh": 236.7,
+    "nbisTue": 243.88,
+    "nvdaWed": 223.67,
+    "nvdaAh": 223.67,
+    "googlWed": 330.65,
+    "googlAh": 330.92,
+    "amznWed": 252.4,
+    "amznAh": 252.43,
+    "metaWed": 653.69,
+    "metaAh": 650.02,
+    "muWed": 1027.77,
+    "muAh": 1026.15,
+    "spcxWed": 147.55,
+    "spcxAh": 147.05,
+    "spWed": 7636.36,
+    "spTue": 7673.52,
+    "vixWed": 16.46,
+    "vixTue": 15.72,
+    "tnxWed": 4.837,
+    "tnxTue": 4.806,
+    "esFut": 7649.5,
+    "nqFut": 29416.5,
+    "skHynixWedYahooKrw": 1856000,
+    "skHynixTueYahooKrw": 1793000,
+    "skHynixThuNaverLiveKrw": 1815000,
+    "skHynixThuNaverAsOfKst": "2026-09-10T10:18:15+09:00",
+    "skHynixThuYahooLiveKrw": 1830000,
+    "gfCapB": null,
+    "gfCapBNote": "Google Finance mkt cap not re-sourced this run (Tue digest had $66.30B) — omitted",
+    "convertUsdB": 5.75,
+    "convertThbB": 189.2,
+    "nbisThbPerShare": 7907,
+    "fearGreedRaw": 39.0285714285714,
+    "fearGreedPrev": 40.6285714285714
+  },
+  "gaps": [
+    "Yahoo daily historical close array lagged Wed for several single names; used regularMarketPrice with regTime = Wed 20:00Z — matches SPX Wed bar pattern",
+    "Yahoo postMarketPrice meta null; AH from last 1m post-20:00 UTC bar",
+    "GF NBIS market cap not parsed this run — set null (do not invent)",
+    "BLS CPI schedule page fetch timed out; CPI Fri Sep 11 carried from prior desk calendar",
+    "Citi TMT: SA transcript listing confirmed; content not reproduced; no Nebius IR slides found",
+    "NVDA Goldman Communacopia is TODAY — no results/transcript yet as of ~08:15 ICT",
+    "CME FedWatch not live",
+    "K3 still no ticker",
+    "BOT FX not fetched; used open.er-api"
+  ]
+}
