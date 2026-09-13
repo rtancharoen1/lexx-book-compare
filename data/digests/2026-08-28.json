@@ -1,0 +1,209 @@
+{
+  "date": "2026-08-28",
+  "asOfIct": "2026-08-28T07:10:00+07:00",
+  "producedBy": "Grok automation (Deki unreachable from this run; Yahoo + CNN JSON + TE + news pages fetched)",
+  "fearGreed": {
+    "value": 58.17,
+    "label": "Greed",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN dataviz JSON fetched this morning: score 58.171 (Greed) timestamp 2026-08-27T23:51:14+00:00 (= Fri 07:51 UTC+8 / 06:51 ICT). previous_close 55.171, previous_1_week 53.057, previous_1_month 37.629, previous_1_year 59.114. Yesterday's file used Idéal Investisseur reprint 59.09 Greed dated Wed 26 17:35 because CNN page HTML had no number. Today's number is from CNN's own graphdata endpoint. CNN HTML page still has no visible numeric score."
+  },
+  "nbis": [
+    {
+      "headline": "Thu 27 Aug cash $218.48 (+2.13% / +$4.55) vs Wed $213.93; open $223.29, range $215.41–$228.50, volume 15,908,149. No AH print fetched.",
+      "why": "Yahoo chart v8, regularMarketTime 1787860800 = Thu 27 Aug 16:00 EDT. Daily bars: Tue 221.97, Wed 213.93 (−3.62%), Thu 218.48. That is the first full cash session after Wed's post-NVDA AH bounce (yesterday file: GF AH $227.36 / Yahoo overnight $226.00). Cash did not hold the AH print. Convert $5.75B greenshoe-on and AGM 6-K 0001104659-26-101076 are already in the 27 Aug file — do not re-treat as news. No new 6-K fetched this morning. TipRanks/Tradevae wraps (Aug 27) describe a ~6–7% pre-market bounce after a six-session slide; the sourced cash settle is +2.13%, not the pre-market headline. Goldman $328 PT (Aug 25) and NVDA Vera Rubin partner mention are yesterday's items. No cap fetched this morning — do not reprint $58.16B.",
+      "source": "Yahoo Finance chart API",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "No new Nebius 6-K / convert / Griffin named-block item fetched this morning. $5.75B convert and AGM 16-for-16 stay yesterday's news.",
+      "why": "Did not re-fetch EDGAR. Yesterday file already has 0001104659-26-101076 (AGM authorizations only) and the closed $5.75B convert (0001104659-26-100347). TipRanks Aug 27 and Global1 Aug 27 still discuss the convert, Goldman PT $328, and Nvidia lockup on the 9.3% stake expiring Sep 11 — those are commentary on already-known facts, not a new company filing. No new named Griffin/Citadel block tape fetched.",
+      "source": "Prior digest 2026-08-27.json / TipRanks / Global1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926101076/tm2624077d1_6k.htm"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Thu 27 cash $227.98 (+8.74% / +$18.32) vs Wed $209.66; open $222.59, range $220.90–$230.47, volume 297,197,891. First full cash session after Q2 FY27 print.",
+      "why": "Yahoo chart v8. Wed cash $209.66 was the pre-print fade; yesterday file had GF AH $219.53 / Yahoo overnight $218.83. Thursday cash held and extended that bounce to $227.98. Q2 numbers are NOT new: company Newsroom Aug 26 still stands — rev $96,221M, GAAP EPS $2.46, non-GAAP $2.22, GM 75.0%, DC $89.0B, Q3 guide $108.0B ±2% no China DC compute. Street $92.18B/$2.09 was ESTIMATE. Business Insider wrap (Aug 27) says stock initially dropped as much as 2% then surged as much as 8% Thursday on Huang's 70% FY28 growth / supply-constrained comments. Cash settle is +8.74%. No AH fetched. No new company PR fetched this morning beyond yesterday's AWS 2M-GPU item.",
+      "source": "Yahoo Finance chart API / NVIDIA Newsroom (prior) / Business Insider",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "Memory split on Thu: MU cash $935.39 (−0.32% / −$3.01) vs Wed $938.40 after opening $966.98 (high $968.68 / low $906.89). SK hynix official Thu 27 close ₩1,730,000 (+2.49% / +₩42,000) vs Wed ₩1,688,000.",
+      "why": "Yahoo MU daily bar Thu 27: open 966.98, high 968.68, low 906.89, close 935.39, vol 28,499,670. Overnight/AH strength from Wed (yesterday GF AH $974 / Yahoo overnight $967.80) faded in the cash session. 24/7 Wall St midday Aug 27 wrap: MU ~−3% around $913.62 midday, DRAM ETF −0.9%, SOXX +1% — that was an intraday print, not the close. Official cash is $935.39 (−0.32%). Yahoo 000660.KS Thu 27 (KST session): open ₩1,776,000, high ₩1,788,000, low ₩1,708,000, close ₩1,730,000, vol 3,264,042. Fri 28 Seoul bar is null / volume 0 at fetch (09:06 KST open window) — do not invent a live Friday print. Invezz: Samsung +3.3% / SK hynix +5.5% intraday Thu on NVDA memory-shortage-into-2028 comments (CFO Kress; commitments $119B → $279B, primarily memory). Official Hynix settle is +2.49%, not the early +5.5%. NVDA names SK Hynix, Samsung, Micron as memory suppliers — company, already in the Q2 remarks.",
+      "source": "Yahoo Finance / 24/7 Wall St / Invezz / NVIDIA Q2 remarks (prior)",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "ticker": "MU"
+    },
+    {
+      "headline": "Watchlist Thu 27 ET cash: GOOGL $340.65 (−0.39%), AMZN $256.26 (−1.54%), META $571.10 (−0.87%), SPCX $140.87 (+0.89%). Hyperscalers faded while NVDA ripped.",
+      "why": "Yahoo daily bars Thu 27 16:00 EDT. GOOGL 340.65 vs 342.00, open 339.69, range 338.52–341.69, vol 23,284,085. AMZN 256.26 vs 260.28, open 259.23, range 255.02–259.66, vol 35,779,842. META 571.10 vs 576.14, open 576.48, range 567.62–588.39, vol 15,160,180. SPCX 140.87 vs 139.63, open 140.04, range 138.60–142.06, vol 54,965,745. No new GOOGL/AMZN/META/SPCX company IR fetched this morning. AWS +2M GPU PR remains yesterday's AMZN company item. Business Insider Aug 2026 wrap still frames META/GOOGL capex hangover (Alphabet FY26 capex $195–205B). Motley Fool Aug 27 SPCX column is opinion (Aug +~30% to ~$138) — cash is $140.87. K3 still has no public ticker (Moonshot AI / Kimi K3 is private; KR-Asia says pre-IPO close targeted Aug 27, HKEX filing talk by Sep 30 — not a listed name).",
+      "source": "Yahoo Finance chart API",
+      "url": "https://finance.yahoo.com/quote/GOOGL/",
+      "ticker": "GOOGL"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 58.17 Greed (CNN graphdata 2026-08-27T23:51:14Z). Prior close 55.17. S&P 500 Thu cash 7,730.99 vs Wed 7,675.70 in the same CNN momentum series.",
+      "why": "Fetched production.dataviz.cnn.io/index/fearandgreed/graphdata. fear_and_greed.score 58.1714285714286 rating greed. market_momentum_sp500 last y 7730.99 (timestamp 1787864304000 / 1787788800000 bar). Prior S&P bar 7675.70. CNN HTML page still has no visible numeric index — use the JSON endpoint, not the rendered page.",
+      "source": "CNN Fear & Greed graphdata",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "US 10y: Trading Economics Actual 4.6730 / 4.67% dated Aug 27–28; +0.02 from prior 4.65%. Warsh Jackson Hole keynote TODAY 10:00 a.m. ET — no speech text.",
+      "why": "TE page fetched this morning: Actual 4.6730, Daily Change 0.0200, Previous 4.65. Body: yield climbed to around 4.66% Thursday, rising a second session, on hotter July PCE; table US 10Y 4.67 dated Aug/28. Yesterday file used 4.6500 / 4.65% dated Aug/27. CNBC Aug 27: Chair Kevin Warsh delivers the Jackson Hole keynote Friday. Investing.com / WikiFX: listed 10:00 a.m. New York time, 28 Aug. Topic still 'Financial Innovation: Implications for Payments and Policy' (KC Fed). Speech has not happened as of 07:10 ICT (10:00 ET = 21:00 ICT / 22:00 UTC+8). Do not invent remarks.",
+      "source": "Trading Economics / CNBC / Kansas City Fed",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "USDTHB Yahoo live 32.86 as of Fri 28 regularMarketTime 1787875725; Thu bar close 32.781. BOT official not fetched this morning — do not reprint 32.7240 as live.",
+      "why": "Yahoo USDTHB=X: regularMarketPrice 32.86, day range 32.82–32.87, previousClose 32.63 on the meta (that meta previousClose is not the Thu bar). Daily closes in the same payload: … 32.636, 32.781, then a null Fri daily close plus a later stamp 32.86. Use 32.86 as the live Yahoo print and 32.781 as the last completed daily close. No BOT FM_FX_001_S3 fetch this run.",
+      "source": "Yahoo Finance USDTHB=X",
+      "url": "https://finance.yahoo.com/quote/USDTHB=X/"
+    },
+    {
+      "headline": "July PCE still the last printed inflation input (BEA Wed 26): +0.2% m/m / +3.7% y/y headline; core +0.2% / +3.3%. Not a new print.",
+      "why": "No new BEA release this morning. Next PCE is Sep 30, 2026 8:30 a.m. EDT (August 2026). TE and CNBC still cite the Wed print into Warsh. Do not re-announce PCE as today's news.",
+      "source": "U.S. Bureau of Economic Analysis (prior) / Trading Economics",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+    }
+  ],
+  "soWhat": [
+    "NBIS first full cash after the NVDA-AH bounce: Thu $218.48 (+2.13% / +$4.55) vs Wed $213.93. Did not hold Wed GF AH $227.36 / Yahoo overnight $226. Convert $5.75B and AGM 6-K stay yesterday. No new filing. No cap fetched.",
+    "NVDA Q2 reaction day: Thu cash $227.98 (+8.74% / +$18.32) vs Wed $209.66. Results unchanged (rev $96.221B, GAAP $2.46, non-GAAP $2.22, Q3 $108.0B ±2%). Memory split: MU $935.39 (−0.32%) after a $966.98 open; SK hynix official Thu ₩1,730,000 (+2.49%). Fri Seoul bar not printed.",
+    "Hyperscalers faded into the NVDA rip: GOOGL $340.65 (−0.39%), AMZN $256.26 (−1.54%), META $571.10 (−0.87%). SPCX $140.87 (+0.89%). K3 still no ticker.",
+    "Macro: CNN F&G 58.17 Greed (was 55.17 prior close / yesterday's file 59.09 Wed reprint). S&P 7,730.99 vs 7,675.70. 10y TE 4.67% / 4.6730 (+0.02). USDTHB Yahoo live 32.86 (Thu close 32.781). Warsh Jackson Hole 10:00 ET today — no text yet. No trades."
+  ],
+  "quotes": {
+    "note": "US cash is official Thu 27 Aug 2026 close (16:00 EDT = Fri 03:00 UTC+8 / 02:00 ICT). Source is Yahoo chart v8, not Google Finance. No after-hours prints fetched this morning — do not invent AH. SK hynix official cash is Thu 27 KST close; Fri 28 bar was null at fetch. USDTHB is Yahoo live, not BOT. CNN F&G is the official graphdata JSON. Every number below was read from the listed payload. NVDA results are COMPANY numbers from Aug 26, not new.",
+    "asOfIct": "2026-08-28T07:10:00+07:00",
+    "NBIS": {
+      "lastCash": 218.48,
+      "lastCashChgPct": 2.13,
+      "lastCashChgAbs": 4.55,
+      "lastCashDate": "2026-08-27",
+      "lastCashStamp": "2026-08-27T16:00:00-04:00",
+      "open": 223.29,
+      "high": 228.5,
+      "low": 215.41,
+      "volume": 15908149,
+      "prevClose": 213.93,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?interval=1d&range=5d"
+    },
+    "NVDA": {
+      "lastCash": 227.98,
+      "lastCashChgPct": 8.74,
+      "lastCashChgAbs": 18.32,
+      "lastCashDate": "2026-08-27",
+      "lastCashStamp": "2026-08-27T16:00:00-04:00",
+      "open": 222.59,
+      "high": 230.47,
+      "low": 220.9,
+      "volume": 297197891,
+      "prevClose": 209.66,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+      "q2RevM": 96221,
+      "q2GaapEps": 2.46,
+      "q2NonGaapEps": 2.22,
+      "q3GuideB": 108.0
+    },
+    "GOOGL": {
+      "lastCash": 340.65,
+      "lastCashChgPct": -0.39,
+      "lastCashChgAbs": -1.35,
+      "lastCashDate": "2026-08-27",
+      "open": 339.69,
+      "high": 341.69,
+      "low": 338.52,
+      "volume": 23284085,
+      "prevClose": 342.0,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?interval=1d&range=5d"
+    },
+    "AMZN": {
+      "lastCash": 256.26,
+      "lastCashChgPct": -1.54,
+      "lastCashChgAbs": -4.02,
+      "lastCashDate": "2026-08-27",
+      "open": 259.23,
+      "high": 259.66,
+      "low": 255.02,
+      "volume": 35779842,
+      "prevClose": 260.28,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?interval=1d&range=5d"
+    },
+    "META": {
+      "lastCash": 571.1,
+      "lastCashChgPct": -0.87,
+      "lastCashChgAbs": -5.04,
+      "lastCashDate": "2026-08-27",
+      "open": 576.48,
+      "high": 588.39,
+      "low": 567.62,
+      "volume": 15160180,
+      "prevClose": 576.14,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d&range=5d"
+    },
+    "MU": {
+      "lastCash": 935.39,
+      "lastCashChgPct": -0.32,
+      "lastCashChgAbs": -3.01,
+      "lastCashDate": "2026-08-27",
+      "open": 966.98,
+      "high": 968.68,
+      "low": 906.89,
+      "volume": 28499670,
+      "prevClose": 938.4,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=5d"
+    },
+    "SPCX": {
+      "lastCash": 140.87,
+      "lastCashChgPct": 0.89,
+      "lastCashChgAbs": 1.24,
+      "lastCashDate": "2026-08-27",
+      "open": 140.04,
+      "high": 142.06,
+      "low": 138.6,
+      "volume": 54965745,
+      "prevClose": 139.63,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPCX?interval=1d&range=5d"
+    },
+    "SKHYNIX": {
+      "ticker": "000660.KS",
+      "lastCashKrw": 1730000,
+      "lastCashChgPct": 2.49,
+      "lastCashChgAbs": 42000,
+      "lastCashDate": "2026-08-27",
+      "open": 1776000,
+      "high": 1788000,
+      "low": 1708000,
+      "volume": 3264042,
+      "prevClose": 1688000,
+      "fridayBar": "null at fetch — do not invent",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?interval=1d&range=5d"
+    },
+    "SPX": {
+      "last": 7730.99,
+      "prev": 7675.7,
+      "source": "CNN fearandgreed graphdata market_momentum_sp500"
+    },
+    "USDTHB": {
+      "yahooLive": 32.86,
+      "yahooThuClose": 32.781,
+      "dayHigh": 32.87,
+      "dayLow": 32.82,
+      "botOfficial": null,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/USDTHB=X?interval=1d&range=5d"
+    },
+    "US10Y": {
+      "teActual": 4.673,
+      "teLabel": "4.67%",
+      "prior": 4.65,
+      "dailyChange": 0.02,
+      "source": "https://tradingeconomics.com/united-states/government-bond-yield"
+    }
+  }
+}

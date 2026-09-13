@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-07",
+  "asOfIct": "2026-09-07T08:25:00+07:00",
+  "producedBy": "Deki Mon 8:20 AI-infra digest. Labor Day US closed; Korea Mon LIVE; CNN F&G recheck (Fri stamp); EDGAR CIK 0001513845; USDTHB open.er-api + Yahoo; Yahoo 000660.KS + Naver LIVE. Refreshed SK vs earlier Grok fill.",
+  "fearGreed": {
+    "value": 41.86,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata this run: score 41.8571428571429 rating fear timestamp 2026-09-04T23:59:43+00:00 (Fri session stamp). previous_close 35.23. Unchanged vs Sat/Sun digests. No Mon official print while US cash shut for Labor Day."
+  },
+  "nbis": [
+    {
+      "headline": "Labor Day Mon 7 Sep — US FULL closed. Last cash Fri 4: $226.39 (+7.48% / +$15.76 vs Thu $210.63); Yahoo AH 1m last $225.30 (−0.48%). Convert $5.75B ≈ THB 189.3B at USDTHB 32.92. Fri cash ≈ THB 7,453/sh. Cap carried $61.55B (Sat GF). Next US cash Tue 8 Sep 21:30 ICT.",
+      "why": "No Mon US bar (holiday). Yahoo chart v8 Fri close + 1m post bar reconfirmed this run. open.er-api USDTHB 32.921586 as of Mon 00:02 UTC; Yahoo USDTHB=X Mon reg 32.90.",
+      "source": "Yahoo chart v8 NBIS / open.er-api",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "EDGAR still quiet through Mon morning: newest filings remain eight Form 4s dated 2026-09-03 (0001513845-26-000096 … 000110) — RSU grants code A, not open-market sells. No Form 4/6-K/144 dated Sep 4–7. Latest 6-K still AGM Aug 26 (0001104659-26-101076).",
+      "why": "SEC submissions JSON this run: newest filingDate 2026-09-03 Form 4s.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&owner=include&count=40"
+    },
+    {
+      "headline": "IR calendar: Goldman Communacopia TODAY/TOMORROW depending on timezone — Sep 8 3:45 p.m. PT + Citi Global TMT Sep 9 7:50 a.m. PT (Newsroom Sep 2). Overhang still Nvidia AI-cloud revenue-share pause (WSJ Aug 27).",
+      "why": "No new Nebius Newsroom PR Mon. Conferences are the near catalyst into first post–Labor Day US session Tue.",
+      "source": "Nebius Newsroom Sep 2",
+      "url": "https://nebius.com/newsroom/nebius-to-participate-in-upcoming-investor-conferences"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Fri cash $230.36 (+0.84%); Yahoo AH 1m last $229.50. Hugging Face acquire $12,930,300,000 still latest official (Sep 3 blog; 8-K economics ~$11.9B + up to ~$1.0B retention). Goldman Communacopia Sep 10 8:50 a.m. PT. No Mon US bar.",
+      "why": "US Labor Day close. No newer NVIDIA Newsroom than HF Sep 3 found this window.",
+      "source": "Yahoo chart v8 / NVIDIA Blog Sep 3",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "Watchlist Fri cash (next US Tue): GOOGL $338.46 (−1.17%); AMZN $258.51 (−0.15%); META $616.77 (+1.00%); MU $1,016.59 (+6.10%); SPCX $147.95 (−1.20%). K3 still no ticker.",
+      "why": "Yahoo chart v8 Fri closes reconfirmed. US cash shut Labor Day. MU was Fri's largest % move on the book.",
+      "source": "Yahoo chart v8",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix Mon Asia LIVE/print: Yahoo 000660.KS ₩1,735,000 (+5.34% / +₩88,000 vs Fri official ₩1,647,000); Naver LIVE ₩1,748,000 (+6.13%) at 10:26 KST OPEN. Korea open Labor Day (does not observe US holiday).",
+      "why": "Main new tape today while US shut. Cross-checked Yahoo chart Mon bar + Naver m.stock basic. Newsis/Herald cite Fri US semis strength (SK ADR +8.14% Fri) into Seoul open.",
+      "source": "Yahoo chart v8 000660.KS / Naver finance 000660",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "SPCX ~319M day-90 unlock Wed Sep 9 (+ ~59M affiliate Sep 10). Fri cash $147.95. Unlock = eligibility, not forced selling.",
+      "why": "Calendar overhang into first full US week post–Labor Day. Secondary prospectus trackers; not a new company PR Mon.",
+      "source": "FinanceFeeds / prior digests",
+      "url": "https://financefeeds.com/spacex-spcx-share-unlock-september-9/",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "NVDA AI-cloud revenue-share pause (WSJ Aug 27) remains neocloud overhang for NBIS stack financing. HF deal ≠ pause reversal.",
+      "why": "No Mon sourced reversal.",
+      "source": "WSJ / Reuters",
+      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
+      "ticker": "NVDA"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 41.86 Fear — unchanged (Fri stamp 2026-09-04T23:59:43Z). S&P Fri 7,718.60 (−0.38%). VIX Fri 14.53. No Labor Day official F&G print.",
+      "why": "Fetched production.dataviz.cnn.io this run (Chrome UA + CNN Referer).",
+      "source": "CNN Fear & Greed graphdata",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "USDTHB 32.92 (open.er-api Mon 00:02 UTC); Yahoo USDTHB=X Mon reg 32.90. Convert $5.75B ≈ THB 189.3B. 10y Fri ^TNX 4.78. Korea Aug MOTIE chips $46.65B carried.",
+      "why": "FX live this run; rates from Fri US session reconfirmed Yahoo ^TNX.",
+      "source": "open.er-api / Yahoo USDTHB=X / ^TNX",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    },
+    {
+      "headline": "Labor Day Mon Sep 7: NYSE/Nasdaq FULL closed. Next US cash Tue Sep 8 21:30 ICT. CPI Fri Sep 11 08:30 ET. PPI Thu Sep 10. FOMC Sep 15–16. NFP Fri already +162k / UE 4.1% / AHE $37.75 (reprint-verified).",
+      "why": "Holiday + BLS calendar from prior digests. Always-send: Mon Labor Day wrap + SK Asia move + IR conferences Tue/Wed.",
+      "source": "Yahoo Finance Labor Day 2026 / prior digests",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-labor-day-heres-the-holiday-trading-schedule-for-2026-210239142.html"
+    }
+  ],
+  "soWhat": [
+    "Mon Labor Day: US CLOSED; next cash Tue 8 Sep 21:30 ICT. NBIS Fri $226.39 AH $225.30; convert $5.75B ≈ THB 189.3B at USDTHB 32.92. No EDGAR Sep 4–7. Goldman Sep 8 + Citi Sep 9.",
+    "Asia tape: SK hynix Mon Yahoo ₩1,735,000 (+5.34% vs Fri) / Naver LIVE ₩1,748,000 (+6.13%) at 10:26 KST. US watchlist still Fri prints; MU was Fri's +6.10% leader.",
+    "SPCX ~319M unlock Wed Sep 9. NVDA HF $12.93B still latest; revenue-share pause still overhang. K3 TBD.",
+    "Macro: F&G 41.86 Fear unchanged (Fri stamp). CPI Sep 11 → FOMC Sep 15–16. No trades."
+  ],
+  "quotes": {
+    "usdthb": 32.9216,
+    "usdthbYahoo": 32.9,
+    "usdthbSource": "open.er-api Mon 2026-09-07 00:02 UTC; Yahoo USDTHB=X Mon reg 32.90",
+    "nbisFri": 226.39,
+    "nbisAh": 225.3,
+    "nvdaFri": 230.36,
+    "nvdaAh": 229.5,
+    "googlFri": 338.46,
+    "amznFri": 258.51,
+    "metaFri": 616.77,
+    "muFri": 1016.59,
+    "spcxFri": 147.95,
+    "spFri": 7718.6,
+    "vixFri": 14.53,
+    "tnxFri": 4.784,
+    "skHynixFriKrw": 1647000,
+    "skHynixMonYahooKrw": 1735000,
+    "skHynixMonNaverLiveKrw": 1748000,
+    "skHynixMonNaverAsOfKst": "2026-09-07T10:26:20+09:00",
+    "gfCapBCarried": 61.55
+  },
+  "gaps": [
+    "US cash closed Labor Day — Fri prices for NBIS/NVDA/watchlist",
+    "GF caps not re-fetched Mon (carried $61.55B from Sat)",
+    "BOT official USDTHB not fetched",
+    "CME FedWatch not live-refetched",
+    "K3 still no ticker"
+  ]
+}
