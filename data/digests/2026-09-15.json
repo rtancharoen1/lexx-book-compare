@@ -1,32 +1,38 @@
 {
   "date": "2026-09-15",
-  "asOfIct": "2026-09-15T08:40:00+07:00",
-  "producedBy": "AI-infra morning digest routine (Tue). Grok Deki-desk fill (SendToAgent unavailable). Verified Yahoo chart v8 + Google Finance AH/cap + CNN F&G graphdata Mon stamp + SEC CIK0001513845 + open.er-api FX + 247wallst FedWatch reprint. Built on live-snapshot-2026-09-15 (Deki 08:22) then re-fetched.",
+  "asOfIct": "2026-09-15T09:05:00+07:00",
+  "producedBy": "AI-infra morning digest routine (Tue 09:05 ICT). Re-verified Yahoo chart v8 + Google Finance NBIS AH/cap + CNN F&G graphdata Mon stamp + SEC CIK0001513845 + open.er-api FX. Built on Grok 08:40 desk fill; SK LIVE corrected; + Waymo/META legal new vs fill.",
   "fearGreed": {
     "value": 31.06,
     "label": "Fear",
     "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
     "page": "https://www.cnn.com/markets/fear-and-greed",
-    "read": "CNN graphdata score 31.057 rating fear timestamp 2026-09-14T23:59:50+00:00 (Mon); previous_close 33.34; previous_1_week 45.23. Fresh Mon stamp into Tue Asia morning (was Fri 33.34 on Mon digest)."
+    "read": "CNN graphdata score 31.057 rating fear timestamp 2026-09-14T23:59:50+00:00 (Mon); previous_close 33.34; previous_1_week 45.23. Unchanged vs 08:40 fill."
   },
   "nbis": [
     {
-      "headline": "Mon US cash $212.19 (−5.50% / −$12.36 vs Fri $224.55). AH $213.47 (+0.60%). Cap $57.68B (GF / Form144×cash). ≈ THB 7,052/sh at USDTHB 33.23. Next cash Tue 20:30 ICT.",
-      "why": "Yahoo chart v8 cash bar 2026-09-14 O204.98 H219.32 L203.87 C212.19 V13.68M; GF After hours $213.47 / mkt cap 57.68B verified this run. Matches Deki morning ping — independently re-checked.",
+      "headline": "Mon US cash $212.19 (−5.50% / −$12.36 vs Fri $224.55). AH $213.47 (+0.60%). Cap $57.68B (GF). ≈ THB 7,052/sh at USDTHB 33.23. Next cash Tue 20:30 ICT.",
+      "why": "Yahoo chart v8 cash bar 2026-09-14 O204.98 H219.32 L203.87 C212.19; GF After hours $213.47 / mkt cap 57.68B re-verified this run.",
       "source": "Yahoo Finance chart v8 / Google Finance",
       "url": "https://finance.yahoo.com/quote/NBIS/"
     },
     {
       "headline": "Still the catalyst: Sep 8 Palantir names Nebius preferred sovereign AI infra partner; compute/inference inside Palantir perimeter. No $ / GW / exclusivity disclosed.",
-      "why": "Primary Nebius newsroom still top headline + Form 6-K Exhibit 99.1. No newer company IR Tue morning.",
+      "why": "Primary Nebius newsroom still top + Form 6-K Exhibit 99.1. No newer company IR Tue morning.",
       "source": "Nebius Newsroom / 6-K",
       "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
     },
     {
-      "headline": "No NEW EDGAR since Sep 8 Palantir 6-K (0001104659-26-105749). Form 4s still Sep 3.",
+      "headline": "No NEW EDGAR since Sep 8 Palantir 6-K (0001104659-26-105749). Form 4s still Sep 2–3.",
       "why": "data.sec.gov submissions CIK0001513845 this run — newest material filing still Sep 8 partnership 6-K.",
       "source": "SEC EDGAR CIK 0001513845",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&owner=include&count=40"
+    },
+    {
+      "headline": "Sep 14 secondary: TS2 flags Palantir preferred ≠ backlog (no $ / exclusivity / MW floor). Soft color only — not company IR.",
+      "why": "Secondary analysis of already-filed Sep 8 deal economics; reinforces no disclosed revenue number.",
+      "source": "TS2.tech",
+      "url": "https://ts2.tech/en/palantir-made-nebius-its-preferred-sovereign-ai-partner-the-deal-has-no-revenue-number/"
     },
     {
       "headline": "Mon tape: AI-chip complex sold off on Anthropic/OpenAI/Musk 'pace the frontier' safety-pause color; NBIS −5.50% alongside NVDA/MU. Sentiment, not a company print.",
@@ -44,9 +50,16 @@
       "ticker": "NVDA"
     },
     {
-      "headline": "Mon AI-chip scare: Anthropic CEO Amodei essay urging slower frontier development; Altman + Musk endorsed. NVDA opened ~−3.7%; MU/AMD also hit. No hyperscaler order cancel reported.",
+      "headline": "NEW: Waymo opens public robotaxi service in Las Vegas (15th U.S. market) after Nevada Transport Authority approval.",
+      "why": "Alphabet product commercialization print Mon Sep 14 — not chips/capex, but live GOOGL expansion in-window.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
+      "ticker": "GOOGL"
+    },
+    {
+      "headline": "Mon AI-chip scare: Anthropic CEO Amodei essay urging slower frontier development; Altman + Musk endorsed. NVDA/MU hit; no hyperscaler order cancel reported.",
       "why": "Session narrative for NVDA/MU/NBIS Mon weakness into FOMC — sentiment vs order-book.",
-      "source": "CryptoBriefing Sep 14",
+      "source": "CryptoBriefing Sep 14 / TechTarget",
       "url": "https://cryptobriefing.com/nvidia-drops-ai-slowdown-calls/",
       "ticker": "NVDA"
     },
@@ -58,22 +71,15 @@
       "ticker": "ORCL"
     },
     {
-      "headline": "AMZN ~$220B / GOOGL $195–205B 2026 capex (~$420B combined ≈ THB 14.0T at 33.23). Still the spend thesis despite Mon chip scare.",
-      "why": "Motley Fool Sep 9 synthesizing company guidance — unchanged overnight.",
-      "source": "Motley Fool (co guidance synthesis)",
-      "url": "https://www.fool.com/investing/2026/09/09/do-amazon-and-alphabets-combined-420-billion-in-ca/",
-      "ticker": "AMZN"
+      "headline": "NEW soft: META class action alleges FB/IG photos used for unreleased Name Tag smart-glasses faceprints / AI image training. Meta disputes.",
+      "why": "Biometric/privacy overhang for wearables AI — not capex or hyperscaler demand.",
+      "source": "PetaPixel (citing Wired / complaint)",
+      "url": "https://petapixel.com/2026/09/14/meta-hit-with-class-action-lawsuit-for-allegedly-using-instagram-photos-to-build-name-tag/",
+      "ticker": "META"
     },
     {
-      "headline": "SPCX Mon $148.15 (−2.02% vs Fri $151.21). Lockup overhang still live (Sep 24 / Oct 9 / Oct 24).",
-      "why": "Yahoo Mon bar + prior Fool prospectus schedule color.",
-      "source": "Yahoo / Motley Fool lockup schedule",
-      "url": "https://finance.yahoo.com/quote/SPCX/",
-      "ticker": "SPCX"
-    },
-    {
-      "headline": "SK hynix (000660.KS) Tue LIVE ₩1,709,000 (+0.71% vs Mon ₩1,697,000). MU Mon −5.25% book flag. K3: no public ticker.",
-      "why": "Yahoo/KRX this run — SK quiet bounce after Mon −5.68% ping; memory still soft on US MU.",
+      "headline": "SK hynix (000660.KS) Tue LIVE ₩1,704,000 (+0.41% vs Mon ₩1,697,000). MU Mon −5.25% book flag. SPCX lockup overhang still live (Sep 24 / Oct 9 / Oct 24). K3: no public ticker.",
+      "why": "Yahoo/KRX this run — SK quiet after Mon −5.68%; corrected vs 08:40 fill ₩1,709,000. Memory still soft on US MU.",
       "source": "Yahoo Finance chart v8",
       "url": "https://finance.yahoo.com/quote/000660.KS/",
       "ticker": "000660.KS"
@@ -88,22 +94,22 @@
     },
     {
       "headline": "FOMC Tue–Wed Sep 15–16 (decision Wed ~02:00 ICT Thu): CME FedWatch ~90.7% odds of +25 bp (target 3.75–4.00%). Reuters economist poll ~85% hike.",
-      "why": "247 Wall St Sep 14 citing CME FedWatch 90.7% + Reuters poll — hike path is duration headwind for AI-infra multiples.",
+      "why": "247 Wall St Sep 14 citing CME FedWatch 90.7% + Reuters poll — hike path is duration headwind for AI-infra multiples. CME.com direct fetch 403 blocked.",
       "source": "247 Wall St citing CME FedWatch / Reuters",
       "url": "https://247wallst.com/investing/2026/09/14/chances-of-first-fed-rate-hike-since-2023-now-over-90-markets-brace-for-the-warsh-era-shock/"
     },
     {
-      "headline": "USDTHB 33.2344 (er-api Tue 00:02Z). Oil futures: WTI ~$102.55 / Brent ~$106.73 (Yahoo futures AM prints dated Sep 15).",
+      "headline": "USDTHB 33.2344 (er-api Tue 00:02Z). Oil futures: WTI ~$102.83 / Brent ~$107.05 (Yahoo futures AM prints dated Sep 15).",
       "why": "open.er-api + Yahoo CL=F / BZ=F — FX for THB localization; energy feeds Fed hike case.",
       "source": "open.er-api / Yahoo CL=F BZ=F",
       "url": "https://open.er-api.com/v6/latest/USD"
     }
   ],
   "soWhat": [
-    "NBIS Mon −5.50% cash (AH +0.60% to $213.47); Palantir preferred-partner still live catalyst; no new IR/EDGAR; wait Tue US open 20:30 ICT.",
-    "Mon chip scare (Amodei/Altman/Musk pace-frontier) hit NVDA −3.36% / MU −5.25% / NBIS; GOOGL/META held up. No hyperscaler cancel reported.",
-    "Fear down to ~31; VIX 17.1; FOMC Wed hike odds ~91% → duration headwind for AI-infra multiples.",
-    "SK bouncing quietly Tue (+0.71%); Oracle/hyperscaler demand prints unchanged. No trade. Watch Tue open then FOMC. K3 no ticker."
+    "NBIS Mon −5.50% cash (AH +0.60% to $213.47); Palantir preferred-partner still live catalyst (no $ disclosed); no new IR/EDGAR; wait Tue US open 20:30 ICT.",
+    "Mon chip scare hit NVDA −3.36% / MU −5.25% / NBIS; GOOGL held (+Waymo Vegas public launch). No hyperscaler cancel reported.",
+    "Fear ~31; VIX 17.1; FOMC Wed hike odds ~91% → duration headwind for AI-infra multiples.",
+    "SK Tue LIVE ₩1,704,000 (+0.41%); Oracle/hyperscaler demand prints unchanged. No trade. Watch Tue open then FOMC. K3 no ticker."
   ],
   "quotes": {
     "asOf": "US Mon 2026-09-14 cash (+ AH where noted); Korea Tue 2026-09-15 session; FX Tue morning",
@@ -142,10 +148,11 @@
       "chgPct": -2.02
     },
     "000660.KS": {
-      "last": 1709000,
+      "last": 1704000,
       "prevMon": 1697000,
-      "chgPctVsMon": 0.71,
-      "ccy": "KRW"
+      "chgPctVsMon": 0.41,
+      "ccy": "KRW",
+      "note": "Corrected vs 08:40 fill ₩1,709,000 — Yahoo LIVE this run"
     },
     "SPX": {
       "last": 7619.98,
@@ -159,10 +166,10 @@
       "last": 4.961
     },
     "WTI": {
-      "last": 102.55
+      "last": 102.83
     },
     "Brent": {
-      "last": 106.73
+      "last": 107.05
     },
     "source": "Yahoo chart v8 / Google Finance (NBIS AH+cap) / open.er-api / CNN graphdata"
   },
