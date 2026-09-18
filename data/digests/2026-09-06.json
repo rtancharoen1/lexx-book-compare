@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-06",
+  "asOfIct": "2026-09-06T08:20:00+07:00",
+  "producedBy": "Grok Sun morning fill (automation; SendToAgent Deki unavailable). Fri 4 Sep US cash carried from Sat digest + CNN F&G recheck + EDGAR CIK 0001513845 through Sun; Labor Day Mon 7 Sep US closed; Korea Mon open; SPCX unlock calendar; USDTHB Frankfurter/open.er-api ~32.92 (Yahoo rate-limited this run).",
+  "fearGreed": {
+    "value": 41.86,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata this run: score 41.8571428571429 rating fear timestamp 2026-09-04T23:59:43+00:00 (Fri session stamp). previous_close 35.23. Unchanged vs Sat digest. No Saturday/Sunday official print while US cash shut."
+  },
+  "nbis": [
+    {
+      "headline": "Fri 4 cash $226.39 (+7.48% / +$15.76) vs Thu $210.63; Yahoo AH last $225.30 (−0.48%). Weekend + Labor Day Mon 7 Sep — next US cash Tue 8 Sep 21:30 ICT. Convert $5.75B ≈ THB 189.3B at USDTHB 32.92. Fri cash ≈ THB 7,453/sh. GF cap $61.55B from Sat file (not re-fetched).",
+      "why": "No Sat/Sun US bar. Carry Fri cash from Sat Yahoo/GF digest. Convert closed Aug still $5.75B. Localization uses Frankfurter USD→THB 32.92 (2026-09-04) / open.er-api ~32.916 Sun — Yahoo USDTHB blocked (429) this run.",
+      "source": "Prior Sat digest Yahoo chart v8 / Frankfurter / open.er-api",
+      "url": "https://finance.yahoo.com/quote/NBIS/history/"
+    },
+    {
+      "headline": "EDGAR still quiet through Sun morning: latest filings remain eight Form 4s dated 2026-09-03 (0001513845-26-000096 … 000110) — directors/officers each 1,352 Class A RSUs (code A) granted Sep 1, vest Jan 2 2027. No Form 4/6-K/144 dated Sep 4–6. Latest 6-K still AGM Aug 26 (0001104659-26-101076).",
+      "why": "SEC browse-edgar + atom this run: newest filingDate 2026-09-03 Form 4s. Routine grants already flagged Sat — not thesis-moving. No weekend company 6-K.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "IR calendar unchanged: Goldman Communacopia Sep 8 3:45 p.m. PT + Citi Global TMT Sep 9 7:50 a.m. PT (Newsroom Sep 2). Overhang still live: WSJ/Reuters Aug 27 Nvidia paused some AI-cloud revenue-share deals.",
+      "why": "No newer Nebius Newsroom headline found Sat–Sun than Sep 2 conferences. Calendar IR only into post–Labor Day week.",
+      "source": "Nebius Newsroom Sep 2",
+      "url": "https://nebius.com/newsroom/nebius-to-participate-in-upcoming-investor-conferences"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Fri cash $230.36 (+0.84%); AH $229.50. Q2 FY27 unchanged: rev $96.221B, GAAP $2.46, non-GAAP $2.22, Q3 $108B ±2%. Hugging Face acquire $12,930,300,000 still latest official (Sep 3). Goldman Communacopia Sep 10 8:50 a.m. PT. Fri cash ≈ THB 7,584 at 32.92.",
+      "why": "Carry Fri cash from Sat digest. No Sat/Sun US bar. No newer NVIDIA Newsroom than Hugging Face Sep 3 found this window.",
+      "source": "Prior Sat digest / NVIDIA Blog Sep 3",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "Watchlist Fri cash: GOOGL $338.46 (−1.17%); AMZN $258.51 (−0.15%); META $616.77 (+1.00%); MU $1,016.59 (+6.10%); SPCX $147.95 (−1.20%). K3 still no ticker.",
+      "why": "Fri meta prices vs Thu from Sat Yahoo digest. Next US cash Tue after Labor Day. MU was largest Fri % move on the book.",
+      "source": "Prior Sat digest Yahoo chart v8",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix Fri official ₩1,647,000 (+3.20% / +₩51,000). Sun LIVE null (weekend). Korea Mon 7 Sep should open (Korea does not observe US Labor Day) — no Mon LIVE yet as of ~08:20 ICT.",
+      "why": "Fri close from Sat Yahoo 000660.KS / SBS English / Aju Press. Do not invent Sun LIVE. Mon Seoul session is the next Asia tape before Tue US open.",
+      "source": "Yahoo / SBS / Aju Press Fri 4 Sep",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "SPCX next lock-up tranche ~Wed Sep 9: ~319M shares eligible (day-90); ~59M affiliate block Sep 10. Fri cash $147.95. Secondary coverage still cites Oppenheimer PT $280 / JPMorgan $240 — treat as analyst views, not company IR.",
+      "why": "Calendar overhang into post–Labor Day week. Fri cash from Sat digest. Unlock size from FinanceFeeds / CoinGabbar citing prospectus day-count — not a new company PR this weekend.",
+      "source": "FinanceFeeds / CoinGabbar / prior Sat digest",
+      "url": "https://financefeeds.com/spacex-spcx-share-unlock-september-9/",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "NVDA AI Compute Partnership pause (WSJ Aug 27) remains main neocloud overhang. Hugging Face deal = open-platform M&A, not a pause reversal.",
+      "why": "No Sat–Sun sourced reversal. Thesis-relevant for NBIS stack financing.",
+      "source": "WSJ / Reuters via CNA",
+      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
+      "ticker": "NVDA"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 41.86 Fear — unchanged vs Sat (Fri stamp 2026-09-04T23:59:43Z). S&P Fri 7,718.60 (−0.38%). VIX Fri 14.53. No weekend official F&G print.",
+      "why": "Fetched production.dataviz.cnn.io this run. Same score as Sat digest.",
+      "source": "CNN Fear & Greed graphdata",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "USDTHB ~32.92 (Frankfurter 2026-09-04 print 32.92; open.er-api ~32.916 as of Sun 00:02 UTC). Yahoo USDTHB=X 429 this run. 10y ^TNX Fri 4.78 from Sat file (not re-fetched). Korea Aug MOTIE chips $46.65B unchanged.",
+      "why": "Prefer named FX APIs when Yahoo blocked. Convert $5.75B ≈ THB {thb(convert)/1e9:.1f}B at 32.92.",
+      "source": "Frankfurter / open.er-api / prior Sat ^TNX",
+      "url": "https://api.frankfurter.app/latest?from=USD&to=THB"
+    },
+    {
+      "headline": "Labor Day Mon Sep 7: NYSE/Nasdaq FULL closed (no early close). Next US cash Tue Sep 8. CPI Fri Sep 11 08:30 ET. PPI Thu Sep 10. FOMC Sep 15–16 (decision Wed 16). NFP Fri already printed +162k / UE 4.1% / AHE $37.75 (reprint-verified Sat).",
+      "why": "Yahoo Finance holiday article + BLS Sep 2026 schedule + prior Sat NFP digests. Post–Labor Day week is CPI → FOMC. CME hike odds ~57–58% after NFP cited in Sat secondary — not re-fetched live this run.",
+      "source": "Yahoo Finance Labor Day 2026 / BLS schedule",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-labor-day-heres-the-holiday-trading-schedule-for-2026-210239142.html"
+    }
+  ],
+  "soWhat": [
+    "Sun: US CLOSED through Labor Day Mon; next US cash Tue 8 Sep 21:30 ICT. NBIS Fri $226.39 (+7.48%) AH $225.30; convert $5.75B ≈ THB 189.3B at USDTHB 32.92. No EDGAR Sep 4–6. Conferences Goldman Sep 8 + Citi Sep 9.",
+    "NVDA Fri $230.36; Hugging Face $12.93B still latest. AI-cloud revenue-share pause still the neocloud overhang. Goldman Sep 10. Watchlist Fri: GOOGL $338.46, AMZN $258.51, META $616.77, MU $1,016.59 (+6.10%).",
+    "SK hynix Fri ₩1,647,000 (+3.20%); next Asia tape is Mon Seoul (Korea open Labor Day). SPCX Fri $147.95; ~319M unlock Wed Sep 9. K3 TBD.",
+    "Macro: F&G 41.86 Fear unchanged (Fri stamp). NFP already in. Calendar: Labor Day Mon → CPI Sep 11 → FOMC Sep 15–16. No trades."
+  ],
+  "quotes": {
+    "usdthb": 32.92,
+    "usdthbSource": "Frankfurter 2026-09-04 / open.er-api Sun",
+    "nbisFri": 226.39,
+    "nvdaFri": 230.36,
+    "spFri": 7718.6,
+    "vixFri": 14.53,
+    "tnxFri": 4.78,
+    "skHynixFriKrw": 1647000
+  },
+  "gaps": [
+    "Yahoo chart v8 / USDTHB rate-limited (429) this run — US prices carried from Sat digest Fri cash",
+    "GF caps not re-fetched Sunday",
+    "BOT official USDTHB not fetched",
+    "CME FedWatch hike odds not live-refetched (Sat secondary ~57–58%)",
+    "Korea Mon LIVE not yet available at asOfIct",
+    "K3 still no ticker"
+  ]
+}
