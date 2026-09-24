@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-31",
+  "asOfIct": "2026-08-31T07:27:00+07:00",
+  "producedBy": "Deki 8:20 ICT AI-infra morning digest. Replaces Grok 07:11 ICT desk fill (SK LIVE was unconfirmed on that run). Monday: US last cash Fri 28; Seoul LIVE this run.",
+  "fearGreed": {
+    "value": 54.43,
+    "label": "Neutral",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata this run: score 54.4285714285714 rating neutral timestamp 2026-08-28T23:59:58+00:00. previous_close 58.1714285714286. Unchanged vs Sunday 2026-08-30.json and vs Grok 07:11 fill. US closed Fri–Mon morning so stamp still Fri session. Idéal Investisseur reprint 54,43 as of 28/08/2026 17h35 (dernière clôture) matches. First curl without Referer returned 418; retry with CNN Referer returned 200."
+  },
+  "nbis": [
+    {
+      "headline": "Fri 28 cash $209.18 (−4.26% / −$9.30) vs Thu $218.48; Yahoo AH last $208.64 (−0.26% / −$0.54) at ~19:59 ET. No Mon US premarket print (US still Sunday evening ET as of 07:27 ICT).",
+      "why": "Yahoo chart v8 daily Fri: open 211.96, high 214.28, low 205.48, close 209.18, vol 13,088,800. 1m includePrePost last bar 2026-08-28T23:59:58Z = $208.64. Convert $5.75B unchanged — localize at Yahoo USDTHB Mon morning 33.13 → ≈ THB 190.5B. Fri cash ≈ THB 6,930/sh. GF market cap not re-fetched; last sourced Fri morning GF $59.39B at Thu cash $218.48 — do not recompute. No new Nebius 6-K / newsroom PR Sat–Mon morning.",
+      "source": "Yahoo Finance chart v8",
+      "url": "https://finance.yahoo.com/quote/NBIS/history/"
+    },
+    {
+      "headline": "No new company filing weekend–Mon morning. Latest IR still convert close Aug 24 ($5.75B aggregate; 0.50% 2030 $3.45B + 4.50% 2034 $2.3B) and AGM 6-K Aug 26 (authorization only).",
+      "why": "data.sec.gov CIK 0001513845 submissions this run: newest 6-K remains 0001104659-26-101076 dated 2026-08-26, then convert-close 0001104659-26-100347 dated 2026-08-24. efts 6-K search 2026-08-26 to 2026-08-31 returns only that AGM package. Nebius newsroom list still tops with AGM Aug 26, then convert-close Aug 24. No sourced Citadel/Seeking Alpha block-tape item this run.",
+      "source": "SEC EDGAR / Nebius newsroom",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926101076/tm2624077d1_6k.htm"
+    },
+    {
+      "headline": "Fri overhang still live into Mon US open: WSJ/Reuters (Thu 27) Nvidia paused some AI-cloud revenue-share financing deals — neocloud financing-stack risk for NBIS thesis.",
+      "why": "CNA Reuters reprint (updated 28 Aug) confirms WSJ: pause of some deals under the new financing initiative; Nvidia spokesperson: the July compute-access model 'is still in place and continues to evolve due to high demand.' Not on NVIDIA Newsroom (archive this run has no Aug 28–31 items; latest IR is Goldman Communacopia calendar Aug 27). Flag with Fri tape only; do not invent counterparties or terms.",
+      "source": "CNA reprint of Reuters/WSJ Aug 27",
+      "url": "https://www.channelnewsasia.com/business/nvidia-pauses-revenue-sharing-deals-ai-cloud-companies-wsj-reports-6346451"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Fri cash $217.55 (−4.58% / −$10.43) vs Thu $227.98; Yahoo AH last ~$217.89. No Mon premarket. Q2 FY27 numbers unchanged. No new Newsroom item Aug 28–31.",
+      "why": "Yahoo Fri: open 227.36, high 229.26, low 216.81, close 217.55, vol 194,586,600. Company Q2 still Aug 26: rev $96,221M, GAAP EPS $2.46, non-GAAP $2.22, Q3 guide $108.0B ±2% no China DC. Goldman Communacopia Sep 10 8:50 a.m. PT still the latest financial-community PR (Newsroom Aug 27). Localize Fri cash ≈ THB 7,207 at USDTHB 33.13.",
+      "source": "Yahoo Finance chart v8 / NVIDIA Newsroom",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "Hyperscalers Fri cash: GOOGL $346.59 (+1.74%), AMZN $266.43 (+3.97%), META $578.02 (+1.21%). SPCX $141.50 (+0.45%). MU $932.86 (−0.27%). K3 still no ticker.",
+      "why": "Yahoo daily Fri 28 vs Thu 27. No new GOOGL/AMZN/META company IR fetched Mon morning. Weekend SpaceX/hyperscaler capex write-ups recycle Q2 figures — not new company IR this window. K3 (Moonshot AI / Kimi) still private — no public ticker.",
+      "source": "Yahoo Finance chart v8",
+      "url": "https://finance.yahoo.com/quote/GOOGL/",
+      "ticker": "GOOGL"
+    },
+    {
+      "headline": "SK hynix (000660.KS) LIVE Mon 31 Seoul: Yahoo ₩1,587,000 (−3.99% / −₩66,000) vs Fri official cash ₩1,653,000 as of 09:04:06 KST. Not a close. Nextrade premarket was ₩1,608,000 (−2.72%).",
+      "why": "Yahoo chart v8 1d Mon bar: open 1,596,000 high 1,602,000 low 1,581,000 close/last 1,587,000 vol 186,977, regularMarketTime 2026-08-31T00:04:06Z = 09:04:06 KST. 1m previousClose 1,653,000 matches Fri official cash (Yahoo Fri bar close 1,653,000, vol 3,531,892). Grok 07:11 ICT fill had no confirmed LIVE print — this is the 8:20 delta. Ex-div ₩375 Fri (company 6-K Aug 7) is ~0.02% of price and does not explain Fri or Mon. Sedaily: NXT premarket SK ₩1,608,000 (−2.72%); cites SOX −3.47% Fri + Warsh inflation signal. MU Fri −0.27%. USDKRW not fetched this run (Yahoo 429) — no THB localization for KRW.",
+      "source": "Yahoo Finance 000660.KS / Seoul Economic Daily",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "NVDA AI Compute Partnership pause (WSJ Aug 27) remains the main weekend AI-infra overhang into Mon US open. Not a new Mon filing or Newsroom PR.",
+      "why": "Weekend reprints still active (CNA 28 Aug, Manila Times 29 Aug). Thesis-relevant for neocloud financing (NBIS/CoreWeave stack). Spokesperson: model still evolving. Do not treat reprints as a new development.",
+      "source": "CNA / WSJ via Reuters",
+      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
+      "ticker": "NVDA"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 54.43 Neutral (graphdata 2026-08-28T23:59:58Z) — unchanged vs Sunday file. Prior close 58.17 Greed. S&P Fri cash 7,711.76 (−0.25%). VIX Fri 14.43.",
+      "why": "Fetched production.dataviz.cnn.io this run (Referer CNN). Idéal Investisseur 54,43 dated 28/08/2026 17h35 matches. Yahoo ^GSPC Fri close 7711.76 vs Thu 7730.99; ^VIX 14.43. Do not use alternative.me (crypto F&G 62) — different index.",
+      "source": "CNN Fear & Greed graphdata / Yahoo / Idéal Investisseur",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "Warsh Jackson Hole Fri 28 (full text): 12m PCE 3.7%, 6m 4.1%; short-term rates the predominant tool; 'Otherwise, we have work to do.' 10y Yahoo ^TNX Fri 4.72.",
+      "why": "Federal Reserve Board speech warsh20260828a confirmed this run. Next US data (prior BLS schedule; bls.gov 403 this run): JOLTS Jul Tue Sep 1 10:00 ET; Employment Situation Aug Fri Sep 4 08:30 ET; CPI Aug Fri Sep 11 08:30 ET; FOMC Sep 15–16. Sedaily adds Korea Aug export print Sep 1 (chip exports the watch) as the Seoul-session catalyst this week.",
+      "source": "Federal Reserve / Seoul Economic Daily / BLS schedule (prior)",
+      "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+    },
+    {
+      "headline": "USDTHB Yahoo Mon morning regularMarketPrice 33.13 (day so far 33.12–33.17) at 00:23:51Z. BOT official not fetched.",
+      "why": "Yahoo USDTHB=X chart v8 this run. Use 33.13 for baht localization of $5.75B convert → ≈ THB 190.5B. NBIS Fri cash $209.18 ≈ THB 6,930/sh at same FX.",
+      "source": "Yahoo Finance USDTHB=X",
+      "url": "https://finance.yahoo.com/quote/USDTHB=X/"
+    },
+    {
+      "headline": "Seoul chip tape: SOX Fri −3.47% (Sedaily) after Warsh; SK LIVE −3.99% vs Fri. Korea Aug exports due Sep 1.",
+      "why": "Sedaily Mon 31: NXT premarket Samsung/SK both −2.72%; cash SK opened weaker (Yahoo live ₩1,587,000). Links Fri SOX drop to Warsh inflation signal. Export print Sep 1 is the named near-term Korea catalyst — not a company filing.",
+      "source": "Seoul Economic Daily / Yahoo 000660.KS",
+      "url": "https://en.sedaily.com/finance/2026/08/31/samsung-sk-hynix-fall-about-2-percent-in-premarket-as-chip"
+    }
+  ],
+  "soWhat": [
+    "Mon morning: US still CLOSED until 21:30 ICT. Last cash Fri 28 — NBIS $209.18 (−4.26%) AH $208.64; convert $5.75B ≈ THB 190.5B at Yahoo USDTHB 33.13. No new Nebius filing. No Mon US premarket.",
+    "NVDA Fri $217.55 (−4.58%); WSJ pause of some AI-cloud revenue-share deals remains the weekend overhang (company: model still evolving). Hyperscalers Fri: AMZN +3.97%, GOOGL +1.74%, META +1.21%. Goldman Communacopia Sep 10.",
+    "NEW vs 07:11 fill: SK hynix LIVE ₩1,587,000 (−3.99% / −₩66,000) vs Fri ₩1,653,000 as of 09:04 KST — not a close. After Fri −4.45%. MU −0.27%. K3 still TBD.",
+    "Macro: Warsh JH hawkish on inflation (PCE 3.7%/4.1%); 10y 4.72; F&G 54.43 Neutral unchanged vs Sunday. Calendar: Korea exports + JOLTS Sep 1, NFP Sep 4, CPI Sep 11, FOMC Sep 15–16. No trades."
+  ],
+  "quotes": {
+    "note": "US cash = Fri 28 Aug 2026 16:00 EDT close. Yahoo chart v8. AH = Yahoo 1m includePrePost last post bar Fri. Mon US premarket: none as of asOfIct. SK hynix = LIVE Seoul (Yahoo 1d/1m); not a Mon close. USDTHB = Yahoo Mon morning regularMarketPrice. CNN F&G = official graphdata this run (Fri stamp, unchanged).",
+    "asOfIct": "2026-08-31T07:27:00+07:00",
+    "lastCashDateUS": "2026-08-28",
+    "NBIS": {
+      "lastCash": 209.18,
+      "lastCashChgPct": -4.26,
+      "lastCashChgAbs": -9.3,
+      "lastCashDate": "2026-08-28",
+      "ah": 208.64,
+      "ahChgPct": -0.26,
+      "ahChgAbs": -0.54,
+      "premarket": null,
+      "premarketNote": "No Mon premarket print as of asOfIct (US still Sunday evening ET).",
+      "open": 211.96,
+      "high": 214.28,
+      "low": 205.48,
+      "volumeYahoo": 13088800,
+      "prevClose": 218.48,
+      "convertB": 5.75,
+      "convertThbBApprox": 190.5,
+      "usdthbUsed": 33.13,
+      "lastCashThbApprox": 6930.13,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?interval=1d&range=5d"
+    },
+    "NVDA": {
+      "lastCash": 217.55,
+      "lastCashChgPct": -4.58,
+      "lastCashChgAbs": -10.43,
+      "lastCashDate": "2026-08-28",
+      "ahApprox": 217.89,
+      "premarket": null,
+      "prevClose": 227.98,
+      "open": 227.36,
+      "high": 229.26,
+      "low": 216.81,
+      "volumeYahoo": 194586600,
+      "lastCashThbApprox": 7207.43
+    },
+    "GOOGL": {
+      "lastCash": 346.59,
+      "lastCashChgPct": 1.74,
+      "prevClose": 340.65,
+      "lastCashDate": "2026-08-28",
+      "premarket": null
+    },
+    "AMZN": {
+      "lastCash": 266.43,
+      "lastCashChgPct": 3.97,
+      "prevClose": 256.26,
+      "lastCashDate": "2026-08-28",
+      "premarket": null
+    },
+    "META": {
+      "lastCash": 578.02,
+      "lastCashChgPct": 1.21,
+      "prevClose": 571.1,
+      "lastCashDate": "2026-08-28",
+      "premarket": null
+    },
+    "MU": {
+      "lastCash": 932.86,
+      "lastCashChgPct": -0.27,
+      "prevClose": 935.39,
+      "lastCashDate": "2026-08-28",
+      "premarket": null
+    },
+    "SPCX": {
+      "lastCash": 141.5,
+      "lastCashChgPct": 0.45,
+      "prevClose": 140.87,
+      "lastCashDate": "2026-08-28",
+      "premarket": null
+    },
+    "SKHYNIX": {
+      "ticker": "000660.KS",
+      "lastOfficialCashKrw": 1653000,
+      "lastOfficialCashChgPct": -4.45,
+      "lastOfficialCashChgAbs": -77000,
+      "lastOfficialCashDate": "2026-08-28",
+      "prevClose": 1730000,
+      "exDivKrw": 375,
+      "exDivDate": "2026-08-28",
+      "live": 1587000,
+      "liveChgAbs": -66000,
+      "liveChgPct": -3.99,
+      "liveOpen": 1596000,
+      "liveHigh": 1602000,
+      "liveLow": 1581000,
+      "liveVol": 186977,
+      "liveTimeKst": "2026-08-31T09:04:06+09:00",
+      "liveSource": "Yahoo chart v8 1d/1m",
+      "nxtPremarketKrw": 1608000,
+      "nxtPremarketChgPct": -2.72,
+      "nxtSource": "https://en.sedaily.com/finance/2026/08/31/samsung-sk-hynix-fall-about-2-percent-in-premarket-as-chip",
+      "sessionLabel": "LIVE Seoul; not a close"
+    },
+    "SPX": {
+      "last": 7711.76,
+      "prev": 7730.99,
+      "chgPct": -0.25,
+      "lastCashDate": "2026-08-28"
+    },
+    "USDTHB": {
+      "yahooMonMorning": 33.13,
+      "dayHigh": 33.17,
+      "dayLow": 33.12,
+      "yahooAsOf": "2026-08-31T00:23:51+00:00",
+      "botOfficial": null,
+      "note": "Yahoo USDTHB=X regularMarketPrice this run."
+    },
+    "US10Y": {
+      "yahooTnx": 4.72,
+      "yahooTnxDate": "2026-08-28"
+    },
+    "VIX": {
+      "last": 14.43,
+      "date": "2026-08-28"
+    }
+  },
+  "gaps": [
+    "US Mon premarket not open yet — no premarket quotes.",
+    "GF market cap for NBIS not re-fetched (last Fri morning $59.39B at Thu cash).",
+    "BOT official USDTHB not fetched.",
+    "USDKRW Yahoo 429 this run — no THB localization for SK hynix.",
+    "BLS schedule page 403 this run; Sep calendar times carried from Fri digest.",
+    "K3 ticker still does not exist (Moonshot/Kimi private)."
+  ],
+  "sendDecision": {
+    "send": true,
+    "reason": "Monday daily product. F&G unchanged vs Sunday (54.43 Neutral) but material items remain, and SK LIVE is NEW vs Grok 07:11 fill: ₩1,587,000 (−3.99%) vs Fri ₩1,653,000. Also Warsh JH into Sep FOMC, NVDA revenue-share pause overhang, NBIS Fri cash/AH + convert context, Korea exports Sep 1."
+  }
+}
