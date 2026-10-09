@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-09",
+  "asOfIct": "2026-10-09T09:10:00+07:00",
+  "asOfWita": "2026-10-09T10:10:00+08:00",
+  "producedBy": "Fri digest after Thu 8 Oct US cash. Quotes: CNBC QuickQuote (NBIS/GOOGL/AMZN/META/NVDA/MU/SPCX/US10Y/.SPX/.IXIC/.DJI/.VIX/THB=); Naver basic API for SK 000660 + Samsung 005930 Thu Korea close (Fri 9 Oct Hangul Day — KRX closed); CNN F&G graphdata (Chrome UA + Referer; bare curl got 418 teapot); EDGAR CIK 0001513845 submissions (no new issuer 6-K since Inferize 1 Oct; newest holder filing still Goldman 13G/A 7 Oct). Headlines: MarketBeat, Investing.com, FT/Invested Alpha/TechCrunch (OpenAI ARR), TipRanks/SpaceValued (SPCX unlock), Fed/Waller via Invested Alpha. Yahoo chart not used. Do not treat Aug $4.5–5.75B convert as a new Thu filing (Tickeron misdated). No invented prices. No trade.",
+  "fearGreed": {
+    "value": 38.1,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata 38.11 Fear, stamp 2026-10-08T23:59:44Z (Thu close); down from prior digest 44.6 Fear (API previous_close 44.54); 1-wk 28.97, 1-mo 39.14. Breadth 2.8 / price strength 2.6 extreme fear; put/call 31 fear; junk-bond demand 84 extreme greed; momentum 49.8 / VIX 50 neutral. Deeper Fear on AI-demand + rate tape."
+  },
+  "nbis": [
+    {
+      "headline": "Thu US cash $219.71 (−7.35% / −$17.44 vs Wed $237.15) FLAG ≥5%; open $233.13, high $234.16, low $217.73; vol ~20.2M; cap $59.73B (CNBC). ≈ THB 7,376/sh at USDTHB 33.57. Two-day from Tue $249.87: −12.07% / −$30.16. No AH print on CNBC at digest time.",
+      "why": "Second straight ≥5% FLAG. Press ties it to leveraged AI-infra selloff, insider-sale digestion (Nave 500k Form144 + prior Form4 cluster), and rich valuation into higher-for-longer funding costs — not a new issuer 6-K.",
+      "source": "CNBC QuickQuote / MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-falls-74-heres-what-happened-2026-10-08/"
+    },
+    {
+      "headline": "No new issuer 6-K/8-K on EDGAR since Inferize (0001104659-26-112824, 1 Oct). Newest holder filing still Goldman SC 13G/A Amdt 2 5.1% passive (0000886982-26-000526, filed 7 Oct). Carry: $5.75B Aug convert overhang + MSFT/META concentration — do not treat Aug convert PR as a Thu catalyst (some blogs misdated it).",
+      "why": "Dilution/funding overhang remains on the book without a fresh filing; price is reacting to sector + insider narrative.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Carry analyst offset: Rosenblatt Buy PT $304 (initiated Wed). MarketBeat still shows Moderate Buy consensus ~$245.69; next earnings est 9 Nov (CNBC EventData).",
+      "why": "Sell-side support unchanged overnight; not enough to stop the two-day FLAG.",
+      "source": "MarketBeat / prior desk",
+      "url": "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-falls-74-heres-what-happened-2026-10-08/"
+    },
+    {
+      "headline": "Morning color (Investing.com intraday Thu): Nave 500k 10b5-1 + CoreWeave preference chatter + risk-off yields; later session worsened with OpenAI ARR headline hitting AI-capacity complex.",
+      "why": "Fits neocloud beta: funding-heavy names underperformed indices on the AI-demand scare.",
+      "source": "Investing.com",
+      "url": "https://ca.investing.com/news/stock-market-news/why-is-nebius-stock-sliding-today-93CH-4872085"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Thu US cash: GOOGL $348.29 (−0.63%) / AMZN $254.06 (−2.25%) / META $720.89 (−0.06%) / NVDA $230.48 (−2.94%) / MU $1,035.84 (−4.79%) / SPCX $160.57 (−4.19%). Book FLAG: NBIS only (≥5%); MU near-FLAG.",
+      "why": "CNBC QuickQuote regular-session lasts; Fri US cash opens 20:30 ICT / 21:30 WITA. Semis/neocloud underperformed on OpenAI ARR report.",
+      "source": "CNBC quote",
+      "url": "https://www.cnbc.com/quotes/NBIS",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "FT: OpenAI annualized revenue approaching ~$50B (end-Sep), ~$20B below ~$70B figures previously signalled — gap from Anthropic-style gross-up of cloud-partner sales that OpenAI excludes. Nasdaq −1.25%; SOX/PHLX semis ~−3.4%; NVDA −2.9%, MU −4.8%.",
+      "why": "AI-demand proxy scare hit chip and capacity names; material for NVDA/MU/NBIS thesis even though OpenAI is private.",
+      "source": "FT / Invested Alpha / TechCrunch",
+      "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a",
+      "ticker": "AI"
+    },
+    {
+      "headline": "SPCX unlock day Fri 9 Oct: up to 328.4M Class A sh (~7% of 180-day block) become eligible to sell (prospectus day-120). Thu −4.19% to $160.57 ahead of unlock. Next fixed tranche 24 Oct (trade Mon 26); larger post-Q3 release; Dec 8 remainder. Eligibility ≠ selling.",
+      "why": "Near-term supply overhang; watch Fri US session reaction once eligible.",
+      "source": "TipRanks / SpaceValued",
+      "url": "https://www.tipranks.com/news/spacex-stock-forecast-spcx-gains-ahead-of-unlock-what-investors-should-know",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "Memory follow-through: MU gave back Wed +4% (Thu −4.79% to $1,035.84). SK hynix Thu Korea close ₩1,686,000 (−2.15%); Samsung ₩263,000 (−2.05%). Fri 9 Oct = Hangul Day — KRX closed (Naver still shows Thu last).",
+      "why": "Samsung Q3 prelim strength not enough vs OpenAI/semis tape; Korea holiday means no Fri local print.",
+      "source": "CNBC / Naver",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "META flat (−0.06% to $720.89) while AMZN −2.25% / NVDA −2.94% on AI-spend rethink; META earnings still 28 Oct (prior desk). K3/Moonshot AI: still private, no ticker.",
+      "why": "Customer/spend narrative for NBIS backlog; no new META capex filing overnight.",
+      "source": "CNBC / prior desk",
+      "url": "https://www.cnbc.com/quotes/META",
+      "ticker": "META"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "Thu tape: S&P 7,765.36 (−0.47%) / Nasdaq 27,193.34 (−1.25%) / Dow 51,231.64 (+0.10%); VIX 15.41 (+2.19%). Tech worst S&P sector; energy best on oil (WTI ~+$3 / ~$91.5 on Iran/Hormuz headlines).",
+      "why": "AI-demand scare + oil inflation cross-currents; blue chips held, growth/high-beta did not.",
+      "source": "CNBC / Invested Alpha",
+      "url": "https://investedalpha.com/news/thursday-close-nasdaq-falls-openai-revenue-report-oil-jumps-dow-edges-up"
+    },
+    {
+      "headline": "10Y eased to CNBC last 5.223% (−0.01) after morning push near ~5.32%; solid $22B 30Y auction (high yield 5.618%, BTC 2.54 vs ~2.41 avg). Still near multi-decade highs from Wed 5.35% touch.",
+      "why": "Funding-cost relief vs Wed peak, but higher-for-longer intact for convert-funded neoclouds.",
+      "source": "CNBC / Invested Alpha",
+      "url": "https://www.cnbc.com/quotes/US10Y"
+    },
+    {
+      "headline": "Waller (Istanbul): expects additional hikes if data as expected, but 'do not need to come at consecutive meetings.' Futures still lean more hike risk by Dec than Oct (carry from minutes: Oct odds low).",
+      "why": "Keeps rate path as the AI-capex discount-rate driver into CPI 14 Oct and FOMC 27–28 Oct.",
+      "source": "Invested Alpha / Fed remarks",
+      "url": "https://investedalpha.com/news/thursday-close-nasdaq-falls-openai-revenue-report-oil-jumps-dow-edges-up"
+    },
+    {
+      "headline": "CNN Fear & Greed 38.1 Fear (Thu close) vs 44.6 Fear prior digest (−6.5 pts). USDTHB 33.57. Next: US CPI Sep 14 Oct; Q3 earnings wave.",
+      "why": "Sentiment deeper into Fear as breadth stays extreme fear under index levels.",
+      "source": "CNN graphdata",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    }
+  ],
+  "soWhat": [
+    "NBIS FLAG −7.35% Thu to $219.71 (2-day −12% from Tue $249.87): AI-infra/funding scare + insider digestion; no new 6-K. Rosenblatt $304 still the sell-side offset.",
+    "OpenAI ARR ~$50B vs ~$70B previously signalled (FT) hit Nasdaq/semis (MU −4.8%, NVDA −2.9%); memory/Samsung strength paused.",
+    "SPCX unlock TODAY: up to 328.4M sh eligible; Thu −4.2% to $160.57 ahead. Korea Hangul Day — SK/Samsung no Fri print.",
+    "Macro: F&G 38.1 Fear from 44.6; 10Y eased to ~5.22% after 30Y auction; Waller still sees more hikes, not necessarily consecutive. No trade action."
+  ],
+  "bookQuotes": {
+    "asOf": "Thu 8 Oct 2026 US regular close (CNBC QuickQuote); SK/SS Thu Korea close (Naver); F&G Thu close stamp",
+    "NBIS": {
+      "last": 219.71,
+      "chg": -17.44,
+      "pct": -7.354,
+      "open": 233.13,
+      "high": 234.155,
+      "low": 217.7301,
+      "mktCapB": 59.73,
+      "usdthb": 33.57,
+      "thbPerShare": 7376,
+      "flag": true
+    },
+    "GOOGL": {
+      "last": 348.29,
+      "pct": -0.6305
+    },
+    "AMZN": {
+      "last": 254.06,
+      "pct": -2.2545
+    },
+    "META": {
+      "last": 720.89,
+      "pct": -0.0582
+    },
+    "NVDA": {
+      "last": 230.48,
+      "pct": -2.9435
+    },
+    "MU": {
+      "last": 1035.84,
+      "pct": -4.7941
+    },
+    "SPCX": {
+      "last": 160.57,
+      "pct": -4.1945
+    },
+    "US10Y": {
+      "last": 5.223,
+      "pct": -0.1911
+    },
+    "SPX": {
+      "last": 7765.36,
+      "pct": -0.467
+    },
+    "IXIC": {
+      "last": 27193.34,
+      "pct": -1.254
+    },
+    "DJI": {
+      "last": 51231.64,
+      "pct": 0.1
+    },
+    "VIX": {
+      "last": 15.41,
+      "pct": 2.188
+    },
+    "THB": {
+      "last": 33.57,
+      "pct": -0.2081
+    },
+    "SK000660": {
+      "last": 1686000,
+      "pct": -2.15,
+      "note": "Thu Korea close; Fri Hangul Day KRX closed"
+    },
+    "SS005930": {
+      "last": 263000,
+      "pct": -2.05,
+      "note": "Thu Korea close; Fri Hangul Day KRX closed"
+    },
+    "bookFlags": [
+      "NBIS -7.35% FLAG"
+    ]
+  }
+}
