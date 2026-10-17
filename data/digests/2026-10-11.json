@@ -1,0 +1,496 @@
+{
+  "date": "2026-10-11",
+  "asOfIct": "2026-10-11T08:15:00+07:00",
+  "asOfWita": "2026-10-11T09:15:00+08:00",
+  "producedBy": "Sun digest (US/KRX closed). Prices reused unchanged from 2026-10-10.json (Fri 9 Oct US close, CNBC; SK/Samsung Thu 8 Oct, Naver). New work: weekend news scan Sat 10–Sun 11 Oct ICT; EDGAR CIK 0001513845 re-checked (no new filing); CNN F&G graphdata re-read (unchanged, Fri stamp); open.er-api USDTHB 33.567 (stamp Sun 00:02 UTC). Week-ahead from TSMC IR, ASML interim report (SEC), Treasury tentative schedule, Fed calendar, Forex Factory, ITC Markets, Newsquawk, AlphaEdge, Wells Fargo, IMF. Left out: Nvidia–Meta multiyear chip deal (dated 18 Feb 2026, stale); an undated Chip Dispatch report of US controls on overseas Chinese subsidiaries (conflicts with the affiliates-rule suspension to 9 Nov and the BIS page, which shows no new rule); Netlist ITC complaint vs MU (filing date not disclosed). No invented prices. No trade.",
+  "fearGreed": {
+    "value": 45.0,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "Unchanged from Sat: score 45 Fear, timestamp 2026-10-09T23:59:54Z (Fri close = Sat 07:59 WITA). The weekend produces no new print; next update is Mon 12 Oct US session. previous_close 37.89, 1-wk 39.97, 1-mo 38.2, 1-yr 48.63."
+  },
+  "nbis": [
+    {
+      "headline": "Weekend: no new company announcement. EDGAR still shows the newest filing as Goldman SC 13G/A (0000886982-26-000526, filed 7 Oct); last 6-K Inferize 1 Oct; last Form 4 0001513845-26-000126 (6 Oct). Last official items: NVIDIA Exemplar Cloud on HGX B300 for training (8 Oct blog), Inferize (1 Oct).",
+      "why": "Nothing new on dilution, holders or the thesis. Fri close $221.07 (+0.62%) stands; no FLAG.",
+      "source": "SEC EDGAR / Nebius",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "German weekend trading ~€197.46 on Sat 10 Oct, 0.24% below the Fri Xetra close (ad-hoc-news). Indicative only; not a US print.",
+      "why": "No weekend dislocation signal.",
+      "source": "ad-hoc-news",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nebius-stock-trades-0-24-percent-below-its-xetra-close/70287587"
+    },
+    {
+      "headline": "Week-ahead read-through for NBIS: TSMC Thu 15 Oct (CoWoS/AI demand), ASML Wed 14 Oct, CPI Wed 14 Oct (rate path matters for convert-funded neoclouds). NBIS earnings est ~9 Nov.",
+      "why": "Catalysts this week are sector and macro, not company-specific.",
+      "source": "TSMC IR / Newsquawk",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Prices unchanged since Sat desk (Fri 9 Oct US close): GOOGL $351.66 +0.97% / AMZN $262.43 +3.29% / META $718.67 −0.31% / NVDA $229.28 −0.52% / MU $1,029.00 −0.66% / SPCX $162.54 +1.23%. FLAG: none.",
+      "why": "US markets were shut for the weekend.",
+      "source": "CNBC (via 2026-10-10.json)",
+      "url": "https://www.cnbc.com/quotes/NVDA",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "NVDA: FT/Reuters (10 Oct) say Nvidia is in early talks to invest more in, or acquire, ReflectionAI (open-weight models; Nvidia has already put in $800M). An acquihire is possible; a deal could come in weeks or collapse.",
+      "why": "Not material to the NVDA thesis on size. Shows Nvidia pushing into open-weight models to compete with Chinese labs (the article names DeepSeek and Kimi K3).",
+      "source": "DigitalToday citing Reuters/FT",
+      "url": "https://www.digitaltoday.co.kr/en/view/112736/nvidia-weighs-bolder-bet-on-open-weight-ai-including-possible-reflectionai-acquisition",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "SK hynix / Samsung: KRX reopens Mon 12 Oct (09:00 KST = 08:00 WITA); last closes Thu ₩1,686,000 (−2.15%) / ₩263,000 (−2.05%). Monday is the first Korea read on Thu–Fri US moves (OpenAI ARR swing, MU −4.8% then −0.7%). SK Q3 results 27 Oct; Samsung Q3 full results 29 Oct, both outside this week.",
+      "why": "Monday Korea open is the first event of the week.",
+      "source": "Naver / QuarterlyEarnings.info / Silicon Ledger",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "GOOGL / AMZN / META / MU / SPCX: no verified weekend news. Next SPCX unlock tranche 24 Oct (first trade Mon 26 Oct). K3 = Moonshot AI (Kimi): private, no ticker exists.",
+      "why": "Nothing new for these names.",
+      "source": "prior desk",
+      "url": "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/",
+      "ticker": "OTHER"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "Iran/oil (weekend): Sat 10 Oct, the IRGC navy said a 'violating' supertanker exploded after hitting mines while leaving Hormuz by an unauthorized route; on Fri it said it hit the LPG carrier NV Sunshine. It warned that action will extend beyond the strait. Earlier Kpler data showed visible Hormuz transits at a 2-month low.",
+      "why": "Escalation risk for Mon oil open (Fri close WTI $91.66 / Brent $104.54). Higher oil feeds the inflation premium into CPI and FOMC, which pressures long-duration AI names.",
+      "source": "Xinhua / Reuters via Baird Maritime",
+      "url": "https://english.news.cn/20261011/44d18296666e4512a8b77e9b6c0ba0bf/c.html"
+    },
+    {
+      "headline": "China/tariffs/exports: no new US export rule (BIS newest item 2 Oct, per Peter's World 10 Oct). The US-China truce holds; China's rare-earth control suspension ends 10 Nov and the US affiliates-rule suspension ends 9 Nov. China warned it will respond if the 15-party US 'overcapacity' statement (which covers foundational semis) is used against it; no measure announced.",
+      "why": "No weekend change to chip export rules; the mid-Nov expiry is the next real risk point.",
+      "source": "Peter's World / BIS",
+      "url": "https://petersworld.org/trade-war-update-oct-10/"
+    },
+    {
+      "headline": "Fed: no new weekend remarks found. Carry: Waller/Musalem lean toward hikes; Newsquawk says Jefferson, Williams, Waller and Bowman have all signalled an October pause. FedWatch ~19% Oct / ~84% by Dec (Fri). Blackout starts 17 Oct.",
+      "why": "CPI decides the path.",
+      "source": "Newsquawk / Gate (IMF schedule)",
+      "url": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "headline": "CNN F&G 45 Fear (Fri stamp, unchanged). USDTHB 33.567 (open.er-api, Sun 00:02 UTC).",
+      "why": "No weekend sentiment update.",
+      "source": "CNN / open.er-api",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    }
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-10-12",
+      "timeWita": "08:00",
+      "event": "KRX reopens after Hangul Day (SK hynix, Samsung)",
+      "detail": "First Korea print since Thu 8 Oct",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "date": "2026-10-12",
+      "timeWita": "US day",
+      "event": "Columbus Day: US bond market closed; equities open; Fed releases moved to Tue",
+      "detail": "Treasury tentative schedule lists the holiday",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+    },
+    {
+      "date": "2026-10-13",
+      "timeWita": "00:10 Tue",
+      "event": "Fed Hammack (Cleveland, 2026 voter) at NABE",
+      "detail": "Mon 12:10 ET; economic outlook and policy",
+      "sourceUrl": "https://www.forexfactory.com/calendar/913-us-fomc-member-hammack-speaks"
+    },
+    {
+      "date": "2026-10-13",
+      "timeWita": "~19:00",
+      "event": "Big banks Q3: JPM, GS, C, WFC",
+      "detail": "JPM consensus EPS ~$5.94 / rev $52.21B (AlphaEdge); Q3 S&P EPS growth expected +29.5% Y/Y (Newsquawk)",
+      "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "date": "2026-10-13",
+      "timeWita": "23:30",
+      "event": "T-bill auctions 13/26/6-week",
+      "detail": "No coupon auction this week; 20Y on 21 Oct, 5Y TIPS on 22 Oct",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "Tue US / Wed WITA",
+      "event": "Fed Waller, Barkin, Collins (Collins 16:00 ET = 04:00 WITA Wed)",
+      "detail": "ITC Markets / Forex Factory",
+      "sourceUrl": "https://itc-m.objects.xtenit.com/itc/ITC-Weekly-Macro.pdf"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "~13:00",
+      "event": "ASML Q3 results (before Amsterdam open)",
+      "detail": "Zacks consensus rev $13.18B / EPS $12.47; guide was €11.0–12.0B, GM 55–57%",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "Wed",
+      "event": "MS, BAC Q3",
+      "detail": "Newsquawk",
+      "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "20:30",
+      "event": "US Sep CPI",
+      "detail": "Consensus headline +0.6% m/m, 3.6% y/y (Newsquawk; AlphaEdge shows 3.7%); core +0.2% m/m, 2.5% y/y. Prior 0.4% / 3.4%; core 0.3% / 2.4%",
+      "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "02:00 Thu",
+      "event": "Fed Beige Book; Bowman/Barkin also speak Wed",
+      "detail": "Wed 14:00 ET",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "14:00",
+      "event": "TSMC Q3 earnings conference",
+      "detail": "14:00 Taipei; guide rev $44.6–45.8B, GM 65–67%; consensus EPS $4.45 / rev $45.62B (AlphaEdge). Key read for NVDA/MU/NBIS demand",
+      "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "20:30",
+      "event": "US Sep retail sales, PPI, jobless claims; Empire/Philly Fed",
+      "detail": "Retail +0.4% m/m (prior +1.2%); PPI +0.5–0.6% m/m, 5.3% y/y (Newsquawk/AlphaEdge); claims 202k",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "23:30",
+      "event": "T-bill auctions 17-week (Wed) and 4/8-week (Thu)",
+      "detail": "Treasury schedule",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "04:30 Fri",
+      "event": "Fed Hammack at Goldman event",
+      "detail": "Thu 16:30 ET",
+      "sourceUrl": "https://itc-m.objects.xtenit.com/itc/ITC-Weekly-Macro.pdf"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "11:30",
+      "event": "Fed Chair Warsh fireside chat with IMF MD Georgieva (Bangkok)",
+      "detail": "10:30–11:00 Bangkok; last big Fed voice before the 17 Oct blackout",
+      "sourceUrl": "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "21:15",
+      "event": "US Sep industrial production; import prices",
+      "detail": "IP consensus +0.4% (AlphaEdge)",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "outside window",
+      "timeWita": "",
+      "event": "SK hynix Q3 27 Oct; Samsung Q3 29 Oct; META/GOOGL 28 Oct; AMZN 29 Oct; FOMC 27–28 Oct; SPCX unlock 24 Oct (trade 26 Oct)",
+      "detail": "Neither SK hynix nor Samsung reports this week",
+      "sourceUrl": "https://en.quartalszahlen.info/companies/000660"
+    }
+  ],
+  "soWhat": [
+    "No new weekend news for NBIS: EDGAR quiet, no company news. Fri $221.07 (+0.62%) stands; no FLAG.",
+    "Weekend deltas: IRGC says a supertanker hit mines leaving Hormuz (Sat), an oil escalation risk for Mon; FT/Reuters say NVDA is in talks on ReflectionAI (small). No new chip-export rule or tariff action.",
+    "Week ahead: KRX reopens Mon; banks Tue; ASML and CPI Wed (consensus 0.6% / core 0.2%); TSMC and retail/PPI Thu; Warsh Fri, then blackout. TSMC plus CPI are the key tests for AI-infra multiples.",
+    "F&G 45 Fear (Fri stamp, unchanged). No trade action."
+  ],
+  "bookQuotes": {
+    "asOf": "Fri 9 Oct 2026 US regular close (CNBC QuickQuote); SK/SS Thu 8 Oct Korea close (Naver); F&G Fri close stamp",
+    "NBIS": {
+      "last": 221.07,
+      "chg": 1.36,
+      "pct": 0.62,
+      "open": 222.3,
+      "high": 225.3,
+      "low": 218.5,
+      "volume": 9561436,
+      "mktCapB": 60.099,
+      "ah": 221.33,
+      "ahPct": 0.12,
+      "usdthb": 33.57,
+      "thbPerShare": 7421,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 351.66,
+      "pct": 0.97
+    },
+    "AMZN": {
+      "last": 262.43,
+      "pct": 3.29
+    },
+    "META": {
+      "last": 718.67,
+      "pct": -0.31
+    },
+    "NVDA": {
+      "last": 229.28,
+      "pct": -0.52
+    },
+    "MU": {
+      "last": 1029.0,
+      "pct": -0.66
+    },
+    "SPCX": {
+      "last": 162.54,
+      "pct": 1.23,
+      "volume": 93042640
+    },
+    "US10Y": {
+      "last": 5.242,
+      "chgBp": 0.9
+    },
+    "SPX": {
+      "last": 7811.54,
+      "pct": 0.59
+    },
+    "IXIC": {
+      "last": 27366.17,
+      "pct": 0.64
+    },
+    "DJI": {
+      "last": 51654.95,
+      "pct": 0.83
+    },
+    "VIX": {
+      "last": 14.84,
+      "pct": -3.7
+    },
+    "SOX": {
+      "last": 12572.42,
+      "pct": -0.41
+    },
+    "WTI": {
+      "last": 91.66,
+      "pct": 0.19
+    },
+    "BRENT": {
+      "last": 104.54,
+      "pct": 0.25
+    },
+    "THB": {
+      "last": 33.57,
+      "source": "open.er-api",
+      "cnbc": 33.52
+    },
+    "SK000660": {
+      "last": 1686000,
+      "pct": -2.15,
+      "note": "Thu 8 Oct Korea close; Fri Hangul Day + weekend KRX closed"
+    },
+    "SS005930": {
+      "last": 263000,
+      "pct": -2.05,
+      "note": "Thu 8 Oct Korea close"
+    },
+    "bookFlags": []
+  },
+  "quotes": {
+    "asOf": "Fri 9 Oct 2026 US regular close (CNBC QuickQuote); SK/SS Thu 8 Oct Korea close (Naver); F&G Fri close stamp",
+    "NBIS": {
+      "last": 221.07,
+      "chg": 1.36,
+      "pct": 0.62,
+      "open": 222.3,
+      "high": 225.3,
+      "low": 218.5,
+      "volume": 9561436,
+      "mktCapB": 60.099,
+      "ah": 221.33,
+      "ahPct": 0.12,
+      "usdthb": 33.57,
+      "thbPerShare": 7421,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 351.66,
+      "pct": 0.97
+    },
+    "AMZN": {
+      "last": 262.43,
+      "pct": 3.29
+    },
+    "META": {
+      "last": 718.67,
+      "pct": -0.31
+    },
+    "NVDA": {
+      "last": 229.28,
+      "pct": -0.52
+    },
+    "MU": {
+      "last": 1029.0,
+      "pct": -0.66
+    },
+    "SPCX": {
+      "last": 162.54,
+      "pct": 1.23,
+      "volume": 93042640
+    },
+    "US10Y": {
+      "last": 5.242,
+      "chgBp": 0.9
+    },
+    "SPX": {
+      "last": 7811.54,
+      "pct": 0.59
+    },
+    "IXIC": {
+      "last": 27366.17,
+      "pct": 0.64
+    },
+    "DJI": {
+      "last": 51654.95,
+      "pct": 0.83
+    },
+    "VIX": {
+      "last": 14.84,
+      "pct": -3.7
+    },
+    "SOX": {
+      "last": 12572.42,
+      "pct": -0.41
+    },
+    "WTI": {
+      "last": 91.66,
+      "pct": 0.19
+    },
+    "BRENT": {
+      "last": 104.54,
+      "pct": 0.25
+    },
+    "THB": {
+      "last": 33.57,
+      "source": "open.er-api",
+      "cnbc": 33.52
+    },
+    "SK000660": {
+      "last": 1686000,
+      "pct": -2.15,
+      "note": "Thu 8 Oct Korea close; Fri Hangul Day + weekend KRX closed"
+    },
+    "SS005930": {
+      "last": 263000,
+      "pct": -2.05,
+      "note": "Thu 8 Oct Korea close"
+    },
+    "bookFlags": []
+  },
+  "flags": [],
+  "fx": {
+    "USDTHB": 33.567,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "stamp": "Sun, 11 Oct 2026 00:02:31 UTC",
+    "fridayCloseRef": 33.57
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 221.07,
+      "pctChange": 0.62,
+      "headline": "No weekend news; EDGAR quiet; no FLAG",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 351.66,
+      "pctChange": 0.97,
+      "headline": "No verified weekend news; earnings 28 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 262.43,
+      "pctChange": 3.29,
+      "headline": "No verified weekend news; earnings 29 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 718.67,
+      "pctChange": -0.31,
+      "headline": "No verified weekend news; earnings 28 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/META"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 229.28,
+      "pctChange": -0.52,
+      "headline": "FT/Reuters: talks to invest in or acquire ReflectionAI (early stage)",
+      "sourceUrl": "https://www.digitaltoday.co.kr/en/view/112736/nvidia-weighs-bolder-bet-on-open-weight-ai-including-possible-reflectionai-acquisition"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 1029.0,
+      "pctChange": -0.66,
+      "headline": "No verified weekend news; TSMC 15 Oct is the read-through",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1686000,
+      "pctChange": -2.15,
+      "headline": "Thu 8 Oct close (KRW); KRX reopens Mon 12 Oct; Q3 results 27 Oct",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 162.54,
+      "pctChange": 1.23,
+      "headline": "No weekend news; next unlock 24 Oct (trades 26 Oct)",
+      "sourceUrl": "https://www.cnbc.com/quotes/SPCX"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker exists",
+      "sourceUrl": null
+    }
+  ],
+  "sources": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://nebius.com/blog/posts/nebius-achieves-nvidia-exemplar-cloud-on-nvidia-hgx-b300-for-training",
+    "https://www.ad-hoc-news.de/boerse/news/corporate-news/nebius-stock-trades-0-24-percent-below-its-xetra-close/70287587",
+    "https://www.digitaltoday.co.kr/en/view/112736/nvidia-weighs-bolder-bet-on-open-weight-ai-including-possible-reflectionai-acquisition",
+    "https://english.news.cn/20261011/44d18296666e4512a8b77e9b6c0ba0bf/c.html",
+    "https://www.bairdmaritime.com/shipping/tanker-attacks-send-visible-strait-of-hormuz-transits-tumbling-to-two-month-low",
+    "https://petersworld.org/trade-war-update-oct-10/",
+    "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs",
+    "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html",
+    "https://externalcontent.blob.core.windows.net/pdfs/pdfs/WellsFargo09102026.pdf",
+    "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+    "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm",
+    "https://www.europesays.com/netherlands/53190/",
+    "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+    "https://itc-m.objects.xtenit.com/itc/ITC-Weekly-Macro.pdf",
+    "https://www.forexfactory.com/calendar/913-us-fomc-member-hammack-speaks",
+    "https://www.forexfactory.com/calendar/882-us-fomc-member-collins-speaks",
+    "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html",
+    "https://en.quartalszahlen.info/companies/000660",
+    "https://thesiliconledger.com/industry/chip-earnings-calendar-q3-2026",
+    "https://m.stock.naver.com/domestic/stock/000660",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://open.er-api.com/v6/latest/USD"
+  ]
+}

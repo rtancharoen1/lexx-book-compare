@@ -1,0 +1,158 @@
+{
+  "date": "2026-09-16",
+  "asOfIct": "2026-09-16T08:25:00+07:00",
+  "producedBy": "AI-infra morning digest routine (Wed 08:25 ICT). Grok Deki-desk fill: Yahoo chart v8 Tue cash + SK 1m LIVE + CNN F&G via whole.finance mirror (CNN API teapot) + SEC CIK0001513845 submissions + open.er-api FX. No invented prices.",
+  "fearGreed": {
+    "value": 28.66,
+    "label": "Fear",
+    "source": "https://wholefinance.com/sentiment/CNN_FG",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "whole.finance CNN_FG Latest 28.66 Sep 15, 2026 (Fear). Prior Mon stamp was 31.06. Direct CNN graphdata API returned teapot this run."
+  },
+  "nbis": [
+    {
+      "headline": "Tue US cash $207.37 (\u22122.27% / \u2212$4.82 vs Mon $212.19). Day range $206.85\u2013$216.56; vol ~10.4M. Cap \u2248 $56.37B (Form144 shares \u00d7 Tue cash). \u2248 THB 6,904/sh at USDTHB 33.29. Next cash Wed 20:30 ICT (into FOMC).",
+      "why": "Yahoo chart v8 meta regularMarketPrice 207.37 / regularMarketChangePercent \u22122.272; Mon bar C212.19. Shares out 271,855,218 from prior Form144 method used Mon.",
+      "source": "Yahoo Finance chart v8",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "Still the catalyst: Sep 8 Palantir names Nebius preferred sovereign AI infra partner; no $ / GW / exclusivity disclosed. Secondary Sep 15 analyst color on partnership + backlog \u2014 not company IR.",
+      "why": "Primary Nebius newsroom + 6-K still top company print; Seeking Alpha / FPJ secondaries same day as Tue tape.",
+      "source": "Nebius Newsroom / secondary",
+      "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
+    },
+    {
+      "headline": "NEW EDGAR: Form 144 filed 2026-09-15 (accession 0001950047-26-009522). Latest company 6-K still Sep 8 Palantir (0001104659-26-105749). Form body blocked this run (SEC bot wall) \u2014 no share count invented.",
+      "why": "data.sec.gov submissions CIK0001513845 \u2014 Form 144 is newest filing date; material partnership 6-K unchanged.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&owner=include&count=40"
+    },
+    {
+      "headline": "Sep 15 secondary: Arete / 247 Wall St \u2014 month \u221223.6% to $212.19 then Tue further \u22122.27%; cites $40B contracted backlog / Q2 +454% rev \u2014 street color, not IR.",
+      "why": "Secondary price-target / selloff narrative into FOMC; fundamental figures attributed to management Q2 call in that piece.",
+      "source": "24/7 Wall St",
+      "url": "https://247wallst.com/investing/2026/09/15/nebius-tanked-this-month-a-resolute-wall-street-pro-expects-95-gains-over-the-next-twelve/"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Tue US cash (Yahoo): GOOGL $344.98 (\u22121.26%) / AMZN $248.42 (\u22122.02%) / META $670.24 (+0.70%) / NVDA $212.17 (+0.57%) / MU $927.60 (+0.39%) / SPCX $143.49 (\u22123.15%). SPX 7,585.73 (\u22120.45%).",
+      "why": "Yahoo regularMarketPrice vs Mon cash bars; SPX daily bar 2026-09-15 matches AP.",
+      "source": "Yahoo Finance chart v8 / AP via WTOP",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "NEW: NVIDIA AI Infra Summit (Sep 15) \u2014 Vera Rubin / DSX MaxLPS; Lambda print +24% token throughput / +23% perf-per-watt; up to ~40% more GPUs per MW claimed for Rubin NVL72.",
+      "why": "Primary NVIDIA blog dated Sep 15 \u2014 efficiency narrative into FOMC, not order cancel.",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "NEW: META \u2014 MTIA 450 (Arke) in-house AI inference chip; deploy 1H2027; cost/energy framing vs Nvidia dependence.",
+      "why": "Bloomberg Sep 15 + Meta AI blog \u2014 custom silicon path; not a near-term NVDA order cancel print.",
+      "source": "Bloomberg / Meta AI blog",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/meta-touts-the-cost-saving-benefits-of-latest-in-house-ai-chips",
+      "ticker": "META"
+    },
+    {
+      "headline": "Carry: Oracle Q1 IaaS +121% / RPO $664B / >$30B AI bookings (Sep 10) still the hyperscaler demand print. Waymo Vegas robotaxi (Sep 14) still live GOOGL product color.",
+      "why": "No newer ORCL IR overnight; Waymo still prior-session Alphabet print.",
+      "source": "Oracle IR / TechCrunch",
+      "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx",
+      "ticker": "ORCL"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Wed LIVE \u20a91,723,000 (+1.12% vs Tue close \u20a91,704,000). Tue official \u20a91,704,000 (+0.41% vs Mon \u20a91,697,000). MU Tue +0.39% after Mon \u22125.25% book flag. K3: no public ticker.",
+      "why": "Yahoo 1m chart Asia/Seoul last ~08:03 ICT \u20a91,723,000; Tue daily bar C1,704,000.",
+      "source": "Yahoo Finance chart v8 / 1m",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 28.66 Fear (Tue 15 Sep stamp via whole.finance CNN mirror; was Mon 31.06). SPX Tue 7,585.73 (\u22120.45%); VIX 17.20; 10y 4.996. AP: oil + yields pressured tape.",
+      "why": "CNN API blocked (teapot); whole.finance logs CNN daily. Yahoo ^GSPC/^VIX/^TNX Tue bars.",
+      "source": "whole.finance CNN_FG / Yahoo / AP",
+      "url": "https://wholefinance.com/sentiment/CNN_FG"
+    },
+    {
+      "headline": "FOMC TODAY Wed Sep 16 ~14:00 EDT / 01:00 ICT Thu: CME FedWatch ~92.3\u201392.4% odds of +25 bp to 3.75\u20134.00%. Statement + SEP/dots + Warsh presser \u2014 path > print.",
+      "why": "AInvest FedWatch snapshot 15 Sep 12:37 CT 92.3%; Gate News 92.4%; Newsquawk Reuters poll ~85% economists. Decision not yet out at this ICT morning run.",
+      "source": "CME FedWatch via AInvest / Gate / Newsquawk",
+      "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    },
+    {
+      "headline": "USDTHB 33.2944 (er-api Wed 00:02Z). Oil futures AM: WTI ~$104.90 / Brent ~$108.14 (Yahoo CL=F / BZ=F; elev. vs Tue cash bars ~$101.39 / ~$105.68).",
+      "why": "open.er-api + Yahoo futures \u2014 energy still feeding hike case into FOMC.",
+      "source": "open.er-api / Yahoo CL=F BZ=F",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "NBIS Tue \u22122.27% to $207.37 (\u2248 THB 6,904); Palantir preferred still live catalyst (no $); NEW Form 144 filed Sep 15 (body unread \u2014 SEC bot wall); wait Wed open + FOMC.",
+    "Tue tape mixed into FOMC: NVDA/META/MU green; GOOGL/AMZN/SPCX/NBIS red; SPX \u22120.45%. NVIDIA DSX/Rubin efficiency + META MTIA 450 \u2014 custom/efficiency theme, no hyperscaler cancel.",
+    "Fear 28.66 (deeper Fear); VIX 17.2; 10y ~5.00; hike odds ~92% \u2014 duration headwind; watch Warsh path language tonight.",
+    "SK Wed LIVE \u20a91,723,000 (+1.12%). No trade. FOMC tonight ICT. K3 no ticker."
+  ],
+  "quotes": {
+    "asOf": "US Tue 2026-09-15 cash; Korea Wed 2026-09-16 LIVE ~08:03 ICT; FX Wed morning",
+    "usdthb": 33.294422,
+    "usdthbErApiAsOf": "Wed, 16 Sep 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 207.37,
+      "chgPctVsMon": -2.27,
+      "mktCapBApprox": 56.37,
+      "thbPerShareApprox": 6904,
+      "ah": null
+    },
+    "GOOGL": {
+      "last": 344.98,
+      "chgPct": -1.26
+    },
+    "AMZN": {
+      "last": 248.42,
+      "chgPct": -2.02
+    },
+    "META": {
+      "last": 670.24,
+      "chgPct": 0.7
+    },
+    "NVDA": {
+      "last": 212.17,
+      "chgPct": 0.57
+    },
+    "MU": {
+      "last": 927.6,
+      "chgPct": 0.39
+    },
+    "SPCX": {
+      "last": 143.49,
+      "chgPct": -3.15
+    },
+    "000660.KS": {
+      "tueClose": 1704000,
+      "wedLive": 1723000,
+      "wedChgPctVsTue": 1.12
+    },
+    "SPX": {
+      "last": 7585.73,
+      "chgPct": -0.45
+    },
+    "VIX": {
+      "last": 17.2
+    },
+    "TNX": {
+      "last": 4.996
+    },
+    "WTI": {
+      "last": 104.9
+    },
+    "Brent": {
+      "last": 108.14
+    }
+  }
+}

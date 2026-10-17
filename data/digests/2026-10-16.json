@@ -1,0 +1,537 @@
+{
+  "bookQuotes": {
+    "asOf": "Thu 15 Oct 2026 US regular close (Yahoo chart API / CNBC); NBIS overnight Yahoo; SK/Samsung/KOSPI Fri 16 Oct live ~10:05 KST (Yahoo, delayed); F&G Thu close stamp",
+    "NBIS": {
+      "last": 188.41,
+      "prev": 186.01,
+      "chg": 2.4,
+      "pct": 1.29,
+      "open": 175.48,
+      "high": 189.33,
+      "low": 163.36,
+      "volume": 44294992,
+      "mktCapB": 51.22,
+      "ah": null,
+      "ahPct": null,
+      "overnight": 187.42,
+      "overnightPct": -0.53,
+      "usdthb": 33.51,
+      "thbPerShare": 6314,
+      "fromTue6OctPct": -24.6,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 349.22,
+      "prev": 347.64,
+      "pct": 0.45
+    },
+    "AMZN": {
+      "last": 254.76,
+      "prev": 254.08,
+      "pct": 0.27
+    },
+    "META": {
+      "last": 736.72,
+      "prev": 737.54,
+      "pct": -0.11
+    },
+    "NVDA": {
+      "last": 217.23,
+      "prev": 221.3,
+      "pct": -1.84
+    },
+    "MU": {
+      "last": 931.24,
+      "prev": 914.13,
+      "pct": 1.87
+    },
+    "SPCX": {
+      "last": 148.62,
+      "prev": 152.16,
+      "pct": -2.33
+    },
+    "SK000660": {
+      "last": 1292500,
+      "prev": 1262000,
+      "pct": 2.42,
+      "liveKst": "2026-10-16T10:04",
+      "thuClose": 1262000,
+      "thuClosePct": -11.06,
+      "note": "Fri live rebound after Thu rout"
+    },
+    "SS005930": {
+      "last": 213750,
+      "prev": 210000,
+      "pct": 1.79,
+      "liveKst": "2026-10-16T10:04",
+      "thuClosePct": -9.48
+    },
+    "KOSPI": {
+      "last": 5696.62,
+      "prev": 5554.22,
+      "pct": 2.56,
+      "note": "Thu close 5,554.22 (−7.57%), 7-day losing streak; Fri rebound"
+    },
+    "SKHY": {
+      "last": 146.11,
+      "prev": 147.55,
+      "pct": -0.98,
+      "note": "US ADR"
+    },
+    "TSM": {
+      "last": 422.25,
+      "prev": 430.0,
+      "pct": -1.8
+    },
+    "ASML": {
+      "last": 1657.44,
+      "prev": 1650.0,
+      "pct": 0.45
+    },
+    "CRWV": {
+      "last": 69.69,
+      "prev": 65.78,
+      "pct": 5.94
+    },
+    "ORCL": {
+      "last": 134.47,
+      "prev": 130.55,
+      "pct": 3.0
+    },
+    "US10Y": {
+      "last": 5.089,
+      "prev": 5.19,
+      "note": "−10bp despite hot PPI"
+    },
+    "SPX": {
+      "last": 7744.06,
+      "pct": 0.33
+    },
+    "IXIC": {
+      "last": 26713.03,
+      "pct": 0.08
+    },
+    "DJI": {
+      "last": 52177.69,
+      "pct": 1.08
+    },
+    "SOX": {
+      "last": 11581.21,
+      "pct": -0.88
+    },
+    "VIX": {
+      "last": 16.46,
+      "pct": -2.43
+    },
+    "WTI": {
+      "last": 95.82,
+      "note": "Fri Asia live CL=F"
+    },
+    "BRENT": {
+      "last": 105.33,
+      "note": "Fri Asia live BZ=F"
+    },
+    "DXY": {
+      "last": 102.04
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "No ≥5% move in the book; SPCX −2.33% largest US move",
+      "SK Hynix Fri live +2.4% rebound after Thu −11.06%"
+    ]
+  },
+  "flags": [
+    {
+      "ticker": "NBIS",
+      "level": "watch",
+      "text": "+1.29% to $188.41 after $163.36 intraday low; −24.6% since 6 Oct; 200-day ~$173 next support",
+      "url": "https://www.thestreet.com/investing/nebius-nbis-stock-selloff-coreweave-bond-scare"
+    },
+    {
+      "ticker": "000660.KS",
+      "level": "watch",
+      "text": "Thu close −11.06%; Fri live +2.42%; foreigners still selling",
+      "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202610160001"
+    }
+  ],
+  "fx": {
+    "USDTHB": 33.51,
+    "source": "https://finance.yahoo.com/quote/THB=X/",
+    "stamp": "2026-10-16T01:24Z (09:24 WITA)",
+    "USDKRW": 1346.59,
+    "krwSource": "https://finance.yahoo.com/quote/KRW=X/",
+    "DXY": 102.04
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 188.41,
+      "pctChange": 1.29,
+      "headline": "Reversal off $163.36 low; UK lab deals (no values); IREN reliability report; Form 144 7.26k immaterial",
+      "sourceUrl": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 349.22,
+      "pctChange": 0.45,
+      "headline": "No company news; earnings 28 Oct",
+      "sourceUrl": "https://finance.yahoo.com/quote/GOOGL/"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 254.76,
+      "pctChange": 0.27,
+      "headline": "No company news; earnings 29 Oct",
+      "sourceUrl": "https://finance.yahoo.com/quote/AMZN/"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 736.72,
+      "pctChange": -0.11,
+      "headline": "No company news; earnings 28 Oct",
+      "sourceUrl": "https://finance.yahoo.com/quote/META/"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 217.23,
+      "pctChange": -1.84,
+      "headline": "Fell with chips despite TSMC beat-and-raise",
+      "sourceUrl": "https://finance.yahoo.com/markets/stocks/article/tsmc-stock-drops-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-152649370.html"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 931.24,
+      "pctChange": 1.87,
+      "headline": "Turned positive after early −5%; ~−11% over 5 days on CXMT/2029 oversupply worry",
+      "sourceUrl": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1292500,
+      "pctChange": 2.42,
+      "headline": "Fri live 10:04 KST rebound after Thu −11.06%; Q3 27 Oct",
+      "sourceUrl": "https://en.sedaily.com/finance/2026/10/16/samsung-sk-hynix-rise-3-percent-in-pre-market-after"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 148.62,
+      "pctChange": -2.33,
+      "headline": "No new thesis news; unlock 24 Oct",
+      "sourceUrl": "https://finance.yahoo.com/quote/SPCX/"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker exists",
+      "sourceUrl": null
+    },
+    {
+      "ticker": "F&G",
+      "lastClose": 31.5,
+      "pctChange": null,
+      "headline": "CNN 31.5 Fear (prior digest 32.4 Fear); 1-wk 39.8, 1-mo 28.0",
+      "sourceUrl": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "ticker": "NEXT",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Fri: Warsh/Georgieva 11:30 WITA, SpaceX NYC testimony; 24 Oct SPCX unlock; 27 Oct SK Q3; FOMC 27–28 Oct; META/GOOGL 28 Oct; AMZN 29 Oct; NBIS Q3 ~9–10 Nov",
+      "sourceUrl": "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html"
+    }
+  ],
+  "quotes": {
+    "asOf": "Thu 15 Oct 2026 US regular close (Yahoo chart API / CNBC); NBIS overnight Yahoo; SK/Samsung/KOSPI Fri 16 Oct live ~10:05 KST (Yahoo, delayed); F&G Thu close stamp",
+    "NBIS": {
+      "last": 188.41,
+      "prev": 186.01,
+      "chg": 2.4,
+      "pct": 1.29,
+      "open": 175.48,
+      "high": 189.33,
+      "low": 163.36,
+      "volume": 44294992,
+      "mktCapB": 51.22,
+      "ah": null,
+      "ahPct": null,
+      "overnight": 187.42,
+      "overnightPct": -0.53,
+      "usdthb": 33.51,
+      "thbPerShare": 6314,
+      "fromTue6OctPct": -24.6,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 349.22,
+      "prev": 347.64,
+      "pct": 0.45
+    },
+    "AMZN": {
+      "last": 254.76,
+      "prev": 254.08,
+      "pct": 0.27
+    },
+    "META": {
+      "last": 736.72,
+      "prev": 737.54,
+      "pct": -0.11
+    },
+    "NVDA": {
+      "last": 217.23,
+      "prev": 221.3,
+      "pct": -1.84
+    },
+    "MU": {
+      "last": 931.24,
+      "prev": 914.13,
+      "pct": 1.87
+    },
+    "SPCX": {
+      "last": 148.62,
+      "prev": 152.16,
+      "pct": -2.33
+    },
+    "SK000660": {
+      "last": 1292500,
+      "prev": 1262000,
+      "pct": 2.42,
+      "liveKst": "2026-10-16T10:04",
+      "thuClose": 1262000,
+      "thuClosePct": -11.06,
+      "note": "Fri live rebound after Thu rout"
+    },
+    "SS005930": {
+      "last": 213750,
+      "prev": 210000,
+      "pct": 1.79,
+      "liveKst": "2026-10-16T10:04",
+      "thuClosePct": -9.48
+    },
+    "KOSPI": {
+      "last": 5696.62,
+      "prev": 5554.22,
+      "pct": 2.56,
+      "note": "Thu close 5,554.22 (−7.57%), 7-day losing streak; Fri rebound"
+    },
+    "SKHY": {
+      "last": 146.11,
+      "prev": 147.55,
+      "pct": -0.98,
+      "note": "US ADR"
+    },
+    "TSM": {
+      "last": 422.25,
+      "prev": 430.0,
+      "pct": -1.8
+    },
+    "ASML": {
+      "last": 1657.44,
+      "prev": 1650.0,
+      "pct": 0.45
+    },
+    "CRWV": {
+      "last": 69.69,
+      "prev": 65.78,
+      "pct": 5.94
+    },
+    "ORCL": {
+      "last": 134.47,
+      "prev": 130.55,
+      "pct": 3.0
+    },
+    "US10Y": {
+      "last": 5.089,
+      "prev": 5.19,
+      "note": "−10bp despite hot PPI"
+    },
+    "SPX": {
+      "last": 7744.06,
+      "pct": 0.33
+    },
+    "IXIC": {
+      "last": 26713.03,
+      "pct": 0.08
+    },
+    "DJI": {
+      "last": 52177.69,
+      "pct": 1.08
+    },
+    "SOX": {
+      "last": 11581.21,
+      "pct": -0.88
+    },
+    "VIX": {
+      "last": 16.46,
+      "pct": -2.43
+    },
+    "WTI": {
+      "last": 95.82,
+      "note": "Fri Asia live CL=F"
+    },
+    "BRENT": {
+      "last": 105.33,
+      "note": "Fri Asia live BZ=F"
+    },
+    "DXY": {
+      "last": 102.04
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "No ≥5% move in the book; SPCX −2.33% largest US move",
+      "SK Hynix Fri live +2.4% rebound after Thu −11.06%"
+    ]
+  },
+  "sources": [
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://en.sedaily.com/finance/2026/10/16/samsung-sk-hynix-rise-3-percent-in-pre-market-after",
+    "https://finance.yahoo.com/markets/stocks/article/tsmc-stock-drops-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-152649370.html",
+    "https://finance.yahoo.com/quote/NBIS/",
+    "https://finance.yahoo.com/quote/SPCX/",
+    "https://finance.yahoo.com/quote/THB=X/",
+    "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://query1.finance.yahoo.com/v8/finance/chart/NBIS",
+    "https://seekingalpha.com/news/4653437-october-rate-hike-odds-retreat-below-30",
+    "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nebius-stock-british-ai-deals-land-as-rate-fears-and-a-2029-debt-wall-set-the-terms/70331535",
+    "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
+    "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+    "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
+    "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html",
+    "https://www.investing.com/news/stock-market-news/iren-shares-fall-as-semianalysis-highlights-data-center-reliability-issues-4937184",
+    "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10152026-12174789",
+    "https://www.kedglobal.com/korean-stock-market/newsView/ked202610160001",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://www.thestreet.com/investing/nebius-nbis-stock-selloff-coreweave-bond-scare"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-10-16",
+      "timeWita": "11:30",
+      "event": "Fed Chair Warsh with IMF MD Georgieva (Bangkok)",
+      "detail": "Last big Fed voice before 17 Oct blackout; first after hot CPI + PPI",
+      "sourceUrl": "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "US Fri",
+      "event": "SpaceX testifies at NYC Council AI-safety probe",
+      "detail": "",
+      "sourceUrl": "https://247wallst.com/investing/2026/10/13/spacex-drops-4-on-agreement-to-testify-in-new-york-city-ai-safety-probe-intuitive-machines-sinks-6-virgin-galactic-holdings-slips/"
+    },
+    {
+      "date": "outside window",
+      "timeWita": "",
+      "event": "SPCX unlock 24 Oct; SK hynix Q3 27 Oct; FOMC 27–28 Oct; META/GOOGL 28 Oct; AMZN 29 Oct; Samsung Q3 29 Oct; NBIS Q3 ~9–10 Nov",
+      "detail": "",
+      "sourceUrl": "https://en.quartalszahlen.info/companies/000660"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "TSMC Q3: revenue US$46.72B (above $44.6–45.8B guide), GM 66.4% (−1.3pt on N2 ramp), EPS NT$29.43 (+68.7% y/y). Q4 guide $52.3–54.3B (~+14% q/q), GM 65–67%. 2026 capex reiterated $60–64B; cited agentic AI demand.",
+      "why": "Clean beat-and-raise on AI demand; capex not cut. Supports NVDA/MU/hyperscaler demand thesis.",
+      "source": "TSMC IR",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
+    },
+    {
+      "headline": "TSM ADR still fell −1.80% to $422.25 on the beat; SOX −0.88%, SOXX down an eighth straight day (first since 2015, >15% over the run). NVDA $217.23 (−1.84%).",
+      "why": "Good news isn't being bought yet; the group is trading on financing/rates, not orders.",
+      "source": "Yahoo Finance / CNBC",
+      "url": "https://finance.yahoo.com/markets/stocks/article/tsmc-stock-drops-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-152649370.html"
+    },
+    {
+      "headline": "Memory: SK Hynix −26%, Samsung −22%, MU ~−11% over five days on CXMT's denser server-DRAM plan plus a Maeil column warning of 2029 oversupply (Musk: China 'will be making a LOT of RAM in 2028'). Rosenblatt and Quilter doubt CXMT scales; Counterpoint sees 2028 DRAM −23% but still ~230% above 2025.",
+      "why": "The memory bear case is long-dated and opinion-led; LTAs with prepayments dampen any down-cycle.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html"
+    },
+    {
+      "headline": "SK Hynix Thu close ₩1,262,000 (−11.06%), Samsung ₩210,000 (−9.48%), KOSPI 5,554.22 (−7.57%, weakest since 7 Apr). Fri live ~10:04 KST: SK ₩1,292,500 (+2.42%), Samsung +1.79%, KOSPI +2.56%; foreigners still net selling. MU closed +1.87% at $931.24.",
+      "why": "First bounce after a 7-day slide; foreign selling not yet reversed. SK Q3 on 27 Oct is the next hard data.",
+      "source": "Seoul Economic Daily / KED Global / Yahoo",
+      "url": "https://en.sedaily.com/finance/2026/10/16/samsung-sk-hynix-rise-3-percent-in-pre-market-after"
+    },
+    {
+      "headline": "GOOGL $349.22 (+0.45%), AMZN $254.76 (+0.27%), META $736.72 (−0.11%), SPCX $148.62 (−2.33%): no company-specific thesis news in the window.",
+      "why": "Hyperscalers held while chips sold; earnings 28–29 Oct are the capex check. SPCX unlock 24 Oct.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SPCX/"
+    }
+  ],
+  "asOfIct": "2026-10-16T08:30:00+07:00",
+  "asOfWita": "2026-10-16T09:30:00+08:00",
+  "date": "2026-10-16",
+  "fearGreed": {
+    "value": 31.5,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN 31.5 Fear (API rating 'fear'), stamp 2026-10-15T23:59:53Z (Thu close = 07:59 WITA Fri). Prior digest 32.4 Fear; prev close 32.3, 1-wk 39.8, 1-mo 28.0. Stabilizing in Fear, not capitulating; S&P up but tech rotation kept sentiment pinned."
+  },
+  "macro": [
+    {
+      "headline": "Sep PPI +1.3% m/m, +6.3% y/y (vs 0.6% / 5.5% est), biggest since 2022; core +0.7% / 5.0%. Retail sales +0.8% but control group only +0.1% (vs 0.3%).",
+      "why": "Second hot inflation print in two days, but a weak real consumer limits how hawkish the Fed can go.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html"
+    },
+    {
+      "headline": "October-hike odds briefly spiked then retreated below 30% (CME/Kalshi ~27–29%), vs ~33% after CPI. 10Y fell to 5.09% (−10bp).",
+      "why": "Falling yields are the key relief for debt-funded neoclouds like NBIS.",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4653437-october-rate-hike-odds-retreat-below-30"
+    },
+    {
+      "headline": "Thu: Dow +1.08% to 52,177.69, S&P +0.33% to 7,744.06, Nasdaq +0.08% (was −1.4% intraday); VIX 16.46. Rotation out of tech into healthcare/value; Nasdaq-100 futures −0.2% overnight.",
+      "why": "Broad tape stabilized; AI complex is the funding source for the rotation.",
+      "source": "CNBC / AP",
+      "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Today 11:30 WITA: Fed Chair Warsh with IMF MD Georgieva in Bangkok, last big Fed voice before the 17 Oct blackout. WTI $95.82 / Brent $105.33 in Asia; DXY 102.04; USDTHB 33.51; USDKRW 1,346.6.",
+      "why": "Warsh's read on two hot prints sets the tone into FOMC 27–28 Oct.",
+      "source": "IMF / Yahoo Finance",
+      "url": "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html"
+    }
+  ],
+  "nbis": [
+    {
+      "headline": "Thu cash $188.41 (+1.29% / +$2.40 vs $186.01); open $175.48, intraday low $163.36 (−12%) then recovered; vol ~44–47M. Overnight ~$187.42 (−0.53%). Cap $51.22B; ≈ THB 6,314/sh at 33.51. Still −24.6% from 6 Oct $249.87.",
+      "why": "Hammer-style reversal off the lows on heavy volume; no FLAG. Next support cited near the 200-day ~$173.",
+      "source": "Yahoo Finance / CNBC / TheStreet",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "Nebius disclosed agreements with several UK AI labs (EMEA chief Gary Tierney); no counterparties or contract values given. Rotterdam VOLT 600 MW site is still a letter of intent, not a signed offtake.",
+      "why": "Demand signal, but nothing modelable. Do not count LOI capacity as contracted.",
+      "source": "ad-hoc-news (boerse-global)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nebius-stock-british-ai-deals-land-as-rate-fears-and-a-2029-debt-wall-set-the-terms/70331535"
+    },
+    {
+      "headline": "Peer risk widened: SemiAnalysis reported outages, storage failures and GPU errors at IREN's British Columbia sites and said IREN has no live managed-cloud service; IREN fell. CoreWeave bounced +5.9% to $69.69 after Wed −15.5%.",
+      "why": "Neocloud quality/credit is now being priced name by name; Nebius's investment-grade-backed $775M loan at SOFR+250 is the differentiator to watch.",
+      "source": "Investing.com / TheStreet",
+      "url": "https://www.investing.com/news/stock-market-news/iren-shares-fall-as-semianalysis-highlights-data-center-reliability-issues-4937184"
+    },
+    {
+      "headline": "New Form 144: Director John W. Boynton IV Trust proposed sale of 7,260 sh (~$1.35M), filed 15 Oct. No new issuer 6-K since 1 Oct.",
+      "why": "Immaterial. No dilution, convert or guidance change.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    }
+  ],
+  "producedBy": "Deki",
+  "soWhat": [
+    "NBIS +1.3% to $188.41 after a $163 intraday low; reversal but still −25% from 6 Oct. No new filing; UK lab deals have no values. No FLAG.",
+    "TSMC beat and raised (Q4 ~$53B, capex $60–64B intact) yet TSM fell; demand is fine, the market is repricing financing risk.",
+    "Memory bounce: SK +2.4% live after −11%, MU +1.9%. Bear case is a 2029 oversupply column plus CXMT; SK Q3 27 Oct.",
+    "Hot PPI but yields fell 10bp and hike odds back under 30%. F&G 31.5 Fear (from 32.4). Warsh speaks 11:30 WITA today."
+  ]
+}
