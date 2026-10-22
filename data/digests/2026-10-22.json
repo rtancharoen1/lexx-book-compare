@@ -1,0 +1,532 @@
+{
+  "bookQuotes": {
+    "asOf": "US = Wed 21 Oct 2026 regular close (CNBC 4:00 PM EDT); AH CNBC 7:59 PM EDT; futures/10Y/2Y/DXY/gold/FX CNBC ~21:11-21:21 EDT Wed = 08:11-08:21 ICT Thu; Brent CNBC 02:11 BST; KOSPI/Nikkei ~10:01-10:06 KST/JST, Taiex/Shanghai ~09:01-09:06 local (CNBC); SK hynix live Yahoo ~10:20 KST",
+    "NBIS": {
+      "last": 171.57,
+      "chg": 0.12,
+      "pct": 0.07,
+      "open": 176.46,
+      "high": 178.85,
+      "low": 164.0,
+      "volume": 17353637,
+      "mktCapB": 46.64,
+      "ah": 166.0,
+      "ahPct": -3.25,
+      "ahStamp": "CNBC after-hours 7:59 PM EDT",
+      "usdthb": 33.58,
+      "thbPerShare": 5761,
+      "fromTue6OctPct": -31.3,
+      "nextEarnings": "UNCONFIRMED: TipRanks 22 Oct vs MarketBeat 10 Nov est / CNBC 9 Nov est; no company notice",
+      "flag": false,
+      "note": "Tue AH +5.4% gap faded intraday (high 178.85, low 164.00); flat close"
+    },
+    "GOOGL": {
+      "last": 334.76,
+      "pct": -1.62,
+      "ah": 333.1,
+      "ahPct": -0.5
+    },
+    "AMZN": {
+      "last": 262.37,
+      "pct": -0.1,
+      "ah": 261.34,
+      "ahPct": -0.39
+    },
+    "META": {
+      "last": 697.52,
+      "pct": 0.47,
+      "ah": 712.65,
+      "ahPct": 2.17,
+      "note": "Q3 beat; 2026 capex $135-145B"
+    },
+    "NVDA": {
+      "last": 221.97,
+      "pct": 2.54,
+      "ah": 219.26,
+      "ahPct": -1.22
+    },
+    "MU": {
+      "last": 913.67,
+      "pct": 1.96,
+      "ah": 898.31,
+      "ahPct": -1.68
+    },
+    "SPCX": {
+      "last": 159.31,
+      "pct": 7.79,
+      "ah": 156.7,
+      "ahPct": -1.64,
+      "note": "~1.31B unlock eligible today"
+    },
+    "CRWV": {
+      "last": 61.82,
+      "pct": -0.5,
+      "note": "peer"
+    },
+    "ES_fut": {
+      "last": 7768.75,
+      "pct": -0.4,
+      "symbol": "@SP.1"
+    },
+    "NQ_fut": {
+      "last": 29803.0,
+      "pct": -0.68,
+      "symbol": "@ND.1"
+    },
+    "SPX": {
+      "last": 7757.17,
+      "pct": 0.58,
+      "note": "Wed close"
+    },
+    "IXIC": {
+      "last": 26702.86,
+      "pct": 1.05,
+      "note": "Wed close"
+    },
+    "DJI": {
+      "last": 52856.09,
+      "pct": 0.69,
+      "note": "Wed close"
+    },
+    "US10Y": {
+      "last": 5.107,
+      "chgBp": -3.9,
+      "note": "CNBC overnight; AP: closed ~5.12% Wed"
+    },
+    "US2Y": {
+      "last": 4.8,
+      "chgBp": -2.3
+    },
+    "DXY": {
+      "last": 101.71,
+      "pct": -0.07
+    },
+    "WTI": {
+      "last": 98.06,
+      "pct": 0.94
+    },
+    "BRENT": {
+      "last": 110.02,
+      "pct": 1.1
+    },
+    "GOLD": {
+      "last": 4133.5,
+      "pct": -0.4
+    },
+    "VIX": {
+      "last": 16.68,
+      "pct": -3.64,
+      "note": "Wed close"
+    },
+    "SOX": {
+      "last": 11505.56,
+      "pct": 1.97,
+      "note": "Wed close"
+    },
+    "THB": {
+      "last": 33.58,
+      "source": "CNBC THB="
+    },
+    "SK000660": {
+      "last": 1274000,
+      "pct": -1.55,
+      "refClose": 1294000,
+      "status": "live",
+      "source": "Yahoo chart",
+      "flag": false
+    },
+    "KOSPI": {
+      "last": 5679.22,
+      "pct": -0.98
+    },
+    "N225": {
+      "last": 64269.38,
+      "pct": -0.54
+    },
+    "TWII": {
+      "last": 47261.08,
+      "pct": 0.8
+    },
+    "SSEC": {
+      "last": 3712.83,
+      "pct": -0.01
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": []
+  },
+  "flags": [
+    {
+      "ticker": "SPCX",
+      "level": "event",
+      "text": "Up to ~1.31B SPCX shares (28% of the 180-day pool) become eligible to sell today Thu 22 Oct; largest single release so far. Wed cash +7.79% to $159.31; AH $156.70 (−1.64%). Eligible is not sold; next 7% step tradable Mon 26 Oct.",
+      "url": "https://www.fxstreet.com/analysis/spacexs-earnings-dont-matter-what-they-unlock-does-202610201609"
+    }
+  ],
+  "fx": {
+    "USDTHB": 33.58,
+    "source": "https://www.cnbc.com/quotes/THB=",
+    "stamp": "CNBC 9:21 PM EDT Wed = 08:21 ICT Thu",
+    "USDKRW": 1326.35,
+    "USDKRWsource": "CNBC KRW= 9:21 PM EDT Wed",
+    "note": "Baht slightly firmer vs 33.62 yesterday"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 171.57,
+      "pctChange": 0.07,
+      "headline": "Flat close; AH $166.00 (−3.25%). Piper PT $185 Neutral; CRO says 2027 capacity could sell out",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 334.76,
+      "pctChange": -1.62,
+      "headline": "No thesis news; Q3 Wed 28 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 262.37,
+      "pctChange": -0.1,
+      "headline": "No thesis news",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 697.52,
+      "pctChange": 0.47,
+      "headline": "Q3 beat; AH $712.65 (+2.17%); 2026 capex $135-145B; new Class C stock",
+      "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 221.97,
+      "pctChange": 2.54,
+      "headline": "Chip rally on SpaceX AI growth; AH −1.22%",
+      "sourceUrl": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 913.67,
+      "pctChange": 1.96,
+      "headline": "Chip rally; AH −1.68%",
+      "sourceUrl": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1274000,
+      "pctChange": -1.55,
+      "headline": "LIVE vs ₩1,294,000; mild giveback",
+      "sourceUrl": "https://finance.yahoo.com/quote/000660.KS/"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 159.31,
+      "pctChange": 7.79,
+      "headline": "Cash confirmed Q3 gap; ~1.31B unlock today; AH −1.64%",
+      "sourceUrl": "https://www.fxstreet.com/analysis/spacexs-earnings-dont-matter-what-they-unlock-does-202610201609"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker. No new item",
+      "sourceUrl": null
+    }
+  ],
+  "quotes": {
+    "asOf": "US = Wed 21 Oct 2026 regular close (CNBC 4:00 PM EDT); AH CNBC 7:59 PM EDT; futures/10Y/2Y/DXY/gold/FX CNBC ~21:11-21:21 EDT Wed = 08:11-08:21 ICT Thu; Brent CNBC 02:11 BST; KOSPI/Nikkei ~10:01-10:06 KST/JST, Taiex/Shanghai ~09:01-09:06 local (CNBC); SK hynix live Yahoo ~10:20 KST",
+    "NBIS": {
+      "last": 171.57,
+      "chg": 0.12,
+      "pct": 0.07,
+      "open": 176.46,
+      "high": 178.85,
+      "low": 164.0,
+      "volume": 17353637,
+      "mktCapB": 46.64,
+      "ah": 166.0,
+      "ahPct": -3.25,
+      "ahStamp": "CNBC after-hours 7:59 PM EDT",
+      "usdthb": 33.58,
+      "thbPerShare": 5761,
+      "fromTue6OctPct": -31.3,
+      "nextEarnings": "UNCONFIRMED: TipRanks 22 Oct vs MarketBeat 10 Nov est / CNBC 9 Nov est; no company notice",
+      "flag": false,
+      "note": "Tue AH +5.4% gap faded intraday (high 178.85, low 164.00); flat close"
+    },
+    "GOOGL": {
+      "last": 334.76,
+      "pct": -1.62,
+      "ah": 333.1,
+      "ahPct": -0.5
+    },
+    "AMZN": {
+      "last": 262.37,
+      "pct": -0.1,
+      "ah": 261.34,
+      "ahPct": -0.39
+    },
+    "META": {
+      "last": 697.52,
+      "pct": 0.47,
+      "ah": 712.65,
+      "ahPct": 2.17,
+      "note": "Q3 beat; 2026 capex $135-145B"
+    },
+    "NVDA": {
+      "last": 221.97,
+      "pct": 2.54,
+      "ah": 219.26,
+      "ahPct": -1.22
+    },
+    "MU": {
+      "last": 913.67,
+      "pct": 1.96,
+      "ah": 898.31,
+      "ahPct": -1.68
+    },
+    "SPCX": {
+      "last": 159.31,
+      "pct": 7.79,
+      "ah": 156.7,
+      "ahPct": -1.64,
+      "note": "~1.31B unlock eligible today"
+    },
+    "CRWV": {
+      "last": 61.82,
+      "pct": -0.5,
+      "note": "peer"
+    },
+    "ES_fut": {
+      "last": 7768.75,
+      "pct": -0.4,
+      "symbol": "@SP.1"
+    },
+    "NQ_fut": {
+      "last": 29803.0,
+      "pct": -0.68,
+      "symbol": "@ND.1"
+    },
+    "SPX": {
+      "last": 7757.17,
+      "pct": 0.58,
+      "note": "Wed close"
+    },
+    "IXIC": {
+      "last": 26702.86,
+      "pct": 1.05,
+      "note": "Wed close"
+    },
+    "DJI": {
+      "last": 52856.09,
+      "pct": 0.69,
+      "note": "Wed close"
+    },
+    "US10Y": {
+      "last": 5.107,
+      "chgBp": -3.9,
+      "note": "CNBC overnight; AP: closed ~5.12% Wed"
+    },
+    "US2Y": {
+      "last": 4.8,
+      "chgBp": -2.3
+    },
+    "DXY": {
+      "last": 101.71,
+      "pct": -0.07
+    },
+    "WTI": {
+      "last": 98.06,
+      "pct": 0.94
+    },
+    "BRENT": {
+      "last": 110.02,
+      "pct": 1.1
+    },
+    "GOLD": {
+      "last": 4133.5,
+      "pct": -0.4
+    },
+    "VIX": {
+      "last": 16.68,
+      "pct": -3.64,
+      "note": "Wed close"
+    },
+    "SOX": {
+      "last": 11505.56,
+      "pct": 1.97,
+      "note": "Wed close"
+    },
+    "THB": {
+      "last": 33.58,
+      "source": "CNBC THB="
+    },
+    "SK000660": {
+      "last": 1274000,
+      "pct": -1.55,
+      "refClose": 1294000,
+      "status": "live",
+      "source": "Yahoo chart",
+      "flag": false
+    },
+    "KOSPI": {
+      "last": 5679.22,
+      "pct": -0.98
+    },
+    "N225": {
+      "last": 64269.38,
+      "pct": -0.54
+    },
+    "TWII": {
+      "last": 47261.08,
+      "pct": 0.8
+    },
+    "SSEC": {
+      "last": 3712.83,
+      "pct": -0.01
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": []
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://www.tipranks.com/news/the-fly/nebius-price-target-lowered-to-185-from-237-at-piper-sandler-thefly-news",
+    "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html",
+    "https://econotimes.com/Nebius-Says-Customer-Prepayments-Help-Fund-AI-Capacity-Expansion-1759515",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+    "https://stocktwits.com/news-articles/markets/equity/meta-stock-jumps-3-after-hours-after-q3-revenue-beats-expectations-with-a-narrowed-ai-capex-outlook-and-new-non-voting-class-c-stock/cZxMhJJRBv6",
+    "https://www.fxstreet.com/analysis/spacexs-earnings-dont-matter-what-they-unlock-does-202610201609",
+    "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
+    "https://apnews.com/article/stocks-markets-rates-oil-earnings-ai-4fa93685cd49e51e7ff0d840fdd38b0d",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://finance.yahoo.com/quote/000660.KS/"
+  ],
+  "weekAhead": [
+    {
+      "date": "Thu 22 Oct",
+      "item": "SPCX ~1.31B unlock eligible; Tesla Q3 reaction"
+    },
+    {
+      "date": "Mon 26 Oct",
+      "item": "SPCX next 7% (~328M) unlock tradable"
+    },
+    {
+      "date": "Wed 28 Oct",
+      "item": "GOOGL Q3"
+    },
+    {
+      "date": "TBD",
+      "item": "NBIS Q3 date unconfirmed (22 Oct vs ~9-10 Nov)"
+    }
+  ],
+  "date": "2026-10-22",
+  "asOfIct": "2026-10-22T08:30+07:00",
+  "producedBy": "Deki (AI infra morning digest)",
+  "asOfWita": "2026-10-22T09:30+08:00",
+  "fearGreed": {
+    "value": 31.4,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "31.4 Fear (stamp 2026-10-21T23:59Z = Wed close), up from 27.2; 1-wk 26.7, 1-mo 34.2. Third straight daily improvement, still in Fear."
+  },
+  "nbis": [
+    {
+      "headline": "Wed close $171.57 (+0.07%), cap $46.64B; AH $166.00 (−3.25%)",
+      "why": "Tue's +5.4% AH gap fully faded in cash (range $164.00-178.85). No cash move to act on.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "Piper Sandler cuts PT $237 to $185, keeps Neutral",
+      "why": "Sector-wide terminal multiple cut on ROIC/financing worries; sees group 'in the penalty box' until FCF or financing clears, prefers CoreWeave.",
+      "source": "TheFly via TipRanks",
+      "url": "https://www.tipranks.com/news/the-fly/nebius-price-target-lowered-to-185-from-237-at-piper-sandler-thefly-news"
+    },
+    {
+      "headline": "CRO Boroditsky: compute prices rising faster than expected; 2027 capacity could sell out at current prices",
+      "why": "Demand and pricing side of the thesis intact; funding is equity, converts and customer prepayments, not CoreWeave-style debt. Public spot pricing live 21 Oct.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html"
+    },
+    {
+      "headline": "Q3 report date unconfirmed",
+      "why": "TipRanks lists 22 Oct 'confirmed'; MarketBeat est 10 Nov, CNBC est 9 Nov; no company notice or 6-K. Watch the newsroom.",
+      "source": "SEC EDGAR / calendars",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "META Q3: revenue $64.60B (+26%), 2026 capex narrowed to $135-145B; AH $712.65 (+2.17%)",
+      "why": "Q3 capex $34.91B below ~$41B est; no 2027 capex number given. GAAP EPS $3.83 after $9.89B AG charge ($7.40 ex). Q4 rev guide $73-76B.",
+      "source": "Meta IR",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "headline": "META creates non-voting Class C stock (effective 2-for-1 split, Jan 2027)",
+      "why": "Explicitly to give flexibility to raise capital and fund AI buildout: a funding signal for hyperscaler capex.",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/meta-stock-jumps-3-after-hours-after-q3-revenue-beats-expectations-with-a-narrowed-ai-capex-outlook-and-new-non-voting-class-c-stock/cZxMhJJRBv6"
+    },
+    {
+      "headline": "SPCX ~1.31B-share unlock today",
+      "why": "Largest release yet; supply overhang on the name that just led the AI-compute rally. Wed cash +7.79%.",
+      "source": "FXStreet",
+      "url": "https://www.fxstreet.com/analysis/spacexs-earnings-dont-matter-what-they-unlock-does-202610201609"
+    },
+    {
+      "headline": "Chips led Wed: SOX +1.97%, NVDA +2.54%, MU +1.96%; both slipped AH (NVDA −1.22%, MU −1.68%)",
+      "why": "SpaceX AI-revenue ninefold growth revived the trade; AH giveback after META.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "SK hynix live ₩1,274,000 (−1.55%), KOSPI −0.98%",
+      "why": "Mild giveback after Wed's +6% rebound; not a flag.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/000660.KS/"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "S&P 500 +0.58%, Nasdaq +1.05% Wed; 3-day S&P win streak",
+      "why": "Risk appetite back into tech on SpaceX; Netflix −5% on guide.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "10Y ~5.11-5.12%, still above 5%",
+      "why": "Elevated long yields keep pressure on long-duration and debt-funded AI infra names.",
+      "source": "AP",
+      "url": "https://apnews.com/article/stocks-markets-rates-oil-earnings-ai-4fa93685cd49e51e7ff0d840fdd38b0d"
+    },
+    {
+      "headline": "US futures soft overnight: ES −0.40%, NQ −0.68%",
+      "why": "Tech-led giveback after META print; Brent $110.02 (+1.10%).",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/@ND.1"
+    },
+    {
+      "headline": "CNN Fear & Greed 31.4 Fear, up from 27.2",
+      "why": "Sentiment improving from Extreme Fear last week, not yet neutral.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    }
+  ],
+  "soWhat": [
+    "NBIS: flat close, AH −3.25%; Piper cut is multiple-driven, CRO demand comments supportive. No action.",
+    "META kept 2026 capex at $135-145B and added a capital-raising share class; no 2027 number yet.",
+    "SPCX unlock today is the main supply risk on the book; watch open, eligible is not sold.",
+    "10Y above 5% and futures soft; F&G improving but still Fear."
+  ]
+}
