@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-02",
+  "asOfIct": "2026-10-02T08:31:25+07:00",
+  "producedBy": "Friday digest after Deki NBIS morning live-snapshot @08:19 QUIET. US Thu 1 cash printed Fri AM ICT (next cash 20:30 ICT). Sources: CNBC FormattedQuote (EXT) + CNN F&G graphdata (Thu stamp; Chrome UA+Referer) + SEC CIK0001513845 NEW 6-K/Form4 + Inferize ex99-1 + Naver SK LIVE + open.er-api FX + Yahoo ^VIX + CNBC MU street color. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 28.09,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 28.09 Fear, timestamp 2026-10-01T23:59:56+00:00 (Thu stamp). previous_close 30.83 (Wed). Softened vs prior digest Wed stamp 30.83 Fear."
+  },
+  "nbis": [
+    {
+      "headline": "Thu US cash $232.28 (−1.53% / −$3.60 vs Wed $235.88). Day range $228.47–$239.63; open $236.18; vol ~11.48M; cap ≈ $63.147B cash / $63.41B AH (CNBC). ≈ THB 7820/sh at USDTHB 33.667593. Thu AH CNBC EXT $233.25 (+0.42% @ ~19:59 EDT). No FLAG. Next cash Fri 2 Oct 20:30 ICT.",
+      "why": "CNBC FormattedQuote last 232.28 change_pct −1.53% previous_day_closing 235.88 mktcapView 63.147B; ExtendedMktQuote last 233.25 change_pct +0.42% mktcapView 63.41B; |chg| 1.53% <5%. Cross-check live-snapshot-2026-10-02.json @08:19.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "NEW 6-K 0001104659-26-112824 (2026-10-01): Nebius acquires Inferize into Token Factory (ex99-1). Official terms not disclosed — not FLAG. Press est. ~$100–150M (Ctech/Globes) unverified / not in filing. Tuck-in inference cold-start / GPU-utilization tech + team.",
+      "why": "SEC ex99-1 PR Oct 1: 'The terms of the transaction were not disclosed.' Confirms Token Factory integration; no disclosed consideration, dilution, guidance, or capex change.",
+      "source": "SEC 6-K / Nebius PR ex99-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926112824/tm2626792d1_ex99-1.htm"
+    },
+    {
+      "headline": "NEW Form4 0001513845-26-000118 (filed 2026-10-01): Boynton (director) sold 50 Class A @ $235.01 on 2026-09-29 via Rule 10b5-1 (adopted Mar 6 2026); post 410,782 sh. ~$11.75k immaterial. Form144 still 0001950047-26-009868 (same 50sh).",
+      "why": "Primary form4.xml periodOfReport 2026-09-29; transactionCode S; aff10b5One 1. Aligns with prior Form144.",
+      "source": "SEC Form4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000118/form4.xml"
+    },
+    {
+      "headline": "CARRY LIVE: Oct 1 PAYG Nvidia GPU-hour rate card +17–21% (B300 $9.50 / B200 $8.50 / H200 $5.40 / H100 $4.50). Docs still show PAYG as default billing model.",
+      "why": "Nebius docs PAYG page + Fool Sep 27 preview; calendar Oct 1 now effective (carried from Thu digest).",
+      "source": "Nebius docs / Fool",
+      "url": "https://docs.nebius.com/signup-billing/billing-models/payg"
+    },
+    {
+      "headline": "CARRY: AIB Data Centers binding 50 MW critical IT capacity to Nebius at SE US site, initial 12-yr term; $ undisclosed. AIB GlobeNewswire Sep 30 + AIB 8-K — not a Nebius filing.",
+      "why": "Prior digest NEW color; still standing; no $ disclosed so not FLAG.",
+      "source": "AIB / GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html"
+    },
+    {
+      "headline": "CARRY analyst split: Exane Outperform / PT $399; BofA Buy / PT $310 carry; BTG Neutral / PT $223; Redburn Sell / PT $84. Sep 8 Palantir preferred sovereign AI partner still prior IR 6-K (superseded as latest by Inferize 6-K).",
+      "why": "No new Fri primary research note verified; Palantir 6-K 0001104659-26-105749 still on file under Inferize as latest.",
+      "source": "MarketBeat / prior digest",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-nebius-group-nasdaq-nbis-upgraded-to-outperform-at-bnp-paribas-exane-2026-09-24/"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Thu US cash (CNBC Fri AM): GOOGL $338.24 (−1.70%) / AMZN $248.23 (−0.37%) / META $725.93 (+0.10%) / NVDA $230.86 (+1.09%) / MU $1,097.39 (+3.03%; AH $1,090.20 −0.66%) / SPCX $148.07 (−1.85%). SPX 7,666.45 (+0.19%). No US book FLAG ≥5% (closest MU +3.03%). Next US cash 20:30 ICT.",
+      "why": "CNBC FormattedQuote Thu regular-session lasts + EXT for MU; US not yet open Fri AM ICT.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/.SPX",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "MU post FY Q4 follow-through: Thu cash +3.03% to $1,097.39 after Wed AMC beat+raise (rev $54.23B / nGAAP EPS $33.42; FQ1 guide $61.5B ±$1.5B). AH gave back −0.66% to $1,090.20. Street color (CNBC Oct 1): BofA Buy $1,550 / MS OW $1,200 / UBS Buy $1,625 — still no ≥5% FLAG.",
+      "why": "CNBC MU cash/AH Thu; CNBC street roundup 2026-10-01; Micron IR Wed print still the base facts.",
+      "source": "CNBC / Micron IR",
+      "url": "https://www.cnbc.com/2026/10/01/mu-barely-budged-on-earnings-wall-street-thinks-gains-will-come.html",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix (000660.KS): Fri LIVE OPEN ₩1,839,000 (+0.33% / +₩6,000 vs prior close ₩1,833,000) @ 2026-10-02T10:28:21+09:00 Naver. Morning Yahoo snapshot earlier ₩1,847,000 (+0.76%) — desk uses fresher Naver LIVE. No new FLAG (Mon −5.42% CARRY only).",
+      "why": "Naver m.stock basic Fri LIVE; implied previousClose ₩1,833,000 from compareToPreviousClosePrice.",
+      "source": "Naver Finance",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "NEW color (NVDA financing): Reuters Oct 1 — Wall Street reality-check on Nvidia plan to finance AI infra using chips as collateral with limited guarantee (Blackstone/Apollo/KKR August framework); banks/investors questioning residual values vs Nvidia's assumptions.",
+      "why": "Primary Reuters 2026-10-01; relevant to NVDA/AI-infra funding path; not a stock FLAG (≥5%) — NVDA Thu +1.09%.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/legal/transactional/nvidias-bet-that-its-chips-can-finance-ai-boom-gets-wall-street-reality-check-2026-10-01/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "CARRY: Samsung affiliates combined $1B into KKR-backed Helix Digital Infrastructure; founding investors also NVIDIA, Vistra, KIA. Still standing.",
+      "why": "Samsung Global Newsroom 2026-09-29 + CNBC; NVDA founding investor is watchlist hook.",
+      "source": "Samsung Newsroom / CNBC",
+      "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "CARRY: SpaceX Starship Flight 14 launched Mon 28 — first Earth orbit; 26 Starlink V3; early splashdown N of Hawaii. F15 catch sketch ~Oct 19. SPCX Thu cash −1.85% to $148.07.",
+      "why": "Spaceflight Now / Gizmodo Sep 29; CNBC SPCX Thu cash.",
+      "source": "Gizmodo / Spaceflight Now",
+      "url": "https://gizmodo.com/starship-has-finally-gone-orbital-now-comes-the-hard-part-2000818803",
+      "ticker": "SPCX"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 28.09 Fear (Thu 1 Oct stamp; was Wed 30.83). SPX Thu 7,666.45 (+0.19%); VIX Thu 16.39 (Yahoo; Wed was 16.34); US10Y CNBC 5.26% (prev_close 5.234%; last_time 2026-10-01T21:27:06-0400).",
+      "why": "CNN production.dataviz graphdata live Fri AM (Chrome UA + Referer); CNBC .SPX / US10Y; Yahoo ^VIX chart Thu close.",
+      "source": "CNN Fear & Greed API / CNBC / Yahoo",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "Into Fri US cash reopen (20:30 ICT): Korea/SK LIVE (+0.33% Naver); WTI CNBC @CL.1 $92.93 (+0.06% vs prev $92.87) / Brent @LCO.1 $102.50 (+0.19%). Sep 16 Fed +25 bp still carry; Barr Sep 29 more-hikes color CARRY.",
+      "why": "Calendar + CNBC futures Fri AM; Fed Sep 16; Reuters Barr Sep 29 prior.",
+      "source": "CNBC futures / Federal Reserve / Reuters",
+      "url": "https://www.reuters.com/business/feds-barr-says-more-rate-hikes-likely-be-needed-curb-inflation-2026-09-29/"
+    },
+    {
+      "headline": "USDTHB 33.667593 (er-api Fri 00:02Z). NBIS Thu cash ≈ THB 7820/sh (Yahoo THB=X morning snapshot 33.66 → ≈ THB 7819).",
+      "why": "open.er-api Fri morning; Yahoo THB=X cross-check from live-snapshot.",
+      "source": "open.er-api",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    },
+    {
+      "headline": "Main overnight AI-infra events: Nebius Inferize→Token Factory 6-K (terms undisclosed); MU +3.03% post-earnings follow-through; Reuters NVDA chip-collateral financing reality-check. AIB 50 MW + Helix $1B + Starship F14 still CARRY.",
+      "why": "SEC 6-K + CNBC MU + Reuters NVDA Oct 1; pairs with prior AIB/Helix/F14.",
+      "source": "SEC / CNBC / Reuters",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926112824/tm2626792d1_ex99-1.htm"
+    }
+  ],
+  "soWhat": [
+    "NBIS Thu −1.53% to $232.28 (~THB 7820); AH CNBC EXT $233.25 (+0.42%) — no FLAG. NEW 6-K Inferize→Token Factory ($ undisclosed, not FLAG) + NEW Form4 Boynton 50sh immaterial. PAYG Oct 1 LIVE. AIB 50 MW + Exane/BTG/Redburn CARRY. Next US cash Fri 2 20:30 ICT.",
+    "MU post-print follow-through +3.03% to $1,097.39 (AH −0.66%). No US book FLAG ≥5% (MU closest). SK Fri LIVE Naver ₩1,839,000 (+0.33%). Reuters NVDA financing reality-check NEW color. Helix + F14 CARRY.",
+    "F&G 28.09 Fear (Thu stamp; was Wed 30.83); VIX 16.39; US10Y ~5.26%. Oil: WTI $92.93 / Brent $102.50.",
+    "No trade. K3 no ticker."
+  ],
+  "quietVsPrior": false,
+  "quotes": {
+    "asOf": "US Thu 2026-10-01 cash (CNBC Fri AM ICT; next cash 20:30 ICT); Korea SK LIVE Fri 2026-10-02; FX Fri morning; F&G Thu stamp",
+    "usdthb": 33.667593,
+    "usdthbErApiAsOf": "Fri, 02 Oct 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 232.28,
+      "chgPctVsWed": -1.53,
+      "chgAbs": -3.6,
+      "mktCapBApprox": 63.147,
+      "mktCapAhBApprox": 63.41,
+      "thbPerShareApprox": 7820,
+      "dayHigh": 239.63,
+      "dayLow": 228.47,
+      "open": 236.18,
+      "volume": 11482090,
+      "ah": 233.25,
+      "ahChgPct": 0.42,
+      "ahNote": "CNBC ExtendedMktQuote POST_MKT ~7:59 PM EDT 2026-10-01",
+      "shareCountMethodMillions": 271.86,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 338.24,
+      "chgPct": -1.7,
+      "ah": 339.17,
+      "ahChgPct": 0.28
+    },
+    "AMZN": {
+      "last": 248.23,
+      "chgPct": -0.37,
+      "ah": 248.85,
+      "ahChgPct": 0.25
+    },
+    "META": {
+      "last": 725.93,
+      "chgPct": 0.1,
+      "ah": 726.8,
+      "ahChgPct": 0.12
+    },
+    "NVDA": {
+      "last": 230.86,
+      "chgPct": 1.09,
+      "ah": 231.49,
+      "ahChgPct": 0.27
+    },
+    "MU": {
+      "last": 1097.39,
+      "chgPct": 3.03,
+      "ah": 1090.2,
+      "ahChgPct": -0.66,
+      "earnings": "2026-09-30 AMC PRINTED; Thu follow-through +3.03%",
+      "fq4RevB": 54.23,
+      "fq4NgaapEps": 33.42,
+      "fq1GuideRevB": "61.5±1.5",
+      "fq1GuideNgaapEps": "38.15±1.00"
+    },
+    "SPCX": {
+      "last": 148.07,
+      "chgPct": -1.85,
+      "ah": 148.82,
+      "ahChgPct": 0.51,
+      "flight14": "LAUNCHED 2026-09-28 — first orbit + 26 Starlink V3; early splashdown N of Hawaii; F15 catch sketch ~Oct 19"
+    },
+    "SKHYNIX": {
+      "thuClose": 1833000,
+      "friLive": 1839000,
+      "friLiveChg": 6000,
+      "friLiveChgPct": 0.33,
+      "localTradedAt": "2026-10-02T10:28:21+09:00",
+      "status": "OPEN_LIVE",
+      "morningYahooSnapshot": {
+        "lastKrw": 1847000,
+        "dayPct": 0.76,
+        "note": "earlier Fri AM; desk prefers fresher Naver"
+      },
+      "flagMon": true,
+      "flagFri": false
+    },
+    "SPX": {
+      "last": 7666.45,
+      "chgPct": 0.19
+    },
+    "VIX": {
+      "last": 16.39,
+      "note": "Yahoo ^VIX Thu session close; Wed was 16.34"
+    },
+    "US10Y": {
+      "lastPct": 5.26,
+      "prevClosePct": 5.234
+    },
+    "fearGreed": 28.09,
+    "wtiCnbcCache": 92.93,
+    "brentCnbcCache": 102.5
+  },
+  "flags": [
+    "SKHYNIX_monClose_-5.42%"
+  ],
+  "fx": {
+    "usdthb": 33.667593,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "asOf": "Fri, 02 Oct 2026 00:02:31 +0000"
+  },
+  "sourcesChecked": [
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://www.sec.gov/Archives/edgar/data/1513845/000110465926112824/tm2626792d1_ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000118/form4.xml",
+    "https://www.eqs-news.com/news/corporate/nebius-acquires-inferize-to-strengthen-nebius-token-factorys-production-inference-stack/f17d6c50-11a1-4f87-b8d8-89c91afc33d6",
+    "https://docs.nebius.com/signup-billing/billing-models/payg",
+    "https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html",
+    "https://m.stock.naver.com/api/stock/000660/basic",
+    "https://open.er-api.com/v6/latest/USD",
+    "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX",
+    "https://www.cnbc.com/2026/10/01/mu-barely-budged-on-earnings-wall-street-thinks-gains-will-come.html",
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+    "https://www.reuters.com/legal/transactional/nvidias-bet-that-its-chips-can-finance-ai-boom-gets-wall-street-reality-check-2026-10-01/",
+    "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+    "https://gizmodo.com/starship-has-finally-gone-orbital-now-comes-the-hard-part-2000818803",
+    "https://www.reuters.com/business/feds-barr-says-more-rate-hikes-likely-be-needed-curb-inflation-2026-09-29/",
+    "/workspace/investment-dashboard/live-snapshot-2026-10-02.json"
+  ],
+  "sources": [
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://www.sec.gov/Archives/edgar/data/1513845/000110465926112824/tm2626792d1_ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000118/form4.xml",
+    "https://www.eqs-news.com/news/corporate/nebius-acquires-inferize-to-strengthen-nebius-token-factorys-production-inference-stack/f17d6c50-11a1-4f87-b8d8-89c91afc33d6",
+    "https://docs.nebius.com/signup-billing/billing-models/payg",
+    "https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html",
+    "https://m.stock.naver.com/api/stock/000660/basic",
+    "https://open.er-api.com/v6/latest/USD",
+    "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX",
+    "https://www.cnbc.com/2026/10/01/mu-barely-budged-on-earnings-wall-street-thinks-gains-will-come.html",
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+    "https://www.reuters.com/legal/transactional/nvidias-bet-that-its-chips-can-finance-ai-boom-gets-wall-street-reality-check-2026-10-01/",
+    "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+    "https://gizmodo.com/starship-has-finally-gone-orbital-now-comes-the-hard-part-2000818803",
+    "https://www.reuters.com/business/feds-barr-says-more-rate-hikes-likely-be-needed-curb-inflation-2026-09-29/",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+  ]
+}

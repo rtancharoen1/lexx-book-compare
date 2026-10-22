@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-08",
+  "asOfIct": "2026-10-08T08:30:00+07:00",
+  "asOfWita": "2026-10-08T09:30:00+08:00",
+  "producedBy": "Thu digest after Wed 7 Oct US cash. Quotes: CNBC FormattedQuote (NBIS/GOOGL/AMZN/META/NVDA/MU/SPCX/US10Y/.SPX/.IXIC/.DJI/.VIX/THB=); Naver basic API for SK 000660 + Samsung 005930 Thu live; CNN F&G graphdata (Referer); EDGAR via NBIS morning snapshot; headlines via Fed, CNBC, Samsung Newsroom, Reuters, Yonhap, MarketBeat, Investing.com, Benzinga, TipRanks, Invested Alpha. Yahoo chart 429 earlier today, not used. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 44.6,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata 44.6 Fear, stamp 2026-10-07T23:59:52Z (Wed close); down from prior digest 47.37 Neutral (API previous_close 47.2); 1-wk 30.26, 1-mo 45.23. Junk-bond demand 93.2 extreme greed and momentum 63.6 greed vs price strength 1.8 / breadth 2.4 extreme fear, put/call 30.4 fear: slipped back to Fear as yields hit 2002 highs."
+  },
+  "nbis": [
+    {
+      "headline": "Wed US cash $237.15 (−5.09% / −$12.72 vs Tue $249.87) FLAG ≥5%; open $242.33, high $243.62, low $234.03; cap $64.47B (CNBC). AH $238.60 (+0.61%). ≈ THB 7,973/sh at USDTHB 33.62. Gave back most of Tue +7.44%.",
+      "why": "Press tied it to Nave 500k 10b5-1 sale + CTO Shtan 14,546 sh (~$3.4M) digestion, rich valuation, and Wed risk-off on 10Y 5.35% intraday; Russell 2000 −1.31%.",
+      "source": "CNBC quote / MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-price-down-51-heres-why-2026-10-07/"
+    },
+    {
+      "headline": "Rosenblatt initiates NBIS at Buy, PT $304 (analyst John McPeake; 10-yr DCF, 12% discount rate, 12x terminal FCF) — ~28% upside vs $237.15.",
+      "why": "New sell-side coverage on the down day; supportive but not a fundamental catalyst.",
+      "source": "Investing.com / StreetInsider",
+      "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-initiates-nebius-stock-with-buy-rating-on-ai-growth-93CH-4937585"
+    },
+    {
+      "headline": "NEW SC 13G/A Amdt 2 (0000886982-26-000526): Goldman Sachs Group reports 5.1% passive stake (event date 30 Sep). No new issuer 6-K since Inferize (0001104659-26-112824, 1 Oct).",
+      "why": "Passive holder filing, not thesis-changing. No new contract/dilution overnight.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Carry: MSFT+META concentration on ~$40B backlog; $5.75B convert overhang; Burry short add; insider sell-to-cover cluster (Volozh/Shtan/Korolenko/Nave).",
+      "why": "Bear stack unchanged; higher-for-longer rates hit funding-heavy neoclouds hardest.",
+      "source": "SEC / prior desk",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=4&dateb=&owner=include&count=40"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Wed US cash: GOOGL $350.50 (+0.81%) / AMZN $259.92 (+1.42%) / META $721.31 (−2.38%) / NVDA $237.47 (−0.74%) / MU $1,088.00 (+4.06%) / SPCX $167.60 (−2.51%). Book FLAG: NBIS only (≥5%).",
+      "why": "CNBC FormattedQuote regular-session lasts; Thu US cash opens 20:30 ICT / 21:30 WITA.",
+      "source": "CNBC quote",
+      "url": "https://www.cnbc.com/quotes/MU",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "Samsung Q3 prelim: OP ≈ ₩107.4T (+782.5% y/y; 4th straight record; ~1.2–1.6% above consensus), sales ≈ ₩195T (+127%). Detailed results 29 Oct. Samsung shares Thu ~10:25 KST ₩268,000 (−0.19%).",
+      "why": "Confirms memory shortage/pricing power into 2027 — supportive for MU and SK; HBM share split vs SK still the open question until the 29 Oct breakdown.",
+      "source": "Samsung Newsroom / Reuters / Yonhap",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+      "ticker": "005930.KS"
+    },
+    {
+      "headline": "MU +4.06% to $1,088 (Nasdaq top gainer): D.A. Davidson PT $2,100→$3,000 Buy (demand > supply 2027–28; ~50% of revenue on long-term agreements; buyback expected Dec once CHIPS limits ease) + $600M 5-yr Netlist patent license settling all litigation.",
+      "why": "Removes a legal overhang and adds a buyback catalyst; memory strength held up on a risk-off day.",
+      "source": "CNBC / Daily Digest Invest",
+      "url": "https://www.cnbc.com/2026/10/07/micron-to-triple-as-investors-wake-up-to-value-da-davidson-says.html",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Thu live ₩1,743,000 (+1.16% / +₩20,000) at ~10:25 KST (Naver), after Samsung print.",
+      "why": "Memory read-across positive; still below Fri ₩1,841,000.",
+      "source": "Naver finance",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "META −2.38% to $721.31: yields at 2002 highs + oil, profit-taking near 52-wk high (~22% 1-mo run); New Mexico seeking up to $40B penalty, ruling expected this month. Earnings 28 Oct.",
+      "why": "META is NBIS's key customer; capex funding cost and legal overhang worth watching, no capex change.",
+      "source": "Benzinga / Ticker Report",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62225274/whats-going-on-with-meta-platforms-stock-wednesday-5",
+      "ticker": "META"
+    },
+    {
+      "headline": "SPCX −2.51% to $167.60 ahead of first post-IPO unlock Fri 9 Oct: up to 328.4M Class A sh eligible; next 328.4M on 24 Oct, ~1.3B after Q3 earnings, 797.6M on 8 Dec. K3/Moonshot AI: still private, no ticker.",
+      "why": "Supply overhang is the near-term driver; eligibility does not mean selling.",
+      "source": "TipRanks",
+      "url": "https://www.tipranks.com/news/spacex-stock-forecast-spcx-gains-ahead-of-unlock-what-investors-should-know",
+      "ticker": "SPCX"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "FOMC Sept minutes: unanimous hike to 3.75–4.00%; 'most participants' see another hike likely appropriate by year-end, timing (Oct vs Dec) open. CME FedWatch Oct 27–28 hike odds <20% (from 37.6% a week earlier).",
+      "why": "Higher-for-longer stays the base case; Oct hike risk eased.",
+      "source": "Federal Reserve / CNBC / Invested Alpha",
+      "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+    },
+    {
+      "headline": "10Y hit 5.35% intraday (highest since 2002), then eased after a strong $39B 10Y auction (5.300% high yield, 1.7bp stop-through); CNBC US10Y last 5.301%. 2Y ~4.77%, 30Y ~5.66%. 30Y auction Thu.",
+      "why": "Long-duration AI names and convert-funded neoclouds most rate-sensitive.",
+      "source": "Invested Alpha / FXBrokerTrust / CNBC",
+      "url": "https://investedalpha.com/news/wednesday-close-record-streak-ends-ten-year-2002-high-strong-auction"
+    },
+    {
+      "headline": "Wed tape: S&P 7,801.77 (−0.22%) / Nasdaq 27,538.69 (−0.22%) / Dow 51,179.87 (−0.66%) off records; Russell 2000 −1.31%; VIX 15.08. USDTHB 33.62.",
+      "why": "Mild index pullback, sharper in small/high-beta — matches NBIS/SPCX underperformance.",
+      "source": "CNBC quotes / FXBrokerTrust",
+      "url": "https://www.fxbrokertrust.com/insights/us-stock-indexes-retreat-from-record-highs-as-dow-falls-066"
+    },
+    {
+      "headline": "CNN Fear & Greed 44.6 Fear (Wed close) vs 47.37 Neutral prior digest. Next: US CPI Sep 14 Oct; Q3 earnings season starts next week.",
+      "why": "Sentiment back to Fear; breadth still extreme fear under index highs.",
+      "source": "CNN graphdata",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    }
+  ],
+  "soWhat": [
+    "NBIS FLAG −5.09% Wed to $237.15: reversed Tue squeeze on insider-sale + valuation + yields; Rosenblatt Buy $304 initiation is the offset. No new 6-K.",
+    "Memory confirmed: Samsung Q3 OP ₩107.4T record; MU +4% on DA Davidson $3,000 PT + Netlist settlement; SK +1.2% Thu.",
+    "Watch: SPCX first unlock Fri 9 Oct (328M sh); META legal/yield pressure into 28 Oct earnings.",
+    "Macro: minutes lean one more hike by year-end, Oct odds <20%; 10Y touched 5.35%; F&G 44.6 Fear from 47 Neutral. No trade action."
+  ]
+}
