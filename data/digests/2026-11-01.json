@@ -1,0 +1,350 @@
+{
+  "bookQuotes": {
+    "asOf": "Unchanged: US = Fri 30 Oct close; KOSPI Fri close. Markets closed Sat/Sun.",
+    "SPX": {
+      "last": 7580.07,
+      "pct": -1.82
+    },
+    "IXIC": {
+      "last": 25437.0,
+      "pct": -2.86
+    },
+    "DJI": {
+      "last": 51770.31,
+      "pct": -1.09
+    },
+    "SOX": {
+      "last": 10688.8,
+      "pct": -7.2
+    },
+    "VIX": {
+      "last": 19.42,
+      "pct": 12.91
+    },
+    "US10Y": {
+      "last": 4.933
+    },
+    "US2Y": {
+      "last": 4.592
+    },
+    "DXY": {
+      "last": 101.964
+    },
+    "BRENT": {
+      "last": 117.64,
+      "pct": 2.4,
+      "note": "Dec contract, expired Fri; Jan $113.43"
+    },
+    "WTI": {
+      "last": 104.12,
+      "pct": 2.08
+    },
+    "KOSPI": {
+      "last": 5730.74,
+      "pct": -3.48
+    }
+  },
+  "flags": [
+    "NBIS thesis: WSJ says Nebius effectively shut out of bond market (unverified at source; no filing, no dilution)",
+    "Hormuz: Iran floats 2-day reopening plan via Qatar (conditional) — eases Mon oil-gap risk",
+    "Fed hawks: Logan wants ≥2 more hikes; jobs Fri 6 Nov decides Dec"
+  ],
+  "fx": {
+    "USDTHB": 33.75,
+    "source": "https://www.cnbc.com/quotes/THB=",
+    "USDKRW": 1333.46,
+    "USDKRWsource": "https://www.cnbc.com/quotes/KRW=",
+    "note": "Fri/Sat quotes carried; FX markets closed for weekend"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 154.14,
+      "pctChange": -10.38,
+      "headline": "WSJ: neocloud bond market shut (unverified); Q3 12 Nov BMO",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 279.84,
+      "pctChange": -1.4,
+      "headline": "No new news; Fri close",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 240.35,
+      "pctChange": -1.41,
+      "headline": "No new news; Fri close",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 614.99,
+      "pctChange": -1.53,
+      "headline": "No new news; Fri close",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/META",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 204.64,
+      "pctChange": -4.22,
+      "headline": "DOJ reportedly eyeing Hugging Face deal",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/NVDA",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 884.74,
+      "pctChange": -5.3,
+      "headline": "No new news; Fri close",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1391000,
+      "pctChange": -8.85,
+      "headline": "No new news; Fri close",
+      "source": "Naver",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660/total",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 134.72,
+      "pctChange": -6.37,
+      "headline": "No new news; Fri close",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/SPCX",
+      "asOf": "Fri 30 Oct close"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 154.14,
+      "pct": -10.38,
+      "open": 157.05,
+      "high": 161.42,
+      "low": 149.96,
+      "ah": 155.69,
+      "ahPct": 1.0,
+      "mktCapB": 41.9
+    },
+    "GOOGL": {
+      "last": 279.84,
+      "pct": -1.4,
+      "ah": 281.46,
+      "ahPct": 0.58
+    },
+    "AMZN": {
+      "last": 240.35,
+      "pct": -1.41,
+      "ah": 240.8,
+      "ahPct": 0.19
+    },
+    "META": {
+      "last": 614.99,
+      "pct": -1.53,
+      "ah": 614.0,
+      "ahPct": -0.16
+    },
+    "NVDA": {
+      "last": 204.64,
+      "pct": -4.22,
+      "ah": 205.25,
+      "ahPct": 0.3
+    },
+    "MU": {
+      "last": 884.74,
+      "pct": -5.3,
+      "ah": 889.2,
+      "ahPct": 0.5
+    },
+    "SPCX": {
+      "last": 134.72,
+      "pct": -6.37,
+      "ah": 136.03,
+      "ahPct": 0.97
+    },
+    "MSFT": {
+      "last": 521.91,
+      "pct": -1.55,
+      "ah": 522.99,
+      "ahPct": 0.21
+    },
+    "CRWV": {
+      "last": 54.87,
+      "pct": -9.66,
+      "ah": 55.16,
+      "ahPct": 0.53
+    },
+    "000660.KS": {
+      "last": 1391000,
+      "pct": -8.85,
+      "status": "Fri 30 Oct close (unchanged)",
+      "source": "https://m.stock.naver.com/domestic/stock/000660/total"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    }
+  },
+  "sources": [
+    "https://pivotnews.ai/five/bond-market-closes-to-coreweave-nebius-and-nscale-wsj",
+    "https://aiweekly.co/alerts/wsj-coreweave-nebius-and-nscale-effectively-shut-out-of-bond-market-as-lenders",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
+    "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz",
+    "https://www.aa.com.tr/en/middle-east/supertanker-hits-mine-catches-fire-east-of-hormuz-iran-s-revolutionary-guard/4107673",
+    "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+    "https://www.investing.com/news/economic-indicators/fed-needs-at-least-two-more-rate-hikes-logan-says-4988462",
+    "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+    "https://www.regardsofwallstreet.com/news/stock-market-week-ahead-november-2-2026",
+    "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
+    "https://www.benzinga.com/markets/tech/26/10/62763700/consumer-tech-oct-26-30-meta-donation-sparks-backlash-nvidia-deal-draws-doj-scrutiny-chipmakers-report-earnings",
+    "https://www.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+    "https://www.fnnews.com/news/202611010605221680",
+    "https://enterpriseai.economictimes.indiatimes.com/news/industry/chinas-moonshot-ai-launches-kimi-k3-1-pro-plans-full-model-weights-release-by-november/135170506",
+    "https://www.cnn.com/markets/fear-and-greed"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-11-02",
+      "event": "ISM Manufacturing 10:00 ET (22:00 ICT); AAPL, PLTR after close (~04:00 ICT Tue). US clocks back to EST 1 Nov: ET = ICT −12h"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "US midterm elections; AMD, ANET, SMCI after close; JOLTS"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "Treasury refunding 8:30 ET; ADP; ISM Services 10:00 ET; QCOM, ARM, COHR after close; Moonshot K3.1 Pro open weights due"
+    },
+    {
+      "date": "2026-11-05",
+      "event": "Jobless claims; ABNB after close"
+    },
+    {
+      "date": "2026-11-06",
+      "event": "October jobs report 8:30 ET (20:30 ICT): NFP cons. ~+55K–63K vs +29K Sep, UE 4.2%"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "October CPI"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "NBIS Q3 2026 results BMO, call 8:00 ET (20:00 ICT) — confirmed"
+    },
+    {
+      "date": "2026-12-09",
+      "event": "FOMC decision"
+    }
+  ],
+  "date": "2026-11-01",
+  "asOfIct": "2026-11-01T08:30+07:00",
+  "asOfWita": "2026-11-01T09:30+08:00",
+  "producedBy": "Deki · Investment manager (weekend executor digest)",
+  "fearGreed": {
+    "value": 26.2,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "26.2 Fear, unchanged; CNN stamp 2026-10-30T23:59:48Z (= Sat 31 Oct 06:59 ICT, Fri close). Prev close 34.6, 1-wk 16.7, 1-mo 30.3, 1-yr 37.1. Read 08:10 ICT Sun; next update after Mon US close."
+  },
+  "nbis": [
+    {
+      "headline": "[NEW, WEEKEND] WSJ (31 Oct, ~18:06 ICT): CoreWeave, Nebius and Nscale 'effectively shut out' of the bond market in recent weeks as lenders demand tougher terms and higher yields; sourced to unnamed people, no company comment",
+      "why": "Direct hit on the thesis risk (neocloud funding stress). Not a filing and no dilution, but raises the bar for Q3 on 12 Nov: Citi $3.5B 364-day facility use, refinancing plan, prepayments. UNVERIFIED at source: WSJ paywalled, read via secondary summaries.",
+      "source": "Pivot News / AI Weekly (citing WSJ)",
+      "url": "https://pivotnews.ai/five/bond-market-closes-to-coreweave-nebius-and-nscale-wsj"
+    },
+    {
+      "headline": "No new SEC filing since Sat: latest is Form 4 filed 30 Oct (already reported); no 6-K, no financing, no dilution",
+      "why": "Nothing new from the company.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Price unchanged: Fri close $154.14 (−10.38%), post $155.69; Q3 results Thu 12 Nov BMO, call 8:00 ET = 20:00 ICT",
+      "why": "No weekend US trading.",
+      "source": "CNBC / Nebius newsroom",
+      "url": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "GOOGL, AMZN, META, MU: no new company news this weekend; prices = Fri close",
+      "why": "No action.",
+      "source": "CNBC quotes",
+      "url": "https://www.cnbc.com/quotes/GOOGL"
+    },
+    {
+      "headline": "[NEW to digest] NVDA: DOJ reportedly scrutinising planned $12.93B Hugging Face acquisition; Sen. Warren asks Huang/board to answer to Congress over suspected Chinese spy report. No new export-rule change (H200 case-by-case licences stand)",
+      "why": "Headline/regulatory risk, not a demand change. DOJ item is 'reportedly' — unverified.",
+      "source": "Benzinga weekly wrap (31 Oct)",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62763700/consumer-tech-oct-26-30-meta-donation-sparks-backlash-nvidia-deal-draws-doj-scrutiny-chipmakers-report-earnings"
+    },
+    {
+      "headline": "SK hynix: no new company news; Korean press (1 Nov) on HBM4 race, Samsung narrowing gap; memory still sold out per Q3 calls. Price ₩1,391,000 Fri close",
+      "why": "Context only.",
+      "source": "Financial News (KR)",
+      "url": "https://www.fnnews.com/news/202611010605221680"
+    },
+    {
+      "headline": "SPCX: no new weekend news; Fri close $134.72",
+      "why": "No action.",
+      "source": "CNBC quote",
+      "url": "https://www.cnbc.com/quotes/SPCX"
+    },
+    {
+      "headline": "K3 (Moonshot AI, private, no ticker): K3.1 Pro full open weights promised by 4 Nov",
+      "why": "Watch only.",
+      "source": "ET EnterpriseAI",
+      "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/chinas-moonshot-ai-launches-kimi-k3-1-pro-plans-full-model-weights-release-by-november/135170506"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "[NEW, WEEKEND] Hormuz de-escalation signal (1 Nov): Iran FM Araghchi says plan agreed with Qatari mediators to reopen the Strait within two days if the US meets Tehran's conditions; security chief Rezaei says a letter from VP Vance shows US tone 'changed completely'",
+      "why": "Offsets part of Sat's oil-gap risk; conditional and unconfirmed by US. Brent last Dec $117.64 (expired), Jan $113.43, WTI $104.12 — no weekend price.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz"
+    },
+    {
+      "headline": "[WEEKEND] IRGC says a supertanker hit a mine east of Hormuz (Sat); INTERTANKO says no credible evidence of mines; Oct Hormuz crude flows ~11.1M bpd avg but 7.3M bpd in last week (Kpler)",
+      "why": "Attacks continue; flows still moving.",
+      "source": "Anadolu / CNBC",
+      "url": "https://www.aa.com.tr/en/middle-east/supertanker-hits-mine-catches-fire-east-of-hormuz-iran-s-revolutionary-guard/4107673"
+    },
+    {
+      "headline": "[NEW to digest, Fri 30 Oct] Fed hawks: Dallas Fed Logan says FOMC needs 'at least two more' 25bp hikes; St. Louis Fed Musalem says tightening needed 'soon'. Futures ~70–77% odds of a hike at 9 Dec FOMC (secondary, unverified)",
+      "why": "Higher-for-longer pressure on long-duration AI names; Fri jobs is the swing input.",
+      "source": "Reuters via Investing.com / CNBC",
+      "url": "https://www.investing.com/news/economic-indicators/fed-needs-at-least-two-more-rate-hikes-logan-says-4988462"
+    },
+    {
+      "headline": "Chip exports: no new rule this weekend; H200 China exports remain case-by-case under BIS Jan 2026 rule, Beijing import approval still unclear",
+      "why": "No change.",
+      "source": "BIS",
+      "url": "https://www.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf"
+    }
+  ],
+  "soWhat": [
+    "No price change (weekend). New: WSJ says Nebius, CoreWeave, Nscale effectively shut out of bonds — thesis risk up a notch; Q3 on 12 Nov is the test. No dilution, no filing.",
+    "Hormuz: Iran floats a conditional 2-day reopening plan; partial offset to Sat's oil-spike risk for Monday.",
+    "Fed hawks (Logan ≥2 hikes) keep rates pressure on AI names; jobs Fri 6 Nov is the key input.",
+    "F&G 26.2 Fear, unchanged. No trades."
+  ]
+}
