@@ -1,0 +1,197 @@
+{
+  "date": "2026-09-25",
+  "asOfIct": "2026-09-25T08:16:21+07:00",
+  "producedBy": "Friday digest; Grok Deki-desk fill @08:16 (SendToAgent unavailable). US Thu 24 cash closed; Korea Fri CLOSED (Chuseok holiday — last close Wed). Sources: CNBC FormattedQuote Thu cash+AH + Naver SK Wed close + CNN F&G graphdata (Thu stamp, Referer) + SEC CIK0001513845 (no new filings vs Boroditsky Form4 Mon 21) + open.er-api FX + MarketBeat/Fool Exane upgrade + Reuters/InvestingLive/CNA macro. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 36.11,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 36.1142857142857→36.11 Fear, timestamp 2026-09-24T23:59:59+00:00 (Thu stamp after US cash). previous_close 34.69 (Wed). Still Fear band; +~1.43 pts vs Wed."
+  },
+  "nbis": [
+    {
+      "headline": "FLAG: Thu US cash $243.48 (+7.44% / +$16.87 vs Wed $226.61). Day range $229.50–$249.19; open $231.84; vol ~22.7M; cap ≈ $66.19B (CNBC). ≈ THB 8,144/sh at USDTHB 33.45. AH Thu $242.48 (−0.41%). Next cash Fri 25 Sep 20:30 ICT.",
+      "why": "CNBC FormattedQuote last 243.48 change_pct +7.44% previous_day_closing 226.61 high 249.19 low 229.50 open 231.84 volume 22,713,992; mktcapView 66.191B; last_time 2026-09-24T16:00:00-0400; curmktstatus POST_MKT; ExtendedMktQuote last 242.48 (−0.41%). |chg| ≥5% → FLAG.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "NEW Thu: BNP Paribas Exane upgraded Neutral → Outperform and raised PT to $399 from $260 — primary tape catalyst for +7.44%.",
+      "why": "MarketBeat analyst alert 2026-09-24; Motley Fool same-day note cites Stefan Slowinski / Exane upgrade before prior target was hit.",
+      "source": "MarketBeat / Motley Fool",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-nebius-group-nasdaq-nbis-upgraded-to-outperform-at-bnp-paribas-exane-2026-09-24/"
+    },
+    {
+      "headline": "Carry analyst split still on tape: BTG Pactual Neutral / PT $223 vs Redburn Sell / PT $84 — alongside new Exane Outperform $399.",
+      "why": "MarketBeat Thu price-up note still lists Redburn Sell $84; prior digest BTG Neutral $223 unchanged overnight.",
+      "source": "prior digest / MarketBeat Thu",
+      "url": "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-price-up-74-on-analyst-upgrade-2026-09-24/"
+    },
+    {
+      "headline": "Carry: Reuters Sep 17 PAYG Nvidia GPU +17–21% from Oct 1 still cited with upgrade / demand narrative.",
+      "why": "Fool + 24/7 Wall St Thu notes price-hike as supporting catalyst; no newer Nebius IR supersede overnight.",
+      "source": "Reuters / prior digest",
+      "url": "https://www.reuters.com/technology/nebius-hikes-ai-cloud-prices-again-demand-computing-power-soars-2026-09-17/"
+    },
+    {
+      "headline": "NO NEW EDGAR since Mon Form4 0001513845-26-000116 (Boroditsky CRO). Latest 6-K still Sep 8 Palantir; Form 144 still Sep 15.",
+      "why": "data.sec.gov/submissions/CIK0001513845.json Fri AM — top filing still Form4 2026-09-21; no new 6-K/144/4 since.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845"
+    },
+    {
+      "headline": "Sep 8 Palantir preferred sovereign AI partner still top IR 6-K.",
+      "why": "SEC submissions unchanged for 6-K.",
+      "source": "Nebius Newsroom / SEC 6-K",
+      "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Thu US cash (CNBC Fri AM): GOOGL $342.36 (+1.34%) / AMZN $249.38 (+0.04%) / META $777.59 (+4.50%) / NVDA $224.58 (−0.41%) / MU $1,080.53 (+0.81%) / SPCX $148.03 (−0.22%). SPX 7,704.13 (−0.02%). FLAG: NBIS +7.44% only book name ≥5%.",
+      "why": "CNBC FormattedQuote Thu regular-session lasts; US closed Fri AM ICT. Mixed tape: Meta Muse follow-through vs elevated yields.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/.SPX",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "FLAG — NBIS Thu +7.44%. No other book ≥5%: closest META +4.50%. SPCX −0.22% flat after Wed −4.11%.",
+      "why": "CNBC Thu lasts; |chg| ≥5% only NBIS.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS",
+      "ticker": "NBIS"
+    },
+    {
+      "headline": "META Thu $777.59 (+4.50%) — Connect follow-through (VR Glasses $1,299 spring 2027 + Muse Charm); AH $775.89 (−0.22%). Under 5% flag.",
+      "why": "CNBC META cash+AH; InvestingLive/TradingKey cite Muse monetization narrative into Thu close.",
+      "source": "CNBC / InvestingLive",
+      "url": "https://www.cnbc.com/quotes/META",
+      "ticker": "META"
+    },
+    {
+      "headline": "Oracle/Blue Owl Project Jupiter force-majeure notice (Thu wires) chilled AI data-center financing mood — ORCL not on Lexx book; note only.",
+      "why": "CNA/Reuters Thu analysis; not a book FLAG.",
+      "source": "CNA / Reuters",
+      "url": "https://www.channelnewsasia.com/business/analysisoracle-blue-owl-project-delay-sends-ripples-through-ai-financing-sources-say-6409591",
+      "ticker": "MACRO"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Korea CLOSED Thu–Fri Chuseok — last close Wed ₩1,863,000 (+1.25% / +₩23,000 vs Tue ₩1,841,000). Wed range open ₩1,891k–high ₩1,910k–low ₩1,836k. Resume Mon 28 Sep 09:00 KST.",
+      "why": "Naver basic/price still Wed close 1,863,000 fluctuationsRatio 1.25; localTradedAt 2026-09-23; marketStatus CLOSE; KRX Chuseok Sep 24–25 confirmed (markethours).",
+      "source": "Naver Finance / KRX holiday calendar",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "K3: no public ticker.",
+      "why": "Unchanged — still no listed equity/ADR.",
+      "source": "prior digest",
+      "url": "",
+      "ticker": "K3"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 36.11 Fear (Thu 24 Sep stamp; was Wed 34.69). SPX Thu 7,704.13 (−0.02%); VIX 15.67 (+3.23% vs Wed 15.18); US10Y CNBC Fri AM last 5.188% (prev close print 5.162%).",
+      "why": "CNN production.dataviz graphdata; CNBC .SPX / .VIX / US10Y.",
+      "source": "CNN Fear & Greed API / CNBC",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "Thu tape: yields remained elevated / multi-decade highs per wires; NY Fed Williams said another hike by year-end may be appropriate; SPX/Nasdaq late flat recovery; oil still firm. Sep 16 Fed +25 bp still carry.",
+      "why": "Reuters Trading Day Sep 24; NBC/TradingKey Williams remark; Fed Sep 16 statement carry.",
+      "source": "Reuters / Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
+      "headline": "USDTHB 33.447329 (er-api Fri 00:02Z). Oil futures Fri AM ICT: Brent CNBC @LCO.1 ~$105.93 (−0.63% vs prev $106.60); WTI @CL.1 ~$93.70 (−0.96% vs prev $94.61).",
+      "why": "open.er-api + CNBC futures Fri AM.",
+      "source": "open.er-api / CNBC futures",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "FLAG: NBIS Thu +7.44% to $243.48 (~THB 8,144) on Exane Outperform / PT $399 (from Neutral $260); no NEW SEC; BTG Neutral $223 / Redburn Sell $84 / PAYG Oct 1 hike still carry; next US cash 20:30 ICT.",
+    "Only book FLAG is NBIS. META +4.50% to $777.59 (Connect/Muse follow-through) under 5%. SPCX flat −0.22%.",
+    "Korea CLOSED Chuseok Thu–Fri: SK last Wed ₩1,863k (+1.25%); resume Mon 28.",
+    "F&G 36.11 Fear (Thu stamp); VIX 15.67; US10Y ~5.19%. No trade. K3 no ticker."
+  ],
+  "quotes": {
+    "asOf": "US Thu 2026-09-24 cash (CNBC Fri AM); Korea Wed 2026-09-23 close — Fri CLOSED Chuseok; FX Fri morning; F&G Thu stamp",
+    "usdthb": 33.447329,
+    "usdthbErApiAsOf": "Fri, 25 Sep 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 243.48,
+      "chgPctVsWed": 7.44,
+      "mktCapBApprox": 66.19,
+      "thbPerShareApprox": 8144,
+      "dayHigh": 249.19,
+      "dayLow": 229.5,
+      "open": 231.84,
+      "volume": 22713992,
+      "ah": 242.48,
+      "ahChgPct": -0.41,
+      "shareCountMethodMillions": 271.85,
+      "flag": true
+    },
+    "GOOGL": {
+      "last": 342.36,
+      "chgPct": 1.34
+    },
+    "AMZN": {
+      "last": 249.38,
+      "chgPct": 0.04
+    },
+    "META": {
+      "last": 777.59,
+      "chgPct": 4.5,
+      "ah": 775.89,
+      "ahChgPct": -0.22
+    },
+    "NVDA": {
+      "last": 224.58,
+      "chgPct": -0.41
+    },
+    "MU": {
+      "last": 1080.53,
+      "chgPct": 0.81
+    },
+    "SPCX": {
+      "last": 148.03,
+      "chgPct": -0.22,
+      "ndxWeightConfirmedPct": 2.82,
+      "ndxEffective": "2026-09-21"
+    },
+    "SKHYNIX": {
+      "wedClose": 1863000,
+      "wedCloseChgPct": 1.25,
+      "tueClose": 1841000,
+      "friStatus": "CLOSED_CHUSEOK",
+      "resume": "2026-09-28"
+    },
+    "SPX": {
+      "last": 7704.13,
+      "chgPct": -0.02
+    },
+    "VIX": {
+      "last": 15.67,
+      "chgPct": 3.23
+    },
+    "US10Y": {
+      "lastPct": 5.188
+    },
+    "fearGreed": 36.11,
+    "brent": 105.93,
+    "wtiCnbcCache": 93.7
+  },
+  "flags": [
+    {
+      "ticker": "NBIS",
+      "chgPct": 7.44,
+      "last": 243.48,
+      "session": "2026-09-24 cash",
+      "reason": "|chg| ≥5%"
+    }
+  ]
+}

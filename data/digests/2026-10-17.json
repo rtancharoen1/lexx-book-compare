@@ -1,0 +1,475 @@
+{
+  "bookQuotes": {
+    "asOf": "Fri 16 Oct 2026 US regular close (CNBC QuickQuote); SK/SS Fri Korea close (Naver; Yahoo SK differs); F&G Fri close stamp",
+    "NBIS": {
+      "last": 165.47,
+      "chg": -22.94,
+      "pct": -12.18,
+      "open": 181.17,
+      "high": 182.7,
+      "low": 163.27,
+      "volume": 33061868,
+      "mktCapB": 44.984,
+      "ah": 165.3,
+      "ahPct": -0.1,
+      "usdthb": 33.43,
+      "thbPerShare": 5532,
+      "fromTue6OctPct": -33.8,
+      "flag": true
+    },
+    "GOOGL": {
+      "last": 340.59,
+      "pct": -2.47
+    },
+    "AMZN": {
+      "last": 250.0,
+      "pct": -1.87
+    },
+    "META": {
+      "last": 709.33,
+      "pct": -3.72
+    },
+    "NVDA": {
+      "last": 214.13,
+      "pct": -1.43
+    },
+    "MU": {
+      "last": 878.84,
+      "pct": -5.63,
+      "flag": true
+    },
+    "SPCX": {
+      "last": 146.03,
+      "pct": -1.74
+    },
+    "US10Y": {
+      "last": 5.081,
+      "chgBp": -0.6
+    },
+    "SPX": {
+      "last": 7659.44,
+      "pct": -1.09
+    },
+    "IXIC": {
+      "last": 26140.03,
+      "pct": -2.15
+    },
+    "DJI": {
+      "last": 52002.41,
+      "pct": -0.34
+    },
+    "VIX": {
+      "last": 19.99,
+      "pct": 21.45
+    },
+    "SOX": {
+      "last": 11137.29,
+      "pct": -3.83
+    },
+    "WTI": {
+      "last": 101.41,
+      "pct": 3.5,
+      "note": "settlement per Newsquawk; CNBC futures last 101.84"
+    },
+    "BRENT": {
+      "last": 109.86,
+      "pct": 3.7,
+      "note": "settlement per Newsquawk"
+    },
+    "THB": {
+      "last": 33.43,
+      "source": "CNBC/open.er-api"
+    },
+    "SK000660": {
+      "last": 1265000,
+      "pct": 0.24,
+      "thuClose": 1262000,
+      "yahooClose": 1272000,
+      "yahooPct": 0.79,
+      "note": "Naver primary; Yahoo/WSJ ₩1,272,000"
+    },
+    "SS005930": {
+      "last": 217000,
+      "pct": 3.33
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "NBIS -12.18% FLAG",
+      "MU -5.63% FLAG"
+    ]
+  },
+  "flags": [
+    {
+      "ticker": "NBIS",
+      "level": "flag",
+      "text": "Fri −12.18% to $165.47 (low $163.27); ≈−33.8% since 6 Oct $249.87; neocloud contagion, no company PR",
+      "url": "https://seekingalpha.com/news/4653989-nebius-group-retreats-12-amid-heavy-neocloud-selling"
+    },
+    {
+      "ticker": "MU",
+      "level": "flag",
+      "text": "Fri −5.63% to $878.84; semis lagged AI-debt scare",
+      "url": "https://www.cnbc.com/quotes/MU"
+    }
+  ],
+  "fx": {
+    "USDTHB": 33.43,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "stamp": "Sat, 17 Oct 2026 00:02:32 UTC",
+    "cnbcTHB": 33.43
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 165.47,
+      "pctChange": -12.18,
+      "headline": "FLAG: neocloud selloff; tiny Form 4 buy (Grimme); no company PR",
+      "sourceUrl": "https://seekingalpha.com/news/4653989-nebius-group-retreats-12-amid-heavy-neocloud-selling"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 340.59,
+      "pctChange": -2.47,
+      "headline": "Tech risk-off; earnings 28 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 250.0,
+      "pctChange": -1.87,
+      "headline": "Tech risk-off; earnings 29 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 709.33,
+      "pctChange": -3.72,
+      "headline": "Largest mega-cap drop; earnings 28 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/META"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 214.13,
+      "pctChange": -1.43,
+      "headline": "Held better than MU/neoclouds; Warsh flagged bumpy AI path",
+      "sourceUrl": "https://www.cnbc.com/quotes/NVDA"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 878.84,
+      "pctChange": -5.63,
+      "headline": "FLAG: memory/semis hit with AI-debt scare",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1265000,
+      "pctChange": 0.24,
+      "headline": "Fri close (Naver); small bounce after Thu −11%; Q3 27 Oct",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 146.03,
+      "pctChange": -1.74,
+      "headline": "No new PR; unlock ≤328.4M on 24 Oct (trade 26 Oct)",
+      "sourceUrl": "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker exists",
+      "sourceUrl": null
+    }
+  ],
+  "quotes": {
+    "asOf": "Fri 16 Oct 2026 US regular close (CNBC QuickQuote); SK/SS Fri Korea close (Naver; Yahoo SK differs); F&G Fri close stamp",
+    "NBIS": {
+      "last": 165.47,
+      "chg": -22.94,
+      "pct": -12.18,
+      "open": 181.17,
+      "high": 182.7,
+      "low": 163.27,
+      "volume": 33061868,
+      "mktCapB": 44.984,
+      "ah": 165.3,
+      "ahPct": -0.1,
+      "usdthb": 33.43,
+      "thbPerShare": 5532,
+      "fromTue6OctPct": -33.8,
+      "flag": true
+    },
+    "GOOGL": {
+      "last": 340.59,
+      "pct": -2.47
+    },
+    "AMZN": {
+      "last": 250.0,
+      "pct": -1.87
+    },
+    "META": {
+      "last": 709.33,
+      "pct": -3.72
+    },
+    "NVDA": {
+      "last": 214.13,
+      "pct": -1.43
+    },
+    "MU": {
+      "last": 878.84,
+      "pct": -5.63,
+      "flag": true
+    },
+    "SPCX": {
+      "last": 146.03,
+      "pct": -1.74
+    },
+    "US10Y": {
+      "last": 5.081,
+      "chgBp": -0.6
+    },
+    "SPX": {
+      "last": 7659.44,
+      "pct": -1.09
+    },
+    "IXIC": {
+      "last": 26140.03,
+      "pct": -2.15
+    },
+    "DJI": {
+      "last": 52002.41,
+      "pct": -0.34
+    },
+    "VIX": {
+      "last": 19.99,
+      "pct": 21.45
+    },
+    "SOX": {
+      "last": 11137.29,
+      "pct": -3.83
+    },
+    "WTI": {
+      "last": 101.41,
+      "pct": 3.5,
+      "note": "settlement per Newsquawk; CNBC futures last 101.84"
+    },
+    "BRENT": {
+      "last": 109.86,
+      "pct": 3.7,
+      "note": "settlement per Newsquawk"
+    },
+    "THB": {
+      "last": 33.43,
+      "source": "CNBC/open.er-api"
+    },
+    "SK000660": {
+      "last": 1265000,
+      "pct": 0.24,
+      "thuClose": 1262000,
+      "yahooClose": 1272000,
+      "yahooPct": 0.79,
+      "note": "Naver primary; Yahoo/WSJ ₩1,272,000"
+    },
+    "SS005930": {
+      "last": 217000,
+      "pct": 3.33
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "NBIS -12.18% FLAG",
+      "MU -5.63% FLAG"
+    ]
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://seekingalpha.com/news/4653989-nebius-group-retreats-12-amid-heavy-neocloud-selling",
+    "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/xslF345X06/form4.xml",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/",
+    "https://www.cnbc.com/2026/10/15/whats-behind-the-sell-off-in-ai-neocloud-stocks-like-coreweave-and-nebius-.html",
+    "https://247wallst.com/investing/2026/10/16/coreweave-and-nebius-sink-9-as-sentiment-index-closes-in-on-extreme-fear/",
+    "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+    "https://www.straitstimes.com/asia/se-asia/ai-most-consequential-change-to-economy-in-my-lifetime-feds-kevin-warsh",
+    "https://www.newsquawk.com/headlines/crude-wrap-wti-x6-settles-usd-344-higher-at-usd-10141bbl-brent-z6-settles-usd-394-higher-at-usd-10986bbl",
+    "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+    "https://streetinsider.com/Market+Check/Wall+Street+tumbles+as+worries+about+AI+trade+and+high+oil+prices+weigh/27195576.html",
+    "https://m.stock.naver.com/domestic/stock/000660",
+    "https://finance.yahoo.com/quote/000660.KS/history/",
+    "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://open.er-api.com/v6/latest/USD"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-10-17",
+      "timeWita": "—",
+      "event": "Fed FOMC blackout in force (from Sat) until after 27–28 Oct decision",
+      "detail": "No Fed speaker color until FOMC press conference",
+      "sourceUrl": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+    },
+    {
+      "date": "2026-10-19",
+      "timeWita": "08:00",
+      "event": "KRX / US reopen after weekend",
+      "detail": "First reaction to Fri NBIS/MU FLAGs and Extreme Fear",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "date": "2026-10-24",
+      "timeWita": "weekend",
+      "event": "SPCX unlock: up to 328.4M Class A eligible",
+      "detail": "First regular trade Mon 26 Oct; eligibility ≠ selling",
+      "sourceUrl": "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/"
+    },
+    {
+      "date": "2026-10-26",
+      "timeWita": "US open",
+      "event": "First session for Oct 24 SPCX unlock tranche",
+      "detail": "Watch volume vs ~avg",
+      "sourceUrl": "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/"
+    },
+    {
+      "date": "2026-10-27",
+      "timeWita": "KST morning",
+      "event": "SK hynix Q3 results (est)",
+      "detail": "Memory demand + CXMT/oversupply narrative",
+      "sourceUrl": "https://en.quartalszahlen.info/companies/000660"
+    },
+    {
+      "date": "2026-10-27–28",
+      "timeWita": "—",
+      "event": "FOMC meeting; decision + Warsh presser Wed 28",
+      "detail": "Markets lean hold Oct; Dec hike odds elevated on oil/CPI",
+      "sourceUrl": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+    },
+    {
+      "date": "2026-10-28",
+      "timeWita": "—",
+      "event": "META / GOOGL Q3 (est prior desk); FOMC day",
+      "detail": "Hyperscaler AI capex commentary",
+      "sourceUrl": "https://www.cnbc.com/quotes/META"
+    },
+    {
+      "date": "2026-10-29",
+      "timeWita": "—",
+      "event": "AMZN Q3; Samsung Q3 full results (est)",
+      "detail": "AWS + memory read-through",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN"
+    },
+    {
+      "date": "~2026-11-09",
+      "timeWita": "—",
+      "event": "NBIS earnings est ~9 Nov (prior desk)",
+      "detail": "After FOMC",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS"
+    }
+  ],
+  "date": "2026-10-17",
+  "asOfIct": "2026-10-17T08:15:00+07:00",
+  "asOfWita": "2026-10-17T09:15:00+08:00",
+  "producedBy": "Sat digest (US/KRX closed) on Fri 16 Oct US cash. Quotes: CNBC QuickQuote regular-session lasts (NBIS/GOOGL/AMZN/META/NVDA/MU/SPCX/US10Y/.SPX/.IXIC/.DJI/.VIX/.SOX/@CL.1/THB=, stamps 16:00–17:15 EDT Fri = 04:00–05:15 WITA Sat). SK/Samsung Fri Korea close from Naver basic API (localTradedAt 2026-10-16T20:20+09); Yahoo/WSJ show SK ₩1,272,000 (+0.79%) vs Naver ₩1,265,000 (+0.24%) — using Naver as primary. CNN F&G graphdata (Chrome UA+Referer). open.er-api USDTHB. EDGAR CIK 0001513845: new Form 4 (Grimme buy, filed Fri evening) + Boynton Form 144 (already on Fri desk). Headlines: Seeking Alpha/CNBC/CBS/247WallSt (neocloud), CNBC/Straits Times (Warsh IMF), Newsquawk/CNBC oil (Hormuz). No confirmed Sat morning ICT company news beyond Fri filings/tape. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 17.9,
+    "label": "Extreme Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 17.94 Extreme Fear, timestamp 2026-10-16T23:59:49Z (Fri close = Sat 07:59 WITA). API previous_close 31.54 (matches prior desk 31.5 Fear); 1-wk 46.49, 1-mo 27.31, 1-yr 23.11. −13.6 pts in one session into Extreme Fear on AI-debt + oil tape."
+  },
+  "nbis": [
+    {
+      "headline": "Fri US cash $165.47 (−12.18% / −$22.94 vs Thu $188.41) FLAG ≥5%; open $181.17, high $182.70, low $163.27; vol ~33.1M (~1.7× 1-mo avg per SA); cap $44.98B (CNBC). AH $165.30 (−0.10%). ≈ THB 5,532/sh at USDTHB 33.43. Still ≈−33.8% vs Tue 6 Oct $249.87.",
+      "why": "Second ≥5% FLAG this week (Wed −10% on Fri desk). Sector neocloud contagion from CoreWeave credit scare (~12% CRWV Fri) + AI-debt/funding scare + oil/rates; Seeking Alpha: no company-specific PR drove Fri.",
+      "source": "CNBC / Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4653989-nebius-group-retreats-12-amid-heavy-neocloud-selling"
+    },
+    {
+      "headline": "New Form 4 filed Fri evening (0001513845-26-000130): Director Arne Grimme bought 148 Class A on 15 Oct and 148 on 16 Oct at $169.99 each under a 10b5-1 plan dated 15 Jun 2026; holdings after 6,181. Tiny (~$50k) but a buy into the selloff. Boynton Form 144 (7,260 sh) still the prior sale notice. No new issuer 6-K since Inferize 1 Oct.",
+      "why": "Insider buy is a small positive offset; not material size vs the −12% tape. Dilution overhang ($5.75B convert) unchanged.",
+      "source": "SEC EDGAR Form 4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/xslF345X06/form4.xml"
+    },
+    {
+      "headline": "Carry: CoreWeave bond yields cited ~15% (247WallSt) as the credit-contagion proxy; Nebius is lower-leverage (convert + equity) but trades with the group. Rosenblatt Buy PT $304 still the sell-side offset from prior desk; earnings est ~9 Nov.",
+      "why": "Funding-cost beta dominates company news until CRWV credit calms or NBIS prints.",
+      "source": "247WallSt / CNBC",
+      "url": "https://247wallst.com/investing/2026/10/16/coreweave-and-nebius-sink-9-as-sentiment-index-closes-in-on-extreme-fear/"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Fri US cash: GOOGL $340.59 (−2.47%) / AMZN $250.00 (−1.87%) / META $709.33 (−3.72%) / NVDA $214.13 (−1.43%) / MU $878.84 (−5.63%) FLAG / SPCX $146.03 (−1.74%). SOX 11,137.29 (−3.83%). Book FLAGs: NBIS −12.2%, MU −5.6%.",
+      "why": "Broad AI/tech wipeout into the weekend; Nasdaq −2.15% / worst week since June (CBS).",
+      "source": "CNBC quote",
+      "url": "https://www.cnbc.com/quotes/NBIS",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "AI-debt scare: CBS/Reuters — neoclouds (CoreWeave ~−12%, Nebius −12%) hit on fears debt-funded AI infra may not repay as rates stay high; Anthropic IPO valuation chatter also weighed. TSMC beat/raise from Thu did not defend semis Fri.",
+      "why": "Thesis shift from demand (intact per TSMC) to financing/ROIC risk for capacity names.",
+      "source": "CBS / StreetInsider",
+      "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/",
+      "ticker": "AI"
+    },
+    {
+      "headline": "SK hynix Fri Korea close ₩1,265,000 (+0.24% / +₩3,000 vs Thu ₩1,262,000) per Naver; Yahoo/WSJ print ₩1,272,000 (+0.79%). Samsung ₩217,000 (+3.33%). After Thu SK −11% rout, Fri was a small bounce then flat into US selloff. Next: SK Q3 27 Oct.",
+      "why": "Korea closed Sat–Sun; Mon 19 Oct first local reaction to Fri US FLAG.",
+      "source": "Naver",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "SPCX −1.74% to $146.03; no new company PR. Next unlock: up to 328.4M sh eligible Sat 24 Oct (first trade Mon 26 Oct). Larger post-Q3 tranche (~1.3B) still the bigger overhang.",
+      "why": "Unlock is next weekend — watch Mon 26 reaction, not this weekend.",
+      "source": "CNBC / Dagom",
+      "url": "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "K3 = Moonshot AI (Kimi): private, no ticker exists.",
+      "why": "Unchanged.",
+      "source": "prior desk",
+      "url": null,
+      "ticker": "K3"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "Fri close: S&P 7,659.44 (−1.09%) / Nasdaq 26,140.03 (−2.15%) / Dow 52,002.41 (−0.34%); VIX 19.99 (+21.45%). Nasdaq worst week since June; ~$1T tech market-cap wipe (NBC).",
+      "why": "AI-debt + oil inflation premium drove risk-off into the weekend.",
+      "source": "CNBC / CBS",
+      "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+    },
+    {
+      "headline": "Warsh (IMF Bangkok Fri): no rate signal — 'I don't prejudge meetings'; Fed 'not in the business' of previewing. AI is 'most consequential change' but path 'very bumpy'; near-term demand can lift inflation before a medium-term supply shock. Goldman (via CNBC) reads Oct pause; FedWatch ~72% hold Oct, majority hike Dec. Fed blackout started Sat 17 Oct.",
+      "why": "Oct hold base case intact; Dec hike risk + oil keep discount rates elevated for neoclouds.",
+      "source": "CNBC / Straits Times",
+      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+    },
+    {
+      "headline": "Oil: WTI settled $101.41 (+$3.44 / ~+3.5%); Brent $109.86 (+$3.94 / ~+3.7%), briefly >$110 (Newsquawk/NBC). CNBC futures last ~$101.84. Hormuz/Iran supply fear. 10Y 5.081% (−0.6 bp).",
+      "why": "Oil >$100 feeds CPI path into FOMC 27–28 Oct.",
+      "source": "Newsquawk / CNBC",
+      "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-x6-settles-usd-344-higher-at-usd-10141bbl-brent-z6-settles-usd-394-higher-at-usd-10986bbl"
+    },
+    {
+      "headline": "CNN F&G 17.9 Extreme Fear (Fri stamp) vs 31.5 Fear prior desk (−13.6 pts). USDTHB 33.43 (CNBC) / 33.43 (open.er-api Sat 00:02 UTC).",
+      "why": "Sentiment capitulated with the neocloud FLAG day.",
+      "source": "CNN / open.er-api",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    }
+  ],
+  "soWhat": [
+    "NBIS FLAG −12.18% Fri to $165.47 (low $163.27; ≈−34% vs 6 Oct $249.87): neocloud contagion, no company PR. Tiny Form 4 buy by Dir. Grimme (296 sh @ $169.99, 10b5-1). MU also FLAG −5.63%.",
+    "F&G crashed to 17.9 Extreme Fear from 31.5 (−13.6 pts). Nasdaq −2.2% / worst week since June on AI-debt + oil.",
+    "Warsh (Bangkok): no rate signal; AI 'bumpy'; Fed blackout now. Oil WTI $101.41 / Brent $109.86. Next: Mon reopen, SPCX unlock 24 Oct (trade 26), SK 27 Oct, FOMC 27–28 Oct.",
+    "No confirmed Sat morning ICT company news beyond Fri tape/filings. No trade action."
+  ]
+}

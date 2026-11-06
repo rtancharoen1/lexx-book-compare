@@ -1,0 +1,342 @@
+{
+  "bookQuotes": {
+    "asOf": "US cash = Tue 3 Nov close; futures/oil/KOSPI live ~08:30 ICT Wed (Yahoo)",
+    "NQF": {
+      "last": 27905.75,
+      "pct": -1.41
+    },
+    "ESF": {
+      "last": 7545.75,
+      "pct": -0.67
+    },
+    "IXIC": {
+      "last": 25372.01,
+      "pct": 0.83
+    },
+    "SPX": {
+      "last": 7568.92,
+      "pct": 0.36
+    },
+    "SOX": {
+      "last": 10600.4,
+      "pct": 2.63
+    },
+    "US10Y": {
+      "last": 4.952
+    },
+    "US2Y": {
+      "last": null,
+      "note": "not sourced this run"
+    },
+    "DXY": {
+      "last": 101.52
+    },
+    "BRENT": {
+      "last": 104.39,
+      "settleTue": 103.6,
+      "pctTue": -1.12
+    },
+    "WTI": {
+      "last": 96.68,
+      "settleTue": 96.09,
+      "pctTue": -0.38
+    },
+    "KOSPI": {
+      "last": 5694.23,
+      "pct": 0.8
+    }
+  },
+  "flags": [
+    "F&G 19.1 Extreme Fear (from 22.7)",
+    "NQ futures −1.4% on midterm blue-wave odds",
+    "AMD Q3 beat, Q4 guide ~$17B",
+    "NBIS +7.25% to $151.64",
+    "10Y 4.95%"
+  ],
+  "fx": {
+    "USDTHB": 33.71,
+    "source": "https://finance.yahoo.com/quote/THB=X",
+    "USDKRW": 1340.78,
+    "USDKRWsource": "https://finance.yahoo.com/quote/KRW=X"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 151.64,
+      "pctChange": 7.25,
+      "headline": "Sector rebound after financing scare; GPU spot pricing launch; no filing; Q3 12 Nov BMO",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS",
+      "asOf": "Tue 3 Nov close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 280.03,
+      "pctChange": 0.37,
+      "headline": "No new news",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL",
+      "asOf": "Tue 3 Nov close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 250.69,
+      "pctChange": 2.06,
+      "headline": "No new news",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN",
+      "asOf": "Tue 3 Nov close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 621.03,
+      "pctChange": 2.36,
+      "headline": "No new news",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/META",
+      "asOf": "Tue 3 Nov close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 206.69,
+      "pctChange": 2.29,
+      "headline": "AMD beat read-through; retook #1 mkt cap; Q3 17 Nov",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/NVDA",
+      "asOf": "Tue 3 Nov close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 855.1,
+      "pctChange": 2.58,
+      "headline": "Apple flags rising memory costs",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU",
+      "asOf": "Tue 3 Nov close"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 141.31,
+      "pctChange": 3.62,
+      "headline": "No company news",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/SPCX",
+      "asOf": "Tue 3 Nov close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1398000,
+      "pctChange": 1.57,
+      "live": 1420000,
+      "headline": "Live +1.6% Wed; KOSPI +0.8%",
+      "source": "Yahoo",
+      "sourceUrl": "https://finance.yahoo.com/quote/000660.KS",
+      "asOf": "live Wed 4 Nov KST morning"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 151.64,
+      "pct": 7.25,
+      "open": 145.35,
+      "high": 152.67,
+      "low": 143.71,
+      "ah": 150.76,
+      "ahPct": -0.58,
+      "mktCapB": 41.22
+    },
+    "GOOGL": {
+      "last": 280.03,
+      "pct": 0.37
+    },
+    "AMZN": {
+      "last": 250.69,
+      "pct": 2.06
+    },
+    "META": {
+      "last": 621.03,
+      "pct": 2.36
+    },
+    "NVDA": {
+      "last": 206.69,
+      "pct": 2.29
+    },
+    "MU": {
+      "last": 855.1,
+      "pct": 2.58
+    },
+    "SPCX": {
+      "last": 141.31,
+      "pct": 3.62
+    },
+    "000660.KS": {
+      "last": 1420000,
+      "pct": 1.57,
+      "prevClose": 1398000,
+      "status": "live Wed morning KST",
+      "source": "https://finance.yahoo.com/quote/000660.KS"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-jumps-72-still-a-buy-2026-11-03/",
+    "https://sg.finance.yahoo.com/news/nebius-group-nbis-unveils-live-180654082.html",
+    "https://www.investing.com/news/stock-market-news/why-is-nebius-stock-rallying-today-93CH-4995670",
+    "https://nebius.com/investor-hub",
+    "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-after-hours-anet-amd-smci-swks.html",
+    "https://www.marketwatch.com/story/stocks-to-watch-amd-block-super-micro-computer-arista-732f59da",
+    "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+    "https://en.fnnews.com/news/202611040621220252",
+    "https://en.sedaily.com/international/2026/11/04/us-stocks-mixed-before-midterms-as-nvidia-retakes-top-spot",
+    "https://www.streetinsider.com/General+News/Nasdaq+ends+higher+as+AI+heavyweights+rebound+ahead+of+midterm+results/27276330.html",
+    "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+    "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+    "https://finance.yahoo.com/quote/NQ=F",
+    "https://finance.yahoo.com/quote/%5ETNX",
+    "https://finance.yahoo.com/quote/000660.KS",
+    "https://www.cnn.com/markets/fear-and-greed"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-11-04",
+      "event": "Midterm results finalize; ADP; ISM Services; QCOM, ARM, COHR after close; Moonshot K3.1 Pro open weights due"
+    },
+    {
+      "date": "2026-11-06",
+      "event": "October jobs report 8:30 ET (20:30 ICT)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "NVIDIA AI Day Seoul (9–10 Nov)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "October CPI"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "NBIS Q3 2026 results BMO, call 8:00 ET (20:00 ICT)"
+    },
+    {
+      "date": "2026-11-17",
+      "event": "NVDA Q3 FY27 results, call 5:00 p.m. ET (05:00 ICT 18 Nov)"
+    }
+  ],
+  "date": "2026-11-04",
+  "asOfIct": "2026-11-04T08:35+07:00",
+  "asOfWita": "2026-11-04T09:35+08:00",
+  "producedBy": "Deki · Investment manager (weekday AI-infra digest routine)",
+  "fearGreed": {
+    "value": 19.1,
+    "label": "Extreme Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "19.1 Extreme Fear, down from 22.7 despite Tue's tech bounce (CNN stamp 2026-11-03T23:59Z = Tue close). 1-wk 32.9, 1-mo 38.2. Lowest print in this run."
+  },
+  "nbis": [
+    {
+      "headline": "[NEW] NBIS Tue close $151.64 (+7.25%), high $152.67, cap $41.22B; post-market $150.76 (−0.58%) at 19:59 ET. Volume ~13.7M, below 10-day avg 21.8M",
+      "why": "Recovers about half of Mon's −8.3%; light-volume bounce, still ~49% below 52-wk high $299.86.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "[NEW] Driver: sector rebound in AI data-center names after Mon financing scare; no NBIS filing, guidance change or raise",
+      "why": "Same group-level funding narrative in reverse. Price is trading the sector, not company numbers.",
+      "source": "MarketBeat / Investing.com",
+      "url": "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-jumps-72-still-a-buy-2026-11-03/"
+    },
+    {
+      "headline": "[NEW] Product: live public GPU spot pricing, reserve auctions and a capacity rebate tied to committed usage; AI Builder grants expanded across Europe with NVIDIA",
+      "why": "Tools to keep utilization high on a debt-funded fleet; small but on-thesis. Not a revenue disclosure.",
+      "source": "Simply Wall St via Yahoo",
+      "url": "https://sg.finance.yahoo.com/news/nebius-group-nbis-unveils-live-180654082.html"
+    },
+    {
+      "headline": "Q3 2026 results Thu 12 Nov before open, call 8:00 ET (20:00 ICT)",
+      "why": "Citi $3.5B facility draw, capex funding mix, prepayments and MSFT/META ramp are the tests.",
+      "source": "Nebius investor hub",
+      "url": "https://nebius.com/investor-hub"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "[NEW] AMD Q3 beat: revenue $13.38B, data center $8.55B (+97%), Q4 guide ~$17B vs ~$16.2B est, 2027 growth >80%. Close $483.90 (+3.65%), post-market $508.20 (+5.0%), faded from ~+8%",
+      "why": "Clean AI-demand confirmation from a GPU vendor; read-through positive for NVDA and for neocloud GPU demand.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-after-hours-anet-amd-smci-swks.html"
+    },
+    {
+      "headline": "[NEW] Arista Q3 rev $3.66B (+59%), Q4 guide $3.9–4.0B; post-market $186 (+9.5%). Super Micro rev ~$19.95B, EPS $1.81 vs $1.23 est, next-qtr guide $19.5–21.5B; ~+10% AH",
+      "why": "AI networking and server orders still accelerating, which argues against the 'capex slowing' fear.",
+      "source": "CNBC / MarketWatch",
+      "url": "https://www.marketwatch.com/story/stocks-to-watch-amd-block-super-micro-computer-arista-732f59da"
+    },
+    {
+      "headline": "[NEW] Watchlist Tue closes: SPCX $141.31 (+3.62%), MU $855.10 (+2.58%), META $621.03 (+2.36%), NVDA $206.69 (+2.29%), AMZN $250.69 (+2.06%), GOOGL $280.03 (+0.37%). SOX +2.63% to 10,600",
+      "why": "Chip-led dip-buying; NVDA retook #1 market cap from Apple. No new company filings on these names.",
+      "source": "Seoul Economic Daily / CNBC",
+      "url": "https://en.sedaily.com/international/2026/11/04/us-stocks-mixed-before-midterms-as-nvidia-retakes-top-spot"
+    },
+    {
+      "headline": "[NEW] SK hynix live ₩1,420,000 (+1.6% vs Tue close ₩1,398,000); ADR closed $150.79 (+2.09%). KOSPI live ~5,694 (+0.8%)",
+      "why": "Korea memory bouncing with MU, but less than the US chip move.",
+      "source": "Yahoo Finance / FN News",
+      "url": "https://finance.yahoo.com/quote/000660.KS"
+    },
+    {
+      "headline": "[NEW] Apple −1.9% after warning memory-chip costs will keep rising and pressure holiday-quarter gross margin",
+      "why": "Confirms tight memory pricing, supportive for MU and SK hynix.",
+      "source": "Reuters via StreetInsider",
+      "url": "https://www.streetinsider.com/General+News/Nasdaq+ends+higher+as+AI+heavyweights+rebound+ahead+of+midterm+results/27276330.html"
+    },
+    {
+      "headline": "K3 (Moonshot AI) private, no ticker. Today after US close: QCOM, ARM report",
+      "why": "ARM/QCOM give a data-center CPU read; minor for the book.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "[NEW] Midterms: CNBC said Democrats near-certain for the House and Kalshi had Senate odds ~80% as results came in; not all races called at time of writing",
+      "why": "Street view: a blue sweep is a short-term headwind for AI/data-center names on fear of local data-center restrictions; JPM sees S&P ~−0.5% Wed on a sweep.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "[NEW] Futures ~08:30 ICT: NQ 27,906 (−1.4%), ES 7,546 (−0.7%) vs Tue settle",
+      "why": "Bigger drop than the −0.3% at 20:00 ET; market is pricing more of a blue wave. Expect tech to open weaker despite AMD.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "headline": "[NEW] Tue cash: Nasdaq +0.83% (25,372), S&P +0.36% (7,569), Dow −0.38%. JOLTS Sept openings 7.52M vs ~7.1M est, layoffs lowest since early last year",
+      "why": "Strong labor data keeps hike risk alive; Fed Logan already wants 2+ hikes.",
+      "source": "CNBC / Seoul Economic Daily",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "[NEW] Yields/FX: 10Y 4.952% (+5.8bp), DXY 101.52, USD/KRW 1,340.8, USD/THB 33.71",
+      "why": "Higher long yields after JOLTS, a drag on long-duration names like NBIS.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/%5ETNX"
+    },
+    {
+      "headline": "[NEW] Oil: Brent settled $103.60 (−1.1%), WTI $96.09 on US–Iran and Russia–Ukraine talk hopes; Brent ~$104.4 in Asia",
+      "why": "Second down day; oil is no longer adding pressure.",
+      "source": "Seoul Economic Daily",
+      "url": "https://en.sedaily.com/international/2026/11/04/us-stocks-mixed-before-midterms-as-nvidia-retakes-top-spot"
+    }
+  ],
+  "soWhat": [
+    "NBIS bounced +7.3% to $151.64 on sector relief, no company news; post-market flat. Real input is still Q3 on 12 Nov.",
+    "AMD, Arista and Super Micro all beat and guided up: AI hardware demand is fine. The pressure is on funding, not demand.",
+    "Election is the near-term risk: NQ futures −1.4% on blue-wave odds, which the Street reads as negative for data-center names.",
+    "F&G 19.1 Extreme Fear, lowest yet; 10Y back near 4.95%. Expect a weak open for NBIS. No trades."
+  ]
+}

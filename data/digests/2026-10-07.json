@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-07",
+  "asOfIct": "2026-10-07T08:10:00+07:00",
+  "asOfWita": "2026-10-07T09:10:00+08:00",
+  "producedBy": "Wed digest after Tue 6 Oct US cash. Quotes: CNBC FormattedQuote (NBIS/GOOGL/AMZN/META/NVDA/MU/SPCX/US10Y/.SPX/.IXIC/.DJI) + CNBC quote pages AH/mktcap; Yahoo chart v8 cross-check + USDTHB/^TNX/^VIX; Naver basic API for SK 000660 Wed live; CNN F&G graphdata (Referer); SEC EDGAR CIK0001513845 atom + Form4 0001513845-26-000126 XML; headlines via Nebius IR, TipRanks, CNBC, Reuters/Investing.com, Investopedia, Finbold/Goldman SPCX. F&G first-try 418 then 200 with Referer. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 47.37,
+    "label": "Neutral",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata 47.37 Neutral, stamp 2026-10-06T23:59:49Z (Tue close); up from prior digest 43.14 Fear / API previous_close 43.03; 1-wk 28.86, 1-mo 45.23. Junk-bond demand 95 extreme greed, safe-haven 76.8 extreme greed, momentum 72.4 greed vs price strength 1.6 / breadth 2.0 extreme fear: index risk-on still narrow underneath. First fetch without Referer returned HTTP 418 teapot."
+  },
+  "nbis": [
+    {
+      "headline": "Tue US cash $249.87 (+7.44% / +$17.30 vs Mon $232.57) FLAG ≥5%; open $237.22, high $255.10, low $237.00; vol ~19.6M CNBC (~21.4M Yahoo); cap $67.928B (CNBC). AH $250.50 (+0.25%). ≈ THB 8,398/sh at USDTHB 33.61 (Yahoo THB=X). Next cash Wed 7 Oct 20:30 ICT / 21:30 WITA.",
+      "why": "CNBC FormattedQuote Tue 4:00 PM EDT last; AH from CNBC quote page. Rebound erased Mon’s −4.2% after insider-sale digestion + Inferize/Token Factory narrative.",
+      "source": "CNBC quote / Yahoo chart",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "NEW Form 4 0001513845-26-000126 (filed 6 Oct 16:17 ET, period 5 Oct): COO/director Ophir Nave sold 500,000 Class A sh on 5 Oct under 10b5-1 plan adopted 22 May — same block as Form 144 0001950047-26-010048. 12 lots, wavg ~$235.53 (range ~$230.67–$243.72); notional ~$117.8M; post-sale 454,685 sh. Remarks: ~17% of granted equity; no further sales under the plan.",
+      "why": "Execution confirmation of Mon’s Form 144, not a new supply surprise. Mechanical 10b5-1; FPI exempt from 16(b)/(c). Market still bought through it Tue.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000126/0001513845-26-000126-index.htm"
+    },
+    {
+      "headline": "No NEW 6-K overnight vs Tue desk. Inferize acquisition 6-K (0001104659-26-112824, 1 Oct) remains the latest issuer report; Nebius IR (1 Oct) — Inferize into Token Factory; terms undisclosed. Tue press tied the rebound to Inferize/inference economics + call-option bid.",
+      "why": "Catalyst is already public; Tue tape was catch-up after Mon supply headlines, not a fresh contract.",
+      "source": "Nebius IR / TipRanks / SEC",
+      "url": "https://nebius.com/newsroom/nebius-acquires-inferize-to-strengthen-nebius-token-factorys-production-inference-stack"
+    },
+    {
+      "headline": "Carry from Tue desk (unchanged overnight): Volozh/Shtan/Korolenko Form4s 1 Oct sell-to-cover; Motley Fool MSFT+META concentration on ~$40B backlog; $5.75B convert overhang; Burry short add (IBD/GuruFocus).",
+      "why": "Still the live bear stack. Tue +7.4% does not clear concentration or funding risk.",
+      "source": "SEC / prior desk",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=4&dateb=&owner=include&count=40"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Tue US cash: GOOGL $347.68 (+0.35%) / AMZN $256.29 (+1.95%) / META $738.88 (−0.41%) / NVDA $239.24 (+0.14%, new cash high vs Mon $238.90) / MU $1,045.56 (−1.73%) / SPCX $171.92 (+0.49%). Book FLAG: NBIS only (≥5%).",
+      "why": "CNBC FormattedQuote regular-session lasts; Wed US cash opens 20:30 ICT / 21:30 WITA.",
+      "source": "CNBC quote / Yahoo chart",
+      "url": "https://www.cnbc.com/quotes/NVDA",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "SPCX +0.49% to $171.92 (AH $169.98 −1.13%; vol ~96.7M CNBC / ~106M Yahoo; cap $2.333T CNBC). Digested Mon’s +7.6% FLAG. Goldman Sheridan Buy, PT $220→$230 (AI capacity/revenue/margin lifts); Crew-12 ISS return livestream Wed–Thu; lockups 9 Oct / 26 Oct / 8 Dec still overhang.",
+      "why": "Sell-side + mission color, no new contract. IV still cooler than IPO week (CNBC options note).",
+      "source": "CNBC / TipRanks / Finbold",
+      "url": "https://www.cnbc.com/2026/10/06/spacex-stock-is-taking-off-again-but-with-one-key-difference-this-time.html",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "NVDA edged to $239.24 (+0.14%) after Mon’s record $238.90; AMZN +1.95% (AWS/DC community commitment carry); META −0.41% after Mon’s Muse bounce; MU −1.73% to $1,045.56 — third soft session, power/DC-delay overhang intact.",
+      "why": "Hyperscaler spend still supported; memory lagging Nvidia is the open risk for MU/SK and neoclouds.",
+      "source": "CNBC quotes",
+      "url": "https://www.cnbc.com/quotes/MU",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Wed live ₩1,757,000 (−0.90% / −₩16,000 vs Tue close ₩1,773,000 Naver/Yahoo) as of ~10:06 KST; vs Fri ₩1,841,000 ≈ −4.6%. Samsung Q3 prelim due Thu 8 Oct (consensus ~₩105–106T OP; HBM4 ramp / share vs SK watched).",
+      "why": "Memory still soft into Samsung print; HBM share shift narrative (JPMorgan: Samsung HBM share ↑, SK ↓) is the SK-specific overhang.",
+      "source": "Naver finance / Reuters via Investing.com",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "K3 / Moonshot AI: no public ticker. Confidential HK IPO filing (sources Sep); targeting ~early 2027; no prospectus/ticker published. Do not invent a symbol.",
+      "why": "Private only until prospectus. Watch only.",
+      "source": "Reuters / SCMP",
+      "url": "https://www.reuters.com/world/asia-pacific/chinese-ai-firm-moonshot-files-confidentially-hong-kong-ipo-sources-say-2026-09-03/",
+      "ticker": "K3"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "Tue tape: S&P 7,818.93 (+0.58%, record) / Nasdaq 27,599.89 (+0.45%, record) / Dow 51,521.28 (+0.49%); VIX 15.01 (Yahoo). Yields eased from Mon’s multi-year highs — Yahoo ^TNX Tue close 5.269%; CNBC US10Y overnight last 5.307% (prev 5.271% on that quote).",
+      "why": "Risk-on with yields off the Mon spike helped duration/growth; NBIS participated.",
+      "source": "CNBC quotes / Yahoo / Investopedia",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10062026-12160706"
+    },
+    {
+      "headline": "FOMC Sept minutes due Wed 7 Oct 2:00pm ET (Thu 8 Oct 02:00 ICT / 03:00 WITA). After Sep 16 hike to 3.75–4.00%, desk watches inflation language and any further-hike lean. $39B 10Y auction also Wed; jobless claims Thu; US CPI Sep due 14 Oct.",
+      "why": "Next rates test with 10Y still near 2002-area highs. Long-duration AI infra sensitive.",
+      "source": "Fed calendar / Admiral Markets week-ahead",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "headline": "USDTHB 33.61 (Yahoo THB=X Wed). Power/grid for AI DCs remains the structural constraint (Morgan Stanley ~34% US power shortfall through 2028 from prior desk); chip-export enforcement still live (e.g. Reuters smuggling case early Oct) — no new overnight rule text flagged for this digest.",
+      "why": "FX for THB/share; power delays = slower GPU/neocloud deployments (MU/SK/NBIS read-across).",
+      "source": "Yahoo FX / prior desk / Reuters",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/THB=X"
+    },
+    {
+      "headline": "CNN Fear & Greed 47.37 Neutral (Tue close) vs 43.14 Fear prior digest — see fearGreed block. Breadth/strength still extreme fear under index highs.",
+      "why": "Sentiment improving at index level but not broad — consistent with mega-cap AI leadership.",
+      "source": "CNN graphdata",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    }
+  ],
+  "soWhat": [
+    "NBIS FLAG +7.44% Tue: rebound after Mon supply headlines; Nave Form4 confirms 500k 10b5-1 sold Mon (not new dilution).",
+    "Thesis risks unchanged: MSFT+META concentration, $5.75B converts, GPU-collateral financing terms, power/permit delays.",
+    "Book: NVDA new cash high; AMZN firm; MU/SK soft into Samsung Q3 prelim Thu; SPCX digested Mon FLAG (+0.5% Tue).",
+    "Macro: FOMC minutes Wed 2pm ET; F&G 47 Neutral↑ from 43 Fear; 10Y still elevated. No trade action."
+  ]
+}

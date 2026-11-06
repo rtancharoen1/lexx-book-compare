@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-11",
+  "asOfIct": "2026-09-11T08:35:00+07:00",
+  "producedBy": "Fri ~08:35 ICT AI-infra digest (schedule fire 08:23). Sources: Yahoo chart v8 Thu cash + Fri SK LIVE; CNN F&G graphdata Thu stamp; open.er-api + Yahoo USDTHB; SEC CIK 0001513845; Nebius Newsroom; RCR Wireless Volozh Goldman; NVIDIA IR/SA Huang Communacopia; Reuters via Virginia Business; Kiplinger PPI/yields; SA/The Information SPCX DC; live-snapshot-2026-09-11.",
+  "fearGreed": {
+    "value": 33.26,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata after Thu session: score 33.257 rating fear timestamp 2026-09-10T23:59:55+00:00. previous_close 38.2. Softened ~5 pts vs prior stamp after Thu SPX −0.58% / oil-led rates scare (prior digest Wed stamp was 39.03)."
+  },
+  "nbis": [
+    {
+      "headline": "Thu 10 Sep US cash $228.11 (−5.09% / −$12.24 vs Wed $240.35); GF AH $226.50 (−0.71%). High $238.33 / low $226.03 / vol ~12.9M Yahoo (~13.06M GF). GF mkt cap $62.01B (was ~$65.34B Wed). Convert still $5.75B ≈ THB 190.3B at USDTHB 33.1. Cash ≈ THB 7550.4/sh.",
+      "why": "Yahoo/GF Thu OHLC from NBIS weekday morning snapshot; ≥5% day move is a price ping, not a new filing. open.er-api USDTHB 33.003871 Fri 00:02 UTC; Yahoo USDTHB=X ~33.10.",
+      "source": "Yahoo/Google Finance via live-snapshot-2026-09-11 / open.er-api",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "NEW Street coverage of Goldman Communacopia (Thu Sep 10): Volozh says AI compute demand still >> physical build — customers ordering into 1H28 (tens of thousands of GPUs/vGPUs); asset-light partner model for 2027+ capacity; Palantir framed as enterprise sovereign stack. No new IR PR.",
+      "why": "RCR Wireless Sep 10 from conference remarks; demand/capacity/financing constraint is thesis-core for neocloud. Not company Newsroom.",
+      "source": "RCR Wireless",
+      "url": "https://rcrtech.com/ai-infrastructure-news/nebius-sees-ai-compute/"
+    },
+    {
+      "headline": "No NEW EDGAR/IR overnight. Latest company print still Palantir 6-K 0001104659-26-105749 (Sep 8). Newsroom top still Palantir Sep 8 + conferences Sep 2. Form 4s Sep 3 prior. StorageNewsletter Sep 10 convert reprint is Aug close ($5.0B upsized / ~$5.75B gross) — stale, not new dilution.",
+      "why": "data.sec.gov submissions CIK0001513845 + Newsroom scraped this run.",
+      "source": "SEC EDGAR CIK 0001513845 / Nebius Newsroom",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926105749/tm2624958d1_ex99-1.htm"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA Thu cash $218.36 (−2.37% vs Wed $223.67). Huang at Goldman Communacopia Thu: reiterated confidence in ~70% revenue growth next year; cybersecurity called next major AI leg (SA News Sep 10). Event was on IR calendar (Aug 27 PR).",
+      "why": "Yahoo meta Thu; SA News summary of Communacopia remarks; growth reaffirmation matters for AI-infra stack.",
+      "source": "Yahoo / Seeking Alpha / NVIDIA IR",
+      "url": "https://seekingalpha.com/news/4641749-nvidias-huang-confident-in-70-growth-sees-cybersecurity-as-next-leg-for-ai",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "Memory book soft Thu: MU $977.41 (−4.90% vs Wed $1,027.77); Reuters notes MU −4.7% / NVDA −2.3% weighed on SPX. SK hynix Fri LIVE Yahoo ₩1,785,000 (−3.67% vs Thu ₩1,853,000). Macro rates/oil pullback more than company print; MU FQ4 still due ~Sep 30.",
+      "why": "Yahoo Thu/Fri; Virginia Business/Reuters chip-heavy selloff frame.",
+      "source": "Yahoo / Reuters via Virginia Business",
+      "url": "https://finance.yahoo.com/quote/MU/",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SPCX Thu cash $148.18 (+0.43% vs Wed $147.55) despite The Information report (via SA): SpaceX overhauling data-center build (rocket-eng reliability over speed) — may slow expansion / AI-cloud revenue ramp. Lockup calendar still in play (day-90/91 eligibility ≠ forced sell).",
+      "why": "SA News Sep 10 citing The Information; Yahoo Thu close; thesis for SPCX AI-infra revenue timing.",
+      "source": "Seeking Alpha / The Information / Yahoo",
+      "url": "https://seekingalpha.com/news/4641678-spacex-shifting-gears-with-data-center-buildout-may-slow-expansion-report",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "Watchlist Thu cash: GOOGL $332.60 (+0.59% vs Wed $330.65); AMZN $251.89 (−0.20%); META $644.38 (−1.42% vs Wed $653.69) after Muse spike. K3/Moonshot still no ticker.",
+      "why": "Yahoo chart meta regularMarketPrice Thu session.",
+      "source": "Yahoo chart v8",
+      "url": "https://finance.yahoo.com/quote/GOOGL/",
+      "ticker": "GOOGL"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 33.26 Fear — NEW Thu stamp (graphdata previous_close 38.2; Wed digest file had 39.03). SPX Thu 7,591.70 (−0.58% vs Wed 7,636.36). VIX Thu 17.84 (vs Wed 16.46). Fourth straight SPX down day (~−2% four sessions).",
+      "why": "CNN graphdata + Yahoo ^GSPC/^VIX this run; Reuters confirms SPX 7,591.75 / −0.58%.",
+      "source": "CNN Fear & Greed graphdata / Yahoo / Reuters",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "Oil + rates scare: Brent ~$107 (+~6%); WTI ~$102.5; 10y ^TNX Thu 4.944 (Kiplinger 4.963). Aug PPI +0.4% MoM / +5.4% YoY. CME FedWatch ~70–71% odds of 25 bp hike next Wed. CPI TODAY 08:30 ET (19:30 ICT).",
+      "why": "Kiplinger + Reuters/Virginia Business Thu wrap; CPI is the next macro print for duration AI names.",
+      "source": "Kiplinger / Reuters via Virginia Business",
+      "url": "https://www.kiplinger.com/investing/stocks/stocks-drop-as-treasury-yields-hit-new-highs-stock-market-today"
+    },
+    {
+      "headline": "USDTHB ~33.1 (Yahoo USDTHB=X Fri; open.er-api 33.003871 Fri 00:02 UTC). Convert $5.75B ≈ THB 190.3B. Baht softer vs Wed digest 32.90 — raises THB cost of USD convert/GPU spend.",
+      "why": "FX live this run vs prior digest rate.",
+      "source": "Yahoo USDTHB=X / open.er-api",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "NBIS −5.1% Thu is a price ping with no new filing — Volozh Goldman remarks still demand>>supply into 2028; watch financing/build pace vs convert dry powder.",
+    "Book: NVDA Huang reaffirmed ~70% growth; MU/SK memory gave back AI-rally gains on rates; SPCX DC reliability pivot may slow AI-revenue timing.",
+    "Macro: Fear 33 / SPX four-day fade / 10y ~4.94 / Fed hike odds ~70% into CPI TODAY 08:30 ET — duration headwind for AI-infra multiples.",
+    "Action: no trade from desk; watch CPI reaction into Fri cash open (20:30 ICT) and whether NBIS holds AH ~$226.5 support."
+  ]
+}

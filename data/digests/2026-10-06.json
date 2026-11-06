@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-06",
+  "asOfIct": "2026-10-06T08:28:00+07:00",
+  "producedBy": "Tuesday digest after Deki NBIS morning snapshot (PING book SPCX). US Mon 5 Oct cash via Yahoo/CNBC (live-snapshot-2026-10-06.json); CNN F&G graphdata (Mon close stamp); SEC EDGAR CIK0001513845 + Form 144; CNBC macro quotes Tue AM; headlines via WSJ, TheStreet, Sharecast, Reuters/MarketScreener, Invezz, TipRanks/TheFly, GuruFocus, Fool, Fortune, eWeek, Perplo/Deutsche Bank, Korea Herald, Aju Press, MoneyToday, Yonhap. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 43.14,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata 43.14 Fear, stamp 2026-10-05T23:59:42Z (Mon close); up sharply from 31.17 prior digest; 1-wk 34.37, 1-mo 45.23. Junk-bond demand 94 extreme greed and momentum 51 neutral vs price strength 1.2 / breadth 1.4 extreme fear: index-level risk-on, narrow underneath."
+  },
+  "nbis": [
+    {
+      "headline": "Mon US cash $232.57 (−4.22% / −$10.24 vs Fri $242.81); open $244.10, low $230.51; vol ~14.9M; cap $63.225B (CNBC). AH $233.90 (+0.57%). ≈ THB 7,828/sh at USDTHB 33.66. No FLAG (<5%) but underperformed Nasdaq +1.05% by ~5 pts. Next cash Tue 6 Oct 20:30 ICT.",
+      "why": "Yahoo/CNBC Mon lasts per Deki morning snapshot. Name-specific selling on a record-Nasdaq day.",
+      "source": "CNBC quote / Yahoo chart",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "NEW Form 144 0001950047-26-010048: Ophir Nave (director/officer) notice to sell 500,000 sh (~$121.4M), 10b5-1 plan adopted 22 May, RSU-sourced; filing says last sale under the plan.",
+      "why": "Insider supply, not issuer dilution. ~0.2% of cap. Headline overhang for a few sessions, not a thesis change.",
+      "source": "SEC EDGAR / StockHub",
+      "url": "https://stockhub.kr/en/news/news_3fc06dec9d25"
+    },
+    {
+      "headline": "Form 4s 0001513845-26-000120/122/124: CEO Volozh 37,778 / CTO Shtan 14,546 / CIO Korolenko 29,090 sh sold at $234.16 on 1 Oct, all RSU tax-withholding.",
+      "why": "Mechanical sell-to-cover; holdings post-sale 785k/260k/522k. Headlines read worse than the filings.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=4&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Bear narrative stacked Monday: Motley Fool says ~4/5 of the ~$40B commitment backlog is Microsoft + Meta; TipRanks on concentration and dilution fears ($5.75B converts); IBD report (via GuruFocus) that Michael Burry added to his NBIS short.",
+      "why": "No new facts, but concentration + convert overhang is the live bear case. Meta's Muse momentum (below) is the offset to the concentration worry.",
+      "source": "Motley Fool / TipRanks / GuruFocus",
+      "url": "https://www.fool.com/investing/2026/10/05/nebius-has-usd40-billion-of-customer-commitments-most-of-it-comes-from-2-customers/"
+    },
+    {
+      "headline": "Read-across: Nvidia's >$500B third-party AI-infra financing push (Apollo, BlackRock, Blackstone, Brookfield, Goldman, KKR; GPUs as collateral, Nvidia backstop up to 25% residual) faces lender pushback on GPU depreciation; some want a thicker cushion.",
+      "why": "Neocloud funding cost depends on how lenders value GPUs. Tighter collateral terms = higher NBIS financing cost. Watch, not FLAG.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/nvidia-500-billion-ai-financing-push/"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Mon US cash: GOOGL $346.47 (+0.86%) / AMZN $251.40 (−0.05%) / META $741.90 (+1.90%) / NVDA $238.90 (+2.12%, record) / MU $1,063.96 (−1.02%) / SPCX $171.09 (+7.63%). SOX +0.28%. Book FLAG: SPCX ≥5%.",
+      "why": "Yahoo/CNBC regular-session lasts per Deki snapshot; Tue US cash opens 20:30 ICT.",
+      "source": "CNBC quote / Yahoo chart",
+      "url": "https://www.cnbc.com/quotes/SPCX",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "SPCX FLAG +7.63% to $171.09 (2nd straight 7%+ day, highest close since June; ~134M vol; cap ~$2.32T CNBC). Morgan Stanley reiterated OW/$300 ahead of Starship Flight 15; proposed Florida Starship methane pipeline; Musk says TSMC chip-plant talks continuing (preliminary).",
+      "why": "Momentum + sell-side, no new contract. TSMC talk is preliminary; treat as color.",
+      "source": "CNBC / Yahoo Finance",
+      "url": "https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "NVDA record close $238.90 (+2.12%): Foxconn Sept revenue record NT$1.16T (+38.4% y/y, +25.7% m/m) on AI-server racks; BNP Paribas PT $285→$345 (Outperform); Morgan Stanley OW/$300 reiterated; Bernstein $400.",
+      "why": "Foxconn is a hard read on GB200/GB300 rack shipments — demand signal, not just sentiment.",
+      "source": "Invezz / TipRanks (TheFly)",
+      "url": "https://invezz.com/news/2026/10/05/why-is-nvidia-stock-rising-today/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "META +1.90% to $741.90: Deutsche Bank estimates Muse AI agent could reach up to ~8% of revenue by 2030; 2026 capex guide $130–145B stands.",
+      "why": "Monetization proof for Meta's capex supports the spend that funds NBIS's biggest customer contract.",
+      "source": "Perplo (Deutsche Bank via Yahoo) / Benzinga",
+      "url": "https://perplo.app/why/META/2026-10-05",
+      "ticker": "META"
+    },
+    {
+      "headline": "MU −1.02% / SK hynix Tue ₩1,803,000 live (−2.06% vs Fri ₩1,841,000), heaviest KOSPI drag on reopening: memory lagged on data-center build delays from power shortfall (Morgan Stanley: ~34% US power shortfall through 2028), Chey Tae-won SK stake-sale plan, Icheon discharge probe, Solidigm US-IPO dilution debate (SK hynix: no decision). Samsung Q3 prelim due 7–8 Oct.",
+      "why": "Power-delay story is the one real thesis risk for memory and neoclouds alike (slower deployments). Solidigm/Chey items are SK-specific overhangs.",
+      "source": "Aju Press / MoneyToday / Yonhap / Reuters via Investing.com",
+      "url": "https://www.ajupress.com/view/20261006092929791",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "AMZN flat: AWS 'Data Center Commitment' — ends government NDAs on DC projects, >$1B over 5 yrs for host communities; Google, Meta, Microsoft (AI Infrastructure Coalition) pledge to pay full DC grid/energy costs. >100 US DC moratoriums proposed.",
+      "why": "Local permitting/energy pushback is now a hyperscaler cost line; raises build cost and time for everyone, including NBIS US sites.",
+      "source": "Fortune / eWeek",
+      "url": "https://fortune.com/2026/10/05/amazon-data-center-community-college-investment/",
+      "ticker": "AMZN"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "US10Y 5.311% close (+~3–5bp), highest close since April 2002; 30Y 5.66%; 2Y 4.829% (eased). ISM services prices highest since 2022.",
+      "why": "Long-end pressure is the main headwind for long-duration growth like NBIS; equities ignored it Monday.",
+      "source": "TheStreet Pro / CNBC quotes",
+      "url": "https://pro.thestreet.com/market-commentary/stocks-shrug-off-new-highs-in-yields-as-the-advance-broadens"
+    },
+    {
+      "headline": "Nasdaq record 27,477.31 (+1.05%); S&P 7,773.95 (+0.66%), just below Aug 13 record; Dow 51,267.90 (+0.18%); VIX 15.52. Schneider Electric to buy PTC (+33%).",
+      "why": "Risk-on at index level; AI names led. NBIS's −4% was against the tape.",
+      "source": "WSJ / Sharecast",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-05-2026"
+    },
+    {
+      "headline": "Fed: weak Sept payrolls cooled October hike bets; TheStreet puts October hike odds ~22%. 2Y still ~93bp above effective fed funds.",
+      "why": "A hike is still priced as a tail, not base case. Next inflation prints matter more than usual.",
+      "source": "TheStreet Pro / Aju Press",
+      "url": "https://pro.thestreet.com/market-commentary/stocks-shrug-off-new-highs-in-yields-as-the-advance-broadens"
+    },
+    {
+      "headline": "USD firm: DXY 102.08; euro 17-month low on French fiscal worries; USDTHB 33.66; USDKRW ~1,343. WTI ~$89.6 after ~2% drop.",
+      "why": "Stronger USD and high yields pressure foreign flows into Korea (foreigners net sold ₩298.8B KOSPI Tue AM).",
+      "source": "Reuters via MarketScreener / CNBC quotes",
+      "url": "https://www.marketscreener.com/news/nasdaq-hits-record-as-dollar-and-treasury-yields-climb-oil-prices-ease-ce785dd8db8efe27"
+    },
+    {
+      "headline": "Korea: KOSPI ~7,000 flat on reopening after holiday, KOSDAQ +2.4%; China closed until Thu (National Day). Samsung Q3 prelim 7–8 Oct is the next memory catalyst.",
+      "why": "Memory not following Nvidia; Samsung print sets HBM/DRAM pricing read for MU and SK.",
+      "source": "Korea Herald / Aju Press",
+      "url": "https://www.koreaherald.com/article/10893750"
+    },
+    {
+      "headline": "Week ahead: FOMC Sept minutes Wed 7 Oct 2pm ET (Thu 8 Oct 01:00 ICT); Samsung Q3 prelim 7–8 Oct; jobless claims Thu.",
+      "why": "Minutes are the next rates test with 10Y at 2002 highs.",
+      "source": "CNBC week-ahead (carried from 5 Oct digest)",
+      "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
+    }
+  ],
+  "soWhat": [
+    "NBIS −4.2% on a record Nasdaq day is supply + narrative (RSU tax sales, Nave 500k 10b5-1, Burry short), not new fundamentals.",
+    "Real risks to watch: customer concentration (MSFT+META), $5.75B convert overhang, GPU-collateral financing terms.",
+    "Sector demand still strong (Foxconn record, NVDA record, Meta Muse), but power/permit delays are the new drag for memory and neoclouds.",
+    "10Y at 5.31% (2002 high) is the macro ceiling; F&G 43 Fear with breadth in extreme fear. No trade action."
+  ]
+}

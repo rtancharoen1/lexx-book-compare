@@ -1,0 +1,591 @@
+{
+  "bookQuotes": {
+    "asOf": "Tue 13 Oct 2026 US regular close (Yahoo chart API); NBIS post 19:59 ET (Yahoo 5m); SK/Samsung/KOSPI Wed 14 Oct live 10:26 KST (Naver); F&G Tue close stamp",
+    "NBIS": {
+      "last": 206.86,
+      "prev": 210.06,
+      "chg": -3.2,
+      "pct": -1.52,
+      "open": 200.5,
+      "high": 207.92,
+      "low": 197.6,
+      "volume": 17483721,
+      "mktCapB": 56.24,
+      "ah": 208.8,
+      "ahPct": 0.94,
+      "usdthb": 33.54,
+      "thbPerShare": 6938,
+      "fiveSessionPct": -17.21,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 353.78,
+      "prev": 352.72,
+      "pct": 0.3
+    },
+    "AMZN": {
+      "last": 258.58,
+      "prev": 259.53,
+      "pct": -0.37
+    },
+    "META": {
+      "last": 762.5,
+      "prev": 742.96,
+      "pct": 2.63
+    },
+    "NVDA": {
+      "last": 228.52,
+      "prev": 226.32,
+      "pct": 0.97
+    },
+    "MU": {
+      "last": 953.19,
+      "prev": 989.04,
+      "pct": -3.62
+    },
+    "SPCX": {
+      "last": 156.54,
+      "prev": 163.42,
+      "pct": -4.21
+    },
+    "SK000660": {
+      "last": 1458000,
+      "prev": 1443000,
+      "pct": 1.04,
+      "liveKst": "2026-10-14T10:26",
+      "tueClose": 1443000,
+      "tueClosePct": -10.09,
+      "monClose": 1605000,
+      "note": "Tue close −10.09%; Wed early high ~₩1,497,000 (Yahoo) faded"
+    },
+    "SS005930": {
+      "last": 236000,
+      "prev": 232000,
+      "pct": 1.72,
+      "liveKst": "2026-10-14T10:25"
+    },
+    "KOSPI": {
+      "last": 6079.69,
+      "prev": 6035.35,
+      "pct": 0.73,
+      "note": "Tue −5.46%; Wed open 6,062.08, early high ~6,190"
+    },
+    "SKHY": {
+      "last": 157.06,
+      "prev": 162.23,
+      "pct": -3.19,
+      "note": "US ADR"
+    },
+    "US10Y": {
+      "last": 5.217,
+      "prev": 5.24,
+      "note": "−2.7bp, cash market reopened Tue"
+    },
+    "SPX": {
+      "last": 7805.45,
+      "pct": -0.02
+    },
+    "IXIC": {
+      "last": 27204.38,
+      "pct": -0.15
+    },
+    "DJI": {
+      "last": 51670.1,
+      "pct": -0.35
+    },
+    "SOX": {
+      "last": 12208.79,
+      "pct": -0.23
+    },
+    "VIX": {
+      "last": 15.27,
+      "pct": 0.39
+    },
+    "WTI": {
+      "last": 95.28,
+      "note": "Wed Asia live (CL=F); Tue settle $94.14"
+    },
+    "BRENT": {
+      "last": 107.0,
+      "note": "Wed Asia live (BZ=F); Tue settle $105.69"
+    },
+    "DXY": {
+      "last": 102.17
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "SPCX −4.21% (watch)",
+      "MU −3.62% (watch)",
+      "NBIS −17.2% over 5 sessions, tested $200"
+    ]
+  },
+  "flags": [
+    {
+      "ticker": "SPCX",
+      "level": "watch",
+      "text": "−4.21% to $156.54 on ~$40B GPU debt plan, spectrum skepticism, NYC AI probe testimony Fri",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-sliding-today-93CH-4947031"
+    },
+    {
+      "ticker": "MU",
+      "level": "watch",
+      "text": "−3.62% to $953.19, CXMT follow-through; AMAT −6.7%",
+      "url": "https://invezz.com/news/2026/10/13/micron-sk-hynix-stocks-continue-fall-on-cxmt-threat-cathie-wood-musk-weigh-in/"
+    },
+    {
+      "ticker": "NBIS",
+      "level": "watch",
+      "text": "$206.86 (−1.52%), low $197.60 tested $200; −17.2% over 5 sessions; CRO 10b5-1 Form 4 immaterial; no FLAG",
+      "url": "https://seekingalpha.com/news/4652546-nebius-slides-as-failed-breakout-tests-risk-appetite"
+    },
+    {
+      "ticker": "000660.KS",
+      "level": "watch",
+      "text": "Tue close −10.09% (₩1,443,000); Wed live +1.04% ₩1,458,000; prior FLAG already sent 13 Oct",
+      "url": "https://m.stock.naver.com/domestic/stock/000660"
+    }
+  ],
+  "fx": {
+    "USDTHB": 33.54,
+    "source": "https://finance.yahoo.com/quote/THB=X/",
+    "stamp": "2026-10-14T01:24Z (09:24 WITA)",
+    "erApi": 33.576,
+    "erApiStamp": "Wed, 14 Oct 2026 00:02 UTC",
+    "USDKRW": 1339.48,
+    "krwSource": "https://finance.yahoo.com/quote/KRW=X/",
+    "DXY": 102.17
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 206.86,
+      "pctChange": -1.52,
+      "headline": "Tested $200 (low $197.60); post $208.80; CRO 10b5-1 Form 4 only; IREN–Anthropic competition read; Anthropic Q3 to investors today",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 353.78,
+      "pctChange": 0.3,
+      "headline": "Gemini 4 Argon GA for devs; GF Sec: TPU v9 ~3-wk slip (broker note); earnings 28 Oct",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 258.58,
+      "pctChange": -0.37,
+      "headline": "No thesis news; Decart talks carry; earnings 29 Oct",
+      "sourceUrl": "https://finance.yahoo.com/quote/AMZN/"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 762.5,
+      "pctChange": 2.63,
+      "headline": "2nd day up on Muse Wonder; Rosenblatt 'kills the bear case'; earnings 28 Oct",
+      "sourceUrl": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 228.52,
+      "pctChange": 0.97,
+      "headline": "No thesis news (consumer DLSS 5/RTX Spark); TSMC Thu is the read",
+      "sourceUrl": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 953.19,
+      "pctChange": -3.62,
+      "headline": "CXMT follow-through; AMAT −6.7%; CXMT DRAM share 10% Q2",
+      "sourceUrl": "https://invezz.com/news/2026/10/13/micron-sk-hynix-stocks-continue-fall-on-cxmt-threat-cathie-wood-musk-weigh-in/"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1443000,
+      "pctChange": -10.09,
+      "headline": "Tue close; Wed live ₩1,458,000 +1.04% 10:26 KST, early bounce faded; Q3 27 Oct",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 156.54,
+      "pctChange": -4.21,
+      "headline": "~$40B GPU debt worry, spectrum skepticism, NYC AI-probe testimony Fri; unlock 24 Oct",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-sliding-today-93CH-4947031"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker exists",
+      "sourceUrl": null
+    },
+    {
+      "ticker": "F&G",
+      "lastClose": 44.7,
+      "pctChange": null,
+      "headline": "CNN 44.7 Fear (prior digest 45.7 Neutral); 1-wk 46.8, 1-mo 32.7",
+      "sourceUrl": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "ticker": "NEXT",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Wed: ASML ~13:00, BAC/MS/BLK ~19:00, CPI 20:30, Anthropic investor Q3; Thu: Beige Book 02:00, TSMC 14:00, retail/PPI 20:30 WITA",
+      "sourceUrl": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/"
+    }
+  ],
+  "quotes": {
+    "asOf": "Tue 13 Oct 2026 US regular close (Yahoo chart API); NBIS post 19:59 ET (Yahoo 5m); SK/Samsung/KOSPI Wed 14 Oct live 10:26 KST (Naver); F&G Tue close stamp",
+    "NBIS": {
+      "last": 206.86,
+      "prev": 210.06,
+      "chg": -3.2,
+      "pct": -1.52,
+      "open": 200.5,
+      "high": 207.92,
+      "low": 197.6,
+      "volume": 17483721,
+      "mktCapB": 56.24,
+      "ah": 208.8,
+      "ahPct": 0.94,
+      "usdthb": 33.54,
+      "thbPerShare": 6938,
+      "fiveSessionPct": -17.21,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 353.78,
+      "prev": 352.72,
+      "pct": 0.3
+    },
+    "AMZN": {
+      "last": 258.58,
+      "prev": 259.53,
+      "pct": -0.37
+    },
+    "META": {
+      "last": 762.5,
+      "prev": 742.96,
+      "pct": 2.63
+    },
+    "NVDA": {
+      "last": 228.52,
+      "prev": 226.32,
+      "pct": 0.97
+    },
+    "MU": {
+      "last": 953.19,
+      "prev": 989.04,
+      "pct": -3.62
+    },
+    "SPCX": {
+      "last": 156.54,
+      "prev": 163.42,
+      "pct": -4.21
+    },
+    "SK000660": {
+      "last": 1458000,
+      "prev": 1443000,
+      "pct": 1.04,
+      "liveKst": "2026-10-14T10:26",
+      "tueClose": 1443000,
+      "tueClosePct": -10.09,
+      "monClose": 1605000,
+      "note": "Tue close −10.09%; Wed early high ~₩1,497,000 (Yahoo) faded"
+    },
+    "SS005930": {
+      "last": 236000,
+      "prev": 232000,
+      "pct": 1.72,
+      "liveKst": "2026-10-14T10:25"
+    },
+    "KOSPI": {
+      "last": 6079.69,
+      "prev": 6035.35,
+      "pct": 0.73,
+      "note": "Tue −5.46%; Wed open 6,062.08, early high ~6,190"
+    },
+    "SKHY": {
+      "last": 157.06,
+      "prev": 162.23,
+      "pct": -3.19,
+      "note": "US ADR"
+    },
+    "US10Y": {
+      "last": 5.217,
+      "prev": 5.24,
+      "note": "−2.7bp, cash market reopened Tue"
+    },
+    "SPX": {
+      "last": 7805.45,
+      "pct": -0.02
+    },
+    "IXIC": {
+      "last": 27204.38,
+      "pct": -0.15
+    },
+    "DJI": {
+      "last": 51670.1,
+      "pct": -0.35
+    },
+    "SOX": {
+      "last": 12208.79,
+      "pct": -0.23
+    },
+    "VIX": {
+      "last": 15.27,
+      "pct": 0.39
+    },
+    "WTI": {
+      "last": 95.28,
+      "note": "Wed Asia live (CL=F); Tue settle $94.14"
+    },
+    "BRENT": {
+      "last": 107.0,
+      "note": "Wed Asia live (BZ=F); Tue settle $105.69"
+    },
+    "DXY": {
+      "last": 102.17
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "SPCX −4.21% (watch)",
+      "MU −3.62% (watch)",
+      "NBIS −17.2% over 5 sessions, tested $200"
+    ]
+  },
+  "sources": [
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://query1.finance.yahoo.com/v8/finance/chart/NBIS",
+    "https://m.stock.naver.com/domestic/stock/000660",
+    "https://open.er-api.com/v6/latest/USD",
+    "https://seekingalpha.com/news/4652546-nebius-slides-as-failed-breakout-tests-risk-appetite",
+    "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-falls-15-following-insider-selling-2026-10-13/",
+    "https://squawknews.com/news/476709-nebius-shares-fall-4-44-to-200-73-amid-ai-spending-concerns",
+    "https://blockspace.media/insight/anthropic-iren-cloud-deal-report/",
+    "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+    "https://www.thecorequant.com/the-wall-street-wrap-october-13-2026",
+    "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
+    "https://biz.chosun.com/en/en-finance/2026/10/14/QKI7Y4JXABGP5JDG7PDKOEWBEU/",
+    "https://www.koreajoongangdaily.com/business/kospi-opens-higher-despite-wall-street-losses-ai-concerns/12919367",
+    "https://invezz.com/news/2026/10/13/micron-sk-hynix-stocks-continue-fall-on-cxmt-threat-cathie-wood-musk-weigh-in/",
+    "https://www.techechelon.com/post/chinese-chipmaker-cxmt-triggers-global-memory-stock-rout-after-architecture-breakthrough",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+    "https://www.gmt8press.com/content/detail/440337",
+    "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+    "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-sliding-today-93CH-4947031",
+    "https://247wallst.com/investing/2026/10/13/spacex-drops-4-on-agreement-to-testify-in-new-york-city-ai-safety-probe-intuitive-machines-sinks-6-virgin-galactic-holdings-slips/",
+    "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/",
+    "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df",
+    "https://investinglive.com/central-banks/fed-s-collins-backs-another-rate-hike-by-year-end-flags-three-inflation-pressures/",
+    "https://www.japantimes.co.jp/news/2026/10/14/world/saudi-aramco-building-attack-houthis/",
+    "https://finance.yahoo.com/quote/THB=X/",
+    "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs",
+    "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-10-14",
+      "timeWita": "~13:00",
+      "event": "ASML Q3 results (before Amsterdam open)",
+      "detail": "Zacks consensus rev $13.18B / EPS $12.47; guide €11.0–12.0B, GM 55–57%. Read for China/DRAM tool demand after CXMT",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "~18:45–19:00",
+      "event": "BAC, MS, BLK Q3",
+      "detail": "BAC books ~$0.17/sh AML penalty (>$1.2B)",
+      "sourceUrl": "https://www.thecorequant.com/the-wall-street-wrap-october-13-2026"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "20:30",
+      "event": "US Sep CPI",
+      "detail": "WSJ median headline +0.6% m/m, 3.6% y/y; core +0.22% m/m, 2.4% y/y (range 0.16–0.24%)",
+      "sourceUrl": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "US day (≈Thu WITA)",
+      "event": "Anthropic institutional-investor meeting, first Q3 financials",
+      "detail": "Pre-IPO; listing reported for November",
+      "sourceUrl": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "02:00",
+      "event": "Fed Beige Book",
+      "detail": "Wed 14:00 ET",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "14:00",
+      "event": "TSMC Q3 earnings conference",
+      "detail": "Guide rev $44.6–45.8B, GM 65–67%; consensus EPS $4.45 / rev $45.62B. Key read for NVDA/MU/NBIS demand",
+      "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "20:30",
+      "event": "US Sep retail sales, PPI, jobless claims; Empire/Philly Fed",
+      "detail": "Retail +0.4% m/m; PPI +0.5–0.6% m/m; claims ~202k",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "04:30",
+      "event": "Fed Hammack at Goldman event",
+      "detail": "Thu 16:30 ET",
+      "sourceUrl": "https://itc-m.objects.xtenit.com/itc/ITC-Weekly-Macro.pdf"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "11:30",
+      "event": "Fed Chair Warsh with IMF MD Georgieva (Bangkok)",
+      "detail": "Last big Fed voice before 17 Oct blackout",
+      "sourceUrl": "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "US Fri",
+      "event": "SpaceX testifies at NYC Council technology committee (AI-safety probe)",
+      "detail": "24/7 Wall St.",
+      "sourceUrl": "https://247wallst.com/investing/2026/10/13/spacex-drops-4-on-agreement-to-testify-in-new-york-city-ai-safety-probe-intuitive-machines-sinks-6-virgin-galactic-holdings-slips/"
+    },
+    {
+      "date": "outside window",
+      "timeWita": "",
+      "event": "SPCX unlock 24 Oct; SK hynix Q3 27 Oct; FOMC 27–28 Oct; META/GOOGL 28 Oct; AMZN 29 Oct; Samsung Q3 29 Oct; NBIS Q3 ~10 Nov",
+      "detail": "",
+      "sourceUrl": "https://en.quartalszahlen.info/companies/000660"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "SK Hynix Tue close ₩1,443,000 (−10.09% vs Mon ₩1,605,000), KOSPI −5.46% to 6,035.35. Wed live 10:26 KST: SK ₩1,458,000 (+1.04%), Samsung ₩236,000 (+1.72%), KOSPI 6,079.69 (+0.73%); early bounce (KOSPI >6,100, SK ~₩1,478,000–1,497,000) faded.",
+      "why": "Dead-cat-or-base test. Bounce is bargain buying with foreigners returning, not new fundamental news. Q3 earnings 27 Oct is the real check.",
+      "source": "Naver / Chosun Biz",
+      "url": "https://biz.chosun.com/en/en-finance/2026/10/14/QKI7Y4JXABGP5JDG7PDKOEWBEU/"
+    },
+    {
+      "headline": "CXMT follow-through: MU −3.62% to $953.19, AMAT −6.7% (worst in S&P), SKHY ADR −3.19%. Counterpoint: CXMT DRAM share 10% in Q2 2026 vs 4% a year earlier. CXMT has still given no 4F² spec, yield or volume; EUV-restricted.",
+      "why": "Market is pricing a lower long-run DRAM margin ceiling. Thesis break needs yield/volume proof; until then this is multiple compression, not earnings damage.",
+      "source": "Invezz / TechEchelon",
+      "url": "https://invezz.com/news/2026/10/13/micron-sk-hynix-stocks-continue-fall-on-cxmt-threat-cathie-wood-musk-weigh-in/"
+    },
+    {
+      "headline": "GOOGL: Gemini 4 Argon released to developers worldwide (intro $2/$10 per M tokens until 30 Nov, then $4/$20). Separately, GF Securities note says TPU v9 slipped ~3 weeks on EMIB substrate yield; sampling still Nov, volume shipments Q1 2028.",
+      "why": "Model launch supports Cloud demand. TPU slip is a minor supply-chain timing item (broker note, unconfirmed by Google), not a capex cut.",
+      "source": "Google blog / GMT Eight (GF Sec)",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+    },
+    {
+      "headline": "META +2.63% to $762.50, second day up on Muse Wonder; Rosenblatt says the model 'kills the bear case'.",
+      "why": "Market now rewards META capex because it is producing a frontier model. Supports GPU/DC spend into 28 Oct earnings.",
+      "source": "CNBC / Business Insider",
+      "url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html"
+    },
+    {
+      "headline": "SPCX −4.21% to $156.54 (vol 68M): worry over planned ~$40B debt ($10B loans + $30B IG bonds) for Nvidia GPUs, CDS wider; skepticism on ~$8B 800 MHz spectrum buy; agreed to testify Fri at NYC Council AI-safety probe; ARK sold ~$9.4M.",
+      "why": "Leverage-funded AI capex is the same overhang hitting NBIS. Next unlock 24 Oct. Pivotal $230 / Stifel $190 PTs.",
+      "source": "Investing.com / 24/7 Wall St.",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-sliding-today-93CH-4947031"
+    },
+    {
+      "headline": "NVDA +0.97% to $228.52, AMZN −0.37% to $258.58: no thesis-changing news (NVDA consumer DLSS 5 / RTX Spark; AWS routine launches incl. Claude Haiku 5.5 on Bedrock). Oracle +4.2%.",
+      "why": "Hyperscaler/GPU side steady while memory and leveraged names absorb the selling.",
+      "source": "The Core Quant / Yahoo Finance",
+      "url": "https://www.thecorequant.com/the-wall-street-wrap-october-13-2026"
+    }
+  ],
+  "asOfIct": "2026-10-14T08:27:00+07:00",
+  "asOfWita": "2026-10-14T09:27:00+08:00",
+  "date": "2026-10-14",
+  "fearGreed": {
+    "value": 44.7,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN 44.7 Fear (API rating 'fear'), stamp 2026-10-13T23:59:52Z (Tue close = 07:59 WITA Wed). Prior digest 45.7 Neutral; 1-wk 46.8, 1-mo 32.7, 1-yr 29.7. −1.0 pt, slipped back into Fear band; essentially flat."
+  },
+  "macro": [
+    {
+      "headline": "US Sep CPI tonight 20:30 WITA. WSJ survey (14 forecasters): headline +0.6% m/m, 3.6% y/y (from 3.4%) on gasoline; core +0.22% m/m, 2.4% y/y (range 0.16% DB to 0.24% GS/Barclays/MS). Beige Book 02:00 WITA Thu.",
+      "why": "Core ≥0.24% firms December-hike pricing and pushes long yields; ≤0.18% eases pressure on long-duration AI names.",
+      "source": "investingLive",
+      "url": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/"
+    },
+    {
+      "headline": "Fed: Collins expects to raise rates 'a bit further before the end of the year'; Williams sees room for one more 2026 hike, no urgency, economy 'not overheating'. Markets price ~78% hold at 27–28 Oct, December hike more likely.",
+      "why": "Hike path intact but not October. CPI decides whether that shifts.",
+      "source": "WSJ / investingLive",
+      "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df"
+    },
+    {
+      "headline": "Tue: S&P 7,805.45 (−0.02%), Nasdaq 27,204.38 (−0.15%), Dow 51,670.10 (−0.35%), VIX 15.27; 10Y 5.217% (−2.7bp). Banks mixed: JPM EPS $5.57 vs $5.90 miss but raised 2026 NII guide; GS $17.01 vs $13.02 beat; C −5.6%, WFC ~−3%. BAC hit with >$1.2B AML penalty (~$0.17/sh) before results today.",
+      "why": "Credit desks are flagging AI-infra leverage (Solomon, Scharf). BAC/MS/BLK today may add color on AI lending.",
+      "source": "CNBC / The Core Quant",
+      "url": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
+    },
+    {
+      "headline": "Oil: Brent $107.00 / WTI $95.28 in Asia Wed (Tue settle $105.69 / $94.14) after a missile strike hit an Aramco administrative building in Dhahran (limited fire, no casualties).",
+      "why": "Energy is driving headline CPI; Gulf escalation keeps hike risk alive.",
+      "source": "Japan Times / Yahoo Finance (CL=F, BZ=F)",
+      "url": "https://www.japantimes.co.jp/news/2026/10/14/world/saudi-aramco-building-attack-houthis/"
+    },
+    {
+      "headline": "FX: USDTHB 33.54 (Yahoo THB=X, 09:24 WITA; er-api 33.576); USDKRW 1,339.5; DXY 102.17. IMF lifts 2026 world growth to 3.1% but flags AI-investment correction (−1.8% US output by 2028 in downside case).",
+      "why": "Baht stable. IMF making AI-capex the main global risk feeds the funding-cost narrative.",
+      "source": "Yahoo Finance / The Core Quant",
+      "url": "https://finance.yahoo.com/quote/THB=X/"
+    }
+  ],
+  "nbis": [
+    {
+      "headline": "Tue US cash $206.86 (−1.52% / −$3.20 vs $210.06); open $200.50, range $197.60–$207.92 (tested $200 support), vol ~17.5M ≈ avg; post $208.80 (+0.94%); cap ~$56.2B (271.86M sh); ≈ THB 6,938/sh at 33.54. −17.2% over 5 sessions from Tue 6 Oct $249.87.",
+      "why": "Held $200 (Sept pivot lows) intraday; a decisive break below opens ~$195. Day move ordinary for NBIS beta; no FLAG.",
+      "source": "Yahoo Finance / Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4652546-nebius-slides-as-failed-breakout-tests-risk-appetite"
+    },
+    {
+      "headline": "Only new EDGAR item: Form 4 filed 13 Oct (20:06 UTC) — CRO Marc Boroditsky sold 7,000 sh at $211.23 on 12 Oct (~$1.48M) under a 10b5-1 plan. No 6-K, no 13G/D since Goldman 13G/A 7 Oct.",
+      "why": "Immaterial, pre-planned. No dilution, guidance or contract disclosure. Next earnings ~10 Nov.",
+      "source": "SEC EDGAR / MarketBeat",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "The Information (Sun): Anthropic has an unannounced multiyear cloud deal with IREN. No value, term, capacity or GPU config; neither company confirmed. Coverage cites it as a 'missed Anthropic' worry for NBIS.",
+      "why": "Competition read, not lost business: NBIS never disclosed an Anthropic contract. Confirms frontier labs are diversifying across neoclouds, which is demand-positive but pressures pricing.",
+      "source": "Blockspace (citing The Information) / SquawkNews",
+      "url": "https://blockspace.media/insight/anthropic-iren-cloud-deal-report/"
+    },
+    {
+      "headline": "Anthropic to give institutional investors its first Q3 financials today (Wed, SF HQ) ahead of a possible IPO reported for November.",
+      "why": "Direct read on frontier-lab compute spend and ability to pay neocloud bills. Strong numbers support the NBIS demand case; any compute-cost restraint hurts it. Result lands ~Thu WITA.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+    },
+    {
+      "headline": "Funding-cost overhang widened: Goldman CEO Solomon warned AI-infra financing needs could pressure rates and 'the returns and the viability of certain projects'; IMF names an AI-investment pullback as the top global downside risk.",
+      "why": "Same overhang as Hock Tan's 'capital is the constraint' (Mon). NBIS relies on converts/debt (Aug $5.75B converts); 10Y 5.22% keeps the cost of capital high.",
+      "source": "The Core Quant (bank calls, IMF WEO)",
+      "url": "https://www.thecorequant.com/the-wall-street-wrap-october-13-2026"
+    }
+  ],
+  "producedBy": "Deki",
+  "soWhat": [
+    "NBIS $206.86 held $200 (low $197.60), −17% in 5 sessions; only a CRO 10b5-1 Form 4 — still narrative, not news. Break of $195–200 is the line.",
+    "Anthropic Q3 to investors today + IREN deal report: frontier-lab demand real but spreading across neoclouds; watch for compute-spend detail.",
+    "Memory: SK −10% Tue, +1% Wed live; MU −3.6%. CXMT still no yield/volume proof — no new FLAG; TSMC Thu and SK Q3 27 Oct decide.",
+    "CPI tonight 20:30 WITA, core 0.22% cons; ≥0.24% = Dec hike + 10Y pressure on NBIS/SPCX. F&G 44.7 Fear (from 45.7), flat."
+  ]
+}
