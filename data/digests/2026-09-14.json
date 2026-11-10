@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-14",
+  "asOfIct": "2026-09-14T08:28:00+07:00",
+  "producedBy": "AI-infra morning digest routine (Mon). Built on Grok Mon fill + NBIS morning live-snapshot refresh. US pre-open (cash still Fri 11 Sep); Korea Mon session live. CNN F&G graphdata still Fri stamp. Sources: Nebius IR/6-K, Oracle IR Sep 10, Motley Fool SPCX/AMZN-GOOGL, Asiae MU-HBM, Fool/CBS Fed odds, Yahoo chart v8, open.er-api FX, live-snapshot-2026-09-14.",
+  "fearGreed": {
+    "value": 33.34,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 33.34 rating fear timestamp 2026-09-11T23:59:53+00:00 (Fri); previous_close 33.11; previous_1_week 45.23. No Sat–Mon stamp — still Fri Fear into Mon Asia morning."
+  },
+  "nbis": [
+    {
+      "headline": "US pre-open — last cash still Fri $224.55 (−1.56% vs Thu $228.11). ≈ THB 7,427/sh at USDTHB 33.08. Cap ≈ $61.05B (Form 144 shares × Fri cash). Next US cash Mon 21:30 ICT.",
+      "why": "Yahoo/NBIS morning live-snapshot this run; US not open yet Mon ICT morning.",
+      "source": "Yahoo Finance / live-snapshot-2026-09-14",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "Still the catalyst: Sep 8 Palantir names Nebius preferred sovereign AI infra partner; compute/inference to sit inside Palantir perimeter. No $ / GW / exclusivity disclosed.",
+      "why": "Primary Nebius newsroom + Form 6-K Exhibit 99.1. Live commercial thesis item; no newer company IR Mon morning.",
+      "source": "Nebius Newsroom / 6-K",
+      "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
+    },
+    {
+      "headline": "No NEW EDGAR Fri–Mon morning beyond the Sep 8 Palantir 6-K (0001104659-26-105749). Form 4s still Sep 3.",
+      "why": "data.sec.gov submissions CIK0001513845 this run — newest material filing still Sep 8 partnership 6-K.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&owner=include&count=40"
+    },
+    {
+      "headline": "Sep 12 SA follow: shares said +~8% on Palantir news week; reaffirms growth/valuation debate. Not a company filing.",
+      "why": "Secondary commentary only; primary remains Nebius IR Sep 8.",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4945817-nebius-and-palantir-implications-of-the-new-partnership"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Oracle Q1 FY27 (Sep 10): total rev $19.3B (+30%); IaaS +121% to $7.4B (≈ THB 245B); cloud $11.6B (+62%); RPO $664B (≈ THB 22.0T); >$30B new AI contracts (≈ THB 992B); >300k GPUs delivered; $20B equity raise noted in call coverage.",
+      "why": "Freshest hyperscaler/neocloud demand print into FOMC week. Primary Oracle IR / PR Newswire.",
+      "source": "Oracle IR",
+      "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx",
+      "ticker": "ORCL"
+    },
+    {
+      "headline": "AMZN ~$220B / GOOGL $195–205B 2026 capex (~$420B combined ≈ THB 13.9T at 33.08). AWS/Google Cloud still the spend thesis. Investor debate = returns vs spend size.",
+      "why": "Motley Fool Sep 9 synthesizing company guidance — capex figures are company-guided.",
+      "source": "Motley Fool (co guidance synthesis)",
+      "url": "https://www.fool.com/investing/2026/09/09/do-amazon-and-alphabets-combined-420-billion-in-ca/",
+      "ticker": "AMZN"
+    },
+    {
+      "headline": "SPCX: Sep 9 lockup unlocked up to ~319M Class A; stock −3.9% Wed; Fri cash $151.21. More unlocks Sep 24 / Oct 9 / Oct 24 then post-Q3. Weekend color: CFO @ Goldman — Nvidia-tied terrestrial AI build (2 GW YE26 → 5–10 GW 2027).",
+      "why": "Motley Fool Sep 11 citing prospectus schedule + Gate/Fool citing Communacopia — supply overhang + AI hosting ambition for watchlist name.",
+      "source": "Motley Fool / SpaceX prospectus schedule",
+      "url": "https://www.fool.com/investing/2026/09/11/spacex-fell-3-9-on-its-third-lockup-release-since-the-ipo-i-d-wait-to-buy-the-stock/",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "MU HBM: industry sources say target ~100k wafers/mo by YE26; HBM4 12-Hi share maybe ~50%. SK/Samsung still larger. Asiae updated Sep 12 (KST).",
+      "why": "Directly moves MU vs SK Hynix competitive share in AI memory bottleneck.",
+      "source": "Asia Business Daily / ETNews / TrendForce",
+      "url": "https://www.asiae.co.kr/en/article/2026091112450761035",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Mon LIVE ₩1,709,000 (−5.68% vs Fri ₩1,812,000) — book flag ≥5%. MU Fri US cash still $975.26. K3: no public ticker.",
+      "why": "NBIS weekday morning live-snapshot 08:23 ICT — Asia risk-off into FOMC; memory soft. Ping threshold met on owned-book SK.",
+      "source": "Yahoo / live-snapshot-2026-09-14",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "US Fri cash (pre-open Mon): GOOGL $338.50 / AMZN $256.78 / META $648.03 / NVDA $218.29 / MU $975.26 / SPCX $151.21.",
+      "why": "Yahoo chart v8 — US cash not open yet Mon morning ICT.",
+      "source": "Yahoo Finance chart v8",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "ticker": "NVDA"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 33.34 Fear (Fri 11 Sep stamp; unchanged into Mon Asia). SPX Fri 7,656.98; VIX 15.84; 10y ~4.975.",
+      "why": "CNN graphdata + Yahoo ^GSPC/^VIX/^TNX — risk appetite still Fear into FOMC week.",
+      "source": "CNN Fear & Greed / Yahoo",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "FOMC Tue–Wed Sep 15–16 (decision Wed ~02:00 ICT Thu): post-CPI markets ~80–90% odds of +25 bp. Polymarket ~79–83%; CME FedWatch reprints ~85–90%.",
+      "why": "CBS/Fool citing CME FedWatch + Polymarket — hike path is duration headwind for AI-infra multiples.",
+      "source": "CBS / Motley Fool citing FedWatch/Polymarket",
+      "url": "https://www.fool.com/investing/2026/09/11/august-inflation-came-in-hot-and-the-odds-of-a-september-rate-hike-are-now-85-but-there-s-a-silver-lining-driving-stocks-higher/"
+    },
+    {
+      "headline": "USDTHB 33.08 (er-api Mon 00:02Z). Oil futures firm Mon Asia vs some Fri digests: WTI ~$103 / Brent ~$108 (Yahoo futures — treat as live AM prints).",
+      "why": "open.er-api + Yahoo futures — FX for THB localization; energy/rates path feeds Fed hike case.",
+      "source": "open.er-api / Yahoo CL=F BZ=F",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "NBIS: Palantir preferred-partner still the live commercial catalyst; no new Mon IR; US price only after 21:30 ICT.",
+    "AI stack demand intact (Oracle RPO/IaaS; AMZN/GOOGL capex); SPCX supply unlocks; MU chasing HBM share vs SK.",
+    "Korea memory soft Mon (SK −5.68% book flag); Fear stuck ~33; FOMC Wed hike odds high → duration headwind for AI-infra multiples.",
+    "No trade / no recommendation. Watch Mon US open then FOMC Wed; K3 still no ticker."
+  ],
+  "quotes": {
+    "asOf": "US Fri 2026-09-11 cash (Mon pre-open ICT); Korea Mon 2026-09-14 session; FX Mon morning",
+    "usdthb": 33.076908,
+    "usdthbErApiAsOf": "Mon, 14 Sep 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 224.55,
+      "chgPctVsThu": -1.56,
+      "thbPerShareApprox": 7427
+    },
+    "GOOGL": {
+      "last": 338.5
+    },
+    "AMZN": {
+      "last": 256.78
+    },
+    "META": {
+      "last": 648.03
+    },
+    "NVDA": {
+      "last": 218.29
+    },
+    "MU": {
+      "last": 975.26
+    },
+    "SPCX": {
+      "last": 151.21
+    },
+    "000660.KS": {
+      "last": 1709000,
+      "prevFri": 1812000,
+      "chgPctVsFri": -5.68,
+      "ccy": "KRW"
+    },
+    "SPX": {
+      "last": 7656.98
+    },
+    "VIX": {
+      "last": 15.84
+    },
+    "source": "Yahoo chart v8 / live-snapshot-2026-09-14 / open.er-api"
+  },
+  "materialFound": true,
+  "k3": "No public ticker. Moonshot AI (Kimi K3) still private; HK IPO reports are not a listed K3 equity."
+}

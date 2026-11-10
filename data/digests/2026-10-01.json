@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-01",
+  "asOfIct": "2026-10-01T08:27:21+07:00",
+  "producedBy": "Thursday digest after Deki NBIS morning live-snapshot @08:17 QUIET. US Wed 30 cash printed Thu AM ICT (next cash 20:30 ICT). Sources: CNBC FormattedQuote (EXT) + CNN F&G graphdata (Wed stamp; Chrome UA) + SEC CIK0001513845 (no NEW) + AIB GlobeNewswire/SEC 8-K + Micron IR + Naver SK LIVE + open.er-api FX + Yahoo ^VIX. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 30.83,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 30.83 Fear, timestamp 2026-09-30T23:59:50+00:00 (Wed stamp). previous_close 31.63 (Tue). Softened vs prior digest Tue stamp 31.63 Fear."
+  },
+  "nbis": [
+    {
+      "headline": "Wed US cash $235.88 (−0.62% / −$1.47 vs Tue $237.36). Day range $235.06–$250.48; open $243.66; vol ~12.87M; cap ≈ $64.125B cash / $64.702B AH (CNBC). ≈ THB 7921/sh at USDTHB 33.580261. Wed AH CNBC EXT $238.00 (+0.90% @ ~19:59 EDT). No FLAG. Next cash Thu 1 Oct 20:30 ICT.",
+      "why": "CNBC FormattedQuote last 235.88 change_pct −0.62% previous_day_closing 237.36 mktcapView 64.125B; ExtendedMktQuote last 238.00 change_pct +0.90%; |chg| 0.62% <5%.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "NEW color (not FLAG): AIB Data Centers binding 50 MW critical IT capacity to Nebius at SE US site, initial 12-yr term (two data halls); $ undisclosed; optional renewals noted. AIB GlobeNewswire Sep 30 + AIB 8-K 0001213900-26-105249 (not a Nebius filing).",
+      "why": "Primary AIB press 2026-09-30; SEC AIB CIK 0002070542 Form 8-K same day; incremental capacity color, contract $ not disclosed so not dilution/revenue FLAG.",
+      "source": "AIB / GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html"
+    },
+    {
+      "headline": "No NEW Nebius EDGAR since Wed AM. Form144 still 0001950047-26-009868 (Boynton 50sh ~$11.9k immaterial). Form4 still 0001513845-26-000116 (Sep 21). 6-K still Sep 8 Palantir. Recycled CRO ~$1.5M press = old Form4 0001513845-26-000112.",
+      "why": "data.sec.gov/submissions/CIK0001513845.json Thu AM — top still Form144 2026-09-29; no new Form4/6-K.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&owner=include&count=20"
+    },
+    {
+      "headline": "LIVE today: Oct 1 PAYG Nvidia GPU-hour hike +17–21% (B300 $9.50 / B200 $8.50 / H200 $5.40 / H100 $4.50) — Fool Sep 27; now effective.",
+      "why": "Fool 2026-09-27; carried from prior digests; calendar Oct 1 = today ICT.",
+      "source": "Fool",
+      "url": "https://www.fool.com/investing/2026/09/27/nebius-is-raising-the-price-of-its-ai-compute-on-oct-1-here-s-what-that-says-about-the-shortage/"
+    },
+    {
+      "headline": "CARRY analyst split: Exane Outperform / PT $399; BofA Buy / PT $310 carry; BTG Neutral / PT $223; Redburn Sell / PT $84. Burry puts color still CARRY.",
+      "why": "Prior digest + MarketBeat Exane Sep 24; no new Thu primary research note verified this morning.",
+      "source": "MarketBeat / prior digest",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-nebius-group-nasdaq-nbis-upgraded-to-outperform-at-bnp-paribas-exane-2026-09-24/"
+    },
+    {
+      "headline": "Sep 8 Palantir preferred sovereign AI partner still top IR 6-K.",
+      "why": "SEC submissions unchanged for 6-K (still 0001104659-26-105749).",
+      "source": "Nebius Newsroom / SEC 6-K",
+      "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Wed US cash (CNBC Thu AM): GOOGL $344.08 (+0.93%) / AMZN $249.15 (+1.01%) / META $725.18 (−1.84%) / NVDA $228.38 (+0.51%) / MU $1,065.11 (0.00%; AH $1,069.00 +0.37%) / SPCX $150.86 (+1.09%). SPX 7,651.54 (−0.25%). No US book FLAG ≥5% (closest META −1.84%). Next US cash 20:30 ICT.",
+      "why": "CNBC FormattedQuote Wed regular-session lasts + EXT for MU; US not yet open Thu AM ICT.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/.SPX",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "NEW: MU FY Q4 2026 printed AMC Wed — rev $54.23B / non-GAAP EPS $33.42 / nGAAP GM 87.0%; FY26 rev $133.19B. FQ1-27 guide: rev $61.5B ± $1.5B, nGAAP EPS $38.15 ± $1.00, GM ~86.25%. Wed cash flat; AH +0.37% — no ≥5% reaction.",
+      "why": "Micron IR press release 2026-09-30; CNBC MU cash/AH; beats prior company guide ~$50B / ~$31 EPS.",
+      "source": "Micron IR",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix (000660.KS): Wed close ₩1,776,000 (Naver prev for Thu; +0.62% vs Tue ₩1,765k Yahoo/prior). Thu LIVE OPEN ₩1,779,000 (+0.17% / +₩3,000) @ 2026-10-01T10:25:21+09:00. Mon FLAG −5.42% CARRY only. No new FLAG.",
+      "why": "Naver m.stock basic Thu LIVE; Wed close = implied previousClose ₩1,776,000 from compareToPreviousClosePrice.",
+      "source": "Naver Finance",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "CARRY: Samsung affiliates combined $1B into KKR-backed Helix Digital Infrastructure; founding investors also NVIDIA, Vistra, KIA. Still standing.",
+      "why": "Samsung Global Newsroom 2026-09-29 + CNBC; NVDA founding investor is watchlist hook.",
+      "source": "Samsung Newsroom / CNBC",
+      "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "CARRY: SpaceX Starship Flight 14 launched Mon 28 — first Earth orbit; 26 Starlink V3; early splashdown N of Hawaii. F15 catch sketch ~Oct 19. SPCX Wed cash +1.09% to $150.86.",
+      "why": "Spaceflight Now / Gizmodo Sep 29; CNBC SPCX Wed cash.",
+      "source": "Gizmodo / Spaceflight Now",
+      "url": "https://gizmodo.com/starship-has-finally-gone-orbital-now-comes-the-hard-part-2000818803",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "K3: no public ticker.",
+      "why": "Unchanged — still no listed equity/ADR. Never invent a ticker.",
+      "source": "prior digest",
+      "url": "",
+      "ticker": "K3"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 30.83 Fear (Wed 30 Sep stamp; was Tue 31.63). SPX Wed 7,651.54 (−0.25%); VIX Wed 16.34 (Yahoo; Tue was 16.04); US10Y CNBC 5.293% (prev_close 5.293%; last_time 2026-09-30T21:23:41-0400).",
+      "why": "CNN production.dataviz graphdata live Thu AM (Chrome UA); CNBC .SPX / US10Y; Yahoo ^VIX chart Wed close.",
+      "source": "CNN Fear & Greed API / CNBC / Yahoo",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "Into Thu US cash reopen (20:30 ICT): Korea/SK LIVE (+0.17%); WTI CNBC @CL.1 $90.06 (−0.40%) / Brent @LCO.1 $103.53 UNCH. Sep 16 Fed +25 bp still carry; Barr Sep 29 more-hikes color CARRY.",
+      "why": "Calendar + CNBC futures Thu AM; Fed Sep 16; Reuters Barr Sep 29 prior.",
+      "source": "CNBC futures / Federal Reserve / Reuters",
+      "url": "https://www.reuters.com/business/feds-barr-says-more-rate-hikes-likely-be-needed-curb-inflation-2026-09-29/"
+    },
+    {
+      "headline": "USDTHB 33.580261 (er-api Thu 00:02Z). NBIS Wed cash ≈ THB 7921/sh.",
+      "why": "open.er-api Thu morning.",
+      "source": "open.er-api",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    },
+    {
+      "headline": "MU beat+raise is the main US AI-memory event overnight; AIB→Nebius 50 MW is the incremental NBIS capacity color (undisclosed $). Helix $1B + Starship F14 still CARRY for NVDA/SPCX stack.",
+      "why": "Micron IR + AIB GlobeNewswire; pairs with prior Helix/F14.",
+      "source": "Micron IR / AIB GlobeNewswire",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx"
+    }
+  ],
+  "soWhat": [
+    "NBIS Wed −0.62% to $235.88 (~THB 7921); AH CNBC EXT $238.00 (+0.90%) — no FLAG. NEW AIB 50 MW / 12-yr capacity color ($ undisclosed). No NEW Nebius EDGAR. PAYG Oct 1 LIVE. Exane/BTG/Redburn CARRY. Next US cash Thu 1 20:30 ICT.",
+    "MU FY Q4 beat+raise (rev $54.23B / nGAAP EPS $33.42; FQ1 guide $61.5B ±$1.5B / EPS $38.15 ±$1) — cash flat / AH +0.37% no FLAG. No US book FLAG ≥5% (META −1.84% closest). SK Thu LIVE ₩1,779,000 (+0.17%). Helix + F14 CARRY.",
+    "F&G 30.83 Fear (Wed stamp; was Tue 31.63); VIX 16.34; US10Y ~5.293%. Oil: WTI $90.06 / Brent $103.53.",
+    "No trade. K3 no ticker."
+  ],
+  "quotes": {
+    "asOf": "US Wed 2026-09-30 cash (CNBC Thu AM ICT; next cash 20:30 ICT); Korea SK LIVE Thu 2026-10-01; FX Thu morning; F&G Wed stamp",
+    "usdthb": 33.580261,
+    "usdthbErApiAsOf": "Thu, 01 Oct 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 235.88,
+      "chgPctVsTue": -0.62,
+      "chgAbs": -1.47,
+      "mktCapBApprox": 64.125,
+      "mktCapAhBApprox": 64.702,
+      "thbPerShareApprox": 7921,
+      "dayHigh": 250.48,
+      "dayLow": 235.06,
+      "open": 243.66,
+      "volume": 12874110,
+      "ah": 238.0,
+      "ahChgPct": 0.9,
+      "ahNote": "CNBC ExtendedMktQuote POST_MKT ~7:59 PM EDT 2026-09-30",
+      "shareCountMethodMillions": 271.86,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 344.08,
+      "chgPct": 0.93,
+      "ah": 349.39,
+      "ahChgPct": 1.54
+    },
+    "AMZN": {
+      "last": 249.15,
+      "chgPct": 1.01,
+      "ah": 250.16,
+      "ahChgPct": 0.41
+    },
+    "META": {
+      "last": 725.18,
+      "chgPct": -1.84,
+      "ah": 726.27,
+      "ahChgPct": 0.15
+    },
+    "NVDA": {
+      "last": 228.38,
+      "chgPct": 0.51,
+      "ah": 229.61,
+      "ahChgPct": 0.54
+    },
+    "MU": {
+      "last": 1065.11,
+      "chgPct": 0.0,
+      "ah": 1069.0,
+      "ahChgPct": 0.37,
+      "earnings": "2026-09-30 AMC PRINTED",
+      "fq4RevB": 54.23,
+      "fq4NgaapEps": 33.42,
+      "fq1GuideRevB": "61.5±1.5",
+      "fq1GuideNgaapEps": "38.15±1.00"
+    },
+    "SPCX": {
+      "last": 150.86,
+      "chgPct": 1.09,
+      "ah": 151.06,
+      "ahChgPct": 0.13,
+      "flight14": "LAUNCHED 2026-09-28 — first orbit + 26 Starlink V3; early splashdown N of Hawaii; F15 catch sketch ~Oct 19"
+    },
+    "SKHYNIX": {
+      "wedClose": 1776000,
+      "wedCloseChgPctVsTue": 0.62,
+      "tueClose": 1765000,
+      "thuLive": 1779000,
+      "thuLiveChg": 3000,
+      "thuLiveChgPct": 0.17,
+      "localTradedAt": "2026-10-01T10:25:21+09:00",
+      "status": "OPEN_LIVE",
+      "flagMon": true,
+      "flagThu": false
+    },
+    "SPX": {
+      "last": 7651.54,
+      "chgPct": -0.25
+    },
+    "VIX": {
+      "last": 16.34,
+      "note": "Yahoo ^VIX Wed session close; Tue was 16.04"
+    },
+    "US10Y": {
+      "lastPct": 5.293,
+      "prevClosePct": 5.293
+    },
+    "fearGreed": 30.83,
+    "wtiCnbcCache": 90.06,
+    "brentCnbcCache": 103.53
+  },
+  "flags": [
+    "SKHYNIX_monClose_-5.42%"
+  ],
+  "fx": {
+    "usdthb": 33.580261,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "asOf": "Thu, 01 Oct 2026 00:02:31 +0000"
+  },
+  "sources": [
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html",
+    "https://www.sec.gov/Archives/edgar/data/2070542/000121390026105249/ea0307233-8k_aib.htm",
+    "https://m.stock.naver.com/api/stock/000660/basic",
+    "https://open.er-api.com/v6/latest/USD",
+    "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX",
+    "https://www.fool.com/investing/2026/09/27/nebius-is-raising-the-price-of-its-ai-compute-on-oct-1-here-s-what-that-says-about-the-shortage/",
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+    "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+    "https://gizmodo.com/starship-has-finally-gone-orbital-now-comes-the-hard-part-2000818803",
+    "https://www.reuters.com/business/feds-barr-says-more-rate-hikes-likely-be-needed-curb-inflation-2026-09-29/",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+  ]
+}
