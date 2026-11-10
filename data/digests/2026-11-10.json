@@ -1,0 +1,341 @@
+{
+  "bookQuotes": {
+    "asOf": "US cash = Mon 9 Nov close; KRX/futures/oil/FX live Tue ~08:01–08:12 ICT (Yahoo chart API)",
+    "IXIC": {
+      "last": 25253.14,
+      "pct": 2.74
+    },
+    "SPX": {
+      "last": 7549.94,
+      "pct": 2.35
+    },
+    "DJI": {
+      "last": 52389.75,
+      "pct": 2.15
+    },
+    "SOX": {
+      "last": 10033.93,
+      "pct": 6.86
+    },
+    "US10Y": {
+      "last": 4.864,
+      "prev": 4.859
+    },
+    "VIX": {
+      "last": 19.92,
+      "prev": 25.64
+    },
+    "WTI": {
+      "last": 86.53,
+      "settleMon": 86.85,
+      "prev": 90.83
+    },
+    "BRENT": {
+      "last": 92.29,
+      "settleMon": 92.57,
+      "prev": 98.32
+    },
+    "KOSPI": {
+      "last": 5240.13,
+      "pct": null,
+      "note": "Mon close not in Yahoo feed; opened +4.55% at 5,247.22, buy sidecar 09:06 KST (Digital Times)"
+    },
+    "ES": {
+      "last": 7574.25,
+      "prev": 7402.0
+    },
+    "NQ": {
+      "last": 27945.5,
+      "prev": 27085.25
+    },
+    "DXY": {
+      "last": 101.685,
+      "prev": 102.17
+    }
+  },
+  "flags": [
+    "No new NBIS filing (EDGAR latest Form 4 2 Nov); Mon close $141.45 (+9.2%)",
+    "CRWV Q3 tonight after US close (cons rev ~$3.54B); NBIS Q3 Thu 12 Nov BMO",
+    "US Oct CPI Tue 20:30 ICT; Dec hike ~80% priced",
+    "NVDA −4.3% on Huang probe; Trump says FBI looking into it; House briefing 18 Nov",
+    "SK hynix +7.1% live Tue; KOSPI buy sidecar",
+    "F&G 31.7 Fear (from 22.1 Extreme Fear) — CNN stamp Tue 06:59 ICT"
+  ],
+  "fx": {
+    "USDTHB": 33.36,
+    "source": "https://finance.yahoo.com/quote/THB=X",
+    "USDKRW": 1344.18,
+    "USDKRWsource": "https://finance.yahoo.com/quote/KRW=X"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 141.45,
+      "pctChange": 9.24,
+      "headline": "No new filing/news (EDGAR latest Form 4 2 Nov); sector rebound; CRWV Q3 tonight, NBIS Q3 Thu 12 Nov BMO (cons rev ~$907–928M)",
+      "source": "Yahoo Finance / SEC EDGAR",
+      "sourceUrl": "https://finance.yahoo.com/quote/NBIS",
+      "asOf": "Mon 9 Nov close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 288.15,
+      "pctChange": 1.18,
+      "headline": "JPMorgan removed GOOGL from Focus List (still Overweight); AMD EPYC to host Google Cloud TPU 8tx",
+      "source": "Investing.com / AMD Newsroom",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/jpmorgan-drops-alphabet-from-focus-list-adds-meta-on-ai-advertising-gains-5012087",
+      "asOf": "Mon 9 Nov close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 266.93,
+      "pctChange": 2.94,
+      "headline": "JPMorgan Focus List now AMZN + META; no new company news",
+      "source": "Investing.com",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/jpmorgan-drops-alphabet-from-focus-list-adds-meta-on-ai-advertising-gains-5012087",
+      "asOf": "Mon 9 Nov close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 641.37,
+      "pctChange": 5.12,
+      "headline": "Added to JPMorgan Analyst Focus List (OW, PT $940) on AI ad strength; Muse Ember model release",
+      "source": "Investing.com / MarketBeat",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/jpmorgan-drops-alphabet-from-focus-list-adds-meta-on-ai-advertising-gains-5012087",
+      "asOf": "Mon 9 Nov close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 178.67,
+      "pctChange": -4.27,
+      "headline": "Board probe of Huang; Trump says FBI looking into it; House GOP briefing requested 18 Nov; Q3 17 Nov",
+      "source": "Reuters via Investing.com",
+      "sourceUrl": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476",
+      "asOf": "Mon 9 Nov close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 733.15,
+      "pctChange": 6.25,
+      "headline": "Chip rebound (SOX +6.9%); no new company news; Taoyuan union talks ~17 Nov",
+      "source": "Yonhap / Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/MU",
+      "asOf": "Mon 9 Nov close"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 142.07,
+      "pctChange": 5.81,
+      "headline": "No company-specific news found",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/SPCX",
+      "asOf": "Mon 9 Nov close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1217000,
+      "pctChange": 7.13,
+      "headline": "Tue intraday +7% on US chip rally; KOSPI buy sidecar 09:06 KST",
+      "source": "Yahoo Finance / Yonhap",
+      "sourceUrl": "https://www.yna.co.kr/view/AKR20261110046100008",
+      "asOf": "Tue 10 Nov KRX intraday ~10:01 KST (delayed)"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 141.45,
+      "pct": 9.24,
+      "high": 143.39,
+      "low": 128.51,
+      "ah": null,
+      "volume": "18.78M",
+      "mktCapB": null,
+      "mktCapNote": "no confirmed data"
+    },
+    "GOOGL": {
+      "last": 288.15,
+      "pct": 1.18
+    },
+    "AMZN": {
+      "last": 266.93,
+      "pct": 2.94
+    },
+    "META": {
+      "last": 641.37,
+      "pct": 5.12
+    },
+    "NVDA": {
+      "last": 178.67,
+      "pct": -4.27
+    },
+    "MU": {
+      "last": 733.15,
+      "pct": 6.25
+    },
+    "SPCX": {
+      "last": 142.07,
+      "pct": 5.81,
+      "identity": "Space Exploration Technologies Corp. (NasdaqGS), per Yahoo chart meta"
+    },
+    "000660.KS": {
+      "last": 1217000,
+      "pct": 7.13,
+      "prevClose": 1136000,
+      "status": "Tue KRX intraday, Yahoo ~10:01 KST (delayed)"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no public ticker/quote"
+    }
+  },
+  "sources": [
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://nebius.com/newsroom",
+    "https://www.ig.com/uk/news-and-trade-ideas/coreweave-and-nebius-earnings-preview-can-results-halt-the-neocloud-rout-261109",
+    "https://www.tradingview.com/news/seekingalpha:790342cf3094b:0-coreweave-q3-earnings-on-deck-what-to-expect/",
+    "https://www.onvista.de/news/2026/11-09-aktienkurs-halbiert-nebius-group-als-turnaround-kandidat-0-13-26574193",
+    "https://simplywall.st/stocks/us/software/nasdaq-nbis/nebius-group/news/nebius-group-nbis-draws-fresh-scrutiny-over-ai-data-center-p",
+    "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+    "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476",
+    "https://www.fool.com/investing/2026/11/09/why-nvidia-stock-was-down-today/",
+    "https://www.investing.com/news/stock-market-news/jpmorgan-drops-alphabet-from-focus-list-adds-meta-on-ai-advertising-gains-5012087",
+    "https://newsroom.amd.com/news/amd-epyc-expands-leadership-foundation-ai/",
+    "https://www.yna.co.kr/view/AKR20261110046100008",
+    "https://www.dt.co.kr/article/12094153",
+    "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+    "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b",
+    "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+    "https://www.morningstar.com/economy/october-cpi-forecasts-show-inflation-softening-december-rate-hike-still-looks-likely",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://finance.yahoo.com/quote/NBIS"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-11-10",
+      "event": "US Oct CPI 08:30 ET (20:30 ICT), cons +0.3% m/m, core +0.2%, no y/y rate; CoreWeave Q3 after close (call 05:00 ICT 11 Nov)"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "NBIS Q3 BMO, call 8:00 ET (20:00 ICT); AMAT, CSCO results"
+    },
+    {
+      "date": "2026-11-13",
+      "event": "US PPI"
+    },
+    {
+      "date": "2026-11-17",
+      "event": "NVDA Q3 after close (05:00 ICT 18 Nov); Micron Taoyuan union talks (tentative)"
+    },
+    {
+      "date": "2026-11-18",
+      "event": "Huang closed-door briefing requested by three House GOP committee chairs"
+    }
+  ],
+  "date": "2026-11-10",
+  "asOfIct": "2026-11-10T08:25:00+07:00",
+  "asOfWita": "2026-11-10T09:25:00+08:00",
+  "producedBy": "Deki · Investment manager (Tuesday executor digest)",
+  "fearGreed": {
+    "value": 31.7,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "31.7 Fear — CHANGED from 22.1 Extreme Fear; CNN data timestamp 2026-11-09T23:59:52Z (06:59 ICT Tue 10 Nov), checked ~08:22 ICT; prev close 22.1, 1-wk 19.4, 1-mo 43.5."
+  },
+  "nbis": [
+    {
+      "headline": "No new filing or company release: EDGAR latest is Form 4 dated 2 Nov (re-checked Tue ~08:22 ICT); newsroom latest is the 30 Oct Q3-date notice",
+      "why": "Clean tape into Q3 Thu 12 Nov BMO, call 8:00 ET (20:00 ICT).",
+      "source": "SEC EDGAR / Nebius newsroom",
+      "url": "https://data.sec.gov/submissions/CIK0001513845.json"
+    },
+    {
+      "headline": "Mon close $141.45 (+9.2% vs Fri $129.49), high $143.39, vol ~18.8M — sector neocloud/chip rebound, no company catalyst",
+      "why": "Two-day ~+17% bounce re-prices into earnings; options imply ≥17% move on the print (Yahoo preview via ad-hoc-news).",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NBIS"
+    },
+    {
+      "headline": "Q3 setup: consensus revenue ~$907–928M (vs $582.3M Q2), EPS loss ~−$0.70; 15 of 19 analysts Buy, avg target ~$234; Citi cut PT to $265, Piper to $185 earlier in Nov",
+      "why": "Market wants capacity guidance, 2027 run-rate and funding plan; dilution/convert risk remains the swing factor.",
+      "source": "onvista (UniCredit)",
+      "url": "https://www.onvista.de/news/2026/11-09-aktienkurs-halbiert-nebius-group-als-turnaround-kandidat-0-13-26574193"
+    },
+    {
+      "headline": "Peer read first: CoreWeave Q3 tonight after US close (call 05:00 ICT Wed), cons rev ~$3.54B (+159% y/y), EPS ~−$1.16 to −$1.21; focus backlog, active power, financing costs",
+      "why": "Direct neocloud read-through 36h before NBIS.",
+      "source": "Seeking Alpha via TradingView",
+      "url": "https://www.tradingview.com/news/seekingalpha:790342cf3094b:0-coreweave-q3-earnings-on-deck-what-to-expect/"
+    },
+    {
+      "headline": "Simply Wall St piece says regulators/local authorities reviewing permits for several Nebius AI sites post-election (no regulator or site named; unconfirmed)",
+      "why": "Low-quality source; only matters if company confirms permit delays on Thu call.",
+      "source": "Simply Wall St (unconfirmed)",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-nbis/nebius-group/news/nebius-group-nbis-draws-fresh-scrutiny-over-ai-data-center-p"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "NVDA −4.27% to $178.67 on ~455M shares as board probes Huang; Trump says FBI is looking into it, expects Huang 'in good shape'; three House GOP chairs requested a closed-door briefing 18 Nov",
+      "why": "Governance/key-man overhang into Q3 (17 Nov); no demand change reported. NVDA lagged a +6.9% SOX day.",
+      "source": "Reuters via Investing.com / CNBC / Motley Fool",
+      "url": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476"
+    },
+    {
+      "headline": "AMD EPYC to power host infrastructure for Google Cloud TPU 8tx (confidential computing); AMD +13.3%, AVGO +8.8%, MU +6.25% to $733.15",
+      "why": "Chip rotation away from NVDA; GOOGL TPU ecosystem widening.",
+      "source": "AMD Newsroom / Motley Fool",
+      "url": "https://newsroom.amd.com/news/amd-epyc-expands-leadership-foundation-ai/"
+    },
+    {
+      "headline": "JPMorgan adds META to Analyst Focus List, removes GOOGL (stays Overweight); AMZN + META now its preferred internet picks. META +5.1% to $641.37, AMZN +2.9%, GOOGL +1.2%",
+      "why": "Sell-side preference shift to META ad/AI monetization; no estimate change for GOOGL thesis.",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/jpmorgan-drops-alphabet-from-focus-list-adds-meta-on-ai-advertising-gains-5012087"
+    },
+    {
+      "headline": "SK hynix live ₩1,217,000 (+7.1% vs Mon ₩1,136,000) ~10:01 KST; KOSPI opened +4.55%, buy sidecar triggered 09:06 KST; foreigners still small net sellers in E&E sector",
+      "why": "Second day of rebound after ~16–20% weekly drop; institutions buying, foreigners not yet back.",
+      "source": "Yonhap / Digital Times / Yahoo Finance",
+      "url": "https://www.yna.co.kr/view/AKR20261110046100008"
+    },
+    {
+      "headline": "SPCX $142.07 (+5.8%): no company-specific news found. K3 Moonshot AI private, no ticker",
+      "why": "",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SPCX"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "US rebound: S&P +2.35% (best day since 8 Apr) to 7,549.94, Nasdaq +2.74%, Dow +2.15%; oil drop lifted sentiment; VIX 19.92 (from 25.64)",
+      "why": "Risk appetite back; S&P 3.4% off record. Midterm DC-policy overhang still cited.",
+      "source": "CNBC / AP",
+      "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "US Oct CPI tonight 20:30 ICT: cons +0.3% m/m, core +0.2% (no y/y due to prior shutdown); ~80% odds of 25bp Dec HIKE; 10Y 4.864%",
+      "why": "Only a notably soft print cuts hike odds; hot print hits long-duration AI names (NBIS).",
+      "source": "CNBC / Morningstar",
+      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
+    },
+    {
+      "headline": "Oil: WTI settled $86.85 (−4.4%), Brent $92.57 (−5.9%) Mon; live WTI $86.53, Brent $92.29",
+      "why": "Lower energy eases inflation tail feeding Fed-hike pricing.",
+      "source": "CNBC / Yahoo Finance",
+      "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "USD softer: DXY 101.69 (from 102.17), USDKRW 1,344 (from ~1,363), USDTHB 33.36; US futures ES 7,574, NQ 27,946 live ~08:11 ICT",
+      "why": "Firmer won supports return of foreign flow to Korea semis.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KRW=X"
+    }
+  ],
+  "soWhat": [
+    "NBIS: no filing/news; +9% sector bounce; CRWV tonight then NBIS Thu are the events.",
+    "NVDA: Huang probe now has FBI/Congress angle; governance overhang, not demand.",
+    "Rates: CPI 20:30 ICT decides Dec hike (~80% priced) and pressure on AI multiples.",
+    "Risk-on (F&G 31.7, VIX <20, SK hynix +7%); no action, no trades."
+  ]
+}
