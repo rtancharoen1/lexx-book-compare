@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-05",
+  "asOfIct": "2026-10-05T08:24:35+07:00",
+  "producedBy": "Monday digest after Deki NBIS morning snapshot (PING book SPCX). US Fri 2 Oct cash via CNBC quote cache; CNN F&G graphdata (Fri stamp); SEC CIK0001513845 submissions (no new filings); open.er-api FX; CNBC macro quotes Mon AM; weekend headlines via Reuters/FT-syndicated, Fox Business, Investing.com, Captables, Yardeni, CNBC, MoneyToday. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 31.17,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata 31.17 Fear, stamp 2026-10-02T23:59:58Z (Fri close); up from 28.09 prior digest; 1-wk 36.94, 1-mo 46.06. Still Fear despite SPX near highs: breadth (price strength 0.8 extreme fear) is the drag."
+  },
+  "nbis": [
+    {
+      "headline": "Fri US cash $242.81 (+4.53% / +$10.53 vs Thu $232.28); range $235.34–$248.34; vol ~11.4M; cap $66.009B (CNBC). AH $242.98 (+0.07%). ≈ THB 8,150/sh at USDTHB 33.566. No FLAG (<5%). Next cash Mon 5 Oct 20:30 ICT.",
+      "why": "CNBC FormattedQuote last 242.81 / prev 232.28 / mktcapView 66.009B; matches Deki morning snapshot. Move was broad growth rally (Nasdaq +1.19%), no NBIS-specific catalyst.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "Weekend color: Calcalist/CTech and follow-ons (Captables Oct 4, Exact Oct 3) put the Inferize price at ~$100–150M; 17-person Tel Aviv team, ex-Granulate founders. Nebius 6-K still says terms not disclosed.",
+      "why": "Press estimate only, not in filing. At ~$66B cap, even $150M is ~0.2% — tuck-in, not a dilution or capex event. Not FLAG.",
+      "source": "Captables / Nebius 6-K",
+      "url": "https://captables.com/articles/nebius-inferize-reported-150m-gpu-inference-acquisition"
+    },
+    {
+      "headline": "No new Nebius EDGAR filings over the weekend. Latest still 6-K 0001104659-26-112824 (Inferize, Oct 1) and Form4 0001513845-26-000118 (Boynton 50sh, immaterial).",
+      "why": "SEC submissions JSON pulled Mon AM; recent[0..1] unchanged vs Friday.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Read-across: Amazon reportedly seeking to move ~$8B of Grace Blackwell chips into an SPV and lease them back (FT via Reuters/Bloomberg, Oct 2). Talks ongoing, not final.",
+      "why": "Hyperscalers financing GPUs off balance sheet supports GPU-as-collateral pricing (good for neocloud residual values) but also signals capex funding strain. Context for NBIS financing, not a direct event.",
+      "source": "Reuters (FT)",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02/"
+    },
+    {
+      "headline": "CARRY: PAYG GPU-hour rate card +17–21% live since Oct 1; AIB 50 MW / 12-yr capacity ($ undisclosed); analyst split Exane $399 / BofA $310 / BTG $223 / Redburn $84.",
+      "why": "No change over weekend; still the standing thesis inputs.",
+      "source": "Nebius docs / prior digests",
+      "url": "https://docs.nebius.com/signup-billing/billing-models/payg"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Fri US cash (CNBC): GOOGL $343.50 (+1.56%) / AMZN $251.52 (+1.33%) / META $728.08 (+0.30%) / NVDA $233.95 (+1.34%) / MU $1,074.89 (−2.05%) / SPCX $158.96 (+7.35%). SPX 7,722.72 (+0.73%), Nasdaq 27,190.86 (+1.19%). Book FLAG: SPCX ≥5%.",
+      "why": "CNBC FormattedQuote Fri regular-session lasts; Mon US cash opens 20:30 ICT.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/SPCX",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "SPCX FLAG +7.35% ($148.07→$158.96, ~119M vol ~2x norm) on 3 launches in ~13h (Crew-13, Transporter-18 with Google Suncatcher TPU sat, NROL-97) after Starship's first orbital flight, plus Alphabet AI-compute deal starting Oct. Weekend: Musk says SpaceXAI unit renames to SpaceXSI (cosmetic); Falcon 9 SDA T1TL-A launch set Mon 08:17 UTC.",
+      "why": "Yahoo/MarketBeat launch-cadence write-up; Fox Business Oct 4 rename; Spaceflight Now Oct 4. Rename is not a thesis change.",
+      "source": "Yahoo Finance / Fox Business / Spaceflight Now",
+      "url": "https://www.foxbusiness.com/technology/elon-musk-rebrands-spacexai-following-trump-directive",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "AMZN/NVDA: Amazon exploring ~$8B Grace Blackwell sale-leaseback SPV, investment-grade debt plus up to 10% outside equity; Amazon capex ~$220B this year (FT via Financial Post).",
+      "why": "Signals hyperscalers want GPU exposure off the balance sheet as capex climbs; neutral-to-positive NVDA demand, watch for AMZN depreciation/credit read.",
+      "source": "Financial Post (FT)",
+      "url": "https://financialpost.com/technology/amazon-offload-8bn-nvidia-chips-investors",
+      "ticker": "AMZN"
+    },
+    {
+      "headline": "MU gave back −2.05% Fri to $1,074.89 (AH $1,069.18) after post-print run. Weekend memory color: Micron says >75% of FY27 output pre-sold; shortage seen into 2028.",
+      "why": "CNBC Fri cash; BriefAsia recap of Micron's call commentary. Supportive for MU/SK, no new primary event.",
+      "source": "CNBC / BriefAsia",
+      "url": "https://www.briefasia.com/en/article/memory-chip-shortage-2028-micron-samsung-sk-hynix",
+      "ticker": "MU"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Fri close ₩1,841,000 (+0.44%); KRX closed Mon 5 Oct (substitute holiday). Samsung Q3 preliminary results due Thu 8 Oct alongside options expiry/ETF rebalance — the next Korea memory catalyst.",
+      "why": "Yahoo chart 000660.KS Fri close; MoneyToday Oct 2 on Oct 8 timing; JoongAng sees near-record Samsung Q3 on HBM.",
+      "source": "MoneyToday / Yahoo",
+      "url": "https://www.mt.co.kr/en/stock/2026/10/02/2026100119092776648",
+      "ticker": "000660.KS"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 31.17 Fear (Fri stamp), up from 28.09. VIX 15.31 (−6.59%). SPX 7,722.72 near record but breadth poor (CNBC: RSP lagged SPY 4.6pp in Sep).",
+      "why": "CNN graphdata; CNBC .VIX/.SPX; CNBC week-ahead piece.",
+      "source": "CNN / CNBC",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "Sep payrolls +29k (big miss), Jul–Aug revised −60k, unemployment 4.2%. Odds of an Oct 27–28 hike fell to ~22%; Dec ~67%.",
+      "why": "Yardeni Oct 4 week-ahead. Softer labor = less hike risk, supportive for long-duration growth like NBIS.",
+      "source": "Yardeni Research",
+      "url": "https://yardeni.com/research/quicktakes/2026/10/04/economic-week-ahead-october-5-9"
+    },
+    {
+      "headline": "US10Y 5.254% Mon AM (prev 5.277%); still near multi-decade highs. WTI $90.59 (−0.57%), Brent $102.01 (−0.23%). DXY 101.998. USDTHB 33.566.",
+      "why": "CNBC quote cache Mon ~09:23 ICT; open.er-api Mon 00:02Z. Yields are the main risk to AI-infra multiples.",
+      "source": "CNBC / open.er-api",
+      "url": "https://www.cnbc.com/quotes/US10Y"
+    },
+    {
+      "headline": "Week ahead: ISM Services Mon 21:00 ICT; FOMC Sept minutes Wed 7 Oct 2pm ET (Thu 8 Oct 01:00 ICT); Samsung Q3 prelim Thu 8 Oct; claims Thu. Bank earnings start next week.",
+      "why": "CNBC Oct 5–9 calendar (ET converted to ICT); minutes are the key rates catalyst.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
+    }
+  ],
+  "soWhat": [
+    "NBIS +4.53% Fri to $242.81 (~THB 8,150), cap $66.0B, no FLAG; Inferize priced by press at $100–150M, immaterial; no new filings.",
+    "SPCX is the only book FLAG (+7.35% on launch cadence + Alphabet compute deal); rename to SpaceXSI is noise.",
+    "Amazon's $8B GPU sale-leaseback and Micron's sold-out FY27 both say AI demand holds while funding gets creative; watch Samsung prelim Thu.",
+    "F&G 31 Fear, 10Y ~5.25%, weak payrolls cut Oct hike odds to ~22%; FOMC minutes Wed night US is the rates test. No trade. K3 no ticker."
+  ],
+  "quietVsPrior": false,
+  "quotes": {
+    "asOf": "US Fri 2026-10-02 cash (CNBC Mon AM ICT); KRX closed Mon; FX Mon morning; F&G Fri stamp",
+    "usdthb": 33.566256,
+    "NBIS": {
+      "last": 242.81,
+      "chgPctVsThu": 4.53,
+      "chgAbs": 10.53,
+      "mktCapBApprox": 66.009,
+      "thbPerShareApprox": 8150,
+      "dayHigh": 248.34,
+      "dayLow": 235.34,
+      "open": 235.76,
+      "ah": 242.98,
+      "ahChgPct": 0.07,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 343.5,
+      "chgPct": 1.56,
+      "ah": 343.25
+    },
+    "AMZN": {
+      "last": 251.52,
+      "chgPct": 1.33,
+      "ah": 251.39
+    },
+    "META": {
+      "last": 728.08,
+      "chgPct": 0.3,
+      "ah": 727.65
+    },
+    "NVDA": {
+      "last": 233.95,
+      "chgPct": 1.34,
+      "ah": 234.22
+    },
+    "MU": {
+      "last": 1074.89,
+      "chgPct": -2.05,
+      "ah": 1069.18
+    },
+    "SPCX": {
+      "last": 158.96,
+      "chgPct": 7.35,
+      "prev": 148.07,
+      "ah": 159.11,
+      "flag": true
+    },
+    "SKHYNIX": {
+      "friClose": 1841000,
+      "friChgPct": 0.44,
+      "prevClose": 1833000,
+      "status": "KRX_CLOSED_MON_SUBSTITUTE_HOLIDAY"
+    },
+    "SPX": {
+      "last": 7722.72,
+      "chgPct": 0.73
+    },
+    "IXIC": {
+      "last": 27190.864,
+      "chgPct": 1.19
+    },
+    "VIX": {
+      "last": 15.31,
+      "chgPct": -6.59
+    },
+    "US10Y": {
+      "lastPct": 5.254,
+      "prevClosePct": 5.277
+    },
+    "wti": 90.59,
+    "brent": 102.01,
+    "dxy": 101.998,
+    "fearGreed": 31.17
+  },
+  "flags": [
+    "SPCX_friClose_+7.35%"
+  ],
+  "fx": {
+    "usdthb": 33.566256,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "asOf": "Mon, 05 Oct 2026 00:02:31 +0000"
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://captables.com/articles/nebius-inferize-reported-150m-gpu-inference-acquisition",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://www.reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02/",
+    "https://docs.nebius.com/signup-billing/billing-models/payg",
+    "https://www.cnbc.com/quotes/SPCX",
+    "https://www.foxbusiness.com/technology/elon-musk-rebrands-spacexai-following-trump-directive",
+    "https://financialpost.com/technology/amazon-offload-8bn-nvidia-chips-investors",
+    "https://www.briefasia.com/en/article/memory-chip-shortage-2028-micron-samsung-sk-hynix",
+    "https://www.mt.co.kr/en/stock/2026/10/02/2026100119092776648",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://yardeni.com/research/quicktakes/2026/10/04/economic-week-ahead-october-5-9",
+    "https://www.cnbc.com/quotes/US10Y",
+    "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://open.er-api.com/v6/latest/USD",
+    "https://www.koreajoongangdaily.com/business/samsung-heads-for-100-trillion-won-profit-milestone-in-q3-but-stronger-won-may-limit-upside-surprise/12896150",
+    "https://finance.yahoo.com/markets/stocks/articles/spcx-stock-climbs-three-thursday-200238930.html",
+    "https://spaceflightnow.com/2026/10/04/live-coverage-spacex-to-launch-21-data-transport-satellites-for-the-space-development-agency/",
+    "/workspace/investment-dashboard/live-snapshot-2026-10-05.json"
+  ]
+}

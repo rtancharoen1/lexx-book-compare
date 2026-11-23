@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-18",
+  "asOfIct": "2026-09-18T08:30:00+07:00",
+  "producedBy": "AI-infra morning digest routine (Fri 08:30 ICT). Grok Deki-desk fill: CNBC quote cache Thu cash + Naver SK LIVE + CNN F&G graphdata API + SEC CIK0001513845 Form4 + open.er-api FX + Reuters Nebius price hike. Yahoo chart v8 429'd. No invented prices. Deki SendToAgent unavailable.",
+  "fearGreed": {
+    "value": 28.69,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 28.6857→28.69 Fear, timestamp 2026-09-17T23:59:56Z (Thu stamp). previous_close 26.4857 (Wed). Relief off post-FOMC Fear trough."
+  },
+  "nbis": [
+    {
+      "headline": "Thu US cash $217.99 (+4.12% / +$8.62 vs Wed $209.37). Day range $209.65–$232.85; open $230.02; vol ~27.8M (CNBC). Cap ≈ $59.26B (same share-count method as Wed). ≈ THB 7,256/sh at USDTHB 33.29. Next cash Fri 20:30 ICT.",
+      "why": "CNBC FormattedQuote last 217.99 change_pct +4.12% previous_day_closing 209.37 high 232.85 low 209.65 volume 27,799,092; Nasdaq info lastSalePrice $217.99.",
+      "source": "CNBC quote cache / Nasdaq",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "NEW catalyst Thu: Reuters — Nebius raises pay-as-you-go Nvidia GPU rates 17–21% from Oct 1 (2nd hike in 3 months). CPU-only instances +~25%, memory +~41%. Commitment discounts for multi-month large clusters. Follows CoreWeave same-day higher-contract-price color; Nebius noted four customer contracts averaging >$1B each recently.",
+      "why": "Reuters Sep 17 16:12 UTC primary wire; Motley Fool/Trefis same-session street color. Tape spiked intraday to $232.85 then closed $217.99.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/nebius-hikes-ai-cloud-prices-again-demand-computing-power-soars-2026-09-17/"
+    },
+    {
+      "headline": "Carry: Sep 8 Palantir preferred sovereign AI partner still top IR (no $ / GW / exclusivity). Latest 6-K still that print.",
+      "why": "No newer 6-K overnight; price-hike is commercial, not IR 6-K.",
+      "source": "Nebius Newsroom / SEC 6-K",
+      "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
+    },
+    {
+      "headline": "NEW EDGAR Form 4 filed 2026-09-17 (accession 0001513845-26-000114): director John Wilson Boynton IV — Sep 15 open-market sales (code S, Rule 10b5-1) totaling 6,364 Class A sh across 9 lots @ $207.67–$216.52 (~$1.34M). Post-transaction direct ~410,832 sh. Prior Form 4 CRO Boroditsky Sep 16 still on tape; Form 144 Boynton Sep 15 was the notice.",
+      "why": "Form4 XML primary parsed from SEC Archives; director liquidity under 10b5-1, not company dilution.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&owner=include&count=40"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Thu US cash (CNBC): GOOGL $347.33 (+1.30%) / AMZN $251.19 (+2.13%) / META $682.31 (+1.34%) / NVDA $219.34 (+2.54%) / MU $977.50 (+5.50% book flag) / SPCX $154.81 (+2.60%). SPX 7,637.76 (+1.14%).",
+      "why": "CNBC FormattedQuote regular-session lasts vs Wed closes; MU only ≥5% book move.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/NVDA",
+      "ticker": "MU"
+    },
+    {
+      "headline": "NEW: SPCX Nasdaq-100 rebalance flow TODAY Fri Sep 18 close (effective Mon Sep 21) — street estimates ~$15.5–$22B passive buy as weight ~1.28%→~2.82% after float unlock. Mechanical, not fundamental. Thu SPCX +2.60% to $154.81.",
+      "why": "StockNews / TrustFinance Sep 17 rebalance previews; MarketBeat Thu cash $154.81.",
+      "source": "StockNews / MarketBeat",
+      "url": "https://stocknews.com/p/spacex-defies-gravity-with-a-nasdaq-100-double-weighting-boost",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "Carry / NEW color: Nvidia ~$279B memory budget through FY2032 framing (extreme pricing; MU favored vs NAND names). SK Hynix HBM4 16-Hi volume shipping for Vera Rubin still live; CoWoS lead times still binding. META Arke/Astrid 2027 custom-chip roadmap carry.",
+      "why": "Gate/MU memory-spend notes + Longbridge HBM4 shipping + GenAI Daily Meta chip timeline — demand/memory lead, packaging bottleneck.",
+      "source": "Gate News / Longbridge / GenAI Daily",
+      "url": "https://longbridge.com/en/news/299086512",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Thu implied close ₩1,745,000 (vs Wed ₩1,759,000). Fri LIVE ₩1,818,000 (+4.18% / +₩73,000 vs Thu) as of ~10:25 KST market OPEN. MU Thu +5.50% book flag.",
+      "why": "Naver m.stock API closePrice 1,818,000 fluctuationsRatio 4.18 marketStatus OPEN localTradedAt 2026-09-18T10:25+09; Thu = LIVE−73k.",
+      "source": "Naver Finance",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "K3: no public ticker.",
+      "why": "Unchanged.",
+      "source": "Prior digest carry",
+      "url": "",
+      "ticker": "K3"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 28.69 Fear (Thu 17 Sep stamp; was Wed 26.49). SPX Thu 7,637.76 (+1.14%); VIX 15.44 (−12.82% vs Wed 17.71); US10Y ~4.935% (CNBC).",
+      "why": "CNN production.dataviz graphdata; CNBC .SPX / .VIX / US10Y. Yahoo ^TNX blocked (429) — use CNBC US10Y.",
+      "source": "CNN Fear & Greed API / CNBC",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "FOMC aftermath day-2: first hike since 2023 (+25 bp to 3.75–4.00%) digested with broad AI-infra bid and VIX crush. Path language (Warsh / SEP median 4.1% YE) still the duration overhang; tape relief does not erase hawkish dots.",
+      "why": "Carry Fed statement + Thu risk-on tape (SPX +1.14%, VIX −12.8%).",
+      "source": "Federal Reserve / CNBC tape",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
+      "headline": "USDTHB 33.2854 (er-api Fri 00:02Z). Oil Fri AM futures: WTI ~$101.17 (−0.73%) / Brent ~$103.98 (−0.80%).",
+      "why": "open.er-api + CNBC @CL.1 / @LCO.1.",
+      "source": "open.er-api / CNBC futures",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "NBIS Thu +4.12% to $217.99 on Reuters GPU price hike 17–21% from Oct 1 — demand signal; Form 4 Boynton director sale 6.4k sh (10b5-1) not dilution; Palantir preferred still live.",
+    "Book Thu: MU +5.50% only ≥5% flag; whole AI-infra green. Fear eased 26.49→28.69; VIX crushed to 15.44.",
+    "SPCX Nasdaq-100 weight double TODAY Fri close (~$15.5–$22B passive) — mechanical flow into Mon effective; not a thesis change.",
+    "SK Fri LIVE +4.2% on HBM/memory narrative with MU. No trade. K3 no ticker."
+  ],
+  "quotes": {
+    "asOf": "US Thu 2026-09-17 cash (CNBC); Korea Fri 2026-09-18 LIVE ~10:25 KST (Naver); FX Fri morning",
+    "usdthb": 33.285425,
+    "usdthbErApiAsOf": "Fri, 18 Sep 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 217.99,
+      "chgPctVsWed": 4.12,
+      "mktCapBApprox": 59.26,
+      "thbPerShareApprox": 7256,
+      "dayHigh": 232.85,
+      "dayLow": 209.65,
+      "volume": 27799092,
+      "ah": null
+    },
+    "GOOGL": {
+      "last": 347.33,
+      "chgPct": 1.3
+    },
+    "AMZN": {
+      "last": 251.19,
+      "chgPct": 2.13
+    },
+    "META": {
+      "last": 682.31,
+      "chgPct": 1.34
+    },
+    "NVDA": {
+      "last": 219.34,
+      "chgPct": 2.54
+    },
+    "MU": {
+      "last": 977.5,
+      "chgPct": 5.5
+    },
+    "SPCX": {
+      "last": 154.81,
+      "chgPct": 2.6
+    },
+    "SKHYNIX": {
+      "thuImpliedClose": 1745000,
+      "friLive": 1818000,
+      "friChgPctVsThu": 4.18
+    },
+    "SPX": {
+      "last": 7637.76,
+      "chgPct": 1.14
+    },
+    "VIX": {
+      "last": 15.44,
+      "chgPct": -12.82
+    },
+    "TNX": {
+      "last": 4.935,
+      "note": "CNBC US10Y; Yahoo ^TNX 429"
+    },
+    "WTI": {
+      "last": 101.17,
+      "chgPct": -0.73
+    },
+    "Brent": {
+      "last": 103.98,
+      "chgPct": -0.8
+    }
+  }
+}

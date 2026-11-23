@@ -1,0 +1,322 @@
+{
+  "bookQuotes": {
+    "asOf": "US cash = Fri 30 Oct close; futures/oil/KOSPI live ~08:30 ICT Mon (Yahoo)",
+    "NQF": {
+      "last": 28731.5,
+      "pct": 0.69
+    },
+    "ESF": {
+      "last": 7639.25,
+      "pct": 0.33
+    },
+    "US10Y": {
+      "last": 4.95
+    },
+    "US2Y": {
+      "last": 4.612
+    },
+    "DXY": {
+      "last": 101.915
+    },
+    "BRENT": {
+      "last": 111.08,
+      "pct": -2.07,
+      "note": "Jan contract vs Fri $113.43"
+    },
+    "WTI": {
+      "last": 101.78,
+      "pct": -2.25
+    },
+    "KOSPI": {
+      "last": 5767.05,
+      "pct": 0.63
+    }
+  },
+  "flags": [
+    "NVDA Q3 call set Tue 17 Nov 5pm ET",
+    "SK hynix Fri close corrected to ₩1,418,000 (Naver)",
+    "Brent −2% on Iran talks",
+    "NBIS funding-stress narrative (unverified Volozh quote)"
+  ],
+  "fx": {
+    "USDTHB": 33.74,
+    "source": "https://finance.yahoo.com/quote/THB=X",
+    "USDKRW": 1337.68,
+    "USDKRWsource": "https://finance.yahoo.com/quote/KRW=X"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 154.14,
+      "pctChange": -10.38,
+      "headline": "No new filing; funding-stress narrative; Q3 12 Nov BMO",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 279.84,
+      "pctChange": -1.4,
+      "headline": "No new news",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 240.35,
+      "pctChange": -1.41,
+      "headline": "No new news",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 614.99,
+      "pctChange": -1.53,
+      "headline": "No new news",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/META",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 204.64,
+      "pctChange": -4.22,
+      "headline": "Q3 call set 17 Nov; spy-report headlines",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/NVDA",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 884.74,
+      "pctChange": -5.3,
+      "headline": "No new news",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU",
+      "asOf": "Fri 30 Oct close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1418000,
+      "pctChange": 2.96,
+      "live": 1460000,
+      "headline": "Live +2.96% Mon; US HQ opened; Fri close corrected to ₩1,418,000",
+      "source": "Naver",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660/total",
+      "asOf": "live 10:23 KST Mon 2 Nov"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 134.72,
+      "pctChange": -6.37,
+      "headline": "No company news; below IPO price",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/quotes/SPCX",
+      "asOf": "Fri 30 Oct close"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 154.14,
+      "pct": -10.38,
+      "open": 157.05,
+      "high": 161.42,
+      "low": 149.96,
+      "ah": 155.69,
+      "ahPct": 1.0,
+      "mktCapB": 41.9
+    },
+    "GOOGL": {
+      "last": 279.84,
+      "pct": -1.4
+    },
+    "AMZN": {
+      "last": 240.35,
+      "pct": -1.41
+    },
+    "META": {
+      "last": 614.99,
+      "pct": -1.53
+    },
+    "NVDA": {
+      "last": 204.64,
+      "pct": -4.22
+    },
+    "MU": {
+      "last": 884.74,
+      "pct": -5.3
+    },
+    "SPCX": {
+      "last": 134.72,
+      "pct": -6.37
+    },
+    "000660.KS": {
+      "last": 1460000,
+      "pct": 2.96,
+      "prevClose": 1418000,
+      "status": "live 10:23 KST Mon",
+      "source": "https://m.stock.naver.com/domestic/stock/000660/total"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    }
+  },
+  "sources": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://www.ainvest.com/news/nebius-36-market-repriced-borrowing-business-2611/",
+    "https://nebius.com/investor-hub",
+    "https://m.stock.naver.com/domestic/stock/000660/total",
+    "https://www.ajupress.com/view/20261101170070940",
+    "https://nvidianews.nvidia.com/news",
+    "https://www.manilatimes.net/2026/11/02/business/foreign-business/us-looking-at-report-nvidia-ceo-target-of-china-spying/2459032",
+    "https://www.asiae.co.kr/en/article/2026110209443650910",
+    "https://seekingalpha.com/news/4661896-elon-musk-sees-orbital-ai-surpassing-data-centers-as-colossus-leads",
+    "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+    "https://www.swissinfo.ch/eng/asian-stocks-drop-as-ai-fears-deepen%2C-oil-declines%3A-markets-wrap/92310840",
+    "https://www.moneycontrol.com/news/business/commodities/oil-prices-fall-over-1-as-iran-peace-talks-gather-pace-brent-slips-below-112-14065629.html",
+    "https://finance.yahoo.com/quote/NQ=F",
+    "https://finance.yahoo.com/quote/BZ=F",
+    "https://www.cnn.com/markets/fear-and-greed"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-11-02",
+      "event": "ISM Manufacturing 10:00 ET (22:00 ICT); AAPL, PLTR after close; China PBOC/CSRC market-support meeting"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "US midterm elections; AMD, ANET, SMCI after close; JOLTS"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "ADP; ISM Services; QCOM, ARM, COHR after close; Moonshot K3.1 Pro open weights due"
+    },
+    {
+      "date": "2026-11-06",
+      "event": "October jobs report 8:30 ET (20:30 ICT)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "NVIDIA AI Day Seoul (9–10 Nov)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "October CPI"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "NBIS Q3 2026 results BMO, call 8:00 ET (20:00 ICT)"
+    },
+    {
+      "date": "2026-11-17",
+      "event": "NVDA Q3 FY27 results, call 5:00 p.m. ET (05:00 ICT 18 Nov) — confirmed"
+    }
+  ],
+  "date": "2026-11-02",
+  "asOfIct": "2026-11-02T08:35+07:00",
+  "asOfWita": "2026-11-02T09:35+08:00",
+  "producedBy": "Deki · Investment manager (weekday AI-infra digest routine)",
+  "fearGreed": {
+    "value": 26.2,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "26.2 Fear, unchanged (CNN stamp 2026-10-30T23:59Z = Fri close; no US session since). Prev close 34.6, 1-wk 16.7, 1-mo 30.3. Next update after Mon US close."
+  },
+  "nbis": [
+    {
+      "headline": "No new SEC filing since Form 4 of 30 Oct (checked 08:25 ICT); no 6-K, financing or dilution. Price still Fri close $154.14 (−10.38%), post $155.69",
+      "why": "Nothing new from the company. No US trading since Fri.",
+      "source": "SEC EDGAR / CNBC",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "[NEW to digest] AInvest (1 Nov, AI-generated piece) cites CEO Volozh saying at GTC that asset-backed and parts of the debt market are 'temporarily closed' ('not a problem, it's a task'); also cites Piper Sandler PT cut $237→$185 (neutral). Net debt ~$2.2B vs CoreWeave ~$46B",
+      "why": "Fits the WSJ bond-market story from Sun. UNVERIFIED: secondary, AI-written source, quote date and PT-cut date not confirmed at origin.",
+      "source": "AInvest",
+      "url": "https://www.ainvest.com/news/nebius-36-market-repriced-borrowing-business-2611/"
+    },
+    {
+      "headline": "Q3 2026 results Thu 12 Nov before market open, call 8:00 ET (20:00 ICT)",
+      "why": "Funding plan, Citi $3.5B facility use and MSFT ramp are the tests.",
+      "source": "Nebius investor hub",
+      "url": "https://nebius.com/investor-hub"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "[NEW] SK hynix live ₩1,460,000 (+2.96%) at 10:23 KST vs Fri close ₩1,418,000 (Naver). CORRECTION: Sat/Sun digests had Fri close ₩1,391,000 (−8.85%); Naver now shows ₩1,418,000",
+      "why": "Korea bouncing despite Asia-wide AI-capex worry; KOSPI ~+0.6% (Yahoo 5,767).",
+      "source": "Naver Finance",
+      "url": "https://m.stock.naver.com/domestic/stock/000660/total"
+    },
+    {
+      "headline": "[NEW] SK hynix opened a US Headquarters (1 Nov) led by HBM development head Ahn Hyun; US = 64.1% of H1 sales; >50% of 2027–28 volume under LTAs; HBM4 to pass HBM3E shipments in Q4",
+      "why": "Customized HBM push close to NVDA and hyperscalers. Supportive, not a numbers change.",
+      "source": "Aju Press",
+      "url": "https://www.ajupress.com/view/20261101170070940"
+    },
+    {
+      "headline": "[NEW] NVDA set Q3 FY27 results call for Tue 17 Nov, 5 p.m. ET (05:00 ICT Wed 18 Nov). Trump (Sat) backed Huang and said US looking 'very closely' at NYT report of a China spy plot; China calls it groundless",
+      "why": "Earnings date fixed, a week after NBIS Q3. Spy story is headline risk, not demand.",
+      "source": "NVIDIA newsroom / AFP via Manila Times",
+      "url": "https://nvidianews.nvidia.com/news"
+    },
+    {
+      "headline": "SPCX: no company news since Fri close $134.72 (−6.37%, below $135 IPO price). Musk (1 Nov) says orbital AI compute could pass new ground installs by late 2028",
+      "why": "Narrative only; lock-up overhang and Anthropic concentration still the issues.",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4661896-elon-musk-sees-orbital-ai-surpassing-data-centers-as-colossus-leads"
+    },
+    {
+      "headline": "GOOGL, AMZN, META, MU: no new company news since Fri; prices = Fri close. K3 (Moonshot AI) private, no ticker; K3.1 Pro open weights due 4 Nov",
+      "why": "No action.",
+      "source": "CNBC quotes",
+      "url": "https://www.cnbc.com/quotes/GOOGL"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "[NEW] Asia open Mon: MSCI Asia-Pac −0.4–0.5%, Nikkei −0.5%, Korea −0.8% at open (since turned up); US futures up: NQ 28,731.5 (+0.7% vs Fri settle 28,534), ES 7,639.25 (+0.3%)",
+      "why": "Futures point to a small bounce after Fri's Nasdaq −2.9%; AI-capex and credit stress (CDS blowout last week) still the theme.",
+      "source": "Reuters via Economic Times / Bloomberg via Swissinfo / Yahoo",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms"
+    },
+    {
+      "headline": "[NEW] Oil down on Iran–Qatar talks (3rd day): Brent Jan $111.08 (−2.1% vs Fri $113.43), WTI $101.78 (−2.2%) per Yahoo; fresh vessel attacks near Hormuz did not stop the drop",
+      "why": "Monday oil-gap risk flagged Sat did not happen; eases inflation pressure a bit.",
+      "source": "Moneycontrol (Reuters) / Yahoo",
+      "url": "https://www.moneycontrol.com/news/business/commodities/oil-prices-fall-over-1-as-iran-peace-talks-gather-pace-brent-slips-below-112-14065629.html"
+    },
+    {
+      "headline": "[NEW] Rates: futures 72% odds of a Dec hike, 55bp total tightening priced vs >70bp a month ago; 10Y 4.95%, 2Y 4.61%",
+      "why": "Stock selloff is trimming hike bets; jobs Fri 6 Nov is the swing input.",
+      "source": "Reuters via Economic Times",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms"
+    },
+    {
+      "headline": "[NEW] China PBOC, NFRA and CSRC meet Mon on capital-market support tools; US midterms Tue (Democratic win could add hurdles for data centres, per Reuters)",
+      "why": "China support could help Asia semis; midterms are a data-center policy risk.",
+      "source": "Bloomberg via Swissinfo",
+      "url": "https://www.swissinfo.ch/eng/asian-stocks-drop-as-ai-fears-deepen%2C-oil-declines%3A-markets-wrap/92310840"
+    },
+    {
+      "headline": "FX: USD/THB 33.74, USD/KRW 1,337.7, DXY 101.92",
+      "why": "Flat vs Fri.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/THB=X"
+    }
+  ],
+  "soWhat": [
+    "NBIS: no new filing; Fri $154.14 stands. Funding-market stress is the live risk until Q3 on 12 Nov.",
+    "Futures +0.7% Nasdaq, SK hynix +3% live: bounce attempt, not a reversal yet.",
+    "Oil eased (Brent ~$111) on Iran–Qatar talks, so Sat's Monday oil-gap risk did not show up.",
+    "F&G 26.2 Fear, unchanged. Watch AMD Tue, NVDA 17 Nov date set. No trades."
+  ]
+}

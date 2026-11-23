@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-12",
+  "asOfIct": "2026-10-12T08:30:00+07:00",
+  "asOfWita": "2026-10-12T09:30:00+08:00",
+  "producedBy": "Mon digest after Fri 9 Oct US cash + weekend. Quotes: Yahoo Finance chart/quote (NBIS/book, ^TNX), Naver basic API 000660 live, CNN F&G graphdata (Chrome UA + Referer), EDGAR CIK 0001513845 submissions. Headlines via web search. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 45,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN 45 Fear, stamp 2026-10-09T23:59:54Z (Fri close); up from prior digest 38.1 (API previous_close 37.9); 1-wk 40.0, 1-mo 38.2. Still Fear, but Fri relief bounce eased it."
+  },
+  "nbis": [
+    {
+      "headline": "Fri US cash $221.07 (+0.62% / +$1.36 vs Thu $219.71); range $218.50–$225.11; AH $221.33 (+0.12%); vol ~9.5M vs ~20.2M avg; cap ~$60.1B. Still ~12% below Tue $249.87.",
+      "why": "Stabilised after two straight ≥5% down days; low volume says no conviction buyer yet. No FLAG.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "No new issuer 6-K/8-K or holder filing since Goldman SC 13G/A 5.1% (0000886982-26-000526, 7 Oct). Next earnings Nov 10 per Yahoo.",
+      "why": "Nothing new on dilution/funding over the weekend; price driver remains sector narrative.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Weekend commentary frames the Thu −7.4% as a re-pricing of contract-backed neocloud debt after the FT OpenAI ARR (~$50B vs ~$68B whisper) report; cites $20–25B 2026 capex vs $3.0–3.4B revenue guide and $8.55B borrowings at end-June.",
+      "why": "Thesis risk is funding cost / collateral confidence, not contracts. Next secured raise terms are the tell. Opinion piece, not a filing.",
+      "source": "The Signal (Oct 11)",
+      "url": "https://readthesignal.net/article/nbis-contract-backed-debt-neocloud-financing-2026/"
+    },
+    {
+      "headline": "Carry: Rosenblatt Buy PT $304 (initiated 8 Oct); Yahoo 1y target est $283.60.",
+      "why": "Sell-side support unchanged; ~28% upside to Rosenblatt from Fri close.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "AMZN +3.29% Fri to $262.43: AWS CEO Garman says AI spend is not a bubble (production workloads); BNP sees AWS growth 43–45%; Amazon issued 10/30/100-year bonds to fund AI build.",
+      "why": "Hyperscaler demand read-through positive for neoclouds/GPUs, but 100-year paper shows capex is now debt-funded.",
+      "source": "MarketBeat / Ticker Report",
+      "url": "https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-stock-price-up-33-heres-why-2026-10-09/"
+    },
+    {
+      "headline": "WSJ (via DataCenter Digest, Oct 11): SpaceX arranging ~$40B ($10B bank loans + $30B IG debt, Apollo lead) to buy Nvidia hardware; Broadcom seeking >$50B for OpenAI custom chips; Oracle in talks with Apollo/Goldman.",
+      "why": "SPCX: more leverage on a balance sheet already ~$40B debt. NVDA: confirms large forward GPU orders. Sector: compute is increasingly debt-financed, same theme hitting NBIS.",
+      "source": "DataCenter Digest citing WSJ",
+      "url": "https://www.datacenterdigest.net/oracle-broadcom-spacex-seek-over-90-billion-in-ai-chip-financing/"
+    },
+    {
+      "headline": "SK Hynix live ₩1,609,000 (−4.28% vs Thu ₩1,681,000) on first KRX session after Hangul Day; Samsung also lower, KOSPI −1%+, foreign net selling.",
+      "why": "Korea catching up to the Thu SOX −3.4% drop plus oil/Middle East inflation worry. Near but under the 5% flag line; watch close.",
+      "source": "Naver / Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261012001251320"
+    },
+    {
+      "headline": "Fri book: NVDA $229.28 (−0.52%), MU $1,029.00 (−0.66%), META $718.67 (−0.31%), GOOGL $351.66 (+0.97%), SPCX $162.57 (+1.25%, lockup-unlock day absorbed).",
+      "why": "Semis did not bounce with the Nasdaq; SPCX held up through the 328.4M-share unlock. No other ≥5% moves.",
+      "source": "Yahoo Finance / Investing.com",
+      "url": "https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4942657"
+    },
+    {
+      "headline": "TSMC Q3 results Thu 15 Oct (2pm Taiwan); monthly sales already ~$46.7B vs $44.6–45.8B guide; focus on 65–67% GM and capex.",
+      "why": "Key AI-demand checkpoint this week for NVDA/MU/SK and neocloud sentiment.",
+      "source": "Trend & Ticker",
+      "url": "https://trendandticker.com/markets/capital-markets/stock-market-week-ahead-october-12-2026"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "US 10Y ~5.24% Fri close (Yahoo ^TNX), off Thu ~5.31%. US bond market closed Mon (Columbus Day); equities open.",
+      "why": "Slight relief in rates; still near 2002-era highs, the main valuation headwind for high-capex names.",
+      "source": "Yahoo Finance ^TNX / Trend & Ticker",
+      "url": "https://trendandticker.com/markets/capital-markets/stock-market-week-ahead-october-12-2026"
+    },
+    {
+      "headline": "Sept CPI Wed 14 Oct: consensus 3.7% y/y headline, 2.5% core (Reuters poll); PPI + retail sales Thu. Fed hiked in Sept; Oct 27–28 FOMC hike odds reduced but a hot print could revive them.",
+      "why": "Biggest event risk for the book this week.",
+      "source": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4942657"
+    },
+    {
+      "headline": "Oil up on renewed Houthi attacks on Saudi Arabia's main airport over the weekend; KOSPI opened −1.3% on inflation/Mideast worry.",
+      "why": "Energy-driven inflation pressure feeds the rate-hike risk and hits Asia semis first.",
+      "source": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261012001251320"
+    },
+    {
+      "headline": "Bank earnings start Tue (JPM, GS, C, WFC); BAC, MS Wed.",
+      "why": "Credit commentary matters given how much AI capex is now debt/private-credit funded.",
+      "source": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4942657"
+    }
+  ],
+  "soWhat": [
+    "NBIS stabilised Fri (+0.6%) on thin volume; no new filing, no FLAG.",
+    "Theme of the week: AI capex is debt-funded (AMZN 100y bonds, SpaceX $40B GPU loan) — funding cost is the NBIS risk.",
+    "SK Hynix −4.3% live in Korea's catch-up session; watch the close vs 5%.",
+    "CPI Wed + TSMC Thu decide direction; F&G 45 Fear, improving from 38."
+  ]
+}

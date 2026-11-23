@@ -1,0 +1,349 @@
+{
+  "bookQuotes": {
+    "asOf": "US cash = Thu 5 Nov close; futures/oil/FX/KOSPI/SK live ~08:35 ICT Fri (Yahoo); NBIS OHLC/AH/cap CNBC+Yahoo",
+    "NQF": {
+      "last": 26879.0,
+      "pct": -5.91,
+      "note": "pct vs Wed settle 28566.75; Thu Yahoo close bar null / Fri live"
+    },
+    "ESF": {
+      "last": 7380.75,
+      "pct": -4.4,
+      "note": "pct vs Wed settle 7720.5; Fri live"
+    },
+    "IXIC": {
+      "last": 24315.0,
+      "pct": -5.52
+    },
+    "SPX": {
+      "last": 7353.73,
+      "pct": -4.36
+    },
+    "SOX": {
+      "last": 9011.14,
+      "pct": -12.25
+    },
+    "US10Y": {
+      "last": 4.837
+    },
+    "US2Y": {
+      "last": 4.75,
+      "note": "Yahoo 2YY=F"
+    },
+    "DXY": {
+      "last": 101.6
+    },
+    "BRENT": {
+      "last": 99.2,
+      "settleWed": 94.62,
+      "note": "Fri live; Wed Yahoo close 94.62"
+    },
+    "WTI": {
+      "last": 91.22,
+      "settleWed": 88.12,
+      "note": "Fri live rebound vs Wed settle 88.12; Thu bar null"
+    },
+    "KOSPI": {
+      "last": 4965.6,
+      "pct": -12.64,
+      "note": "Fri live vs Wed close 5683.80; Thu Yahoo bar null"
+    }
+  },
+  "flags": [
+    "F&G 19.9 Extreme Fear (from 27.3 Fear)",
+    "NBIS −14.94% to $120.37; post $122.78; cap $32.72B",
+    "SOX −12.3%; MU −17.5%; NVDA −9.3%",
+    "MSFT tightened neocloud DC oversight (Nebius/IREN/Nscale)",
+    "NJ DataOne/Nebius ~140 MW slip into 2027 (MSFT $17.4B)",
+    "Jobs 20:30 ICT today (PENDING); NBIS Q3 12 Nov"
+  ],
+  "fx": {
+    "USDTHB": 33.46,
+    "source": "https://finance.yahoo.com/quote/THB=X",
+    "USDKRW": 1356.4,
+    "USDKRWsource": "https://finance.yahoo.com/quote/KRW=X"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 120.37,
+      "pctChange": -14.94,
+      "headline": "MSFT neocloud oversight + NJ DataOne delay ~140 MW to 2027; post $122.78; no filing; Q3 12 Nov",
+      "source": "CNBC/Yahoo/Reuters",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS",
+      "asOf": "Thu 5 Nov close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 282.57,
+      "pctChange": -2.2,
+      "headline": "Hyperscaler giveback after Wed bid; still outperforming chips",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL",
+      "asOf": "Thu 5 Nov close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 260.21,
+      "pctChange": -2.19,
+      "headline": "Hyperscaler giveback; relative strength vs SOX/neocloud",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN",
+      "asOf": "Thu 5 Nov close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 605.08,
+      "pctChange": -3.96,
+      "headline": "Soft with broad risk-off; less than chip/neocloud drawdown",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/META",
+      "asOf": "Thu 5 Nov close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 181.6,
+      "pctChange": -9.26,
+      "headline": "DC-buildout fear + QCOM drag; Nasdaq worst day since Apr 2025; Q3 17 Nov",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/NVDA",
+      "asOf": "Thu 5 Nov close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 656.39,
+      "pctChange": -17.46,
+      "headline": "Memory sold with SOX (−12%); AI-buildout uncertainty",
+      "source": "CNBC/Yahoo/MarketWatch",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU",
+      "asOf": "Thu 5 Nov close"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 123.62,
+      "pctChange": -9.05,
+      "headline": "Soft with AI infra / Musk midterm spend narrative",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/SPCX",
+      "asOf": "Thu 5 Nov close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1264000,
+      "pctChange": -11.0,
+      "live": 1125000,
+      "headline": "Live ₩1,125,000 (-11.00% vs Thu close ₩1,264,000); KOSPI smashed",
+      "source": "Yahoo",
+      "sourceUrl": "https://finance.yahoo.com/quote/000660.KS",
+      "asOf": "live Fri 6 Nov KST morning"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 120.37,
+      "pct": -14.94,
+      "open": 134.16,
+      "high": 134.8,
+      "low": 113.3,
+      "ah": 122.78,
+      "ahPct": 2.0,
+      "mktCapB": 32.723,
+      "volume": "44.3M"
+    },
+    "GOOGL": {
+      "last": 282.57,
+      "pct": -2.2
+    },
+    "AMZN": {
+      "last": 260.21,
+      "pct": -2.19
+    },
+    "META": {
+      "last": 605.08,
+      "pct": -3.96
+    },
+    "NVDA": {
+      "last": 181.6,
+      "pct": -9.26
+    },
+    "MU": {
+      "last": 656.39,
+      "pct": -17.46
+    },
+    "SPCX": {
+      "last": 123.62,
+      "pct": -9.05
+    },
+    "000660.KS": {
+      "last": 1125000,
+      "pct": -11.0,
+      "prevClose": 1264000,
+      "status": "live Fri morning KST",
+      "source": "https://finance.yahoo.com/quote/000660.KS"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281",
+    "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+    "https://www.streetinsider.com/Investing/Nebius+stock+falls+on+Microsoft+project+delays%2C+spending+cut%2C+broad+selloff/27297290.html",
+    "https://www.tradingview.com/news/benzinga:92fa69c2e094b:0-microsoft-s-5-billion-ai-spending-shortfall-puts-iren-nebius-under-spotlight-as-satellite-imagery-shows-data-center-delays-report/",
+    "https://snjtoday.com/vineland-data-center/",
+    "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+    "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+    "https://www.morningstar.com/news/marketwatch/20261105237/micron-sandisk-and-other-ai-stocks-see-steep-drops-investors-dont-like-uncertainty",
+    "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+    "https://nebius.com/investor-hub",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://finance.yahoo.com/quote/NBIS",
+    "https://finance.yahoo.com/quote/000660.KS",
+    "https://finance.yahoo.com/quote/NQ=F",
+    "https://finance.yahoo.com/quote/%5ETNX",
+    "https://finance.yahoo.com/quote/CL=F",
+    "https://finance.yahoo.com/quote/THB=X",
+    "https://finance.yahoo.com/quote/KRW=X",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://www.cnbc.com/quotes/MU",
+    "https://www.cnbc.com/quotes/NVDA"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-11-06",
+      "event": "October jobs report 8:30 ET (20:30 ICT) — PENDING as of morning digest; CNBC consensus ~+59k / U-rate 4.2%"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "NVIDIA AI Day Seoul (9–10 Nov)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "October CPI"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "NBIS Q3 2026 results BMO, call 8:00 ET (20:00 ICT)"
+    },
+    {
+      "date": "2026-11-17",
+      "event": "NVDA Q3 FY27 results, call 5:00 p.m. ET (05:00 ICT 18 Nov)"
+    }
+  ],
+  "date": "2026-11-06",
+  "asOfIct": "2026-11-06T08:32:27+07:00",
+  "asOfWita": "2026-11-06T09:32:27+08:00",
+  "producedBy": "Deki · Investment manager (weekday AI-infra digest routine)",
+  "fearGreed": {
+    "value": 19.9,
+    "label": "Extreme Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "19.9 Extreme Fear, down from 27.3 Fear (CNN stamp 2026-11-05T23:59Z = Thu close). previous_close 27.3, 1-wk 30.8, 1-mo 43.1. Back to Extreme Fear after Thu's AI/semi wipeout (Nasdaq −5.5%, SOX −12.3%)."
+  },
+  "nbis": [
+    {
+      "headline": "[NEW] NBIS Thu close $120.37 (−14.94%), open/high/low $134.16/$134.80/$113.30, vol ~44.3M, cap $32.723B; post-market $122.78 (+2.00%)",
+      "why": "Worst session in the midterm week; erased Wed's already-weak print and then some. Still far below 52-wk high. Cap cut ~$5.7B day-over-day vs Wed $38.47B.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "[NEW] Bloomberg/Reuters: Microsoft tightened oversight of neocloud DC projects (Nebius, IREN, Nscale); stepping away from projects it deems risky; debating new neocloud deals; favoring own DCs. IREN delayed some MSFT delivery on network redesign (no penalty). MSFT will not exercise Nscale Texas expansion option",
+      "why": "Direct MSFT counterparty risk for NBIS thesis. Street pricing slower/less certain neocloud capacity ramps into MSFT.",
+      "source": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281"
+    },
+    {
+      "headline": "[NEW] NJ DataOne/Vineland (Nebius build-to-suit under $17.4B MSFT deal): satellite/Aterio analysis cites ~140 MW that may slip into 2027 on generator-permit + fuel-cell delays; DataOne fined ~$1.07M Sep for unpermitted gas gens. Tied to MSFT AI infra spend shortfall (~$5B)",
+      "why": "Execution/permitting risk on the flagship MSFT contract — timing hit into 2027, not a cancel. Watch Q3 ARR/prepay commentary 12 Nov.",
+      "source": "Business Insider / StreetInsider / TradingView-Benzinga",
+      "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11"
+    },
+    {
+      "headline": "[NEW] Midterm DC-moratorium overhang continues (TX gov-elect Hinojosa pause; national anti-DC ballots). NBIS sites NJ/MO/PA — no disclosed Texas asset, but sector beta still hits",
+      "why": "Political risk remains a book-wide de-rate even without a TX site.",
+      "source": "CNBC / Reuters",
+      "url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html"
+    },
+    {
+      "headline": "Q3 2026 results Thu 12 Nov BMO, call 8:00 ET (20:00 ICT). EDGAR: no NBIS filing 4–6 Nov; latest Form 4 dated 2 Nov (CIK 0001513845 submissions API)",
+      "why": "Funding mix, MSFT/META ramp, ARR path and any Vineland timing disclosure matter more than the election print.",
+      "source": "Nebius investor hub / SEC",
+      "url": "https://nebius.com/investor-hub"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "[NEW] Thu wipeout: Nasdaq −5.52% to 24,315 (worst day since Apr 2025), SOX −12.25% to 9,011. NVDA $181.60 (−9.26%), MU $656.39 (−17.46%), SPCX $123.62 (−9.05%), AMD/SNDK double-digit losers. Hyperscalers also down but less: GOOGL −2.2%, AMZN −2.2%, META −4.0%",
+      "why": "Second day of AI-infra risk-off; chips/neocloud hit hardest as Street prices slower US DC build + MSFT neocloud pullback.",
+      "source": "CNBC / Yahoo",
+      "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+    },
+    {
+      "headline": "[NEW] MarketWatch/Dow Jones: Sandisk −22% worst in S&P; MU/AMD/WDC/STX ≥16% down; PHLX SOX worst drop since Mar 2020. Driver = midterm → slower AI buildout uncertainty",
+      "why": "Confirms memory/semi beta to DC permitting narrative, not a demand data print.",
+      "source": "Morningstar/MarketWatch",
+      "url": "https://www.morningstar.com/news/marketwatch/20261105237/micron-sandisk-and-other-ai-stocks-see-steep-drops-investors-dont-like-uncertainty"
+    },
+    {
+      "headline": "[NEW] CNBC: midterms may widen AI divide — existing powered capacity more valuable; debt-funded neoclouds face wider borrowing spreads vs hyperscalers (JPMorgan Sullivan). Nomura: bigger impact from 2028; 2027 capacity mostly already under construction",
+      "why": "Frames NBIS/neocloud as financing+permitting story; hyperscalers relatively shielded.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html"
+    },
+    {
+      "headline": "[NEW] SK hynix live ₩1,125,000 (-11.00% vs Thu close ₩1,264,000); KOSPI live ~4,966 (~-12.6% vs Wed 5,684; Thu bar missing)",
+      "why": "Korea memory following MU lower into Fri session.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/000660.KS"
+    },
+    {
+      "headline": "K3 (Moonshot AI) private, no ticker",
+      "why": "No public quote; never invent one.",
+      "source": "internal",
+      "url": "https://finance.yahoo.com/quote/"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "[NEW] Thu cash risk-off: Nasdaq −5.52%, S&P −4.36% to 7,353.7, VIX +69.7% to 28.18 (from Wed 16.61). Fri futures ~08:35 ICT: NQ ~26879 (−5.9% vs Wed settle 28,567), ES ~7381",
+      "why": "Broad de-risk after Wed's index rally; AI/semi led the break.",
+      "source": "Yahoo / CNBC",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC"
+    },
+    {
+      "headline": "[NEW] Yields/FX: 10Y 4.837% (from Wed 4.894%), 2Y ~4.75% (2YY=F), DXY ~101.6, USD/KRW 1356.4, USD/THB 33.46",
+      "why": "Slightly lower long yields into the risk-off; KRW weaker with Korea equity smash.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/%5ETNX"
+    },
+    {
+      "headline": "[NEW] Oil rebound Fri live: WTI ~$91.22 (Wed settle $88.12), Brent ~$99.2 (Wed $94.62) — separate from AI thesis",
+      "why": "Energy bounce after Wed's collapse; not the AI driver.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CL=F"
+    },
+    {
+      "headline": "[NEW] October jobs Fri 6 Nov 8:30 ET (20:30 ICT) — PENDING as of digest (BLS Oct not yet published). CNBC consensus ~+59k NFP, unemployment hold 4.2%",
+      "why": "Labor print still sets rate-path beta for long-duration AI names later today.",
+      "source": "CNBC preview",
+      "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+    },
+    {
+      "headline": "Next: CPI Mon 10 Nov; NVIDIA AI Day Seoul 9–10 Nov; NBIS Q3 12 Nov; NVDA Q3 17 Nov",
+      "why": "Event stack into mid-Nov — company-specific catalysts after political/MSFT overhang.",
+      "source": "calendar",
+      "url": "https://nebius.com/investor-hub"
+    }
+  ],
+  "soWhat": [
+    "NBIS −14.9% to $120.37 (post $122.78, cap $32.7B) on MSFT neocloud oversight + NJ DataOne ~140 MW slip into 2027 — not a new SEC filing. Q3 12 Nov is the real test.",
+    "Tape: Nasdaq −5.5% / SOX −12.3%; MU −17.5%, NVDA −9.3%; hyperscalers −2 to −4%. Political + MSFT pullback hit builders/chips hardest.",
+    "F&G 19.9 Extreme Fear (from 27.3 Fear). VIX 28.2. Jobs still PENDING 20:30 ICT.",
+    "No trades. Watch MSFT commentary on Vineland timing and ARR/prepay path into 12 Nov."
+  ]
+}

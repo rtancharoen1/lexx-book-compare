@@ -1,0 +1,639 @@
+{
+  "bookQuotes": {
+    "asOf": "US = Fri 16 Oct 2026 regular close (CNBC QuickQuote); NBIS overnight Yahoo 21:25 EDT Sun = 08:25 ICT Mon; futures/10Y/oil/FX CNBC ~21:15-21:25 EDT Sun = 08:15-08:25 ICT Mon; SK/Samsung/KOSPI Naver live 10:27 KST = 08:27 ICT Mon",
+    "NBIS": {
+      "last": 165.47,
+      "chg": -22.94,
+      "pct": -12.18,
+      "open": 181.17,
+      "high": 182.7,
+      "low": 163.27,
+      "volume": 33061415,
+      "mktCapB": 44.984,
+      "ah": 165.3,
+      "ahPct": -0.1,
+      "overnight": 171.52,
+      "overnightChg": 6.05,
+      "overnightPct": 3.66,
+      "overnightStamp": "Yahoo overnight 9:25:21 PM EDT Sun 18 Oct = 08:25 ICT Mon",
+      "usdthb": 33.42,
+      "thbPerShare": 5530,
+      "thbPerShareOvernight": 5732,
+      "fromTue6OctPct": -33.8,
+      "nextEarnings": "11/09/2026 (est, CNBC)",
+      "flag": false,
+      "note": "Fri −12.18% FLAG already delivered Sat/Sun"
+    },
+    "GOOGL": {
+      "last": 340.59,
+      "pct": -2.47,
+      "ah": 339.99
+    },
+    "AMZN": {
+      "last": 250.0,
+      "pct": -1.87,
+      "ah": 248.98
+    },
+    "META": {
+      "last": 709.33,
+      "pct": -3.72,
+      "ah": 705.32
+    },
+    "NVDA": {
+      "last": 214.13,
+      "pct": -1.43,
+      "ah": 213.75
+    },
+    "MU": {
+      "last": 878.84,
+      "pct": -5.63,
+      "ah": 875.98,
+      "note": "Fri FLAG already delivered"
+    },
+    "SPCX": {
+      "last": 146.03,
+      "pct": -1.74,
+      "ah": 145.47
+    },
+    "ES_fut": {
+      "last": 7742.25,
+      "pct": 0.49,
+      "symbol": "@SP.1"
+    },
+    "NQ_fut": {
+      "last": 29682.75,
+      "pct": 0.99,
+      "symbol": "@ND.1"
+    },
+    "YM_fut": {
+      "last": 52286.0,
+      "pct": 0.14,
+      "symbol": "@DJ.1"
+    },
+    "US10Y": {
+      "last": 5.071,
+      "chgBp": -2.7,
+      "prev": 5.098
+    },
+    "US2Y": {
+      "last": 4.719,
+      "chgBp": -1.7
+    },
+    "DXY": {
+      "last": 101.85,
+      "pct": 0.01
+    },
+    "WTI": {
+      "last": 101.16,
+      "pct": -0.25
+    },
+    "BRENT": {
+      "last": 108.43,
+      "pct": -1.3
+    },
+    "GOLD": {
+      "last": 4193.2,
+      "pct": 0.29
+    },
+    "VIX": {
+      "last": 19.99,
+      "pct": 21.45,
+      "note": "Fri close"
+    },
+    "SOX": {
+      "last": 11137.29,
+      "pct": -3.83,
+      "note": "Fri close"
+    },
+    "THB": {
+      "last": 33.42,
+      "cnbc": 33.41,
+      "source": "open.er-api / CNBC THB="
+    },
+    "SK000660": {
+      "last": 1248000,
+      "pct": -1.89,
+      "chg": -24000,
+      "refClose": 1272000,
+      "open": 1215000,
+      "high": 1264000,
+      "low": 1182000,
+      "lowPctVsRef": -7.08,
+      "stamp": "2026-10-19T10:27:22+09:00",
+      "status": "live",
+      "note": "Naver reference (KRX official Fri close) ₩1,272,000; prior digests used Naver integrated history ₩1,265,000"
+    },
+    "SS005930": {
+      "last": 217750,
+      "pct": 1.04,
+      "refClose": 215500,
+      "stamp": "2026-10-19T10:27:21+09:00",
+      "status": "live"
+    },
+    "KOSPI": {
+      "last": 5660.57,
+      "pct": -0.13,
+      "openPct": -3.17,
+      "stamp": "2026-10-19T10:28:00+09:00"
+    },
+    "N225": {
+      "last": 64470.23,
+      "pct": -1.31,
+      "stamp": "10:10 JST CNBC"
+    },
+    "TWII": {
+      "last": 46286.64,
+      "pct": -1.75,
+      "stamp": "09:05 Taipei CNBC"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": []
+  },
+  "flags": [
+    {
+      "ticker": "SPCX",
+      "level": "news",
+      "text": "Calendar change: SpaceX posts Q3 after the close Tue 20 Oct (IR notice dated Fri 16 Oct, not in Sat/Sun desks). Per the prospectus terms summarized by Dagom, the earnings-linked release of up to ~1.3B shares (28% of the lockup group) falls on the 2nd full trading day after results, which by our count is Thu 22 Oct, ahead of the 24 Oct 328.4M tranche.",
+      "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
+    },
+    {
+      "ticker": "META",
+      "level": "news",
+      "text": "Calendar correction: Meta reports Q3 after the close Wed 21 Oct (IR notice 12 Oct), not 28 Oct as in prior desks.",
+      "url": "https://www.nasdaq.com/press-release/meta-announce-third-quarter-2026-results-2026-10-12"
+    }
+  ],
+  "fx": {
+    "USDTHB": 33.42,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "stamp": "Mon, 19 Oct 2026 00:02:32 UTC (07:02 ICT)",
+    "cnbcTHB": 33.41,
+    "USDKRW": 1335.5,
+    "note": "vs 33.43 Sun desk"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 165.47,
+      "pctChange": -12.18,
+      "headline": "Fri close; overnight $171.52 (+3.66%). No new filing. Peer hit: Microsoft exits Nscale UK site; $10M Europe builder program is minor",
+      "sourceUrl": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 340.59,
+      "pctChange": -2.47,
+      "headline": "Fri close; no thesis news; Q3 Wed 28 Oct confirmed",
+      "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 250.0,
+      "pctChange": -1.87,
+      "headline": "Fri close; no thesis news; Q3 Thu 29 Oct confirmed",
+      "sourceUrl": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Third-Quarter-2026-Financial-Results-Conference-Call/default.aspx"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 709.33,
+      "pctChange": -3.72,
+      "headline": "Fri close; Q3 is Wed 21 Oct after close (not 28 Oct); capex guide $130-145B in focus",
+      "sourceUrl": "https://www.nasdaq.com/press-release/meta-announce-third-quarter-2026-results-2026-10-12"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 214.13,
+      "pctChange": -1.43,
+      "headline": "Fri close; neocloud shakeout risk (The Information); NVHBM base dies on TSMC 3nm",
+      "sourceUrl": "https://aiweekly.co/alerts/information-industry-execs-see-only-7-10-of-hundreds-of-neoclouds-surviving-as"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 878.84,
+      "pctChange": -5.63,
+      "headline": "Fri close (FLAG stands); DeepSeek low-cost model weighs on memory; Taiwan union rally 19 Oct, no strike",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1248000,
+      "pctChange": -1.89,
+      "headline": "LIVE 10:27 KST Naver vs KRX close ₩1,272,000; opened ₩1,215,000, low ₩1,182,000 (−7.1%) then recovered; no FLAG",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 146.03,
+      "pctChange": -1.74,
+      "headline": "Fri close; Q3 Tue 20 Oct after close; ~1.3B earnings-linked unlock ~Thu 22 Oct; 328.4M on 24 Oct",
+      "sourceUrl": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker. DeepSeek V4.1-Flash claims to beat Kimi K3 on some coding benchmarks",
+      "sourceUrl": "https://www.techmeme.com/261018/p9"
+    }
+  ],
+  "quotes": {
+    "asOf": "US = Fri 16 Oct 2026 regular close (CNBC QuickQuote); NBIS overnight Yahoo 21:25 EDT Sun = 08:25 ICT Mon; futures/10Y/oil/FX CNBC ~21:15-21:25 EDT Sun = 08:15-08:25 ICT Mon; SK/Samsung/KOSPI Naver live 10:27 KST = 08:27 ICT Mon",
+    "NBIS": {
+      "last": 165.47,
+      "chg": -22.94,
+      "pct": -12.18,
+      "open": 181.17,
+      "high": 182.7,
+      "low": 163.27,
+      "volume": 33061415,
+      "mktCapB": 44.984,
+      "ah": 165.3,
+      "ahPct": -0.1,
+      "overnight": 171.52,
+      "overnightChg": 6.05,
+      "overnightPct": 3.66,
+      "overnightStamp": "Yahoo overnight 9:25:21 PM EDT Sun 18 Oct = 08:25 ICT Mon",
+      "usdthb": 33.42,
+      "thbPerShare": 5530,
+      "thbPerShareOvernight": 5732,
+      "fromTue6OctPct": -33.8,
+      "nextEarnings": "11/09/2026 (est, CNBC)",
+      "flag": false,
+      "note": "Fri −12.18% FLAG already delivered Sat/Sun"
+    },
+    "GOOGL": {
+      "last": 340.59,
+      "pct": -2.47,
+      "ah": 339.99
+    },
+    "AMZN": {
+      "last": 250.0,
+      "pct": -1.87,
+      "ah": 248.98
+    },
+    "META": {
+      "last": 709.33,
+      "pct": -3.72,
+      "ah": 705.32
+    },
+    "NVDA": {
+      "last": 214.13,
+      "pct": -1.43,
+      "ah": 213.75
+    },
+    "MU": {
+      "last": 878.84,
+      "pct": -5.63,
+      "ah": 875.98,
+      "note": "Fri FLAG already delivered"
+    },
+    "SPCX": {
+      "last": 146.03,
+      "pct": -1.74,
+      "ah": 145.47
+    },
+    "ES_fut": {
+      "last": 7742.25,
+      "pct": 0.49,
+      "symbol": "@SP.1"
+    },
+    "NQ_fut": {
+      "last": 29682.75,
+      "pct": 0.99,
+      "symbol": "@ND.1"
+    },
+    "YM_fut": {
+      "last": 52286.0,
+      "pct": 0.14,
+      "symbol": "@DJ.1"
+    },
+    "US10Y": {
+      "last": 5.071,
+      "chgBp": -2.7,
+      "prev": 5.098
+    },
+    "US2Y": {
+      "last": 4.719,
+      "chgBp": -1.7
+    },
+    "DXY": {
+      "last": 101.85,
+      "pct": 0.01
+    },
+    "WTI": {
+      "last": 101.16,
+      "pct": -0.25
+    },
+    "BRENT": {
+      "last": 108.43,
+      "pct": -1.3
+    },
+    "GOLD": {
+      "last": 4193.2,
+      "pct": 0.29
+    },
+    "VIX": {
+      "last": 19.99,
+      "pct": 21.45,
+      "note": "Fri close"
+    },
+    "SOX": {
+      "last": 11137.29,
+      "pct": -3.83,
+      "note": "Fri close"
+    },
+    "THB": {
+      "last": 33.42,
+      "cnbc": 33.41,
+      "source": "open.er-api / CNBC THB="
+    },
+    "SK000660": {
+      "last": 1248000,
+      "pct": -1.89,
+      "chg": -24000,
+      "refClose": 1272000,
+      "open": 1215000,
+      "high": 1264000,
+      "low": 1182000,
+      "lowPctVsRef": -7.08,
+      "stamp": "2026-10-19T10:27:22+09:00",
+      "status": "live",
+      "note": "Naver reference (KRX official Fri close) ₩1,272,000; prior digests used Naver integrated history ₩1,265,000"
+    },
+    "SS005930": {
+      "last": 217750,
+      "pct": 1.04,
+      "refClose": 215500,
+      "stamp": "2026-10-19T10:27:21+09:00",
+      "status": "live"
+    },
+    "KOSPI": {
+      "last": 5660.57,
+      "pct": -0.13,
+      "openPct": -3.17,
+      "stamp": "2026-10-19T10:28:00+09:00"
+    },
+    "N225": {
+      "last": 64470.23,
+      "pct": -1.31,
+      "stamp": "10:10 JST CNBC"
+    },
+    "TWII": {
+      "last": 46286.64,
+      "pct": -1.75,
+      "stamp": "09:05 Taipei CNBC"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": []
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://finance.yahoo.com/quote/NBIS/",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://nebius.com/blog/posts/ai-builder-program-in-europe",
+    "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns",
+    "https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports-4955864",
+    "https://aiweekly.co/alerts/information-industry-execs-see-only-7-10-of-hundreds-of-neoclouds-surviving-as",
+    "https://www.theinformation.com/newsletters/ai-infrastructure/neocloud-shakeout-looms-nvidia-lot-lose",
+    "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/weak-links-start-show-ai-borrowing",
+    "https://en.fnnews.com/news/202610190659135307",
+    "https://www.techmeme.com/261018/p9",
+    "https://www.business-standard.com/technology/tech-news/samsung-to-tap-tsmc-technology-for-nvidia-s-custom-memory-chips-report-126101800775_1.html",
+    "https://www.ajupress.com/view/20261019091648718",
+    "https://www.koreaherald.com/article/10906650",
+    "https://m.stock.naver.com/domestic/stock/000660",
+    "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx",
+    "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/",
+    "https://www.nasdaq.com/press-release/meta-announce-third-quarter-2026-results-2026-10-12",
+    "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Third-Quarter-2026-Financial-Results-Conference-Call/default.aspx",
+    "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-19-2026",
+    "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html",
+    "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/micron-s-210-prozent-run-stumbles-as-buyback-patent-truce-and-a-presidential-plea-collide-with-ai/70355724",
+    "https://seekingalpha.com/news/4654081-stock-futures-rebound-as-oil-nears-110-ai-earnings-loom",
+    "https://www.swissinfo.ch/eng/us-stock-futures-bounce-from-tech-rout%2C-oil-slips%3A-markets-wrap/92235911",
+    "https://news.rthk.hk/rthk/en/component/k2/1874433-20261019.htm",
+    "https://www.investing.com/news/economy-news/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll-4950895",
+    "https://www.cnbc.com/quotes/@ND.1",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://open.er-api.com/v6/latest/USD"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-10-19",
+      "timeWita": "10:00",
+      "event": "China Q3 GDP + Sep activity data (NBS)",
+      "detail": "Reuters poll 4.4% y/y vs 4.3% Q2; not yet released at desk time",
+      "sourceUrl": "https://www.investing.com/news/economy-news/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll-4950895"
+    },
+    {
+      "date": "2026-10-19",
+      "timeWita": "21:30",
+      "event": "US cash reopen after Fri FLAG day",
+      "detail": "Futures ES +0.5% / NQ +1.0%; NBIS overnight +3.7%",
+      "sourceUrl": "https://www.cnbc.com/quotes/@ND.1"
+    },
+    {
+      "date": "2026-10-20",
+      "timeWita": "Wed 04:30",
+      "event": "SPCX Q3 results after close; webcast 4:30 pm ET",
+      "detail": "Consensus rev ~$12.9B (TipRanks); also NFLX; US housing starts 8:30 ET",
+      "sourceUrl": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
+    },
+    {
+      "date": "2026-10-21",
+      "timeWita": "Thu 04:30",
+      "event": "META Q3 after close (call 4:30 pm ET); also TSLA, LRCX, TXN, IBM, SAP",
+      "detail": "Meta 2026 capex guide $130-145B; LRCX/TXN semis read",
+      "sourceUrl": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-19-2026"
+    },
+    {
+      "date": "2026-10-22",
+      "timeWita": "US session",
+      "event": "SPCX earnings-linked unlock: up to ~1.3B shares (28%) eligible (our count: 2nd full trading day after 20 Oct results)",
+      "detail": "Also WDC after close; US jobless claims",
+      "sourceUrl": "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/"
+    },
+    {
+      "date": "2026-10-23",
+      "timeWita": "22:00",
+      "event": "UMich consumer sentiment",
+      "detail": "Inflation expectations with oil ~$100+",
+      "sourceUrl": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-19-2026"
+    },
+    {
+      "date": "2026-10-24",
+      "timeWita": "weekend",
+      "event": "SPCX 7% tranche: up to 328.4M shares eligible",
+      "detail": "First trade Mon 26 Oct",
+      "sourceUrl": "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/"
+    },
+    {
+      "date": "2026-10-27",
+      "timeWita": "KST morning",
+      "event": "SK hynix Q3 results (est)",
+      "detail": "Memory demand vs CXMT/DeepSeek fears",
+      "sourceUrl": "https://en.quartalszahlen.info/companies/000660"
+    },
+    {
+      "date": "2026-10-27–28",
+      "timeWita": "Thu 02:00 decision",
+      "event": "FOMC; decision + presser Wed 28",
+      "detail": "Blackout in force until then",
+      "sourceUrl": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+    },
+    {
+      "date": "2026-10-28",
+      "timeWita": "Thu 04:30",
+      "event": "GOOGL Q3 after close (call 4:30 pm ET)",
+      "detail": "Confirmed by Alphabet IR",
+      "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
+    },
+    {
+      "date": "2026-10-29",
+      "timeWita": "Fri 05:00",
+      "event": "AMZN Q3 after close (call 5:00 pm ET); INTC after close; Samsung full Q3 (est)",
+      "detail": "AWS + memory read-through",
+      "sourceUrl": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Third-Quarter-2026-Financial-Results-Conference-Call/default.aspx"
+    },
+    {
+      "date": "2026-11-03",
+      "timeWita": "—",
+      "event": "US midterm elections",
+      "detail": "Cited by Korea Herald as a risk factor",
+      "sourceUrl": "https://www.koreaherald.com/article/10906650"
+    },
+    {
+      "date": "~2026-11-09",
+      "timeWita": "—",
+      "event": "NBIS Q3 earnings (est 9 Nov per CNBC, unconfirmed)",
+      "detail": "After FOMC",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS"
+    }
+  ],
+  "date": "2026-10-19",
+  "asOfIct": "2026-10-19T08:30:00+07:00",
+  "asOfWita": "2026-10-19T09:30:00+08:00",
+  "producedBy": "Mon digest, 08:30 ICT, before the US open. US prices = Fri 16 Oct CNBC regular closes (unchanged vs Sat/Sun desks). New reads: Yahoo NBIS overnight $171.52 (+3.66%) at 9:25 PM EDT Sun; CNBC futures @SP.1/@ND.1/@DJ.1, US10Y, US2Y, @CL.1, @LCO.1, THB=, DXY, .N225, .TWII (~21:15-21:25 EDT Sun); Naver basic/integration for SK hynix, Samsung, KOSPI (10:27-10:28 KST). Naver's reference prior close for SK is ₩1,272,000 (KRX official, matches FN News/Korea Exchange); Sat/Sun desks used Naver integrated history ₩1,265,000. EDGAR CIK 0001513845 submissions: no filing after Form 4 0001513845-26-000130. CNN F&G graphdata unchanged Fri stamp. open.er-api USDTHB. Weekend/Mon news: Microsoft exits Nscale Essex site (Guardian/Reuters 18 Oct); The Information neocloud shakeout (18 Oct); DeepSeek V4.1-Flash-1017 (17 Oct) cited by FN News for Korea chip pressure; Reuters/Seoul Economic Daily NVHBM base dies on TSMC 3nm (18 Oct); Nebius $10M Europe builder program (19 Oct). Calendar corrections: SPCX Q3 Tue 20 Oct (IR 16 Oct) and META Q3 Wed 21 Oct (IR 12 Oct). China Q3 GDP due 10:00 Beijing, not out at desk time. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 17.9,
+    "label": "Extreme Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "Unchanged: score 17.94 Extreme Fear, timestamp 2026-10-16T23:59:49Z (Fri close = Sat 06:59 ICT). No new print until after the Mon 19 Oct US session. previous_close 31.54, 1-wk 46.49, 1-mo 27.31, 1-yr 23.11. Prior digest (18 Oct) 17.9."
+  },
+  "nbis": [
+    {
+      "headline": "No new price discovery yet. Fri cash $165.47 (−12.18%) stands; Yahoo overnight $171.52 (+3.66%) at 08:25 ICT, not cash. Cap $44.98B (CNBC). About THB 5,530/sh at 33.42. Still −33.8% from 6 Oct $249.87.",
+      "why": "The bounce is under 5% and on thin overnight volume. Futures are up, but Fri FLAG levels still hold.",
+      "source": "Yahoo Finance / CNBC",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "EDGAR: no new filing after the Grimme Form 4 (0001513845-26-000130, accepted 17 Oct 00:05Z). No new 6-K since Inferize on 1 Oct.",
+      "why": "No dilution, convert or guidance change over the weekend.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Peer hit: Microsoft withdrew from Nscale's Loughton, Essex data-center lease after grid power was pushed into the 2030s. Nscale says its other Microsoft deals are unaffected. Bloomberg reports IPO investors pushing Nscale's ~$30B valuation down toward $16-19B.",
+      "why": "This is a new data point that hyperscaler offtake can be pulled. It feeds the neocloud discount, though it is a power and site problem, not a demand problem, and not Nebius-specific.",
+      "source": "Guardian / Reuters",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
+    },
+    {
+      "headline": "The Information (18 Oct): industry executives expect only 7-10 of hundreds of neoclouds to survive. Nvidia is backing chosen operators with easier credit, site help and about $20B of leases it can reassign.",
+      "why": "Scale and balance sheet now decide who survives. Nebius has about $8.0B cash (CNBC) and lower leverage than CoreWeave, which argues it is a survivor, but the group still trades together.",
+      "source": "The Information via AI Weekly",
+      "url": "https://aiweekly.co/alerts/information-industry-execs-see-only-7-10-of-hundreds-of-neoclouds-surviving-as"
+    },
+    {
+      "headline": "Nebius newsroom (19 Oct): AI Builder Program in Europe, $10M of compute grants plus Accel/VC and NVIDIA community links.",
+      "why": "Marketing. Not material against a $45B market cap.",
+      "source": "Nebius",
+      "url": "https://nebius.com/blog/posts/ai-builder-program-in-europe"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "META reports Q3 after the close Wed 21 Oct (call 4:30 pm ET), not 28 Oct as prior desks had it. Guide: Q3 revenue $61-64B, 2026 capex $130-145B. TSLA, LRCX, TXN, IBM and SAP report the same evening.",
+      "why": "First hyperscaler capex read lands this week, a week before GOOGL (28 Oct) and AMZN (29 Oct).",
+      "source": "Meta IR via Nasdaq / StockTitan",
+      "url": "https://www.nasdaq.com/press-release/meta-announce-third-quarter-2026-results-2026-10-12",
+      "ticker": "META"
+    },
+    {
+      "headline": "SPCX posts Q3 after the close Tue 20 Oct (IR notice 16 Oct). Under the lockup terms Dagom summarizes, up to ~1.3B shares (28% of the lockup group) unlock on the 2nd full trading day after results; by our count that is Thu 22 Oct, before the 328.4M tranche on 24 Oct.",
+      "why": "The biggest supply step moves into this week. Eligibility is not selling, but Q3 now has to carry the stock into it.",
+      "source": "SpaceX IR / Dagom",
+      "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "SK hynix live ₩1,248,000 (−1.89%) at 10:27 KST against the KRX Fri close of ₩1,272,000. It opened ₩1,215,000 and hit ₩1,182,000 (−7.1%) before foreign buying cut the loss. Samsung ₩217,750 (+1.04%). Last week SK fell 24.3% and Samsung 17.8%, the worst weeks since 2008.",
+      "why": "No FLAG on the live print. Korea is absorbing the Fri US tape and the DeepSeek news better than feared.",
+      "source": "Naver / FN News",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "DeepSeek released V4.1-Flash-1017 on 17 Oct. It claims to beat leading US models on coding and agent benchmarks at $0.60 per million output tokens off-peak; posts also claim it tops Kimi K3 on one benchmark. FN News flagged it as a new weight on Korean chip stocks.",
+      "why": "This repeats the January 2025 'cheap model, less capex' fear. Memory and GPU names are most exposed. K3 is still private with no ticker.",
+      "source": "FN News / Techmeme",
+      "url": "https://en.fnnews.com/news/202610190659135307",
+      "ticker": "AI"
+    },
+    {
+      "headline": "Reuters/Seoul Economic Daily (18 Oct): Nvidia asked Samsung, SK hynix and Micron to make base dies for its custom NVHBM on TSMC 3nm. Samsung agreed, its first use of TSMC for HBM.",
+      "why": "Nvidia gains more control over HBM design. It is neutral to mildly negative for SK and MU differentiation, with no volume change stated.",
+      "source": "Business Standard / Reuters",
+      "url": "https://www.business-standard.com/technology/tech-news/samsung-to-tap-tsmc-technology-for-nvidia-s-custom-memory-chips-report-126101800775_1.html",
+      "ticker": "NVDA/MU/000660"
+    },
+    {
+      "headline": "US book unchanged at Fri closes: GOOGL $340.59, AMZN $250.00, META $709.33, NVDA $214.13, MU $878.84 (Fri FLAG), SPCX $146.03. GOOGL Q3 28 Oct and AMZN Q3 29 Oct are confirmed by IR. K3 (Moonshot AI) is private with no ticker.",
+      "why": "No US cash session since Fri.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NVDA",
+      "ticker": "BOOK"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "Sunday-night futures bounced: ES 7,742.25 (+0.49%), NQ 29,682.75 (+0.99%), YM +0.14% (CNBC, 08:15 ICT). 10Y 5.071% (−2.7bp), 2Y 4.719%. Nikkei −1.3%, Taiwan −1.8%, KOSPI −0.1% after opening −3.2%.",
+      "why": "Dip buying in AI names before a heavy earnings week. Asia is weaker than US futures.",
+      "source": "CNBC / Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4654081-stock-futures-rebound-as-oil-nears-110-ai-earnings-loom"
+    },
+    {
+      "headline": "Oil eased: Brent $108.43 (−1.3%), WTI $101.16 (−0.25%), after Trump waived some Russia sanctions; he later said no final decision. Iran reported another tanker hit a mine in Hormuz, and Houthis targeted Saudi Yanbu.",
+      "why": "Oil above $100 still feeds the inflation path into the FOMC on 27-28 Oct. Lower oil helped bonds overnight.",
+      "source": "RTHK (Reuters)",
+      "url": "https://news.rthk.hk/rthk/en/component/k2/1874433-20261019.htm"
+    },
+    {
+      "headline": "AI-debt backdrop over the weekend: NYT/Business Times say CoreWeave bonds price a more than 60% chance it misses obligations, and Barclays says AI debt spreads are up over 50% in six months. Oracle and SoftBank credit are also under pressure.",
+      "why": "Financing risk, not demand, is still driving neocloud valuations.",
+      "source": "Business Times (NYT)",
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/weak-links-start-show-ai-borrowing"
+    },
+    {
+      "headline": "China Q3 GDP and Sep activity data are due at 10:00 Beijing (09:00 ICT); the Reuters poll expects 4.4% y/y. The Fed is in blackout until the 28 Oct decision. USDTHB 33.42 (open.er-api), DXY 101.85. CNN F&G 17.9 Extreme Fear, unchanged.",
+      "why": "China data and stimulus talk at the Financial Street Forum are the next Asia catalysts. US data this week is light: housing starts, claims, UMich.",
+      "source": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/economy-news/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll-4950895"
+    }
+  ],
+  "soWhat": [
+    "NBIS: no new filing; overnight $171.52 (+3.7%) vs Fri $165.47. Microsoft's exit from the Nscale site and the 'only 7-10 neoclouds survive' report keep the group discount.",
+    "Calendar moved up: SPCX Q3 Tue 20 Oct with a ~1.3B-share unlock ~Thu 22; META Q3 Wed 21 Oct, not 28 Oct.",
+    "SK live −1.9% (low −7.1%, recovered) on DeepSeek V4.1 and the US tape; no new FLAG. Futures NQ +1.0%, 10Y 5.07%, Brent $108.",
+    "F&G 17.9 Extreme Fear, unchanged (Fri stamp). China GDP 09:00 ICT. No trade."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-13",
+  "asOfIct": "2026-09-13T08:15:00+07:00",
+  "producedBy": "Grok Sun morning fill (automation; SendToAgent Deki unavailable — same weekend pattern as Sat 12 Sep). US/Korea weekend closed — Fri 11 Sep cash Yahoo chart v8; CNN F&G graphdata still Fri stamp; SEC CIK 0001513845 (newest still Sep 8 6-K); weekend secondary NBIS $250B/Palantir recap; Fed hike odds via CBS/Yahoo/Econbrowser CME FedWatch reprints (CME HTML blocked); Yahoo USDTHB + open.er-api.",
+  "fearGreed": {
+    "value": 33.34,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata unchanged vs Sat digest: score 33.3428571428571 rating fear timestamp 2026-09-11T23:59:53+00:00; previous_close 33.1142857142857. No Sat/Sun stamp yet — still Fri session Fear."
+  },
+  "nbis": [
+    {
+      "headline": "Weekend — last US cash still Fri $224.55 (−1.56% vs Thu $228.11); AH Fri ~$224.49 (−0.03%). Mkt cap ~$61.05B; ≈ THB 7,416/sh at USDTHB 33.03; convert $5.75B ≈ THB 189.9B. Next US cash Mon 21:30 ICT.",
+      "why": "Yahoo quote page + chart v8 this run (regularMarketPrice 224.55; AH 224.49). Price unchanged vs Sat fill — markets closed.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NBIS/"
+    },
+    {
+      "headline": "No NEW EDGAR Fri–Sun. Newest filing still Palantir preferred-sovereign 6-K 0001104659-26-105749 (Sep 8). Form 4s Sep 3 prior.",
+      "why": "data.sec.gov submissions CIK0001513845 + efts search Sep 8–13 this run — only the Sep 8 6-K hits.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&owner=include&count=40"
+    },
+    {
+      "headline": "Weekend secondary: ad-hoc-news Sep 12 recap — Volozh ~$250B capex to 5 GW through 2030 (~20% / $50B financed); reaffirms 2026 ARR $7–9B path + Palantir preferred partner. Not a new IR filing.",
+      "why": "Editorial 09/12/2026 recycling Citi TMT / known conference color + Sep 8 Palantir. Localize $250B ≈ THB 8.3T; $50B financed ≈ THB 1.7T at USDTHB 33.03.",
+      "source": "ad-hoc-news / boerse-global (secondary)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nebius-stock-a-250-billion-ambition-a-palantir-seal-and-the-kremlin-s/70089739"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Watchlist still Fri cash (weekend US closed): GOOGL $338.50 / AMZN $256.78 / META $648.03 / NVDA $218.29 / MU $975.26 / SPCX $151.21. K3 no ticker.",
+      "why": "Yahoo chart v8 this run matches Sat digest Fri prints.",
+      "source": "Yahoo Finance chart v8",
+      "url": "https://finance.yahoo.com/quote/NVDA/",
+      "ticker": "NVDA"
+    },
+    {
+      "headline": "SPCX weekend color: CFO @ Goldman — Nvidia-exclusive terrestrial AI build (2 GW YE26 → 5–10 GW 2027); new hosting ~$1.11B/mo from Dec 1 (~$13B ARR ≈ THB 429B). Fri cash $151.21 (+2.0%).",
+      "why": "Gate News / Motley Fool / Forkast citing Communacopia Thu Sep 10 — same demand thesis as Sat digest; no new company 8-K fetched.",
+      "source": "Gate News / Motley Fool citing Goldman Communacopia",
+      "url": "https://www.gate.com/news/detail/spacex-cfo-nvidia-partnership-to-support-10-gw-ai-expansion-by-2027-24181764",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "Oracle Q1 still the sector primary: IaaS +121%; RPO $664B (≈ THB 21.9T). No weekend company IR on watchlist names.",
+      "why": "Carry-forward PR Newswire Sep 10 — still the freshest stack demand print into FOMC week.",
+      "source": "Oracle PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/oracle-announces-q1-results-driven-by-triple-digit-growth-in-cloud-infrastructure-revenues-302875728.html",
+      "ticker": "ORCL"
+    },
+    {
+      "headline": "SK hynix Fri official ₩1,812,000 (−2.2% vs Thu ₩1,853,000); Sun Korea closed. MU Fri $975.26 (−0.2%). Memory soft into FOMC; MU FQ4 still ~Sep 30.",
+      "why": "Yahoo 000660.KS / MU chart v8 this run.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "ticker": "000660.KS"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed still 33.34 Fear (Fri stamp; unchanged vs Sat file). SPX Fri 7,656.98 (+0.86%); VIX 15.84; 10y 4.975. Weekend — no new cash session.",
+      "why": "CNN graphdata + Yahoo ^GSPC/^VIX/^TNX this run.",
+      "source": "CNN Fear & Greed graphdata / Yahoo",
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    {
+      "headline": "FOMC countdown: Aug CPI Fri print (headline +0.4%/+3.4%; core +0.3% MoM hot / +2.4% YoY) → CME FedWatch ~86–90% odds of 25 bp hike Sep 15–16 (was ~70–72% pre-CPI). Meeting Tue–Wed; decision Wed.",
+      "why": "CBS News / Yahoo Finance / Econbrowser (FedWatch 86.5%) / CryptoBriefing Polymarket ~78–83%. CME site blocked scrapers this run — VERIFIED_VIA_REPRINT.",
+      "source": "CBS / Yahoo / Econbrowser citing CME FedWatch",
+      "url": "https://www.cbsnews.com/news/fed-rate-hike-september-likelihood-cpi/"
+    },
+    {
+      "headline": "Oil futures soft overnight vs Fri digests: WTI CL=F ~$100.05 / Brent BZ=F ~$104.61 (Yahoo chart). USDTHB 33.03.",
+      "why": "Yahoo futures this run; FX open.er-api + Yahoo USDTHB=X.",
+      "source": "Yahoo CL=F / BZ=F / USDTHB / open.er-api",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "NBIS still price-only into Mon — no new EDGAR; weekend $250B/Palantir pieces are secondary recap, not fresh IR.",
+    "AI demand narrative intact (Oracle RPO + SPCX Nvidia-exclusive / ~$13B hosting); memory (SK/MU) soft.",
+    "Fear stuck ~33; hike odds ~85–90% into Wed FOMC — duration headwind for AI-infra multiples.",
+    "No trade; watch Mon US open (21:30 ICT) then FOMC Wed."
+  ],
+  "quotes": {
+    "asOf": "Fri 2026-09-11 US cash close (weekend); Korea Fri official; FX Sun morning",
+    "usdthb": 33.0269,
+    "usdthbErApiAsOf": "Sun, 13 Sep 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 224.55,
+      "prev": 228.11,
+      "chgPct": -1.56,
+      "mktCapApproxB": 61.05,
+      "thbPerShareApprox": 7416,
+      "ah": 224.49
+    },
+    "GOOGL": {
+      "last": 338.5,
+      "prev": 332.6,
+      "chgPct": 1.77
+    },
+    "AMZN": {
+      "last": 256.78,
+      "prev": 251.89,
+      "chgPct": 1.94
+    },
+    "META": {
+      "last": 648.03,
+      "prev": 644.38,
+      "chgPct": 0.57
+    },
+    "NVDA": {
+      "last": 218.29,
+      "prev": 218.36,
+      "chgPct": -0.03
+    },
+    "MU": {
+      "last": 975.26,
+      "prev": 977.41,
+      "chgPct": -0.22
+    },
+    "SPCX": {
+      "last": 151.21,
+      "prev": 148.18,
+      "chgPct": 2.04
+    },
+    "000660.KS": {
+      "last": 1812000,
+      "prev": 1853000,
+      "chgPct": -2.21,
+      "ccy": "KRW"
+    },
+    "SPX": {
+      "last": 7656.98,
+      "prev": 7591.7,
+      "chgPct": 0.86
+    },
+    "VIX": {
+      "last": 15.84,
+      "prev": 17.84
+    },
+    "TNX": {
+      "last": 4.975,
+      "prev": 4.944
+    },
+    "WTI": {
+      "last": 100.05
+    },
+    "Brent": {
+      "last": 104.61
+    },
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/"
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "date": "2026-10-10",
+  "asOfIct": "2026-10-10T08:15:00+07:00",
+  "asOfWita": "2026-10-10T09:15:00+08:00",
+  "producedBy": "Sat digest (US closed) on Fri 9 Oct US cash. Quotes: CNBC QuickQuote (NBIS/GOOGL/AMZN/META/NVDA/MU/SPCX/US10Y/.SPX/.IXIC/.DJI/.VIX/.SOX/@CL.1/@LCO.1/THB=), regular-session stamps 16:00 EDT Fri = 04:00 WITA Sat; AH to 19:59 EDT. Naver basic API for SK 000660 / Samsung 005930 (localTradedAt 2026-10-08 KST; Fri Hangul Day KRX closed; Sat closed). CNN F&G graphdata (Chrome UA + Referer). open.er-api USDTHB (stamp Sat 00:02 UTC). EDGAR CIK 0001513845 submissions: no new filing since Goldman 13G/A (filed 7 Oct). Headlines: Reuters via Yahoo, Business Insider/TipRanks, MarketWatch (Bloomberg OpenAI report), MarketBeat, investingLive/Dagom (SPCX unlock), CoreQuant/FXStreet (Fed/oil), UMich. Yahoo chart not used. No confirmed thesis-changing weekend news found. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 45.0,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 45 Fear, timestamp 2026-10-09T23:59:54Z (= Sat 10 Oct 07:59 WITA / 06:59 ICT; Fri close). API previous_close 37.89 (prior desk read 38.1 Thu), 1-wk 39.97, 1-mo 38.2, 1-yr 48.63. Components: momentum 72.8 greed; price strength 5.4 / breadth 3.2 extreme fear; put/call 34.6 fear; VIX 50 neutral; junk-bond 87.8 extreme greed; safe-haven 61.4 greed. +~7 pts on Fri rebound, still Fear."
+  },
+  "nbis": [
+    {
+      "headline": "Fri US cash $221.07 (+0.62% / +$1.36 vs Thu $219.71); open $222.30, high $225.30, low $218.50; vol ~9.56M; cap $60.10B (CNBC). AH $221.33 (CNBC ext, 19:59 EDT; +0.12% vs Fri close, computed). ≈ THB 7,421/sh at USDTHB 33.57. Still −11.53% vs Tue $249.87; 5-session −8.95% from 2 Oct $242.81 (Bullstory/Polygon). No FLAG.",
+      "why": "Small bounce with neoclouds (CRWV/IREN) after Thursday's >7% drop; BI says no company announcement drove it — oil eased and futures rose. Volume roughly half of Thu's.",
+      "source": "CNBC / Business Insider",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "EDGAR: no new 6-K/Form 4/13G since Goldman SC 13G/A 5.1% passive (0000886982-26-000526, filed 7 Oct). Last issuer 6-K is still Inferize (0001104659-26-112824, 1 Oct); last Form 4 is Nave 0001513845-26-000126 (6 Oct).",
+      "why": "No new dilution or holder event. Carries stay: $5.75B Aug convert overhang, MSFT/META concentration, insider 10b5-1 sales are not dilution.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Carry: Rosenblatt Buy PT $304; TipRanks Moderate Buy consensus with ~36.6% implied upside (per BI). Earnings est ~9 Nov. Options (TheFly via BI): IV30 ~72.1, lowest 10% of the past year; put/call 0.59.",
+      "why": "Sell-side support unchanged; options market is pricing calmer moves despite the 2-day drop.",
+      "source": "Business Insider / TheFly",
+      "url": "https://markets.businessinsider.com/news/stocks/cboe-data-shows-mixed-options-sentiment-in-nebius-group-nv-with-shares-up-0-79-1036613972"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Fri US cash: GOOGL $351.66 (+0.97%) / AMZN $262.43 (+3.29%) / META $718.67 (−0.31%) / NVDA $229.28 (−0.52%) / MU $1,029.00 (−0.66%) / SPCX $162.54 (+1.23%). SOX 12,572.42 (−0.41%). Book FLAG: none (all <5%).",
+      "why": "Broad index rebound, but semis lagged: chips never recovered from Thursday's OpenAI-revenue drop.",
+      "source": "CNBC quote",
+      "url": "https://www.cnbc.com/quotes/NVDA",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "Bloomberg (via MarketWatch): OpenAI is on track for ~$70B annualized revenue on a net basis by year-end. That offsets Thursday's FT ~$50B end-Sep figure, which came down to how cloud-partner revenue is counted. Chips still wobbled into the close.",
+      "why": "Eases the AI-demand scare for NVDA/MU/NBIS but has not reversed it. Semis −0.4% while Nasdaq +0.6%.",
+      "source": "MarketWatch / Bloomberg",
+      "url": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20",
+      "ticker": "AI"
+    },
+    {
+      "headline": "AMZN +3.29% to $262.43 with no new filing: AWS/AI optimism, a >$1B multiyear Synopsys agreement, analyst calls; earnings 29 Oct.",
+      "why": "Rebound from Thu −2.25%. Hyperscaler capex read-through is supportive for NBIS/NVDA demand.",
+      "source": "MarketBeat / IBTimes",
+      "url": "https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-stock-price-up-33-heres-why-2026-10-09/",
+      "ticker": "AMZN"
+    },
+    {
+      "headline": "SPCX unlock day (up to 328.4M sh eligible) traded +1.23% to $162.54, range $160.61–166.38, vol ~93.0M, close to its ~92.3M 65-day average (investingLive). Next: 24 Oct tranche 328.4M (first trade Mon 26 Oct); ~1.3B after Q3 results (date not announced); Dec 8 remainder 797.6M.",
+      "why": "Unlock supply was absorbed on day one with no volume spike. The bigger overhang is the post-Q3 release.",
+      "source": "CNBC / investingLive / Dagom",
+      "url": "https://investinglive.com/stocks/spacex-lockup-expiration-puts-buyers-to-the-test-the-technicals-define-the-risk/",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "SK hynix last close Thu 8 Oct ₩1,686,000 (−2.15%); Samsung ₩263,000 (−2.05%). KRX closed Fri (Hangul Day) and on the weekend; next print Mon 12 Oct. MU Fri −0.66% to $1,029.00.",
+      "why": "No new Korea print. Monday is the first local read on the OpenAI swing and the MU tape.",
+      "source": "Naver / CNBC",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "GOOGL +0.97% / META −0.31%: no single-name catalyst verified. K3 = Moonshot AI (Kimi): private, no ticker exists.",
+      "why": "META earnings 28 Oct, AMZN 29 Oct per prior desk/IBTimes.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/META",
+      "ticker": "GOOGL/META/K3"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "Fri close: S&P 7,811.54 (+0.59%) / Nasdaq 27,366.17 (+0.64%) / Dow 51,654.95 (+0.83%); VIX 14.84 (−3.70%). All three up on the week; Nasdaq up 4 weeks running; Russell 2000 down on the week (Reuters).",
+      "why": "Relief rebound after Thursday's AI scare; growth recovered only part of it.",
+      "source": "CNBC / Reuters via Yahoo",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-gain-oil-102454068.html"
+    },
+    {
+      "headline": "10Y 5.242% (+0.9 bp, CNBC), after the 5.35% intraday high on Thu. Waller: more hikes likely but not necessarily at consecutive meetings. Musalem: 'more firming will be required.' CME FedWatch (per CoreQuant): ~19% chance of an Oct hike, ~84% of at least one by Dec.",
+      "why": "Higher-for-longer funding costs remain the discount-rate driver for convert-funded neoclouds.",
+      "source": "CNBC / CoreQuant",
+      "url": "https://www.thecorequant.com/wall-street-wrap-pre-market-october-9-2026"
+    },
+    {
+      "headline": "UMich prelim Oct sentiment 46.3 (from 48.1); 1-yr inflation expectations 4.7% (from 4.6%), 5–10yr 3.5% (from 3.4%), both the highest since May.",
+      "why": "Firm inflation expectations make the 14 Oct CPI riskier for the 27–28 Oct FOMC.",
+      "source": "UMich / PNC",
+      "url": "https://www.sca.isr.umich.edu/"
+    },
+    {
+      "headline": "Oil: WTI $91.66 (+0.19%), Brent $104.54 (+0.25%) (CNBC). Trump said no strike on Iran before the 3 Nov midterms, but the IRGC is threatening Hormuz shipping, a tanker was hit, there are Abqaiq fire reports, and Hurricane Isaias shut ~63% of Gulf of Mexico output.",
+      "why": "Oil stays high, keeping an inflation premium on the rate path.",
+      "source": "CNBC / FXStreet",
+      "url": "https://www.fxstreet.com/news/wti-holds-steady-as-traders-weigh-us-iran-tensions-and-supply-risks-202610091425"
+    },
+    {
+      "headline": "Chip exports: no new US rule verified through Sat morning. Background: H200 China licenses are case-by-case and volumes are described as small. Calendar: CPI Wed 14 Oct; banks start Q3 on 13 Oct; FOMC 27–28 Oct. USDTHB 33.57 (open.er-api) / 33.52 (CNBC).",
+      "why": "Nothing new over the weekend; CPI is next week's main event.",
+      "source": "open.er-api / CNBC",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "NBIS no FLAG: Fri +0.62% to $221.07 (AH $221.33), a small neocloud bounce; still −11.5% vs Tue $249.87. EDGAR quiet (no new 6-K/Form 4/13G). Rosenblatt $304 offset unchanged.",
+    "OpenAI: Bloomberg says ~$70B net annualized by year-end, softening FT's ~$50B. Semis still lagged (SOX −0.4%, NVDA −0.5%, MU −0.7%); AMZN +3.3% led the book.",
+    "SPCX unlock day was absorbed: +1.2% on ~average volume. Next tranche 24 Oct (trades 26 Oct); post-Q3 ~1.3B is the bigger overhang.",
+    "Macro: F&G 45 Fear (from ~38); VIX 14.84; 10Y 5.24%; UMich inflation expectations up; CPI 14 Oct. No confirmed thesis-changing weekend news. No trade action."
+  ],
+  "bookQuotes": {
+    "asOf": "Fri 9 Oct 2026 US regular close (CNBC QuickQuote); SK/SS Thu 8 Oct Korea close (Naver); F&G Fri close stamp",
+    "NBIS": {
+      "last": 221.07,
+      "chg": 1.36,
+      "pct": 0.62,
+      "open": 222.3,
+      "high": 225.3,
+      "low": 218.5,
+      "volume": 9561436,
+      "mktCapB": 60.099,
+      "ah": 221.33,
+      "ahPct": 0.12,
+      "usdthb": 33.57,
+      "thbPerShare": 7421,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 351.66,
+      "pct": 0.97
+    },
+    "AMZN": {
+      "last": 262.43,
+      "pct": 3.29
+    },
+    "META": {
+      "last": 718.67,
+      "pct": -0.31
+    },
+    "NVDA": {
+      "last": 229.28,
+      "pct": -0.52
+    },
+    "MU": {
+      "last": 1029.0,
+      "pct": -0.66
+    },
+    "SPCX": {
+      "last": 162.54,
+      "pct": 1.23,
+      "volume": 93042640
+    },
+    "US10Y": {
+      "last": 5.242,
+      "chgBp": 0.9
+    },
+    "SPX": {
+      "last": 7811.54,
+      "pct": 0.59
+    },
+    "IXIC": {
+      "last": 27366.17,
+      "pct": 0.64
+    },
+    "DJI": {
+      "last": 51654.95,
+      "pct": 0.83
+    },
+    "VIX": {
+      "last": 14.84,
+      "pct": -3.7
+    },
+    "SOX": {
+      "last": 12572.42,
+      "pct": -0.41
+    },
+    "WTI": {
+      "last": 91.66,
+      "pct": 0.19
+    },
+    "BRENT": {
+      "last": 104.54,
+      "pct": 0.25
+    },
+    "THB": {
+      "last": 33.57,
+      "source": "open.er-api",
+      "cnbc": 33.52
+    },
+    "SK000660": {
+      "last": 1686000,
+      "pct": -2.15,
+      "note": "Thu 8 Oct Korea close; Fri Hangul Day + weekend KRX closed"
+    },
+    "SS005930": {
+      "last": 263000,
+      "pct": -2.05,
+      "note": "Thu 8 Oct Korea close"
+    },
+    "bookFlags": []
+  },
+  "quotes": {
+    "asOf": "Fri 9 Oct 2026 US regular close (CNBC QuickQuote); SK/SS Thu 8 Oct Korea close (Naver); F&G Fri close stamp",
+    "NBIS": {
+      "last": 221.07,
+      "chg": 1.36,
+      "pct": 0.62,
+      "open": 222.3,
+      "high": 225.3,
+      "low": 218.5,
+      "volume": 9561436,
+      "mktCapB": 60.099,
+      "ah": 221.33,
+      "ahPct": 0.12,
+      "usdthb": 33.57,
+      "thbPerShare": 7421,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 351.66,
+      "pct": 0.97
+    },
+    "AMZN": {
+      "last": 262.43,
+      "pct": 3.29
+    },
+    "META": {
+      "last": 718.67,
+      "pct": -0.31
+    },
+    "NVDA": {
+      "last": 229.28,
+      "pct": -0.52
+    },
+    "MU": {
+      "last": 1029.0,
+      "pct": -0.66
+    },
+    "SPCX": {
+      "last": 162.54,
+      "pct": 1.23,
+      "volume": 93042640
+    },
+    "US10Y": {
+      "last": 5.242,
+      "chgBp": 0.9
+    },
+    "SPX": {
+      "last": 7811.54,
+      "pct": 0.59
+    },
+    "IXIC": {
+      "last": 27366.17,
+      "pct": 0.64
+    },
+    "DJI": {
+      "last": 51654.95,
+      "pct": 0.83
+    },
+    "VIX": {
+      "last": 14.84,
+      "pct": -3.7
+    },
+    "SOX": {
+      "last": 12572.42,
+      "pct": -0.41
+    },
+    "WTI": {
+      "last": 91.66,
+      "pct": 0.19
+    },
+    "BRENT": {
+      "last": 104.54,
+      "pct": 0.25
+    },
+    "THB": {
+      "last": 33.57,
+      "source": "open.er-api",
+      "cnbc": 33.52
+    },
+    "SK000660": {
+      "last": 1686000,
+      "pct": -2.15,
+      "note": "Thu 8 Oct Korea close; Fri Hangul Day + weekend KRX closed"
+    },
+    "SS005930": {
+      "last": 263000,
+      "pct": -2.05,
+      "note": "Thu 8 Oct Korea close"
+    },
+    "bookFlags": []
+  },
+  "flags": [],
+  "fx": {
+    "USDTHB": 33.57,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "stamp": "Sat, 10 Oct 2026 00:02:31 UTC",
+    "cnbcTHB": 33.52
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 221.07,
+      "pctChange": 0.62,
+      "headline": "Small neocloud bounce after Thu −7.35%; no new SEC filing; no FLAG",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 351.66,
+      "pctChange": 0.97,
+      "headline": "Up with broad rebound; no single-name catalyst verified",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 262.43,
+      "pctChange": 3.29,
+      "headline": "AWS/AI optimism, Synopsys >$1B deal; earnings 29 Oct",
+      "sourceUrl": "https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-stock-price-up-33-heres-why-2026-10-09/"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 718.67,
+      "pctChange": -0.31,
+      "headline": "Flat; earnings 28 Oct",
+      "sourceUrl": "https://www.cnbc.com/quotes/META"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 229.28,
+      "pctChange": -0.52,
+      "headline": "Bloomberg: OpenAI on track ~$70B net ARR; chips still wobbled",
+      "sourceUrl": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 1029.0,
+      "pctChange": -0.66,
+      "headline": "Semis lag rebound (SOX −0.41%)",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1686000,
+      "pctChange": -2.15,
+      "headline": "Thu 8 Oct close (KRW); KRX closed Fri Hangul Day; next print Mon 12 Oct",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 162.54,
+      "pctChange": 1.23,
+      "headline": "Unlock day (≤328.4M sh) absorbed on ~avg volume; next tranche 24 Oct",
+      "sourceUrl": "https://investinglive.com/stocks/spacex-lockup-expiration-puts-buyers-to-the-test-the-technicals-define-the-risk/"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker exists",
+      "sourceUrl": null
+    }
+  ],
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://markets.businessinsider.com/news/stocks/why-coreweave-nebius-and-iren-stocks-are-bouncing-back-today-after-thursday-s-selloff-1036613251",
+    "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20",
+    "https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-stock-price-up-33-heres-why-2026-10-09/",
+    "https://investinglive.com/stocks/spacex-lockup-expiration-puts-buyers-to-the-test-the-technicals-define-the-risk/",
+    "https://dagomcapital.com/spacex-lockup-expiration-dates-explained/",
+    "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-gain-oil-102454068.html",
+    "https://www.thecorequant.com/wall-street-wrap-pre-market-october-9-2026",
+    "https://www.fxstreet.com/news/wti-holds-steady-as-traders-weigh-us-iran-tensions-and-supply-risks-202610091425",
+    "https://www.sca.isr.umich.edu/",
+    "https://m.stock.naver.com/domestic/stock/000660",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://open.er-api.com/v6/latest/USD",
+    "https://bullstory.io/en/stocks/nbis/history/2026-10-09",
+    "https://www.ibtimes.com.au/amazon-shares-rebound-ahead-earnings-report-1876487"
+  ]
+}

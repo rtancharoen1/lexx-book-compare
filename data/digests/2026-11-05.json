@@ -1,0 +1,355 @@
+{
+  "bookQuotes": {
+    "asOf": "US cash = Wed 4 Nov close; futures/oil/KOSPI/FX live ~08:25 ICT Thu (Yahoo); NBIS OHLC/AH/cap CNBC",
+    "NQF": {
+      "last": 28364.5,
+      "pct": 0.21,
+      "note": "pct vs Tue settle 28305.75; Wed Yahoo close bar null"
+    },
+    "ESF": {
+      "last": 7715.75,
+      "pct": -0.06,
+      "note": "pct vs Wed settle 7720.5"
+    },
+    "IXIC": {
+      "last": 25736.51,
+      "pct": 1.44
+    },
+    "SPX": {
+      "last": 7688.62,
+      "pct": 1.58
+    },
+    "SOX": {
+      "last": 10268.65,
+      "pct": -3.13
+    },
+    "US10Y": {
+      "last": 4.894
+    },
+    "US2Y": {
+      "last": null,
+      "note": "not sourced this run"
+    },
+    "DXY": {
+      "last": 101.35
+    },
+    "BRENT": {
+      "last": 94.39,
+      "settleTue": 103.6,
+      "note": "Wed Yahoo close bar null; live Thu"
+    },
+    "WTI": {
+      "last": 87.73,
+      "settleWed": 88.12,
+      "pctWed": -8.3,
+      "settleTue": 96.09
+    },
+    "KOSPI": {
+      "last": 5474.68,
+      "pct": -3.08,
+      "note": "pct vs Tue close 5648.79; Wed Yahoo bar null"
+    }
+  },
+  "flags": [
+    "F&G 27.3 Fear (from 19.1 Extreme Fear)",
+    "NBIS −6.67% to $141.52; post $137.54",
+    "SOX −3.1% to 6-mo low; MU −7%",
+    "Hyperscalers up (AMZN +6.1%, GOOGL +3.2%)",
+    "Citi NBIS PT $324→$265 Buy; Q3 12 Nov"
+  ],
+  "fx": {
+    "USDTHB": 33.45,
+    "source": "https://finance.yahoo.com/quote/THB=X",
+    "USDKRW": 1339.38,
+    "USDKRWsource": "https://finance.yahoo.com/quote/KRW=X"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 141.52,
+      "pctChange": -6.67,
+      "headline": "DC-moratorium selloff after Dem sweep; Citi PT $265 Buy; no TX site; Q3 12 Nov; no filing",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS",
+      "asOf": "Wed 4 Nov close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 288.93,
+      "pctChange": 3.18,
+      "headline": "Hyperscaler bid on incumbent-moat / lower-capex view",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL",
+      "asOf": "Wed 4 Nov close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 266.03,
+      "pctChange": 6.12,
+      "headline": "Hyperscaler bid; largest gainer in book Wed",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN",
+      "asOf": "Wed 4 Nov close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 630.0,
+      "pctChange": 1.44,
+      "headline": "Hyperscaler bid; modest gain",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/META",
+      "asOf": "Wed 4 Nov close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 200.13,
+      "pctChange": -3.17,
+      "headline": "SOX/buildout fear; Q3 17 Nov",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/NVDA",
+      "asOf": "Wed 4 Nov close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 795.23,
+      "pctChange": -7.0,
+      "headline": "Memory sold with SOX; Apple cost overhang",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU",
+      "asOf": "Wed 4 Nov close"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 135.92,
+      "pctChange": -3.81,
+      "headline": "Soft with AI infra / Musk midterm spend narrative",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/SPCX",
+      "asOf": "Wed 4 Nov close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1396000,
+      "pctChange": -7.59,
+      "live": 1295000,
+      "headline": "Live −7.6% Thu vs Wed close ₩1,396,000; KOSPI soft",
+      "source": "Yahoo",
+      "sourceUrl": "https://finance.yahoo.com/quote/000660.KS",
+      "asOf": "live Thu 5 Nov KST morning"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 141.52,
+      "pct": -6.67,
+      "open": 145.81,
+      "high": 152.88,
+      "low": 140.02,
+      "ah": 137.54,
+      "ahPct": -2.81,
+      "mktCapB": 38.47,
+      "volume": "19.2M"
+    },
+    "GOOGL": {
+      "last": 288.93,
+      "pct": 3.18
+    },
+    "AMZN": {
+      "last": 266.03,
+      "pct": 6.12
+    },
+    "META": {
+      "last": 630.0,
+      "pct": 1.44
+    },
+    "NVDA": {
+      "last": 200.13,
+      "pct": -3.17
+    },
+    "MU": {
+      "last": 795.23,
+      "pct": -7.0
+    },
+    "SPCX": {
+      "last": 135.92,
+      "pct": -3.81
+    },
+    "000660.KS": {
+      "last": 1295000,
+      "pct": -7.59,
+      "prevClose": 1396000,
+      "status": "live Thu morning KST",
+      "source": "https://finance.yahoo.com/quote/000660.KS"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://www.tikr.com/blog/nebius-sinks-6-as-democratic-sweep-hits-neoclouds-be-careful-with-the-nebius-irens",
+    "https://www.tipranks.com/news/the-fly/nebius-price-target-lowered-to-265-from-324-at-citi-thefly-news",
+    "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-pessimistic-forecast-for-nebius-group-nasdaq-nbis-stock-price-2026-11-04/",
+    "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+    "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+    "https://www.investors.com/news/technology/chip-stocks-feeling-blue-after-democratic-party-victories/",
+    "https://www.ainvest.com/news/blue-wave-put-45-data-center-buildout-waiting-2611/",
+    "https://seekingalpha.com/news/4664849-data-center-chip-shares-drop-but-hyperscalers-gain-as-democrats-win-congress",
+    "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+    "https://www.investing.com/news/earnings/arm-stock-slips-after-hours-despite-quarterly-results-and-guidance-beat-5001212",
+    "https://nebius.com/investor-hub",
+    "https://www.thecorequant.com/the-wall-street-wrap-november-4-2026",
+    "https://finance.yahoo.com/quote/NQ=F",
+    "https://finance.yahoo.com/quote/%5ETNX",
+    "https://finance.yahoo.com/quote/000660.KS",
+    "https://finance.yahoo.com/quote/CL=F",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-11-05",
+      "event": "Midterm aftermath: DC-moratorium / permitting risk still pricing in AI infra; weekly claims; Conoco/Airbnb/etc earnings"
+    },
+    {
+      "date": "2026-11-06",
+      "event": "October jobs report 8:30 ET (20:30 ICT)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "NVIDIA AI Day Seoul (9–10 Nov)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "October CPI"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "NBIS Q3 2026 results BMO, call 8:00 ET (20:00 ICT)"
+    },
+    {
+      "date": "2026-11-17",
+      "event": "NVDA Q3 FY27 results, call 5:00 p.m. ET (05:00 ICT 18 Nov)"
+    }
+  ],
+  "date": "2026-11-05",
+  "asOfIct": "2026-11-05T08:35+07:00",
+  "asOfWita": "2026-11-05T09:35+08:00",
+  "producedBy": "Deki · Investment manager (weekday AI-infra digest routine)",
+  "fearGreed": {
+    "value": 27.3,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "27.3 Fear, up from 19.1 Extreme Fear (CNN stamp 2026-11-04T23:59Z = Wed close). 1-wk 34.4, 1-mo 38.2. Off the run's extreme-fear floor after Wed's market rally, still firmly in Fear."
+  },
+  "nbis": [
+    {
+      "headline": "[NEW] NBIS Wed close $141.52 (−6.67%), open/high/low $145.81/$152.88/$140.02, vol ~19.2M, cap $38.47B; post-market $137.54 (−2.81%) at 19:59 ET",
+      "why": "Gives back Tue's +7.3% bounce and then some; sold while Nasdaq +1.4%. Still ~53% below 52-wk high $299.86. No company filing.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "[NEW] Driver: Democratic midterm sweep → data-center moratorium fears. Texas gov-elect Hinojosa campaigned on an immediate pause; Wells Fargo puts Texas at ~27% of planned US DC GW. NBIS has no disclosed Texas site (NJ/MO/PA)",
+      "why": "Sector selloff in neoclouds/power/contractors (IREN/HUT/CRWV weak). NBIS is trading the political risk, not a Texas asset hit.",
+      "source": "TIKR / CNBC",
+      "url": "https://www.tikr.com/blog/nebius-sinks-6-as-democratic-sweep-hits-neoclouds-be-careful-with-the-nebius-irens"
+    },
+    {
+      "headline": "[NEW] Citi cut NBIS PT $324→$265, kept Buy, ahead of Q3; focus stays on financing",
+      "why": "Lower bar, not a thesis break. Street still wants the Dec ARR path ($7–9B guide) on 12 Nov.",
+      "source": "TipRanks / The Fly",
+      "url": "https://www.tipranks.com/news/the-fly/nebius-price-target-lowered-to-265-from-324-at-citi-thefly-news"
+    },
+    {
+      "headline": "[NEW] Local ballots: voters sided against data centers in 40 of 41 measures across 10 states (Ballotpedia/CNBC); lone miss Harwood ND",
+      "why": "Political risk is national, not just Texas. Broadens the permitting-delay narrative for neoclouds.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
+    },
+    {
+      "headline": "Q3 2026 results Thu 12 Nov before open, call 8:00 ET (20:00 ICT). No NBIS SEC filing found 3–5 Nov (EDGAR full-text search 0 hits)",
+      "why": "Funding mix, prepayments, MSFT/META ramp and ARR trajectory matter more than the election print.",
+      "source": "Nebius investor hub / SEC search",
+      "url": "https://nebius.com/investor-hub"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "[NEW] Split tape Wed: hyperscalers rallied (AMZN +6.12% to $266.03, GOOGL +3.18% to $288.93, META +1.44% to $630; MSFT also strong) while AI infra sold — Needham: higher barriers entrench incumbents",
+      "why": "Street bid existing powered capacity / FCF over future build. Bad for neoclouds; mixed for GPU landlords.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html"
+    },
+    {
+      "headline": "[NEW] SOX −3.13% to 10,268.7 (6-month low per IBD). NVDA $200.13 (−3.17%), MU $795.23 (−7.00%), SPCX $135.92 (−3.81%). Memory/neocloud hit hardest",
+      "why": "Chips priced a slower US DC build, not weaker AI demand. MU also carries Apple memory-cost overhang.",
+      "source": "IBD / Yahoo / CNBC",
+      "url": "https://www.investors.com/news/technology/chip-stocks-feeling-blue-after-democratic-party-victories/"
+    },
+    {
+      "headline": "[NEW] Goldman: states likely to tighten DC rules (TX/GA/MI) hold ~45% of planned US capacity; expects pauses to be temporary, some spend possibly pulled into 2027",
+      "why": "Frames Wed as a timing/permitting hit, not a demand collapse — still a near-term de-rate for buildout names.",
+      "source": "AInvest (GS note reports)",
+      "url": "https://www.ainvest.com/news/blue-wave-put-45-data-center-buildout-waiting-2611/"
+    },
+    {
+      "headline": "[NEW] SK hynix live ₩1,295,000 (−7.6% vs Wed close ₩1,396,000); KOSPI live ~5,475 (−3.1% vs Tue close 5,649; Wed Yahoo bar missing)",
+      "why": "Korea memory following MU lower into Thu session.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/000660.KS"
+    },
+    {
+      "headline": "[NEW] Wed AH: QCOM beat EPS, light guide, AH ~−7% (handset −26% on memory costs). ARM beat, guide in-line-ish, AH ~−2 to −4%. AMD/ANET held most of Tue beat (AMD ~$489, ANET ~$178); SMCI faded to ~$29.6",
+      "why": "Handset/CPU read soft; AI networking still fine. Minor for NBIS book.",
+      "source": "CNBC / Investing.com",
+      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+    },
+    {
+      "headline": "K3 (Moonshot AI) private, no ticker",
+      "why": "No public quote; never invent one.",
+      "source": "internal",
+      "url": "https://finance.yahoo.com/quote/"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "[NEW] Midterms finalized as Democratic sweep of House and Senate; Texas and Georgia gov seats flipped on anti-DC platforms",
+      "why": "Removes election uncertainty for mega-cap tech, adds permitting/regulatory risk for AI buildout and power names.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html"
+    },
+    {
+      "headline": "[NEW] Wed cash: Nasdaq +1.44% (25,736.5), S&P +1.58% (7,688.6), Dow ~+3.0% best day since Apr 2025; VIX −20% to ~16.6. Futures ~08:25 ICT: NQ 28,364.5 (~flat vs Tue settle 28,306), ES 7,715.75 (−0.1% vs Wed 7,720.5)",
+      "why": "Risk-on in indices, risk-off in AI infra — rotation, not a broad risk cut.",
+      "source": "CNBC / Yahoo / Core Quant wrap",
+      "url": "https://www.thecorequant.com/the-wall-street-wrap-november-4-2026"
+    },
+    {
+      "headline": "[NEW] Yields/FX: 10Y 4.894% (−5.8 bp vs Tue), DXY ~101.35, USD/KRW 1,339.4, USD/THB 33.45",
+      "why": "Lower long yields help duration; not enough to offset DC-policy hit on NBIS.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/%5ETNX"
+    },
+    {
+      "headline": "[NEW] Oil: WTI Wed settle $88.12 (−8.3% vs Tue $96.09), live ~$87.73; Brent live ~$94.39 (from Tue settle $103.60) on diplomacy hopes",
+      "why": "Energy drag helped the Dow/S&P print; separate from AI thesis.",
+      "source": "Yahoo Finance / Core Quant wrap",
+      "url": "https://finance.yahoo.com/quote/CL=F"
+    },
+    {
+      "headline": "Next macro: October jobs Fri 6 Nov 8:30 ET; CPI 10 Nov",
+      "why": "Labor/inflation still set the rate path for long-duration AI names.",
+      "source": "calendar",
+      "url": "https://www.thecorequant.com/the-wall-street-wrap-november-4-2026"
+    }
+  ],
+  "soWhat": [
+    "NBIS −6.7% to $141.52 (post $137.54) on DC-moratorium politics, not a filing; no Texas site disclosed. Q3 12 Nov is still the real test.",
+    "Tape split: hyperscalers bid (AMZN/GOOGL/META up), SOX −3.1% to 6-mo low, memory/neocloud sold. Political risk hit builders, not AI demand.",
+    "Goldman puts ~45% of planned US DC capacity in states that may pause; expects it temporary. Local ballots 40/41 anti-DC.",
+    "F&G 27.3 Fear (from 19.1 Extreme Fear). 10Y 4.89%. No trades."
+  ]
+}

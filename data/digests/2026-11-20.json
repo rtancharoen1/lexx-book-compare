@@ -1,0 +1,302 @@
+{
+  "bookQuotes": {},
+  "flags": [
+    "NBIS -9.4% to $96.92 (below $100, worst in Nasdaq 100), ~-37% since Q3; ext. ~$94.51; no equity/convert filing",
+    "Anthropic (ANT) debut: open $111.50 (+34%), high $115.10, close $97.17 (+17.1%); failed to lift AI trade",
+    "S&P -2.0% (6th drop), Nasdaq -2.25%, SOX -2.4%, VIX 28.4; Kospi -3.9%, Hynix -6.3% Fri morning",
+    "F&G 18.7 Extreme Fear (from 24.6)"
+  ],
+  "fx": {
+    "DXY": 103.88,
+    "USDKRW": 1335.86,
+    "USDTHB": 33.93,
+    "source": "Yahoo Finance (Fri 20 Nov ~08:20 ICT)"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 96.92,
+      "pctChange": -9.4,
+      "headline": "Thu -9.4% to $96.92 (open $111.73, high $115.18, low $96.54, vol ~37.6M); ext. ~$94.51 (-2.5%); no equity/convert filing; 134 MW Israel deal (Mega Or) for 2028",
+      "source": "Yahoo Finance / CNBC / Reuters",
+      "sourceUrl": "https://finance.yahoo.com/quote/NBIS",
+      "asOf": "Thu 19 Nov close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 272.66,
+      "pctChange": -3.5,
+      "headline": "Thu -3.5% to $272.66 (opened $294.12) as ANT debut sparked rotation; ~13.4% Anthropic stake; ext. ~$273.31",
+      "source": "Yahoo Finance / Motley Fool",
+      "sourceUrl": "https://finance.yahoo.com/quote/GOOGL",
+      "asOf": "Thu 19 Nov close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 257.37,
+      "pctChange": -3.9,
+      "headline": "Thu -3.9% to $257.37, giving back Wed's Anthropic-stake gain; ~14.6% Anthropic stake; ext. ~$256.37",
+      "source": "Yahoo Finance / Fortune",
+      "sourceUrl": "https://finance.yahoo.com/quote/AMZN",
+      "asOf": "Thu 19 Nov close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 596.22,
+      "pctChange": -3.3,
+      "headline": "Thu -3.3% to $596.22 on AI-capex/FCF scrutiny and tech selloff; ext. ~$588.00 (-1.4%)",
+      "source": "Yahoo Finance / TradingKey",
+      "sourceUrl": "https://finance.yahoo.com/quote/META",
+      "asOf": "Thu 19 Nov close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 145.98,
+      "pctChange": -3.3,
+      "headline": "Thu -3.3% to $145.98, 6th straight loss (~$669B lost in 6 sessions); board approached Arm CEO Rene Haas; House release: 879,868 China chip licences approved",
+      "source": "Yahoo Finance / MarketWatch / CNBC",
+      "sourceUrl": "https://finance.yahoo.com/quote/NVDA",
+      "asOf": "Thu 19 Nov close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 690.44,
+      "pctChange": -2.1,
+      "headline": "Thu -2.1% to $690.44 after early +7.8% (high $760); ext. ~$677.06 (-1.9%)",
+      "source": "Yahoo Finance / CBS News",
+      "sourceUrl": "https://finance.yahoo.com/quote/MU",
+      "asOf": "Thu 19 Nov close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1183000,
+      "pctChange": 3.4,
+      "headline": "KRX Thu close 1,183,000 won (+3.4%); Fri ~10:30 KST 1,109,000 (-6.3%), Kospi 4,939 (-3.9%) below 5,000",
+      "source": "Yahoo Finance / Naver / MoneyToday",
+      "sourceUrl": "https://finance.yahoo.com/quote/000660.KS",
+      "asOf": "KRX Thu 19 Nov close (Fri intraday -6.3%)"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 138.43,
+      "pctChange": -3.5,
+      "headline": "Thu -3.5% to $138.43 (range $135.50-$147.29); Anthropic $120.5B compute deal = customer concentration risk; ext. ~$136.44",
+      "source": "Yahoo Finance / Motley Fool",
+      "sourceUrl": "https://finance.yahoo.com/quote/SPCX",
+      "asOf": "Thu 19 Nov close"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 96.92,
+      "pct": -9.4,
+      "open": 111.73,
+      "high": 115.18,
+      "low": 96.54,
+      "volume": "37.6M",
+      "afterHours": 94.51,
+      "afterHoursPct": -2.5,
+      "mktCapB": 28.4,
+      "mktCapNote": "calculated 292.9M sh x $96.92; CNBC shows $28.388B"
+    },
+    "GOOGL": {
+      "last": 272.66,
+      "pct": -3.5,
+      "afterHours": 273.31,
+      "afterHoursPct": 0.2
+    },
+    "AMZN": {
+      "last": 257.37,
+      "pct": -3.9,
+      "afterHours": 256.37,
+      "afterHoursPct": -0.4
+    },
+    "META": {
+      "last": 596.22,
+      "pct": -3.3,
+      "afterHours": 588.0,
+      "afterHoursPct": -1.4
+    },
+    "NVDA": {
+      "last": 145.98,
+      "pct": -3.3,
+      "afterHours": 144.65,
+      "afterHoursPct": -0.9
+    },
+    "MU": {
+      "last": 690.44,
+      "pct": -2.1,
+      "afterHours": 677.06,
+      "afterHoursPct": -1.9
+    },
+    "SPCX": {
+      "last": 138.43,
+      "pct": -3.5,
+      "afterHours": 136.44,
+      "afterHoursPct": -1.4
+    },
+    "000660.KS": {
+      "last": 1183000,
+      "pct": 3.4,
+      "status": "KRX Thu 19 Nov close; Fri intraday 1,109,000 (-6.3%) at ~10:30 KST"
+    },
+    "ANT": {
+      "last": 97.17,
+      "pct": 17.1,
+      "ipoPrice": 83.0,
+      "open": 111.5,
+      "high": 115.1,
+      "low": 92.72,
+      "afterHours": 92.6,
+      "afterHoursPct": -4.7,
+      "note": "Debut Thu 19 Nov; pct vs $83 IPO price; ~$1.8T fully diluted (CNBC)"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no public ticker/quote"
+    }
+  },
+  "sources": [
+    "https://finance.yahoo.com",
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108",
+    "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-shares-down-94-heres-what-happened-2026-11-19/",
+    "https://www.calcalistech.com/ctechnews/article/zrt5oaw9s",
+    "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+    "https://www.nasdaq.com/newsroom/anthropic-marks-ipo-at-nasdaq",
+    "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+    "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+    "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231",
+    "https://www.theguardian.com/technology/2026/nov/19/nvidia-new-ceo-search-jensen-huang-arm-rene-haas",
+    "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+    "https://www.fortune.com/2026/11/19/anthropic-ipo-amazon-google-stake-windfall-nonvoting/",
+    "https://www.tradingkey.com/news/market-movers/262313962-market-movers-meta-20261119",
+    "https://www.cbsnews.com/news/dow-tumbles-wall-street-ai-fears/",
+    "https://www.fool.com/investing/2026/11/19/why-spacex-stock-is-down-today/",
+    "https://www.cnbc.com/2026/11/19/us-treasury-yields-investors-us-economy.html",
+    "https://www.mt.co.kr/en/stock/2026/11/20/2026112009294242619",
+    "https://m.stock.naver.com/domestic/stock/000660/total"
+  ],
+  "weekAhead": [
+    "Anthropic IPO offering closes Fri 20 Nov; ANT slated to join Nasdaq 100 on 21 Dec",
+    "Huang to meet US lawmakers on national security 1 Dec",
+    "SPCX lockup expiry 8 Dec",
+    "FOMC 8-9 Dec: CME ~95% odds of a hike; Waller floated 50bp"
+  ],
+  "date": "2026-11-20",
+  "asOfIct": "2026-11-20 08:30 ICT",
+  "asOfWita": "2026-11-20 09:30 WITA",
+  "producedBy": "Deki · Investment manager (AI infra morning digest routine)",
+  "fearGreed": {
+    "value": 18.7,
+    "label": "Extreme Fear",
+    "source": "https://www.cnn.com/markets/fear-and-greed",
+    "prev": 24.6,
+    "weekAgo": 40.3,
+    "read": "18.7 Extreme Fear, down 5.9 pts from 24.6 prior close (week ago 40.3, month ago 19.5); reading stamped 23:59 UTC Thu 19 Nov."
+  },
+  "nbis": [
+    {
+      "headline": "NBIS Thu -9.4% to $96.92 (open $111.73, high $115.18, low $96.54, vol ~37.6M, ~2x avg); first close below $100 since April; ext. ~$94.51 (-2.5%)",
+      "why": "Intraday reversal of ~16% from high as the AI trade sold off into ANT's debut; ~-37% since pre-Q3 close $154.69. Calc cap ~$28.4B (292.9M sh; CNBC $28.39B).",
+      "source": "Yahoo Finance / Reuters via Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    },
+    {
+      "headline": "SEC EDGAR: no new NBIS filing since Form 4 on 17 Nov; no 6-K, F-3, 424B or convert notice",
+      "why": "Dilution watch clear again; 2026 capex ~$27B still to be funded (mgmt: 75-85% via prepayments and asset-backed financing).",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Mega Or signs 3rd deal for 134 MW IT in Israel (Beit Shemesh + Masmiya), delivery by end-Q2 2028; Globes names Nebius as client",
+      "why": "Adds long-dated capacity but no revenue until 2028; Masmiya grid approval frozen and deal cancels if approvals miss deadlines. Not confirmed by Nebius.",
+      "source": "Ctech (Calcalist)",
+      "url": "https://www.calcalistech.com/ctechnews/article/zrt5oaw9s"
+    },
+    {
+      "headline": "Zacks downgrades NBIS to Hold; market still digesting Q3 capacity delays into 2027 and 2026 revenue top end cut to $3.2B",
+      "why": "Sentiment overhang persists despite Q3 beat (rev $980.8M); consensus PT ~$222.67 (MarketBeat).",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-shares-down-94-heres-what-happened-2026-11-19/"
+    },
+    {
+      "headline": "Neoclouds hit hardest: CoreWeave -6.1%, Nebius -9.4%; CNBC: CRWV bonds yielded >16% earlier this month",
+      "why": "Debt-funded neoclouds are the high-beta end of the AI trade while the Fed hikes and flags AI debt.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Anthropic (ANT) debut: opened $111.50 (+34% vs $83), high $115.10, closed $97.17 (+17.1%); ~846M shares traded; ~$1.8T fully diluted",
+      "why": "Strong debut for the model layer, but the market sold the rest of AI into it; ext. ~$92.60 (-4.7%). Read-through to private AI valuations (K3/Moonshot).",
+      "source": "CNBC / Nasdaq",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+    },
+    {
+      "headline": "NVDA -3.3% to $145.98, 6th straight loss (~$669B market value lost); board's recruiter approached Arm CEO Rene Haas; Kress interim CEO",
+      "why": "Leadership uncertainty still dominates; House Foreign Affairs release of 879,868 approved H200/MI325X China licences raises export-control scrutiny (AMD -7.7% on Hunterbrook short report).",
+      "source": "MarketWatch / Guardian / CNBC",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+    },
+    {
+      "headline": "GOOGL -3.5% to $272.66, AMZN -3.9% to $257.37 despite ~$260B paper windfall on Anthropic stakes (Google ~13.4%, Amazon ~14.6%)",
+      "why": "Wed's stake re-rating reversed; investors rotated into ANT directly. No hyperscaler capex change in 24h.",
+      "source": "Fortune / Yahoo Finance",
+      "url": "https://www.fortune.com/2026/11/19/anthropic-ipo-amazon-google-stake-windfall-nonvoting/"
+    },
+    {
+      "headline": "META -3.3% to $596.22 on AI-capex/FCF scrutiny (2026 capex $135-145B, S&P negative outlook, Class C issuance paused)",
+      "why": "Funding of hyperscaler capex now a stock driver, not just the size of it.",
+      "source": "TradingKey",
+      "url": "https://www.tradingkey.com/news/market-movers/262313962-market-movers-meta-20261119"
+    },
+    {
+      "headline": "MU -2.1% to $690.44 after early +7.8%; SOX -2.4%. SK Hynix KRX Thu +3.4% to 1,183,000, then -6.3% to 1,109,000 Fri ~10:30 KST",
+      "why": "Memory names reversed with the AI trade; foreign net selling in Korea Fri morning.",
+      "source": "CBS News / MoneyToday",
+      "url": "https://www.mt.co.kr/en/stock/2026/11/20/2026112009294242619"
+    },
+    {
+      "headline": "SPCX -3.5% to $138.43; Anthropic committed up to $120.5B through 2029 to SpaceX's AI arm (~$3.1B/month at full delivery)",
+      "why": "Anthropic is the AI unit's biggest customer: concentration risk now trades with ANT.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/19/why-spacex-stock-is-down-today/"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "US close: S&P 500 -2.0% (7,175.83, 6th straight drop, below 200-day), Dow -2.2% (49,097.06), Nasdaq -2.25% (23,879.20); VIX 28.4 (high ~29, highest since March)",
+      "why": "Broad risk-off: >90% of S&P names down; on course for worst week since April 2025.",
+      "source": "CNBC / Reuters via Investing.com",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "10Y ~5.05% (-1bp), 2Y ~4.75%; jobless claims 203K vs 197K est.; CME ~95% odds of a Dec hike; Waller floated 50bp",
+      "why": "Safe-haven bid trimmed yields, but the hike path keeps funding costs high for levered AI infra.",
+      "source": "CNBC / Yahoo Finance",
+      "url": "https://www.cnbc.com/2026/11/19/us-treasury-yields-investors-us-economy.html"
+    },
+    {
+      "headline": "DXY ~103.88 Fri Asia (from 103.82); USD/KRW 1,335.9; USD/THB 33.93",
+      "why": "Dollar firm; won weaker as foreigners sell Korea.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+    },
+    {
+      "headline": "Kospi Thu +1.4% to 5,137.89, then Fri ~10:30 KST 4,939 (-3.9%) back below 5,000; Samsung ~-4%",
+      "why": "Korea semis track the US AI unwind; foreigners net sold 328.5B won early Fri.",
+      "source": "Seoul Economic Daily / MoneyToday / Naver",
+      "url": "https://en.sedaily.com/market/2026/11/20/samsung-sk-hynix-tumble-4-5-percent-as-kospi-opens-below"
+    }
+  ],
+  "soWhat": [
+    "ANT popped 17% but was sold off from its open; the AI trade used the IPO to take profits.",
+    "NBIS below $100 (-9.4%), worst in Nasdaq 100; no dilution filing; new Israel MW only helps from 2028.",
+    "NVDA 6 straight losses plus China-licence scrutiny: chips/memory and Korea are falling together.",
+    "F&G 18.7 Extreme Fear, VIX 28, Dec hike ~95% priced: macro stays a headwind."
+  ]
+}

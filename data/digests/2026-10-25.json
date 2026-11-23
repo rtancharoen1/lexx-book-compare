@@ -1,0 +1,519 @@
+{
+  "bookQuotes": {
+    "asOf": "US = Fri 23 Oct 2026 closes unchanged from Sat digest (CNBC quote API pulled ~08:05 ICT Sat 24 Oct); SK hynix/KOSPI = Naver KRX Fri close (re-checked 08:10 ICT Sun); F&G CNN stamp 2026-10-23T23:59Z (= 06:59 ICT Sat), fetched 08:07 ICT Sun 25 Oct; weekend news checked to ~08:15 ICT Sun",
+    "NBIS": {
+      "last": 158.74,
+      "chg": -0.43,
+      "pct": -0.27,
+      "open": 158.9,
+      "high": 162.99,
+      "low": 155.86,
+      "volume": "13.50M",
+      "mktCapB": 43.154,
+      "mktCapNote": "CNBC mktcapView",
+      "ah": 158.74,
+      "ahPct": 0.0,
+      "ahStamp": "CNBC/Yahoo post-market 7:59 PM EDT (SA $158.56, stockanalysis $158.54)",
+      "weekPct": -4.07,
+      "usdthb": 33.757,
+      "thbPerShare": 5359,
+      "nextEarnings": "UNCONFIRMED: no company notice; CNBC 11/09 (est), MarketBeat/stockanalysis 10 Nov est, TipRanks still lists 22 Oct",
+      "flag": false,
+      "note": "EDGAR re-checked 08:07 ICT Sun: no new filing after 22 Oct 6-K (Citi $3.5B 364-day); newsroom latest still 22 Oct"
+    },
+    "GOOGL": {
+      "last": 320.21,
+      "pct": -1.24,
+      "ah": 321.15,
+      "ahPct": 0.29
+    },
+    "AMZN": {
+      "last": 248.0,
+      "pct": -0.95,
+      "ah": 248.78,
+      "ahPct": 0.31
+    },
+    "META": {
+      "last": 642.62,
+      "pct": -0.96,
+      "ah": 640.1,
+      "ahPct": -0.39
+    },
+    "NVDA": {
+      "last": 210.96,
+      "pct": -0.59,
+      "ah": 211.11,
+      "ahPct": 0.07
+    },
+    "MU": {
+      "last": 877.55,
+      "pct": 2.46,
+      "ah": 879.9,
+      "ahPct": 0.27
+    },
+    "SPCX": {
+      "last": 147.49,
+      "pct": 1.89,
+      "ah": 147.58,
+      "ahPct": 0.06,
+      "note": "next ~328.4M unlock tradable Mon 26 Oct"
+    },
+    "CRWV": {
+      "last": 54.24,
+      "pct": -2.46,
+      "ah": 53.95,
+      "ahPct": -0.53,
+      "note": "peer; 52-wk low $53.50 Thu; ~−37% in Oct"
+    },
+    "SPX": {
+      "last": 7623.68,
+      "pct": -0.52
+    },
+    "IXIC": {
+      "last": 25955.34,
+      "pct": -0.21
+    },
+    "DJI": {
+      "last": 52215.16,
+      "pct": -1.23
+    },
+    "SOX": {
+      "last": 10779.46,
+      "pct": 0.44
+    },
+    "VIX": {
+      "last": 19.45,
+      "pct": 2.21
+    },
+    "US10Y": {
+      "last": 4.999,
+      "note": "CNBC 5:05 PM EDT Fri; +~4bp d/d, back to 5% line"
+    },
+    "US2Y": {
+      "last": 4.686
+    },
+    "DXY": {
+      "last": 101.752
+    },
+    "BRENT": {
+      "last": 116.72,
+      "pct": 3.14,
+      "note": "Reuters settle, highest since 29 Apr; week +6%; CNBC post-settle last 117.38"
+    },
+    "WTI": {
+      "last": 103.27,
+      "pct": 3.8,
+      "note": "Reuters settle"
+    },
+    "THB": {
+      "last": 33.757,
+      "source": "CNBC THB= 9:04 PM EDT Fri"
+    },
+    "SK000660": {
+      "last": 1263000,
+      "pct": 3.27,
+      "refClose": 1223000,
+      "open": 1204000,
+      "high": 1284000,
+      "low": 1171000,
+      "status": "KRX close Fri",
+      "source": "Naver",
+      "flag": false,
+      "note": "Q3 results 28 Oct before 09:00 KST"
+    },
+    "KOSPI": {
+      "last": 5550.3,
+      "pct": 0.3,
+      "note": "Naver Fri close; recovered from intraday −4% (Reuters)"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": []
+  },
+  "flags": [],
+  "fx": {
+    "USDTHB": 33.757,
+    "source": "https://www.cnbc.com/quotes/THB=",
+    "stamp": "CNBC 9:04 PM EDT Fri = 08:04 ICT Sat",
+    "USDKRW": 1322.1,
+    "USDKRWsource": "CNBC KRW= 8:00 PM EDT Fri",
+    "note": "Baht ~flat vs 33.71 Fri AM"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 158.74,
+      "pctChange": -0.27,
+      "headline": "Fri close; weekend: no new filing/financing, Q3 date unconfirmed",
+      "source": "https://www.cnbc.com/quotes/NBIS",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 320.21,
+      "pctChange": -1.24,
+      "headline": "Eased with megacaps; no weekend news",
+      "source": "https://www.investing.com/news/stock-market-news/after-previous-days-slump-trading-is-quieter-among-ai-shares-4970254",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/after-previous-days-slump-trading-is-quieter-among-ai-shares-4970254"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 248.0,
+      "pctChange": -0.95,
+      "headline": "Eased; no weekend news",
+      "source": "https://www.investing.com/news/stock-market-news/after-previous-days-slump-trading-is-quieter-among-ai-shares-4970254",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/after-previous-days-slump-trading-is-quieter-among-ai-shares-4970254"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 642.62,
+      "pctChange": -0.96,
+      "headline": "Fractionally lower after Thu −7%; no weekend news",
+      "source": "https://www.investing.com/news/stock-market-news/after-previous-days-slump-trading-is-quieter-among-ai-shares-4970254",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/after-previous-days-slump-trading-is-quieter-among-ai-shares-4970254"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 210.96,
+      "pctChange": -0.59,
+      "headline": "Flat-ish; no weekend news",
+      "source": "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 877.55,
+      "pctChange": 2.46,
+      "headline": "Memory rebound with SOX +0.44%; no weekend news",
+      "source": "https://www.ndtvprofit.com/markets/us-chip-stocks-rebound-micron-jumps-3-5-sk-hynix-gains-4-5-as-nasdaq-recovers-12227382",
+      "sourceUrl": "https://www.ndtvprofit.com/markets/us-chip-stocks-rebound-micron-jumps-3-5-sk-hynix-gains-4-5-as-nasdaq-recovers-12227382"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1263000,
+      "pctChange": 3.27,
+      "headline": "KRX Fri close; Q3 28 Oct 07:00 ICT, return-policy focus",
+      "source": "https://m.stock.naver.com/domestic/stock/000660/total",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660/total"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 147.49,
+      "pctChange": 1.89,
+      "headline": "Fri close; 328.4M-share unlock tradable Mon 26 Oct",
+      "source": "https://www.tipranks.com/news/spacex-stock-climbs-today-but-328-million-shares-are-about-to-be-unlocked",
+      "sourceUrl": "https://www.tipranks.com/news/spacex-stock-climbs-today-but-328-million-shares-are-about-to-be-unlocked"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker",
+      "source": null,
+      "sourceUrl": null
+    },
+    {
+      "ticker": "FNG",
+      "lastClose": 21.0,
+      "pctChange": null,
+      "headline": "Extreme Fear (CNN stamp Fri close, fetched 08:07 ICT Sun)",
+      "source": "https://www.cnn.com/markets/fear-and-greed",
+      "sourceUrl": "https://www.cnn.com/markets/fear-and-greed"
+    }
+  ],
+  "quotes": {
+    "asOf": "US = Fri 23 Oct 2026 closes unchanged from Sat digest (CNBC quote API pulled ~08:05 ICT Sat 24 Oct); SK hynix/KOSPI = Naver KRX Fri close (re-checked 08:10 ICT Sun); F&G CNN stamp 2026-10-23T23:59Z (= 06:59 ICT Sat), fetched 08:07 ICT Sun 25 Oct; weekend news checked to ~08:15 ICT Sun",
+    "NBIS": {
+      "last": 158.74,
+      "chg": -0.43,
+      "pct": -0.27,
+      "open": 158.9,
+      "high": 162.99,
+      "low": 155.86,
+      "volume": "13.50M",
+      "mktCapB": 43.154,
+      "mktCapNote": "CNBC mktcapView",
+      "ah": 158.74,
+      "ahPct": 0.0,
+      "ahStamp": "CNBC/Yahoo post-market 7:59 PM EDT (SA $158.56, stockanalysis $158.54)",
+      "weekPct": -4.07,
+      "usdthb": 33.757,
+      "thbPerShare": 5359,
+      "nextEarnings": "UNCONFIRMED: no company notice; CNBC 11/09 (est), MarketBeat/stockanalysis 10 Nov est, TipRanks still lists 22 Oct",
+      "flag": false,
+      "note": "EDGAR re-checked 08:07 ICT Sun: no new filing after 22 Oct 6-K (Citi $3.5B 364-day); newsroom latest still 22 Oct"
+    },
+    "GOOGL": {
+      "last": 320.21,
+      "pct": -1.24,
+      "ah": 321.15,
+      "ahPct": 0.29
+    },
+    "AMZN": {
+      "last": 248.0,
+      "pct": -0.95,
+      "ah": 248.78,
+      "ahPct": 0.31
+    },
+    "META": {
+      "last": 642.62,
+      "pct": -0.96,
+      "ah": 640.1,
+      "ahPct": -0.39
+    },
+    "NVDA": {
+      "last": 210.96,
+      "pct": -0.59,
+      "ah": 211.11,
+      "ahPct": 0.07
+    },
+    "MU": {
+      "last": 877.55,
+      "pct": 2.46,
+      "ah": 879.9,
+      "ahPct": 0.27
+    },
+    "SPCX": {
+      "last": 147.49,
+      "pct": 1.89,
+      "ah": 147.58,
+      "ahPct": 0.06,
+      "note": "next ~328.4M unlock tradable Mon 26 Oct"
+    },
+    "CRWV": {
+      "last": 54.24,
+      "pct": -2.46,
+      "ah": 53.95,
+      "ahPct": -0.53,
+      "note": "peer; 52-wk low $53.50 Thu; ~−37% in Oct"
+    },
+    "SPX": {
+      "last": 7623.68,
+      "pct": -0.52
+    },
+    "IXIC": {
+      "last": 25955.34,
+      "pct": -0.21
+    },
+    "DJI": {
+      "last": 52215.16,
+      "pct": -1.23
+    },
+    "SOX": {
+      "last": 10779.46,
+      "pct": 0.44
+    },
+    "VIX": {
+      "last": 19.45,
+      "pct": 2.21
+    },
+    "US10Y": {
+      "last": 4.999,
+      "note": "CNBC 5:05 PM EDT Fri; +~4bp d/d, back to 5% line"
+    },
+    "US2Y": {
+      "last": 4.686
+    },
+    "DXY": {
+      "last": 101.752
+    },
+    "BRENT": {
+      "last": 116.72,
+      "pct": 3.14,
+      "note": "Reuters settle, highest since 29 Apr; week +6%; CNBC post-settle last 117.38"
+    },
+    "WTI": {
+      "last": 103.27,
+      "pct": 3.8,
+      "note": "Reuters settle"
+    },
+    "THB": {
+      "last": 33.757,
+      "source": "CNBC THB= 9:04 PM EDT Fri"
+    },
+    "SK000660": {
+      "last": 1263000,
+      "pct": 3.27,
+      "refClose": 1223000,
+      "open": 1204000,
+      "high": 1284000,
+      "low": 1171000,
+      "status": "KRX close Fri",
+      "source": "Naver",
+      "flag": false,
+      "note": "Q3 results 28 Oct before 09:00 KST"
+    },
+    "KOSPI": {
+      "last": 5550.3,
+      "pct": 0.3,
+      "note": "Naver Fri close; recovered from intraday −4% (Reuters)"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": []
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://finance.yahoo.com/quote/NBIS/",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40",
+    "https://nebius.com/newsroom",
+    "https://www.investing.com/news/stock-market-news/after-previous-days-slump-trading-is-quieter-among-ai-shares-4970254",
+    "https://www.investing.com/news/stock-market-news/wall-street-futures-dip-after-ai-rout-telecoms-slide-4968816",
+    "https://finance.yahoo.com/markets/articles/tech-selloff-relents-oil-five-103308077.html",
+    "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html",
+    "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907",
+    "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+    "https://www.investing.com/news/analyst-ratings/ubs-cuts-coreweave-stock-price-target-to-105-on-ai-infrastructure-concerns-93CH-4969990",
+    "https://www.tipranks.com/news/morgan-stanley-cuts-coreweave-stock-price-target-to-70-on-funding-risks",
+    "https://finance.yahoo.com/markets/crypto/articles/coreweave-heads-third-weekly-loss-194400826.html",
+    "https://www.ndtvprofit.com/markets/us-chip-stocks-rebound-micron-jumps-3-5-sk-hynix-gains-4-5-as-nasdaq-recovers-12227382",
+    "https://financefeeds.com/micron-share-price-taoyuan-union-rejects-offer/",
+    "https://www.tipranks.com/news/spacex-stock-climbs-today-but-328-million-shares-are-about-to-be-unlocked",
+    "https://etf.net/news/spacex-joins-qqq-under-new-rule-2026-10-23",
+    "https://m.stock.naver.com/domestic/stock/000660/total",
+    "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+    "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor",
+    "https://www.frenzycap.com/fedwatch",
+    "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26oct",
+    "https://finviz.com/news/406698/the-week-ahead-wall-street-awaits-october-fed-decision",
+    "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx",
+    "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+    "https://www.tipranks.com/stocks/nbis/earnings/q3-2026-report",
+    "https://www.marketbeat.com/earnings/reports/2026-11-10-nebius-group-nv-stock/",
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://www.cnn.com/markets/fear-and-greed",
+    "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis",
+    "https://www.bls.gov/schedule/news_release/empsit.htm",
+    "https://www.insight.co.kr/news/579049",
+    "https://www.munhwa.com/article/11625958",
+    "https://www.thinkpool.com/item/000660/news/16954474",
+    "https://www.newsquawk.com/headlines/anthropic-plans-to-file-documents-with-the-sec-for-its-blockbuster-ipo-on-october-26th-in-hopes-of-going-public-in-mid-november-according-to-ifr-citing-a-person-familiar-with-the-matter",
+    "https://iposcouter.com/anthropic-ipo-prospectus/",
+    "https://www.businesstimes.com.sg/companies-markets/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation"
+  ],
+  "weekAhead": [
+    {
+      "date": "Mon 26 Oct",
+      "item": "SPCX ~328.4M unlock tradable; Anthropic public S-1 targeted (IFR); oil reopen after Sat Houthi strikes"
+    },
+    {
+      "date": "Tue 27 Oct",
+      "item": "FOMC day 1; Micron Taoyuan bonus talks"
+    },
+    {
+      "date": "Wed 28 Oct",
+      "item": "SK hynix Q3 before 09:00 KST (07:00 ICT); GOOGL Q3 + MSFT FQ1 after close; FOMC decision 2:00 PM ET (01:00 ICT Thu)"
+    },
+    {
+      "date": "Thu 29 Oct",
+      "item": "US Q3 GDP advance + Sep PCE 8:30 AM ET (19:30 ICT); Samsung Q3; AMZN Q3 after close"
+    },
+    {
+      "date": "Fri 6 Nov",
+      "item": "US Oct jobs report 8:30 AM ET (19:30 ICT) per BLS"
+    },
+    {
+      "date": "TBD",
+      "item": "NBIS Q3 date unconfirmed (~9-10 Nov est)"
+    }
+  ],
+  "date": "2026-10-25",
+  "asOfIct": "2026-10-25T08:15+07:00",
+  "producedBy": "Deki (weekend AI infra digest, Sun)",
+  "asOfWita": "2026-10-25T09:15+08:00",
+  "fearGreed": {
+    "value": 21.0,
+    "label": "Extreme Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "fetchedIct": "2026-10-25T08:07+07:00",
+    "read": "20.98 Extreme Fear (stamp 2026-10-23T23:59Z = Fri close; unchanged over weekend). Prev close 19.8; 1-wk 22.1; 1-mo 32.5."
+  },
+  "nbis": [
+    {
+      "headline": "Fri close $158.74 (−0.27%), cap $43.15B, week −4.07% (unchanged; no trading)",
+      "why": "Reference only.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "Weekend: no new EDGAR filing (latest 6-K 22 Oct); newsroom latest still Citi $3.5B (22 Oct); no new financing; Q3 date still unconfirmed (~9-10 Nov est)",
+      "why": "Nothing company-specific new. Refinancing path for the 364-day facility remains the watch item.",
+      "source": "SEC EDGAR / Nebius newsroom",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Peers: no weekend financing news for CoreWeave or Nscale; CRWV EDGAR latest Form 4s 22 Oct; Nscale IPO still stuck on valuation pushback ($30B ask vs $16-19B, reported 19 Oct)",
+      "why": "Funding-stress narrative unchanged, not escalated.",
+      "source": "SEC EDGAR / Business Times (Bloomberg)",
+      "url": "https://www.businesstimes.com.sg/companies-markets/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Anthropic public S-1 still not on EDGAR as of 24 Oct; IFR reported target filing 26 Oct, roadshow week of 9 Nov",
+      "why": "Could land Mon/Tue US time: first audited look at AI-lab compute commitments (reported $518B+), a demand datapoint for neoclouds.",
+      "source": "Newsquawk (IFR) / IPO Scouter",
+      "url": "https://www.newsquawk.com/headlines/anthropic-plans-to-file-documents-with-the-sec-for-its-blockbuster-ipo-on-october-26th-in-hopes-of-going-public-in-mid-november-according-to-ifr-citing-a-person-familiar-with-the-matter"
+    },
+    {
+      "headline": "SK hynix: Korean weekend previews put Q3 consensus at ~₩96.7-98.5T revenue, ~₩76-77T OP; buyback (~₩40T, ~23.69M shares) completed 21 Oct; market watching for new shareholder-return plan at 28 Oct print",
+      "why": "Return policy, not the print, is the stated swing factor after Solidigm IPO review was dropped.",
+      "source": "Insight / Munhwa / Hankyung",
+      "url": "https://www.insight.co.kr/news/579049"
+    },
+    {
+      "headline": "SPCX: no company news over weekend (Starlink launch only); ~328.4M shares tradable Mon 26 Oct",
+      "why": "Unlock supply is the only scheduled catalyst.",
+      "source": "TipRanks",
+      "url": "https://www.tipranks.com/news/spacex-stock-climbs-today-but-328-million-shares-are-about-to-be-unlocked"
+    },
+    {
+      "headline": "GOOGL/AMZN/META/NVDA/MU: no material weekend news found",
+      "why": "Earnings (GOOGL Wed, AMZN Thu) are the next tests.",
+      "source": "n/a",
+      "url": null
+    },
+    {
+      "headline": "Export controls: no new rule found over weekend",
+      "why": "n/a",
+      "source": "Federal Register search",
+      "url": "https://www.federalregister.gov/"
+    },
+    {
+      "headline": "K3 (Moonshot AI): private, no ticker",
+      "why": "n/a",
+      "source": "n/a",
+      "url": null
+    }
+  ],
+  "macro": [
+    {
+      "headline": "Sat 24 Oct: Houthis claim new strikes on Aramco Yanbu, Rabigh refinery, East-West Pipeline and Saudi airports; coalition says 2 missiles downed; no confirmed hit on output",
+      "why": "Escalation continues after Brent's $116.72 Fri settle; oil reprices when futures reopen (~05:00 ICT Mon).",
+      "source": "Reuters via Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis"
+    },
+    {
+      "headline": "US jobs report (Oct) confirmed for Fri 6 Nov 8:30 AM ET (19:30 ICT), after FOMC",
+      "why": "Not this week.",
+      "source": "BLS",
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "headline": "No weekend Fed news (blackout). Fri levels: 10Y 4.999%, Brent $116.72, F&G 21.0 Extreme Fear",
+      "why": "Unchanged from Sat.",
+      "source": "CNBC / Reuters / CNN",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    }
+  ],
+  "soWhat": [
+    "No FLAG. Nothing new on NBIS: no filing, no financing, no Q3 date.",
+    "New since Sat: Houthi strikes on Saudi oil sites Sat (no confirmed damage); jobs report confirmed 6 Nov; SK hynix return-policy focus into 28 Oct.",
+    "Anthropic S-1 may land Mon 26 Oct (IFR) alongside SPCX unlock; then SK hynix/GOOGL/MSFT/FOMC Wed-Thu, AMZN/PCE Thu."
+  ]
+}

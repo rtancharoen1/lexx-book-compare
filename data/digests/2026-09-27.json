@@ -1,0 +1,210 @@
+{
+  "date": "2026-09-27",
+  "asOfIct": "2026-09-27T08:17:08+07:00",
+  "producedBy": "Sunday digest; Grok Deki-desk fill (SendToAgent unavailable). US Fri 25 cash + Fri AH now on CNBC ExtendedMkt; Korea CLOSED Chuseok through Fri — last close Wed; resume Mon 28. Sources: CNBC FormattedQuote + CNN F&G graphdata (Fri stamp) + SEC CIK0001513845 (no new vs Boroditsky Form4 Mon 21) + Naver SK Wed close + open.er-api FX + NextGenTechInsider Oct 1 hike restatement + Space.com/TipRanks Starship Flight 14 Mon. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 37,
+    "label": "Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN graphdata score 37 Fear, timestamp 2026-09-25T23:59:59+00:00 (Fri stamp; unchanged vs Sat digest). previous_close 36.1142857142857→36.11 (Thu)."
+  },
+  "nbis": [
+    {
+      "headline": "Fri US cash $237.33 (−2.53% / −$6.15 vs Thu $243.48). Day range $235.41–$246.92; open $245.60; vol ~10.23M; cap ≈ $64.52B (CNBC). ≈ THB 7924/sh at USDTHB 33.39. Fri AH $238.38 (+0.44% / +$1.05) now on ExtendedMkt (vol ~310k). No FLAG. Next cash Mon 28 Sep 20:30 ICT.",
+      "why": "CNBC FormattedQuote last 237.33 change_pct −2.53% previous_day_closing 243.48; ExtendedMktQuote last 238.38 change_pct +0.44% last_timedate 09/25/26 EDT; Sat digest ExtendedMkt was null — AH print restored Sun AM.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "NEW weekend: TheNextGenTechInsider restates Oct 1 PAYG hike with GPU-hour prints (B300 $9.50 / B200 $8.50 / H200 $5.40 / H100 $4.50); second hike in ~3 months.",
+      "why": "Sep 27 restatement of Reuters Sep 17 pricing path; not a new IR filing, but fresh weekend detail into Mon.",
+      "source": "TheNextGenTechInsider",
+      "url": "https://thenextgentechinsider.com/pulse/nebius-to-increase-ai-cloud-service-prices-again-this-october"
+    },
+    {
+      "headline": "CARRY: BNP Paribas Exane Outperform / PT $399 (from Neutral $260, Thu 24) — Sat ABMN republish only, not a new weekend rating change.",
+      "why": "American Banking News 2026-09-26 mirrors MarketBeat Thu Exane note.",
+      "source": "ABMN / MarketBeat",
+      "url": "https://www.americanbankingnews.com/2026/09/26/nebius-group-nasdaqnbis-stock-rating-upgraded-by-bnp-paribas-exane.html"
+    },
+    {
+      "headline": "CARRY analyst split: BofA Buy / PT $310 with FY27–28 revenue lift; BTG Neutral / PT $223 vs Redburn Sell / PT $84. FTSE All-World inclusion still Sep 21 (not NEW).",
+      "why": "Prior digest + MarketScreener FTSE note dated 2026-09-21.",
+      "source": "prior digest / MarketScreener",
+      "url": "https://www.marketscreener.com/news/nebius-group-n-v-nasdaqgs-nbis-added-to-ftse-all-world-index-ce785adbd88dff22"
+    },
+    {
+      "headline": "CARRY: Reuters Sep 17 PAYG Nvidia GPU +17–21% from Oct 1 (CPU +25%; memory ~+41%) — effective this week.",
+      "why": "Weekend restatement confirms same Oct 1 path; no newer Nebius IR supersede.",
+      "source": "Reuters / prior digest",
+      "url": "https://www.reuters.com/technology/nebius-hikes-ai-cloud-prices-again-demand-computing-power-soars-2026-09-17/"
+    },
+    {
+      "headline": "NO NEW EDGAR since Mon Form4 0001513845-26-000116 (Boroditsky CRO). Latest 6-K still Sep 8 Palantir; Form 144 still Sep 15.",
+      "why": "data.sec.gov/submissions/CIK0001513845.json Sun AM — top filing still Form4 2026-09-21; no new 6-K/144/4 Sat–Sun.",
+      "source": "SEC EDGAR CIK 0001513845",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845"
+    },
+    {
+      "headline": "Sep 8 Palantir preferred sovereign AI partner still top IR 6-K.",
+      "why": "SEC submissions unchanged for 6-K.",
+      "source": "Nebius Newsroom / SEC 6-K",
+      "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "Fri US cash (CNBC Sun AM): GOOGL $343.92 (+0.46%) / AMZN $249.67 (+0.12%) / META $751.66 (−3.33%) / NVDA $225.07 (+0.22%) / MU $1,082.28 (+0.16%) / SPCX $148.68 (+0.44%). SPX 7,743.41 (+0.51%). No book FLAG ≥5%.",
+      "why": "CNBC FormattedQuote Fri regular-session lasts; US closed Sun AM ICT.",
+      "source": "CNBC quote cache",
+      "url": "https://www.cnbc.com/quotes/.SPX",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "No FLAG ≥5% Fri on book. NBIS −2.53%; closest META −3.33%. SPCX +0.44%.",
+      "why": "CNBC Fri lasts; |chg| ≥5% none on Lexx book.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS",
+      "ticker": "BOOK"
+    },
+    {
+      "headline": "NEW calendar: SPCX Starship Flight 14 targeted Mon 28 Sep (~07:15–08:30 CT / ~19:15–20:30 ICT open; 75-min window) — first orbital attempt + 26 Starlink V3; WDR done; schedule dynamic.",
+      "why": "Space.com / TipRanks / Next Spaceflight weekend coverage into Mon open; not a Fri price FLAG.",
+      "source": "Space.com / TipRanks",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-14-1st-orbital-launch-what-time",
+      "ticker": "SPCX"
+    },
+    {
+      "headline": "Oracle/Blue Owl Project Jupiter force-majeure notice still chill on AI data-center financing mood — ORCL not on Lexx book; note only.",
+      "why": "Reuters Sep 24 carry; not a book FLAG.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/energy/oracle-blue-owl-project-delay-sends-ripples-through-ai-financing-sources-say-2026-09-24/",
+      "ticker": "MACRO"
+    },
+    {
+      "headline": "SK hynix (000660.KS) Korea CLOSED through Fri Chuseok — last close Wed ₩1,863,000 (+1.25% / +₩23,000 vs Tue ₩1,840,000 Naver). Resume Mon 28 Sep 09:00 KST.",
+      "why": "Naver basic still closePrice 1,863,000 fluctuationsRatio 1.25; localTradedAt 2026-09-23; marketStatus CLOSE.",
+      "source": "Naver Finance / KRX holiday calendar",
+      "url": "https://m.stock.naver.com/domestic/stock/000660",
+      "ticker": "000660.KS"
+    },
+    {
+      "headline": "K3: no public ticker.",
+      "why": "Unchanged — still no listed equity/ADR.",
+      "source": "prior digest",
+      "url": "",
+      "ticker": "K3"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "CNN Fear & Greed 37 Fear (Fri 25 Sep stamp; was Thu 36.11). SPX Fri 7,743.41 (+0.51%); VIX 14.87 (−5.11%); US10Y CNBC Fri last 5.165%.",
+      "why": "CNN production.dataviz graphdata unchanged Sun AM; CNBC .SPX / .VIX / US10Y Fri.",
+      "source": "CNN Fear & Greed API / CNBC",
+      "url": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "headline": "Into Mon: US cash reopen after weekend; Korea/SK resume after Chuseok; oil soft after Fri cooldown. Sep 16 Fed +25 bp still carry. No new weekend F&G stamp.",
+      "why": "Calendar + CNBC WTI Sat print; Fed Sep 16 statement carry.",
+      "source": "CNBC / Federal Reserve / prior digest",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
+      "headline": "USDTHB 33.386191 (er-api Sun 00:02Z). Oil Sun AM ICT: WTI CNBC @CL.1 $92.44 (−2.29% vs prev $94.61); Brent CNBC @LCO.1 $104.32 UNCH (stale — not treated as a move).",
+      "why": "open.er-api + CNBC futures Sun AM.",
+      "source": "open.er-api / CNBC futures",
+      "url": "https://open.er-api.com/v6/latest/USD"
+    }
+  ],
+  "soWhat": [
+    "NBIS Fri −2.53% to $237.33 (~THB 7924); Fri AH $238.38 (+0.44%) now printed — no FLAG; Exane PT $399 + Oct 1 PAYG hike (weekend GPU $/hr restatement) + BofA lift carry; no NEW SEC; next US cash Mon 28 20:30 ICT.",
+    "No book FLAG ≥5% Fri. META −3.33% under threshold. SPCX +0.44% Fri; Starship Flight 14 Mon calendar event.",
+    "Korea CLOSED Chuseok through Fri: SK last Wed ₩1,863k (+1.25%); resume Mon 28.",
+    "F&G 37 Fear (Fri stamp); VIX 14.87; US10Y ~5.165%. No trade. K3 no ticker."
+  ],
+  "quotes": {
+    "asOf": "US Fri 2026-09-25 cash + Fri AH (CNBC Sun AM); Korea Wed 2026-09-23 close — CLOSED Chuseok through Fri; FX Sun morning; F&G Fri stamp",
+    "usdthb": 33.386191,
+    "usdthbErApiAsOf": "Sun, 27 Sep 2026 00:02:31 +0000",
+    "NBIS": {
+      "last": 237.33,
+      "chgPctVsThu": -2.53,
+      "chgAbs": -6.15,
+      "mktCapBApprox": 64.52,
+      "thbPerShareApprox": 7924,
+      "dayHigh": 246.92,
+      "dayLow": 235.41,
+      "open": 245.6,
+      "volume": 10229742,
+      "ah": 238.38,
+      "ahChgPct": 0.44,
+      "ahNote": "Fri AH restored on CNBC ExtendedMkt Sun AM (was null Sat)",
+      "shareCountMethodMillions": 271.85,
+      "flag": false
+    },
+    "GOOGL": {
+      "last": 343.92,
+      "chgPct": 0.46
+    },
+    "AMZN": {
+      "last": 249.67,
+      "chgPct": 0.12
+    },
+    "META": {
+      "last": 751.66,
+      "chgPct": -3.33
+    },
+    "NVDA": {
+      "last": 225.07,
+      "chgPct": 0.22
+    },
+    "MU": {
+      "last": 1082.28,
+      "chgPct": 0.16
+    },
+    "SPCX": {
+      "last": 148.68,
+      "chgPct": 0.44
+    },
+    "SKHYNIX": {
+      "wedClose": 1863000,
+      "wedCloseChgPct": 1.25,
+      "tueCloseNaverJeonil": 1840000,
+      "sunStatus": "CLOSED_CHUSEOK_THROUGH_FRI",
+      "resume": "2026-09-28"
+    },
+    "SPX": {
+      "last": 7743.41,
+      "chgPct": 0.51
+    },
+    "VIX": {
+      "last": 14.87,
+      "chgPct": -5.11
+    },
+    "US10Y": {
+      "lastPct": 5.165
+    },
+    "fearGreed": 37,
+    "brentCnbcCache": 104.32,
+    "brentNote": "CNBC @LCO.1 UNCH/stale weekend — not used as move",
+    "wtiCnbcCache": 92.44
+  },
+  "flags": [],
+  "fx": {
+    "usdthb": 33.386191,
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "asOf": "Sun, 27 Sep 2026 00:02:31 +0000"
+  },
+  "sources": [
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://m.stock.naver.com/api/stock/000660/basic",
+    "https://open.er-api.com/v6/latest/USD",
+    "https://thenextgentechinsider.com/pulse/nebius-to-increase-ai-cloud-service-prices-again-this-october",
+    "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-14-1st-orbital-launch-what-time",
+    "https://www.americanbankingnews.com/2026/09/26/nebius-group-nasdaqnbis-stock-rating-upgraded-by-bnp-paribas-exane.html"
+  ]
+}

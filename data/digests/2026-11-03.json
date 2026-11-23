@@ -1,0 +1,343 @@
+{
+  "bookQuotes": {
+    "asOf": "US cash = Mon 2 Nov close; futures/oil/KOSPI live ~08:40 ICT Tue (Yahoo)",
+    "NQF": {
+      "last": 28222.5,
+      "pct": 0.34
+    },
+    "ESF": {
+      "last": 7581.75,
+      "pct": 0.1
+    },
+    "IXIC": {
+      "last": 25164.36,
+      "pct": -1.07
+    },
+    "SPX": {
+      "last": 7541.4,
+      "pct": -0.51
+    },
+    "SOX": {
+      "last": 10328.33,
+      "pct": -3.37
+    },
+    "US10Y": {
+      "last": 4.893
+    },
+    "US2Y": {
+      "last": 4.581
+    },
+    "DXY": {
+      "last": 101.809
+    },
+    "BRENT": {
+      "last": 105.01,
+      "settleMon": 104.77,
+      "pctMon": -7.63
+    },
+    "WTI": {
+      "last": 96.89,
+      "settleMon": 96.46,
+      "pctMon": -7.36
+    },
+    "KOSPI": {
+      "last": 5686.68,
+      "note": "live; JoongAng says −3%+ at open"
+    }
+  },
+  "flags": [
+    "F&G into Extreme Fear (22.7)",
+    "NBIS −8.27% to $141.39 on neocloud funding selloff",
+    "ORCL $10B equity + $10B bonds",
+    "Brent −7.6% to $104.77",
+    "SK hynix −5.7% live"
+  ],
+  "fx": {
+    "USDTHB": 33.73,
+    "source": "https://finance.yahoo.com/quote/THB=X",
+    "USDKRW": 1342.38,
+    "USDKRWsource": "https://finance.yahoo.com/quote/KRW=X"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 141.39,
+      "pctChange": -8.27,
+      "headline": "Neocloud funding selloff (APLD 800 MW unfinanced); no NBIS filing; Q3 12 Nov BMO",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS",
+      "asOf": "Mon 2 Nov close"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 278.99,
+      "pctChange": -0.3,
+      "headline": "No new news",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/GOOGL",
+      "asOf": "Mon 2 Nov close"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 245.63,
+      "pctChange": 2.2,
+      "headline": "No new news",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/AMZN",
+      "asOf": "Mon 2 Nov close"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 606.73,
+      "pctChange": -1.34,
+      "headline": "Bloomberg: weighing $20B+ debt deal",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/META",
+      "asOf": "Mon 2 Nov close"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 202.06,
+      "pctChange": -1.26,
+      "headline": "No new news; Q3 17 Nov",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/NVDA",
+      "asOf": "Mon 2 Nov close"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 833.59,
+      "pctChange": -5.78,
+      "headline": "Memory selloff; AAPL cites memory costs",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/MU",
+      "asOf": "Mon 2 Nov close"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 136.37,
+      "pctChange": 1.22,
+      "headline": "No company news",
+      "source": "CNBC/Yahoo",
+      "sourceUrl": "https://www.cnbc.com/quotes/SPCX",
+      "asOf": "Mon 2 Nov close"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1472000,
+      "pctChange": -5.71,
+      "live": 1388000,
+      "headline": "Live −5.7% Tue; KOSPI −3%+ at open",
+      "source": "Yahoo",
+      "sourceUrl": "https://finance.yahoo.com/quote/000660.KS",
+      "asOf": "live Tue 3 Nov KST morning"
+    }
+  ],
+  "quotes": {
+    "NBIS": {
+      "last": 141.39,
+      "pct": -8.27,
+      "open": 154.56,
+      "high": 155.36,
+      "low": 140.6,
+      "ah": 142.6,
+      "ahPct": 0.86,
+      "mktCapB": 38.44
+    },
+    "GOOGL": {
+      "last": 278.99,
+      "pct": -0.3
+    },
+    "AMZN": {
+      "last": 245.63,
+      "pct": 2.2
+    },
+    "META": {
+      "last": 606.73,
+      "pct": -1.34
+    },
+    "NVDA": {
+      "last": 202.06,
+      "pct": -1.26
+    },
+    "MU": {
+      "last": 833.59,
+      "pct": -5.78
+    },
+    "SPCX": {
+      "last": 136.37,
+      "pct": 1.22
+    },
+    "000660.KS": {
+      "last": 1388000,
+      "pct": -5.71,
+      "prevClose": 1472000,
+      "status": "live Tue morning KST",
+      "source": "https://finance.yahoo.com/quote/000660.KS"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://247wallst.com/investing/2026/11/02/applied-digital-slumps-8-as-ceo-says-800-mw-still-needs-financing-nebius-and-coreweave-fall-6/",
+    "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-falls-83-after-insider-selling-2026-11-02/",
+    "https://nebius.com/investor-hub",
+    "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+    "https://news.bloomberglaw.com/capital-markets/oracle-kicks-off-20-billion-capital-raise-to-fund-ai-spending",
+    "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+    "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+    "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+    "https://www.koreajoongangdaily.com/business/kospi-slides-at-open-336-on-concerns-over-ai-infrastructure-spending/12951953",
+    "https://www.brecorder.com/news/40447165",
+    "https://www.marketwatch.com/story/u-s-stocks-mixed-as-percolating-ai-fears-offset-oil-relief-a08628a3",
+    "https://finance.yahoo.com/quote/NQ=F",
+    "https://finance.yahoo.com/quote/KRW=X",
+    "https://www.cnn.com/markets/fear-and-greed"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-11-03",
+      "event": "US midterm elections; JOLTS; AMD, ANET, SMCI after close (morning 4 Nov ICT)"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "ADP; ISM Services; QCOM, ARM, COHR after close; Moonshot K3.1 Pro open weights due"
+    },
+    {
+      "date": "2026-11-06",
+      "event": "October jobs report 8:30 ET (20:30 ICT)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "NVIDIA AI Day Seoul (9–10 Nov)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "October CPI"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "NBIS Q3 2026 results BMO, call 8:00 ET (20:00 ICT)"
+    },
+    {
+      "date": "2026-11-17",
+      "event": "NVDA Q3 FY27 results, call 5:00 p.m. ET (05:00 ICT 18 Nov)"
+    }
+  ],
+  "date": "2026-11-03",
+  "asOfIct": "2026-11-03T08:40+07:00",
+  "asOfWita": "2026-11-03T09:40+08:00",
+  "producedBy": "Deki · Investment manager (weekday AI-infra digest routine)",
+  "fearGreed": {
+    "value": 22.7,
+    "label": "Extreme Fear",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "22.7 Extreme Fear, down from 26.2 (CNN stamp 2026-11-02T23:59Z = Mon close). 1-wk 29.8, 1-mo 38.2. First Extreme Fear print in this run."
+  },
+  "nbis": [
+    {
+      "headline": "[NEW] NBIS Mon close $141.39 (−8.27%), low $140.60, cap $38.44B; post-market $142.60 (+0.86%). Vol 19.1M",
+      "why": "Down ~18% in two sessions; now below the $154 level from Fri. No company-specific trigger.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "[NEW] Driver: Applied Digital CEO said ~800 MW of its 1.4 GW plan still needs financing; APLD −8%, CRWV and NBIS ~−6% intraday, IREN −6%. Musk warned 200+ neoclouds face 'guppy-level death' as capital tightens",
+      "why": "Market is pricing funding risk across the whole neocloud group, not NBIS numbers. Q3 funding plan is the answer.",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/02/applied-digital-slumps-8-as-ceo-says-800-mw-still-needs-financing-nebius-and-coreweave-fall-6/"
+    },
+    {
+      "headline": "Filings: only director Boynton Form 4 (333 sh sold @ $173.07 on 29 Oct, 10b5-1, 0.08% of holding). No 6-K, raise or convert",
+      "why": "Trivial; no dilution event.",
+      "source": "MarketBeat / SEC",
+      "url": "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-stock-falls-83-after-insider-selling-2026-11-02/"
+    },
+    {
+      "headline": "Q3 2026 results Thu 12 Nov before open, call 8:00 ET (20:00 ICT)",
+      "why": "Citi $3.5B facility use, capex funding mix and MSFT ramp are the tests.",
+      "source": "Nebius investor hub",
+      "url": "https://nebius.com/investor-hub"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "[NEW] Oracle filed to sell $10B common stock + $10B bonds (six tranches 2029–2046) for AI buildout; stock −8.8% Mon. Bloomberg: Meta weighing a $20B+ multi-currency debt deal; MSFT sold $25B bonds Thu",
+      "why": "Hyperscaler capex now leaning on equity and debt markets. Supply of AI paper is the theme hitting neocloud credit.",
+      "source": "CNBC / Bloomberg Law",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+    },
+    {
+      "headline": "[NEW] Marvell to buy Lumentum for $115B; MRVL −12.7%, LITE −18% Mon",
+      "why": "Optical/networking consolidation; acquirer selloff adds to chip weakness. SOX −3.4% Mon (10,328).",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "[NEW] Watchlist Mon closes: NVDA $202.06 (−1.26%), META $606.73 (−1.34%), GOOGL $278.99 (−0.30%), AMZN $245.63 (+2.20%), MU $833.59 (−5.78%), SPCX $136.37 (+1.22%)",
+      "why": "Memory hit hardest (MU). AMZN and SPCX green. No new company filings on these names.",
+      "source": "Yahoo Finance / CNBC",
+      "url": "https://www.cnbc.com/quotes/MU"
+    },
+    {
+      "headline": "[NEW] SK hynix live ₩1,388,000 (−5.7% vs Mon ₩1,472,000); KOSPI fell 3%+ at open on US AI-spending worries (Yahoo live ~5,687)",
+      "why": "Korea memory following MU lower; second big leg down in a week.",
+      "source": "Korea JoongAng Daily / Yahoo",
+      "url": "https://www.koreajoongangdaily.com/business/kospi-slides-at-open-336-on-concerns-over-ai-infrastructure-spending/12951953"
+    },
+    {
+      "headline": "[NEW] PLTR Q3 beat (rev $2.31B vs $2.18B, Q4 guide ~$2.65B vs $2.46B), shares ~flat to −3% AH. AAPL beat but guided GM 45–46% vs 46.3% est citing memory costs, −2% AH",
+      "why": "Beats are not being rewarded. Apple flags memory cost pressure, a read-through to MU/SK hynix pricing power.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html"
+    },
+    {
+      "headline": "Today after US close: AMD, ANET, SMCI report. K3 (Moonshot AI) private, no ticker; K3.1 Pro open weights due 4 Nov",
+      "why": "AMD MI-series guide is the next AI-demand read before NBIS 12 Nov.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "[NEW] Mon: Nasdaq −1.07% (25,164), S&P −0.51% (7,541), Dow +0.41%; early gains of 1.1–1.4% faded as money rotated out of tech",
+      "why": "Bounce attempt failed; AI-funding stress still in charge.",
+      "source": "CNBC / MarketWatch",
+      "url": "https://www.marketwatch.com/story/u-s-stocks-mixed-as-percolating-ai-fears-offset-oil-relief-a08628a3"
+    },
+    {
+      "headline": "[NEW] Oil −7.6%: Brent settled $104.77, WTI $96.46 after Iran said the Supreme Leader gave the government authority for peace talks; Qatari mediators went to Tehran. Brent ~$105 in Asia",
+      "why": "Biggest daily drop of the conflict; eases inflation and hike risk. Analysts warn of 'false dawns'.",
+      "source": "Reuters via Business Recorder",
+      "url": "https://www.brecorder.com/news/40447165"
+    },
+    {
+      "headline": "[NEW] Yields: 10Y 4.893% (−3.5bp), 2Y 4.581%, 30Y 5.268%",
+      "why": "Lower oil softening the rates outlook, a small help for long-duration names.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/u-s-stocks-mixed-as-percolating-ai-fears-offset-oil-relief-a08628a3"
+    },
+    {
+      "headline": "Futures Tue ~08:40 ICT: NQ 28,222.5 (+0.3%), ES 7,581.75 (+0.1%). US midterms today; JOLTS",
+      "why": "Quiet open signal; midterm result is a data-center policy risk.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NQ=F"
+    },
+    {
+      "headline": "FX: USD/KRW 1,342.4 (won weaker), USD/THB 33.73, DXY 101.81",
+      "why": "Won weakness alongside KOSPI selloff.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/KRW=X"
+    }
+  ],
+  "soWhat": [
+    "NBIS $141.39, −18% in two days on group funding fear, not company news. Next real input is Q3 on 12 Nov.",
+    "Hyperscalers are now raising equity and debt (ORCL $20B, META $20B+ talk), so neocloud credit stays under pressure.",
+    "Memory is weakest: MU −5.8%, SK hynix −5.7% live; Apple's margin guide confirms high memory prices.",
+    "F&G 22.7 Extreme Fear. Oil −7.6% is the one tailwind. Watch AMD tonight. No trades."
+  ]
+}

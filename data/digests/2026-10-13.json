@@ -1,0 +1,562 @@
+{
+  "bookQuotes": {
+    "asOf": "Mon 12 Oct 2026 US regular close (Yahoo chart / CNBC); SK/Samsung/KOSPI Tue 13 Oct live 11:19 KST (Naver); F&G Mon close stamp",
+    "NBIS": {
+      "last": 210.06,
+      "prev": 221.07,
+      "chg": -11.01,
+      "pct": -4.98,
+      "open": 217.03,
+      "high": 217.03,
+      "low": 206.9,
+      "volume": 13918067,
+      "mktCapB": 57.106,
+      "ah": 207.4,
+      "ahPct": -1.27,
+      "usdthb": 33.58,
+      "thbPerShare": 7054,
+      "fourSessionPct": -15.93,
+      "flag": true
+    },
+    "GOOGL": {
+      "last": 352.72,
+      "prev": 351.66,
+      "pct": 0.3
+    },
+    "AMZN": {
+      "last": 259.53,
+      "prev": 262.43,
+      "pct": -1.11
+    },
+    "META": {
+      "last": 742.96,
+      "prev": 718.67,
+      "pct": 3.38
+    },
+    "NVDA": {
+      "last": 226.32,
+      "prev": 229.28,
+      "pct": -1.29
+    },
+    "MU": {
+      "last": 989.04,
+      "prev": 1029.0,
+      "pct": -3.88
+    },
+    "SPCX": {
+      "last": 163.42,
+      "prev": 162.57,
+      "pct": 0.52
+    },
+    "SK000660": {
+      "last": 1476000,
+      "prev": 1605000,
+      "pct": -8.04,
+      "liveKst": "2026-10-13T11:19",
+      "note": "Tue intraday; earlier read ₩1,469,000 −8.47% at 10:21 KST"
+    },
+    "SS005930": {
+      "last": 232500,
+      "prev": 250500,
+      "pct": -7.19,
+      "liveKst": "2026-10-13T11:19"
+    },
+    "KOSPI": {
+      "last": 6000.84,
+      "pct": -6.01,
+      "note": "sell-side sidecar 09:47 KST"
+    },
+    "US10Y": {
+      "last": 5.24,
+      "note": "cash bond market closed Mon"
+    },
+    "SPX": {
+      "last": 7807.24,
+      "pct": -0.06
+    },
+    "IXIC": {
+      "last": 27245.9,
+      "pct": -0.44
+    },
+    "DJI": {
+      "last": 51850.55,
+      "pct": 0.38
+    },
+    "SOX": {
+      "last": 12236.79,
+      "pct": -2.67
+    },
+    "VIX": {
+      "last": 15.21,
+      "pct": 1.35
+    },
+    "WTI": {
+      "last": 92.7,
+      "note": "Tue Asia live"
+    },
+    "BRENT": {
+      "last": 105.56,
+      "note": "Tue Asia live"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "000660.KS −8.04% live",
+      "NBIS −4.98% day / −15.9% 4 sessions"
+    ]
+  },
+  "flags": [
+    {
+      "ticker": "000660.KS",
+      "level": "FLAG",
+      "text": "SK Hynix −8.04% live (₩1,476,000 vs ₩1,605,000), 5th straight drop; KOSPI −6% sidecar; CXMT 4F² DRAM + SOX −2.67%",
+      "url": "https://biz.heraldcorp.com/article/10900668"
+    },
+    {
+      "ticker": "NBIS",
+      "level": "FLAG",
+      "text": "−4.98% Mon to $210.06 (borderline day) and −15.9% over 4 sessions from $249.87; AH $207.40; no new filing",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "ticker": "MU",
+      "level": "watch",
+      "text": "−3.88% to $989.04 on CXMT; under $1,000",
+      "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html"
+    }
+  ],
+  "fx": {
+    "USDTHB": 33.58,
+    "source": "https://finance.yahoo.com/quote/THB=X/",
+    "stamp": "2026-10-13T02:19Z (10:19 WITA)",
+    "erApi": 33.618,
+    "erApiStamp": "Mon, 12 Oct 2026 23:57 UTC",
+    "USDKRW": 1335.7,
+    "krwSource": "https://www.koreajoongangdaily.com/business/stocks-open-sharply-lower-on-us-losses-inflation-concerns/12917268"
+  },
+  "monitorBlock": [
+    {
+      "ticker": "NBIS",
+      "lastClose": 210.06,
+      "pctChange": -4.98,
+      "headline": "FLAG: −15.9% over 4 sessions from $249.87; AH $207.40; no new SEC filing; funding-cost narrative",
+      "sourceUrl": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "ticker": "GOOGL",
+      "lastClose": 352.72,
+      "pctChange": 0.30,
+      "headline": "Porat: ~$200B 2026 AI capex, increase significantly 2027; earnings 28 Oct",
+      "sourceUrl": "https://fortune.com/2026/10/12/google-ruth-porat-ai-spending-risks/"
+    },
+    {
+      "ticker": "AMZN",
+      "lastClose": 259.53,
+      "pctChange": -1.11,
+      "headline": "WSJ: talks to buy Decart ~$7B (Trainium portability); earnings 29 Oct",
+      "sourceUrl": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad"
+    },
+    {
+      "ticker": "META",
+      "lastClose": 742.96,
+      "pctChange": 3.38,
+      "headline": "Muse Wonder frontier model launched; earnings 28 Oct",
+      "sourceUrl": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+    },
+    {
+      "ticker": "NVDA",
+      "lastClose": 226.32,
+      "pctChange": -1.29,
+      "headline": "SOX −2.67%; Hock Tan: capital is the AI build-out constraint",
+      "sourceUrl": "https://www.computerweekly.com/news/366652046/Capital-not-chips-may-be-the-real-brake-on-the-AI-build-out"
+    },
+    {
+      "ticker": "MU",
+      "lastClose": 989.04,
+      "pctChange": -3.88,
+      "headline": "CXMT 4F² DRAM / DDR5 RDIMM by end-2026; below $1,000",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3370505/chinas-cxmt-unveils-key-progress-chip-structure-pursued-samsung-sk-hynix"
+    },
+    {
+      "ticker": "000660.KS",
+      "lastClose": 1476000,
+      "pctChange": -8.04,
+      "headline": "FLAG: Tue live 11:19 KST; KOSPI −6% sidecar; 5th straight drop; Q3 27 Oct",
+      "sourceUrl": "https://m.stock.naver.com/domestic/stock/000660"
+    },
+    {
+      "ticker": "SPCX",
+      "lastClose": 163.42,
+      "pctChange": 0.52,
+      "headline": "800 MHz spectrum deal + FCC OK 15k-sat Starlink Mobile; next unlock 24 Oct",
+      "sourceUrl": "https://www.tradingview.com/news/tradingview:26239fc39c5e4:0-key-facts-spacex-spcx-gets-fcc-ok-buys-800-mhz-jpmorgan-overweight/"
+    },
+    {
+      "ticker": "K3",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Moonshot AI (Kimi): private, no ticker exists",
+      "sourceUrl": null
+    },
+    {
+      "ticker": "F&G",
+      "lastClose": 45.7,
+      "pctChange": null,
+      "headline": "CNN Neutral (prior digest 45 Fear); 1-wk 43.7, 1-mo 32.7",
+      "sourceUrl": "https://www.cnn.com/markets/fear-and-greed"
+    },
+    {
+      "ticker": "NEXT",
+      "lastClose": null,
+      "pctChange": null,
+      "headline": "Tue JPM/GS/C/WFC ~19:00 WITA; Wed CPI 20:30 WITA + ASML; Thu TSMC Q3 14:00 WITA",
+      "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    }
+  ],
+  "quotes": {
+    "asOf": "Mon 12 Oct 2026 US regular close (Yahoo chart / CNBC); SK/Samsung/KOSPI Tue 13 Oct live 11:19 KST (Naver); F&G Mon close stamp",
+    "NBIS": {
+      "last": 210.06,
+      "prev": 221.07,
+      "chg": -11.01,
+      "pct": -4.98,
+      "open": 217.03,
+      "high": 217.03,
+      "low": 206.9,
+      "volume": 13918067,
+      "mktCapB": 57.106,
+      "ah": 207.4,
+      "ahPct": -1.27,
+      "usdthb": 33.58,
+      "thbPerShare": 7054,
+      "fourSessionPct": -15.93,
+      "flag": true
+    },
+    "GOOGL": {
+      "last": 352.72,
+      "prev": 351.66,
+      "pct": 0.3
+    },
+    "AMZN": {
+      "last": 259.53,
+      "prev": 262.43,
+      "pct": -1.11
+    },
+    "META": {
+      "last": 742.96,
+      "prev": 718.67,
+      "pct": 3.38
+    },
+    "NVDA": {
+      "last": 226.32,
+      "prev": 229.28,
+      "pct": -1.29
+    },
+    "MU": {
+      "last": 989.04,
+      "prev": 1029.0,
+      "pct": -3.88
+    },
+    "SPCX": {
+      "last": 163.42,
+      "prev": 162.57,
+      "pct": 0.52
+    },
+    "SK000660": {
+      "last": 1476000,
+      "prev": 1605000,
+      "pct": -8.04,
+      "liveKst": "2026-10-13T11:19",
+      "note": "Tue intraday; earlier read ₩1,469,000 −8.47% at 10:21 KST"
+    },
+    "SS005930": {
+      "last": 232500,
+      "prev": 250500,
+      "pct": -7.19,
+      "liveKst": "2026-10-13T11:19"
+    },
+    "KOSPI": {
+      "last": 6000.84,
+      "pct": -6.01,
+      "note": "sell-side sidecar 09:47 KST"
+    },
+    "US10Y": {
+      "last": 5.24,
+      "note": "cash bond market closed Mon"
+    },
+    "SPX": {
+      "last": 7807.24,
+      "pct": -0.06
+    },
+    "IXIC": {
+      "last": 27245.9,
+      "pct": -0.44
+    },
+    "DJI": {
+      "last": 51850.55,
+      "pct": 0.38
+    },
+    "SOX": {
+      "last": 12236.79,
+      "pct": -2.67
+    },
+    "VIX": {
+      "last": 15.21,
+      "pct": 1.35
+    },
+    "WTI": {
+      "last": 92.7,
+      "note": "Tue Asia live"
+    },
+    "BRENT": {
+      "last": 105.56,
+      "note": "Tue Asia live"
+    },
+    "K3": {
+      "last": null,
+      "note": "Moonshot AI (Kimi): private, no ticker"
+    },
+    "bookFlags": [
+      "000660.KS −8.04% live",
+      "NBIS −4.98% day / −15.9% 4 sessions"
+    ]
+  },
+  "sources": [
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "https://data.sec.gov/submissions/CIK0001513845.json",
+    "https://www.cnbc.com/quotes/NBIS",
+    "https://finance.yahoo.com/quote/NBIS/",
+    "https://www.marketbeat.com/instant-alerts/price-nebius-group-nasdaq-nbis-shares-down-5-heres-what-happened-2026-10-12/",
+    "https://www.tipranks.com/news/catalyst/nebius-group-plunges-after-massive-insider-stock-sale",
+    "https://247wallst.com/investing/2026/10/12/nebius-slides-3-despite-rosenblatts-new-buy-rating-coreweave-slips/",
+    "https://www.computerweekly.com/news/366652046/Capital-not-chips-may-be-the-real-brake-on-the-AI-build-out",
+    "https://www.bloomberg.com/news/articles/2026-10-12/broadcom-ceo-likens-many-ai-investors-to-casino-gamblers",
+    "https://fortune.com/2026/10/12/google-ruth-porat-ai-spending-risks/",
+    "https://m.stock.naver.com/domestic/stock/000660",
+    "https://biz.heraldcorp.com/article/10900668",
+    "https://biz.chosun.com/en/en-finance/2026/10/13/MEMEQBGQWZEEFN6DLWI5QTBUTA/?outputType=amp",
+    "https://www.ajupress.com/view/20261013103670851",
+    "https://www.cnbctv18.com/market/south-korean-chip-stocks-fall-on-concerns-over-chinese-competition-broadcom-remarks-20010381.htm",
+    "https://www.scmp.com/tech/big-tech/article/3370505/chinas-cxmt-unveils-key-progress-chip-structure-pursued-samsung-sk-hynix",
+    "https://www.digitimes.com/news/a20261012VL204/cxmt-dram-ddr5-2026-manufacturing.html",
+    "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/262212467-us-stock-nasdaq-sp500-dow-dram-memory-cxmt-micron-meta-tradingkey",
+    "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+    "https://research.meta.ai/blog/muse-wonder",
+    "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
+    "https://www.tradingview.com/news/tradingview:26239fc39c5e4:0-key-facts-spacex-spcx-gets-fcc-ok-buys-800-mhz-jpmorgan-overweight/",
+    "https://www.clevelandfed.org/collections/speeches/2026/sp-20261012-trimming-the-sails-communicating-my-reaction-function",
+    "https://www.koreajoongangdaily.com/business/stocks-open-sharply-lower-on-us-losses-inflation-concerns/12917268",
+    "https://finance.yahoo.com/quote/THB=X/",
+    "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+  ],
+  "weekAhead": [
+    {
+      "date": "2026-10-13",
+      "timeWita": "~19:00",
+      "event": "Big banks Q3: JPM, GS, C, WFC",
+      "detail": "JPM consensus EPS ~$5.94 / rev $52.21B (AlphaEdge); Q3 S&P EPS growth expected +29.5% Y/Y (Newsquawk)",
+      "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "date": "2026-10-13",
+      "timeWita": "23:30",
+      "event": "T-bill auctions 13/26/6-week",
+      "detail": "No coupon auction this week; 20Y on 21 Oct, 5Y TIPS on 22 Oct",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "Tue US / Wed WITA",
+      "event": "Fed Waller, Barkin, Collins (Collins 16:00 ET = 04:00 WITA Wed)",
+      "detail": "ITC Markets / Forex Factory",
+      "sourceUrl": "https://itc-m.objects.xtenit.com/itc/ITC-Weekly-Macro.pdf"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "~13:00",
+      "event": "ASML Q3 results (before Amsterdam open)",
+      "detail": "Zacks consensus rev $13.18B / EPS $12.47; guide was €11.0–12.0B, GM 55–57%",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "Wed",
+      "event": "MS, BAC Q3",
+      "detail": "Newsquawk",
+      "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "date": "2026-10-14",
+      "timeWita": "20:30",
+      "event": "US Sep CPI",
+      "detail": "Consensus headline +0.6% m/m, 3.6% y/y (Newsquawk; AlphaEdge shows 3.7%); core +0.2% m/m, 2.5% y/y. Prior 0.4% / 3.4%; core 0.3% / 2.4%",
+      "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "02:00 Thu",
+      "event": "Fed Beige Book; Bowman/Barkin also speak Wed",
+      "detail": "Wed 14:00 ET",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "14:00",
+      "event": "TSMC Q3 earnings conference",
+      "detail": "14:00 Taipei; guide rev $44.6–45.8B, GM 65–67%; consensus EPS $4.45 / rev $45.62B (AlphaEdge). Key read for NVDA/MU/NBIS demand",
+      "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "20:30",
+      "event": "US Sep retail sales, PPI, jobless claims; Empire/Philly Fed",
+      "detail": "Retail +0.4% m/m (prior +1.2%); PPI +0.5–0.6% m/m, 5.3% y/y (Newsquawk/AlphaEdge); claims 202k",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "2026-10-15",
+      "timeWita": "23:30",
+      "event": "T-bill auctions 17-week (Wed) and 4/8-week (Thu)",
+      "detail": "Treasury schedule",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "04:30 Fri",
+      "event": "Fed Hammack at Goldman event",
+      "detail": "Thu 16:30 ET",
+      "sourceUrl": "https://itc-m.objects.xtenit.com/itc/ITC-Weekly-Macro.pdf"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "11:30",
+      "event": "Fed Chair Warsh fireside chat with IMF MD Georgieva (Bangkok)",
+      "detail": "10:30–11:00 Bangkok; last big Fed voice before the 17 Oct blackout",
+      "sourceUrl": "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html"
+    },
+    {
+      "date": "2026-10-16",
+      "timeWita": "21:15",
+      "event": "US Sep industrial production; import prices",
+      "detail": "IP consensus +0.4% (AlphaEdge)",
+      "sourceUrl": "https://alphaedgehub.com/articles/week-ahead-cpi-bank-earnings-chip-margins-october-12-16-2026.html"
+    },
+    {
+      "date": "outside window",
+      "timeWita": "",
+      "event": "SK hynix Q3 27 Oct; Samsung Q3 29 Oct; META/GOOGL 28 Oct; AMZN 29 Oct; FOMC 27–28 Oct; SPCX unlock 24 Oct (trade 26 Oct)",
+      "detail": "Neither SK hynix nor Samsung reports this week",
+      "sourceUrl": "https://en.quartalszahlen.info/companies/000660"
+    }
+  ],
+  "date": "2026-10-13",
+  "asOfIct": "2026-10-13T09:25:00+07:00",
+  "asOfWita": "2026-10-13T10:25:00+08:00",
+  "producedBy": "Tue digest after Mon 12 Oct US cash + Tue KRX morning. Quotes: Yahoo Finance chart API (US book, ^TNX, ^SOX, THB=X, oil), CNBC QuickQuote (NBIS confirm/AH/cap), Naver mobile API (000660/005930/KOSPI live ~11:19 KST), CNN F&G graphdata (Chrome UA + Referer), EDGAR CIK 0001513845 submissions. Headlines via web search, primary/major outlets. No invented prices. No trade.",
+  "fearGreed": {
+    "value": 45.7,
+    "label": "Neutral",
+    "source": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+    "page": "https://www.cnn.com/markets/fear-and-greed",
+    "read": "CNN 45.7 Neutral (API rating 'neutral'), stamp 2026-10-12T23:59:52Z (Mon close). Prior digest 45 Fear (API previous_close 45.0); 1-wk 43.7, 1-mo 32.7, 1-yr 30.1. +0.7 pt, crossed into Neutral band; Mon index flat so no real shift."
+  },
+  "nbis": [
+    {
+      "headline": "Mon US cash $210.06 (−4.98% / −$11.01 vs Fri $221.07); range $206.90–$217.03; vol ~13.9M vs ~17.6M avg; AH $207.40 (−1.27%); cap ~$57.1B (CNBC). −15.9% over 4 sessions from Tue 6 Oct $249.87; ≈ THB 7,054/sh at 33.58.",
+      "why": "Third ≥5%-ish drop in five sessions; below 50-day (~$224). Borderline FLAG on the day, real FLAG on the 4-session slide.",
+      "source": "CNBC / Yahoo Finance",
+      "url": "https://www.cnbc.com/quotes/NBIS"
+    },
+    {
+      "headline": "No new issuer 6-K or holder filing: latest EDGAR items remain Goldman SC 13G/A 7 Oct and COO Nave Form 4 6 Oct. Mon coverage (TipRanks, Investing.com) re-cites the Nave 500k-share (~$118M) sale.",
+      "why": "Selling is narrative/sector-driven, not a new disclosure. No dilution or guidance change.",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=&dateb=&owner=include&count=40"
+    },
+    {
+      "headline": "Broadcom CEO Hock Tan (Singapore, Mon): capital, not chips, may be the biggest AI build-out constraint; many AI investors 'like a casino'; demand still exceeds supply ~2 yrs.",
+      "why": "Hits the exact NBIS risk: debt-funded neocloud capex at 5%+ long yields. Demand line is supportive; funding-cost line is the overhang.",
+      "source": "Computer Weekly / Bloomberg",
+      "url": "https://www.computerweekly.com/news/366652046/Capital-not-chips-may-be-the-real-brake-on-the-AI-build-out"
+    },
+    {
+      "headline": "Offset: Alphabet's Porat says ~$200B 2026 AI capex, 'increase significantly' in 2027, still capacity constrained. Rosenblatt Buy PT $304 carries; MarketBeat consensus PT ~$245.69.",
+      "why": "Demand side of thesis intact; ~45% upside to Rosenblatt from $210. Next earnings ~Nov 10.",
+      "source": "Fortune / MarketBeat",
+      "url": "https://fortune.com/2026/10/12/google-ruth-porat-ai-spending-risks/"
+    }
+  ],
+  "aiInfra": [
+    {
+      "headline": "SK Hynix live ₩1,476,000 (−8.04% vs Mon ₩1,605,000) at 11:19 KST; Samsung ₩232,500 (−7.19%); KOSPI 6,000.84 (−6.01%), sell-side sidecar triggered 09:47 KST, broke below 6,000 intraday; foreigners net sold >₩1.5T.",
+      "why": "FLAG. Fifth straight down day for SK. Driver: CXMT memory-competition fear + SOX −2.67% + Samsung buyback ended. Korea flow, not an SK-specific filing.",
+      "source": "Naver / Herald / Chosun Biz",
+      "url": "https://biz.heraldcorp.com/article/10900668"
+    },
+    {
+      "headline": "CXMT (Cao Kanyu, Shanghai chiplet conference): 'key progress' on 4F² vertical-gate DRAM; DDR5 server RDIMM to launch by end-2026. No specs, yields, or volume disclosed.",
+      "why": "Thesis risk for SK/MU is long-dated supply in server DRAM, not 2026 HBM. Watch for yield/volume evidence before treating as structural.",
+      "source": "SCMP / DigiTimes",
+      "url": "https://www.scmp.com/tech/big-tech/article/3370505/chinas-cxmt-unveils-key-progress-chip-structure-pursued-samsung-sk-hynix"
+    },
+    {
+      "headline": "Mon book: MU $989.04 (−3.88%), NVDA $226.32 (−1.29%), AMZN $259.53 (−1.11%), GOOGL $352.72 (+0.30%), SPCX $163.42 (+0.52%), META $742.96 (+3.38%). SOX 12,236.79 (−2.67%); SKHY ADR −4.02%.",
+      "why": "Memory led losses; no ≥5% move in US book. MU now below $1,000.",
+      "source": "Yahoo Finance / TradingKey",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262212467-us-stock-nasdaq-sp500-dow-dram-memory-cxmt-micron-meta-tradingkey"
+    },
+    {
+      "headline": "META +3.38%: launched Muse Wonder / Wonder Full, first frontier model from Meta Superintelligence Labs, trained on gigawatt-scale Prometheus DC; API $4/$20 per M tokens.",
+      "why": "First evidence META's capex is producing a competitive frontier model; supports continued GPU/DC spend.",
+      "source": "TechCrunch / Meta",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+    },
+    {
+      "headline": "AMZN: WSJ says in talks to buy Decart (~$7B), whose software ports models across Nvidia GPUs, TPUs and Trainium. SPCX: deal for Grain Mgmt nationwide 800 MHz spectrum (FCC pending), FCC OK for 15,000-sat Starlink Mobile fleet; JPM Overweight.",
+      "why": "AMZN: Trainium adoption push, mild NVDA moat pressure. SPCX: telecom expansion narrative; no new debt news.",
+      "source": "WSJ / TradingView",
+      "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad"
+    }
+  ],
+  "macro": [
+    {
+      "headline": "US bond market closed Mon (Columbus Day); ^TNX 5.24% unchanged. S&P 500 7,807.24 (−0.06%), Nasdaq 27,245.90 (−0.44%), Dow 51,850.55 (+0.38%); VIX 15.21.",
+      "why": "Rates still near cycle highs; Tue is the first cash Treasury session since Fri.",
+      "source": "CNBC / Yahoo Finance",
+      "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Fed Hammack (Cleveland, 2026 voter) at NABE: inflation broad-based, policy must be restrictive, prefers smaller moves 'relatively quickly'; 'open mind' for 27–28 Oct FOMC.",
+      "why": "Hawkish tilt keeps an Oct hike live into Wed CPI; bad for long-duration AI-capex names.",
+      "source": "Cleveland Fed",
+      "url": "https://www.clevelandfed.org/collections/speeches/2026/sp-20261012-trimming-the-sails-communicating-my-reaction-function"
+    },
+    {
+      "headline": "Oil: WTI $92.70 / Brent $105.56 in Asia Tue, off Mon highs ($93.74 / $106.65) on Middle East tension.",
+      "why": "Energy inflation feeds hike risk and hits Korea bonds/equities first.",
+      "source": "Yahoo Finance (CL=F, BZ=F) / CNBC",
+      "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Tonight: JPM, GS, C, WFC Q3 (~19:00 WITA); not yet reported. Wed: US Sep CPI 20:30 WITA (consensus ~3.6–3.7% y/y, core 2.5%), ASML, BAC/MS. Thu: TSMC Q3.",
+      "why": "Bank credit commentary on AI/private-credit lending; CPI is the week's main rate event.",
+      "source": "Newsquawk",
+      "url": "https://www.newsquawk.com/headlines/week-in-focus-12-16th-october-2026-us-cpi-us-retail-sales-start-of-q3-earnings-china-cpi-uk-jobs-rba-minutes-and-aussie-jobs"
+    },
+    {
+      "headline": "USDTHB 33.58 (Yahoo THB=X, Tue Asia); USDKRW ~1,335.7 per Yonhap open.",
+      "why": "Baht stable; won softer on foreign equity selling.",
+      "source": "Yahoo Finance / Korea JoongAng Daily",
+      "url": "https://www.koreajoongangdaily.com/business/stocks-open-sharply-lower-on-us-losses-inflation-concerns/12917268"
+    }
+  ],
+  "soWhat": [
+    "NBIS $210.06 (−5.0%), −15.9% in 4 sessions; no new filing — funding-cost narrative, not news.",
+    "SK Hynix −8% live, KOSPI −6% with sidecar on CXMT 4F² DRAM fear; FLAG, but no volume/yield proof yet.",
+    "Demand side intact: GOOGL capex 'up significantly' 2027, META frontier model; Hock Tan says capital is the constraint.",
+    "Banks tonight, CPI Wed, TSMC Thu decide direction; F&G 45.7 Neutral (from 45 Fear), flat."
+  ]
+}
